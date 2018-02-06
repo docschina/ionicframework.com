@@ -21,29 +21,44 @@ gulp watch uses LiveReload. You may have to up your max file limit with the foll
 ### windows环境下的安装
 1. 修改gulp-clean-css的版本
 
-> 在package.json修改gulp-clean-css的版本`"gulp-clean-css": "2.0.3"`
+> 在package.json修改gulp-clean-css的版本:`"gulp-clean-css": "2.0.3"`
 
 2. 运行`npm install`
+
 3. 安装rubyinstaller(2.3以下)和ruby-dev
 
-> 因为ruby-dev只支持2.3以下的ruby，地址为https://rubyinstaller.org/downloads/
+> 因为ruby-dev只支持2.3以下的ruby，
+下载地址：https://rubyinstaller.org/downloads/
 安装教程：http://jekyll-windows.juthilo.com/1-ruby-and-devkit/
 
-4. 换源+运行`npm run bundle-install`
+4. 换源
 
 > 教程：http://gems.ruby-china.org/
 
-5. 安装tzinfo和tzinfo-data
+5. 运行`npm run bundle-install`
+
+6. 安装tzinfo和tzinfo-data
 
 > 在gemfile中添加`gem 'tzinfo'`和`gem 'tzinfo-data'`
 
-6. 运行`gulp watch`
+7. 运行`gulp watch`
 
 #### windows环境下可能会遇到的问题：
-1. gulp问题，按照windows安装第一步锁版本
-2. 字体问题，注释content文件夹下带有google的地址或替换国内地址
-3. spawn bundle ENOENT，将Gulpfile第174行的shell文件bundle和jekyll加上bat后缀
-4. tzinfo问题，按照windows安装第六步即可
+1. Cannot read property 'line' of undefined问题：按照windows安装步骤第一步锁版本
+2. Broken @import declaration问题：注释content文件夹下带有google的地址或替换成国内字体地址
+3. spawn bundle ENOENT，将Gulpfile第174行bundle和jekyll加上bat后缀
+```
+gulp.task('jekyll-build', [], function(done) {
+  browserSync.notify(messages.jekyllBuild);
+  return cp.spawn('bundle.bat',
+    ['exec', 'jekyll.bat', 'build', '-I', '--config', '_config.yml'],
+    {stdio: 'inherit'})
+  .on('close', function() {
+    done();
+  }).on('error', function(err) {throw err; });
+});
+```
+4. tzinfo问题，按照windows安装步骤第六步即可
 
 翻译暂定方案：
 
