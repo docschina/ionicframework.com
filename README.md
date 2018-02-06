@@ -20,10 +20,10 @@ gulp watch uses LiveReload. You may have to up your max file limit with the foll
 
 翻译暂定方案：
 
-- 执行 `gulp watch` 命令启动服务，http://localhost:3000
+- 执行 `gulp watch` 命令启动服务，以 _site 作为服务根目录，访问 http://localhost:3000
 - 共有三个源文件目录：`content`, `server`, `_site`
 - 注意 `gulp watch` 中的 `build-prep` 任务下的 `images` 子任务耗时很久，第一次运行，之后运行时要注释掉
-- 启动服务后使用 _site 作为服务根目录，翻译时直接修改 server 文件夹下的文件，会自动同步到 _site 文件夹下。（此命令不会把 content 文件夹下的文件覆盖到 server 文件夹）。
+- 重要：在 `content` 下翻译 html 和 markdown 文件，执行 `jekyll-rebuild` 后，会将 content 文件夹下的文件，重新生成到 _site 文件夹下。
 
 ## CI Explanation
 
