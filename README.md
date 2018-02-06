@@ -18,6 +18,33 @@ gulp watch uses LiveReload. You may have to up your max file limit with the foll
 
 3. Run `gulp watch` (after the first run, this is the only step needed)
 
+### windows环境下的安装
+1. 修改gulp-clean-css的版本
+
+> 在package.json修改gulp-clean-css的版本`"gulp-clean-css": "2.0.3"`
+
+2. 运行`npm install`
+3. 安装rubyinstaller(2.3以下)和ruby-dev
+
+> 因为ruby-dev只支持2.3以下的ruby，地址为https://rubyinstaller.org/downloads/
+安装教程：http://jekyll-windows.juthilo.com/1-ruby-and-devkit/
+
+4. 换源+运行`npm run bundle-install`
+
+> 教程：http://gems.ruby-china.org/
+
+5. 安装tzinfo和tzinfo-data
+
+> 在gemfile中添加`gem 'tzinfo'`和`gem 'tzinfo-data'`
+
+6. 运行`gulp watch`
+
+#### windows环境下可能会遇到的问题：
+1. gulp问题，按照windows安装第一步锁版本
+2. 字体问题，注释content文件夹下带有google的地址或替换国内地址
+3. spawn bundle ENOENT，将Gulpfile第174行的shell文件bundle和jekyll加上bat后缀
+4. tzinfo问题，按照windows安装第六步即可
+
 翻译暂定方案：
 
 - 执行 `gulp watch` 命令启动服务，以 _site 作为服务根目录，访问 http://localhost:3000
