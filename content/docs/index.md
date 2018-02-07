@@ -18,16 +18,16 @@ pre_footer: true
   <div class="sections">
     <a class="section getting-started"
        href="/docs/intro/installation/">
-      <h3>介绍</h3>
+      <h3 > 介绍 </h3>
       <p>
-        你需要了解的Ionic起步事宜。
+        你需要了解的 Ionic 起步事宜。
       </p>
     </a>
     <a class="section ui"
        href="/docs/components">
-      <h3>UI组件</h3>
+      <h3>UI 组件 </h3>
       <p>
-        我们的移动UI组件全面预览
+        我们的移动 UI 组件全面预览
         - 尽你所需。
       </p>
     </a>
@@ -35,7 +35,7 @@ pre_footer: true
        href="/docs/api">
       <h3>API</h3>
       <p>
-        探索我们的API来理解组件的方法、属性和事件。
+        探索我们的 API 来理解组件的方法、属性和事件。
       </p>
     </a>
     <a class="section native"
@@ -43,12 +43,12 @@ pre_footer: true
       <h3>Ionic Native</h3>
       <p>
         集成本地设备插件，
-        如蓝牙、地图、HealthKit等。
+        如蓝牙、地图、HealthKit 等。
       </p>
     </a>
     <a class="section theming"
        href="/docs/theming/">
-      <h3>主题化</h3>
+      <h3 > 主题化 </h3>
       <p>
         学习如何轻松定制和修改您应用的设计，
         以适应您的品牌。
@@ -56,17 +56,17 @@ pre_footer: true
     </a>
     <a class="section ionicons-link"
        href="/docs/ionicons/">
-      <h3>Ionic图标</h3>
+      <h3>Ionic 图标 </h3>
       <p>
-        超过900个自定义设计的字体/SVG图标。
-        MIT许可 & 准备使用Ionic。
+        超过 900 个自定义设计的字体 / SVG 图标。
+        MIT 许可 & 准备使用 Ionic。
       </p>
     </a>
     <a class="section cli"
        href="/docs/cli/">
       <h3>CLI</h3>
       <p>
-        在开发Ionic应用的所有过程中，
+        在开发 Ionic 应用的所有过程中，
         使用的主要工具。
       </p>
     </a>
@@ -74,12 +74,12 @@ pre_footer: true
        href="/docs/faq/">
       <h3>FAQ</h3>
       <p>
-        快速找到一些最常见的Ionic问题的答案。
+        快速找到一些最常见的 Ionic 问题的答案。
       </p>
     </a>
     <a class="section forum"
        href="https://forum.ionicframework.com">
-      <h3>论坛</h3>
+      <h3 > 论坛 </h3>
       <p>
         拜访一下或打个招呼，来问个问题或分享一些有趣的东西吧。
       </p>
