@@ -11,7 +11,7 @@ pre_footer: true
   <form class="form-group search" role="search">
     <input type="text"
            class="form-control search-input"
-           placeholder="搜索Ionic文档内容..."
+           placeholder="搜索 Ionic 文档内容..."
            data-searchpos="index"
            ng-model="searchTerm">
   </form>
@@ -27,7 +27,8 @@ pre_footer: true
        href="/docs/components">
       <h3>UI组件</h3>
       <p>
-        我们的移动UI组件全面预览 - 尽你所需。
+        我们的移动UI组件全面预览
+        - 尽你所需。
       </p>
     </a>
     <a class="section api"
@@ -41,28 +42,32 @@ pre_footer: true
        href="/docs/native">
       <h3>Ionic Native</h3>
       <p>
-        集成本地设备插件，如蓝牙、地图、HealthKit等。
+        集成本地设备插件，
+        如蓝牙、地图、HealthKit等。
       </p>
     </a>
     <a class="section theming"
        href="/docs/theming/">
       <h3>主题化</h3>
       <p>
-        学习如何轻松定制和修改您应用的设计，以适应您的品牌。
+        学习如何轻松定制和修改您应用的设计，
+        以适应您的品牌。
       </p>
     </a>
     <a class="section ionicons-link"
        href="/docs/ionicons/">
       <h3>Ionic图标</h3>
       <p>
-       超过900个自定义设计的字体/SVG图标。MIT许可 & 准备使用Ionic。
+        超过900个自定义设计的字体/SVG图标。
+        MIT许可 & 准备使用Ionic。
       </p>
     </a>
     <a class="section cli"
        href="/docs/cli/">
       <h3>CLI</h3>
       <p>
-        关于所有开发Ionic应用过程中使用的主要工具。
+        在开发Ionic应用的所有过程中，
+        使用的主要工具。
       </p>
     </a>
     <a class="section faq"
