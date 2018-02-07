@@ -18,14 +18,14 @@ pre_footer: true
   <div class="sections">
     <a class="section getting-started"
        href="/docs/intro/installation/">
-      <h3 > 介绍 </h3>
+      <h3>介绍</h3>
       <p>
         你需要了解的 Ionic 起步事宜。
       </p>
     </a>
     <a class="section ui"
        href="/docs/components">
-      <h3>UI 组件 </h3>
+      <h3>UI 组件</h3>
       <p>
         我们的移动 UI 组件全面预览
         - 尽你所需。
@@ -48,7 +48,7 @@ pre_footer: true
     </a>
     <a class="section theming"
        href="/docs/theming/">
-      <h3 > 主题化 </h3>
+      <h3>主题化</h3>
       <p>
         学习如何轻松定制和修改您应用的设计，
         以适应您的品牌。
@@ -56,7 +56,7 @@ pre_footer: true
     </a>
     <a class="section ionicons-link"
        href="/docs/ionicons/">
-      <h3>Ionic 图标 </h3>
+      <h3>Ionic 图标</h3>
       <p>
         超过 900 个自定义设计的字体 / SVG 图标。
         MIT 许可 & 准备使用 Ionic。
@@ -79,7 +79,7 @@ pre_footer: true
     </a>
     <a class="section forum"
        href="https://forum.ionicframework.com">
-      <h3 > 论坛 </h3>
+      <h3>论坛</h3>
       <p>
         拜访一下或打个招呼，来问个问题或分享一些有趣的东西吧。
       </p>
