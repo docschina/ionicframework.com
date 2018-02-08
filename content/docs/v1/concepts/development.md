@@ -1,13 +1,13 @@
 ---
 layout: docs_concepts
-title: "Ionic Concepts"
+title: "Ionic 概念"
 header_title: Ionic Concepts
 header_sub_title: The bigger picture of an Ionic App
 ---
 
-### App Development Process
+### App 开发流程
 
-Ionic is a collection of Angular.js, UI Router, Angular directives, Angular services, JS utilities, and mobile focused CSS styles. These are bundled together as ionic.bundle.js and ionic.css. 
+Ionic 是 Angular.js，UI Router，Angular 指令，Angular 服务，JS 工具库，以及专注于移动端的 CSS 样式的集合体。将这些打包在一起，就是 ionic.bundle.js 和 ionic.css。
 
 First, you must install the ionic CLI with npm:
 

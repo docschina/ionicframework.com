@@ -13,6 +13,7 @@ next_page_link: /docs//intro/tutorial
 <a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/intro/installation/index.md'>Improve
 this doc</a>
 
+<<<<<<< HEAD
 Ionic 应用主要通过 Ionic 命令行工具（即 "CLI"）创建和开发，
 然后使用 Cordova 构建/部署为一个原生应用。
 这意味着我们需要安装几个命令行工具来进行开发。
@@ -26,6 +27,21 @@ Ionic CLI 中的大部分工具都基于 Node，并通过 npm 来管理。
 然后启动一个新的命令行窗口。为了确认所有软件都已正确安装，
 你可以运行 `npm --version` 和 `node --version`。
 如果这时出现了报错，请在向下看之前解决完毕。
+=======
+Ionic apps 主要通过 Ionic 命令行工具("CLI")来创建和开发，
+并通过使用 Cordova 构建/部署为原生应用程序。
+也就是说，我们还需要安装一些工具辅助开发。
+
+### 获取 Node 和 NPM
+
+CLI 中的大部分工具都基于 Node，并通过 npm 进行管理。
+The quickest way to get Node and NPM installed on your machine is through the
+[NodeJS installer](https://nodejs.org/). Be sure to install the LTS version of
+Node. Close any terminals/command prompts you may have open, run the installer,
+and launch a new terminal window. To verify you have everything installed
+correctly, you can run `npm --version` and `node --version`. If this errors,
+please resolve before moving on.
+>>>>>>> upstream/cn
 
 ### Ionic CLI 和 Cordova
 
