@@ -18,16 +18,17 @@ gulp watch uses LiveReload. You may have to up your max file limit with the foll
 
 3. Run `gulp watch` (after the first run, this is the only step needed)
 
-### windows环境下的安装
-1. 修改gulp-clean-css的版本
+### Windows 环境下的安装
 
-> 在package.json修改gulp-clean-css的版本:`"gulp-clean-css": "2.0.3"`
+1. 修改 gulp-clean-css 的版本
 
-2. 运行`npm install`
+> 在 package.json 修改 gulp-clean-css 的版本: `"gulp-clean-css": "2.0.3"`
 
-3. 安装rubyinstaller(2.3以下)和ruby-dev
+2. 运行 `npm install`
 
-> 因为ruby-dev只支持2.3以下的ruby，
+3. 安装 rubyinstaller（2.3 以下）和 ruby-dev
+
+> 因为 ruby-dev 只支持 2.3 以下的 ruby，
 下载地址：https://rubyinstaller.org/downloads/
 安装教程：http://jekyll-windows.juthilo.com/1-ruby-and-devkit/
 
@@ -35,18 +36,19 @@ gulp watch uses LiveReload. You may have to up your max file limit with the foll
 
 > 教程：http://gems.ruby-china.org/
 
-5. 运行`npm run bundle-install`
+5. 运行 `npm run bundle-install`
 
-6. 安装tzinfo和tzinfo-data
+6. 安装 tzinfo 和 tzinfo-data
 
-> 在gemfile中添加`gem 'tzinfo'`和`gem 'tzinfo-data'`
+> 在 gemfile 中添加 `gem 'tzinfo'` 和 `gem 'tzinfo-data'`
 
-7. 运行`gulp watch`
+7. 运行 `gulp watch`
 
-#### windows环境下可能会遇到的问题：
-1. Cannot read property 'line' of undefined问题：按照windows安装步骤第一步锁版本
-2. Broken @import declaration问题：注释content文件夹下带有google的地址或替换成国内字体地址
-3. spawn bundle ENOENT，将Gulpfile第174行bundle和jekyll加上bat后缀
+#### Windows环境下可能会遇到的问题：
+
+1. Cannot read property 'line' of undefined 问题：按照 Windows 安装步骤第一步锁版本
+2. Broken @import declaration 问题：注释 content 文件夹下带有 google 的地址或替换成国内字体地址
+3. spawn bundle ENOENT，将 Gulpfile 第174行 bundle 和 jekyll 加上 bat 后缀
 ```
 gulp.task('jekyll-build', [], function(done) {
   browserSync.notify(messages.jekyllBuild);
@@ -58,9 +60,29 @@ gulp.task('jekyll-build', [], function(done) {
   }).on('error', function(err) {throw err; });
 });
 ```
-4. tzinfo问题，按照windows安装步骤第六步即可
+4. tzinfo 问题，按照 Windows 安装步骤第六步即可
 
-翻译暂定方案：
+### macOS 环境下的安装
+
+#### 测试版本
+
+- macOS version: `10.13.3`
+- Ruby version: `2.3.3`（系统自带）
+- Bundler version: `1.16.1`
+- 其余软件的版本都是配置文件里面的（安装完之后运行 `git status` 依然显示 `working tree clean`）
+
+#### macOS 环境下安装步骤
+
+> 很多时候 gem 的操作都会提示你没权限（用 Sass 官网的话说就是 [It's pretty magical.](https://sass-lang.com/install)），这时需要在前面加 `sudo`
+
+1. `npm install` 
+1. macOS 自带了 Ruby，但是[需要换一下 RubyGems 的源](https://gems.ruby-china.org/)（更新 RubyGems 时需要科学上网）
+1. 更新 RubyGems 并换源之后，安装 [Bundler](http://bundler.io/) 并[换 Bundler 的源](https://gems.ruby-china.org/)（没错要换两次源）
+1. `bundle install`（中间可能会要求权限，让你输密码）
+1. `npm run bundle-install`
+1. `gulp watch`（需要科学上网，并且第一次要等很久）
+
+### 翻译暂定方案：
 
 - 执行 `gulp watch` 命令启动服务，以 _site 作为服务根目录，访问 http://localhost:3000
 - 共有三个源文件目录：`content`, `server`, `_site`
@@ -90,6 +112,11 @@ gulp.task('jekyll-build', [], function(done) {
     at /Users/lizhihua/ionicframework.com/node_modules/gaze/lib/gaze.js:420:5
 [17:06:46] Development server listening. (PID:14135)
 ```
+
+### 分支管理
+- 合并分支：http://mp.weixin.qq.com/s/_ricIlWhDbRZW-CmH0Ik5w
+- 翻译流程：https://github.com/webpack-china/webpack.js.org
+- git 命令示意图：![git 命令示意图](https://camo.githubusercontent.com/6f9cc78d28f03cf60b148d368cf89160c807c08c/687474703a2f2f7030773575717736622e626b742e636c6f7564646e2e636f6d2f696d6167652f706e672f7765627061636b2545372542462542422545382541462539312545362542352538312545372541382538422545352539422542452e706e67)
 
 ## CI Explanation
 
