@@ -37,10 +37,9 @@ gulp watch uses LiveReload. You may have to up your max file limit with the foll
 > 教程：http://gems.ruby-china.org/
 
 5. 添加 tzinfo 和 tzinfo-data
+> 在 gemfile 中添加 `gem 'tzinfo'` 和 `gem 'tzinfo-data'`
 
 6. 运行 `bundle`
-
-> 在 gemfile 中添加 `gem 'tzinfo'` 和 `gem 'tzinfo-data'`
 
 7. 运行 `gulp watch`
 
