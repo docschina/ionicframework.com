@@ -48,7 +48,7 @@
     "gulp-cache": "^0.4.1",
     "gulp-cache-bust": "perrygovier/gulp-cache-bust",
     "gulp-changed": "^1.0.0",
-    "gulp-clean-css": "^3.0.4",
+    "gulp-clean-css": "2.0.3",
     "gulp-concat": "^2.2.0",
     "gulp-develop-server": "^0.5.2",
     "gulp-footer": "^1.0.5",

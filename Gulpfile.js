@@ -171,8 +171,8 @@ gulp.task('js', function() {
  */
 gulp.task('jekyll-build', [], function(done) {
   browserSync.notify(messages.jekyllBuild);
-  return cp.spawn('bundle',
-    ['exec', 'jekyll', 'build', '-I', '--config', '_config.yml'],
+  return cp.spawn('bundle.bat',
+    ['exec', 'jekyll.bat', 'build', '-I', '--config', '_config.yml'],
     {stdio: 'inherit'})
   .on('close', function() {
     done();
