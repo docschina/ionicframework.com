@@ -17,46 +17,46 @@ DO NOT MODIFY THIS FILE DIRECTLY -- IT IS GENERATED FROM THE CLI REPO
 
 # Ionic CLI
 
-The Ionic Command Line Interface (CLI) is your go-to tool for developing Ionic apps. You can follow CLI development on [Github](https://github.com/ionic-team/ionic-cli).
+Ionic 命令行界面（CLI）是开发 Ionic 应用的首选工具。您可以在 [Github](https://github.com/ionic-team/ionic-cli) 上关注CLI的开发。
 
 {% include fluid/toc.html %}
 
-## Installation
+## 安装
 
-Please make sure latest [Node](/docs/resources/what-is/#node) 6 LTS and [NPM](/docs/resources/what-is/#npm) 3+ are installed.
+请确保安装了最新的 [Node](/docs/resources/what-is/#node) 6 LTS 和 [NPM](/docs/resources/what-is/#npm) 3+。
 
-Then, install the CLI globally (you may need sudo):
+然后，全局安装CLI（您可能需要sudo）：
 
 ```bash
 $ npm install -g ionic@latest
 ```
 
-You can verify your installation with the `ionic --version` command.
+您可以使用`ionic --version`命令验证您的安装。
 
-## Getting Started
+## 起步
 
-Start a new Ionic project using `ionic start`:
+使用`ionic start`开始一个新的 Ionic 项目：
 
 ```bash
 $ ionic start myNewProject
 ```
 
-`ionic start` will prompt you to select a "starter". We recommend using the `tutorial` starter for your first app. See [Starter Templates](/docs/cli/starters.html) for a full list.
+`ionic start`将提示您选择“启动器”。我们建议使用 `tutorial` 启动器作为您的第一个应用程序。参考 [启动器模板](/docs/cli/starters.html) 来获取完整列表。
 
-After selecting a starter, the CLI will create a new app named `myNewProject`. Once you `cd` into your project's directory, a few new commands become available to you, such as `ionic serve`:
+选择启动器后，CLI 将创建一个名为`myNewProject`的新应用程序。一旦你使用 `cd` 进入你的项目目录，你就可以使用一些新的命令，比如`ionic serve`：
 
 ```bash
 $ cd ./myNewProject
 $ ionic serve
 ```
 
-While running `ionic serve`, changes you make to your app code will automatically refresh the browser. If you want to see your app on a device or emulator, you can [use Cordova](#using-cordova).
+在运行 `ionic serve` 时，您对应用代码进行的更改将自动刷新浏览器。如果你想在设备或模拟器上看到你的应用，你可以[使用 Cordova ](#using-cordova)。
 
-You can list available commands with the `ionic --help` command.
+您可以使用 `ionic --help` 命令列出可用命令。
 
-## Using Cordova
+## 使用 Cordova
 
-Integrate Ionic with [Cordova](https://cordova.apache.org/) to bring native capabilities to your app.
+将 [Cordova](https://cordova.apache.org/)集成进 Ionic ，为您的应用带来原生功能。
 
 ```bash
 $ npm install -g cordova
@@ -64,20 +64,20 @@ $ ionic cordova --help
 $ ionic cordova run ios
 ```
 
-The `ionic cordova` commands (aside from `ionic cordova resources`) wrap the Cordova CLI. You can read about the differences in each command's `--help` page. To learn more about the commands, see the [Cordova CLI Reference](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/) documentation.
+`ionic cordova` 命令（除了 `ionic cordova resources` 外）对 Cordova CLI 进行了包装。您可以阅读每个命令的 `--help` 页面中的差异。要了解有关这些命令的更多信息，请参阅[Cordova CLI Reference](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/)文档。
 
-* For iOS development, see the [iOS Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html).
-* For Android development, see the [Android Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html).
+* 对于 iOS 开发，请参阅 [iOS Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html)。
+* 对于 Android 开发，请参阅 [Android Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html)。
 
-## Ionic Pro
+## Ionic 专业版
 
-[Ionic Pro](/pro) is a powerful suite of tools and services designed for the entire app lifecycle, all in one integrated experience. Ionic Pro is fully supported in the Ionic CLI. See the [Pro Docs](/docs/pro//basics/getting-started/) to get started.
+[Ionic 专业版](/pro)是一套强大的工具和服务套件，它专为完整应用而设计，并将所有的体验都集成在一起。 Ionic 专业版完全支持 Ionic CLI。 请参阅[专业版文档](/docs/pro//basics/getting-started/)起步。
 
-Ionic Cloud (legacy) will be supported until its end-of-life on January 31st, 2018. Until then, you can switch between Ionic Cloud and Ionic Pro with `ionic config set -g backend legacy` and `ionic config set -g backend pro`. Unfortunately, you'll need to re-authenticate with `ionic login` each time the backend mode is switched.
+Ionic 云（遗留产物）将支持到2018年1月31日。在此之前，您可以使用`ionic config set -g backend legacy`和`ionic config set -g backend pro`在 Ionic 云和 Ionic 专业版之间切换。不幸的是，每次切换后端模式时，您都需要使用 `ionic login' 重新进行身份验证。
 
-## Troubleshooting
+## 故障排除
 
-If you're having trouble with the Ionic CLI, you can try the following:
+如果您在使用 Ionic CLI 时遇到问题，可以尝试以下操作：
 
-* Make sure you're on the latest version of the CLI. Update with `npm update -g ionic`.
-* Try running commands with the `--verbose` flag, which will print `DEBUG` messages.
+* 确保您使用的是 CLI 的最新版本。用 `npm update -g ionic`  更新。
+* 尝试使用`--verbose`标志运行命令，该标志将打印`DEBUG`消息。
