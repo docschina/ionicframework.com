@@ -73,14 +73,14 @@ gulp.task('jekyll-build', [], function(done) {
 
 #### macOS 环境下安装步骤
 
-> 友情提示：很多时候 gem 的操作都会提示你没权限（用 Sass 官网的话说就是 [It's pretty magical.](https://sass-lang.com/install)），这时需要在前面加 `sudo`
+> 很多时候 gem 的操作都会提示你没权限（用 Sass 官网的话说就是 [It's pretty magical.](https://sass-lang.com/install)），这时需要在前面加 `sudo`
 
 1. `npm install` 
 1. macOS 自带了 Ruby，但是[需要换一下 RubyGems 的源](https://gems.ruby-china.org/)（更新 RubyGems 时需要科学上网）
 1. 更新 RubyGems 并换源之后，安装 [Bundler](http://bundler.io/) 并[换 Bundler 的源](https://gems.ruby-china.org/)（没错要换两次源）
-1. `bundle install` （中间可能会要求权限，让你输密码）
+1. `bundle install`（中间可能会要求权限，让你输密码）
 1. `npm run bundle-install`
-1. `gulp watch` （需要科学上网，并且第一次要等很久）
+1. `gulp watch`（需要科学上网，并且第一次要等很久）
 
 ### 翻译暂定方案：
 
