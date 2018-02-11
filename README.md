@@ -18,16 +18,17 @@ gulp watch uses LiveReload. You may have to up your max file limit with the foll
 
 3. Run `gulp watch` (after the first run, this is the only step needed)
 
-### windows环境下的安装
-1. 修改gulp-clean-css的版本
+### Windows 环境下的安装
 
-> 在package.json修改gulp-clean-css的版本:`"gulp-clean-css": "2.0.3"`
+1. 修改 gulp-clean-css 的版本
 
-2. 运行`npm install`
+> 在 package.json 修改 gulp-clean-css 的版本: `"gulp-clean-css": "2.0.3"`
 
-3. 安装rubyinstaller(2.3以下)和ruby-dev
+2. 运行 `npm install`
 
-> 因为ruby-dev只支持2.3以下的ruby，
+3. 安装 rubyinstaller（2.3 以下）和 ruby-dev
+
+> 因为 ruby-dev 只支持 2.3 以下的 ruby，
 下载地址：https://rubyinstaller.org/downloads/
 安装教程：http://jekyll-windows.juthilo.com/1-ruby-and-devkit/
 
@@ -35,18 +36,19 @@ gulp watch uses LiveReload. You may have to up your max file limit with the foll
 
 > 教程：http://gems.ruby-china.org/
 
-5. 运行`npm run bundle-install`
+5. 运行 `npm run bundle-install`
 
-6. 安装tzinfo和tzinfo-data
+6. 安装 tzinfo 和 tzinfo-data
 
-> 在gemfile中添加`gem 'tzinfo'`和`gem 'tzinfo-data'`
+> 在 gemfile 中添加 `gem 'tzinfo'` 和 `gem 'tzinfo-data'`
 
-7. 运行`gulp watch`
+7. 运行 `gulp watch`
 
-#### windows环境下可能会遇到的问题：
-1. Cannot read property 'line' of undefined问题：按照windows安装步骤第一步锁版本
-2. Broken @import declaration问题：注释content文件夹下带有google的地址或替换成国内字体地址
-3. spawn bundle ENOENT，将Gulpfile第174行bundle和jekyll加上bat后缀
+#### Windows环境下可能会遇到的问题：
+
+1. Cannot read property 'line' of undefined 问题：按照 Windows 安装步骤第一步锁版本
+2. Broken @import declaration 问题：注释 content 文件夹下带有 google 的地址或替换成国内字体地址
+3. spawn bundle ENOENT，将 Gulpfile 第174行 bundle 和 jekyll 加上 bat 后缀
 ```
 gulp.task('jekyll-build', [], function(done) {
   browserSync.notify(messages.jekyllBuild);
@@ -58,7 +60,7 @@ gulp.task('jekyll-build', [], function(done) {
   }).on('error', function(err) {throw err; });
 });
 ```
-4. tzinfo问题，按照windows安装步骤第六步即可
+4. tzinfo 问题，按照 Windows 安装步骤第六步即可
 
 ### 翻译暂定方案：
 
