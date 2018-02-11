@@ -2,12 +2,12 @@
 
   {% comment %} Getting Started {% endcomment %}
   <li class="{% if page.id == 'home' %}active top-level{% endif %}">
-    <a href="/docs/">Home</a>
+    <a href="/docs/">首页</a>
   </li>
 
   {% comment %} Getting Started {% endcomment %}
   <li class="{% if page.category == 'intro' %}active{% endif %}">
-    <a ng-click="showIntro = !showIntro">Intro</a>
+    <a ng-click="showIntro = !showIntro">介绍</a>
     <ul ng-show="showIntro"
         ng-cloak
         {% if page.category == 'intro' %}
@@ -41,7 +41,7 @@
  {% endif %}
   <li id="components-index"
       class="{% if page.category == 'components' %}active{% endif %}">
-    <a ng-click="showComponents = !showComponents">Components</a>
+    <a ng-click="showComponents = !showComponents">组件</a>
     <ul class="nav"
         ng-cloak
         ng-show="showComponents"
@@ -162,17 +162,17 @@
 
   {% comment %} ### Native ### {% endcomment %}
    <li>
-     <a href="/docs/native/">Native</a>
+     <a href="/docs/native/">原生</a>
    </li>
 
    {% comment %} ### Native ### {% endcomment %}
     <li class="{% if page.category == 'storage' %}top-level active{% endif %}">
-      <a href="/docs/storage/">Storage</a>
+      <a href="/docs/storage/">存储</a>
     </li>
 
   {% comment %} ### Theming ### {% endcomment %}
   <li class="{% if page.category == 'theming' %}active{% endif %}">
-    <a ng-click="showTheming = !showTheming">Theming</a>
+    <a ng-click="showTheming = !showTheming">主题</a>
     <ul ng-show="showTheming"
         ng-cloak
         {% if page.category == 'theming' %}
@@ -214,9 +214,9 @@
     </ul>
   </li>
 
-  {% comment %} ### Ionicons ### {% endcomment %}
+  {% comment %} ### Ionic 图标 ### {% endcomment %}
   <li class="{% if page.category == 'ionicons' %}top-level active{% endif %}">
-    <a href="/docs/ionicons/">Ionicons</a>
+    <a href="/docs/ionicons/">Ionic 图标</a>
   </li>
 
   {% comment %} ### CLI ### {% endcomment %}
@@ -229,14 +229,14 @@
     <a href="/docs/wkwebview/">WKWebview</a>
   </li>
 
-  {% comment %} ### Troubleshooting ### {% endcomment %}
+  {% comment %} ### 故障排除 ### {% endcomment %}
   <li class="{% if page.category == 'troubleshooting' %}top-level active{% endif %}">
-    <a href="/docs/troubleshooting/">Troubleshooting</a>
+    <a href="/docs/troubleshooting/">故障排除</a>
   </li>
 
-  {% comment %} ### Resources ### {% endcomment %}
+  {% comment %} ### 资源 ### {% endcomment %}
   <li class="{% if page.category == 'resources' %}active{% endif %}">
-    <a href="/docs/developer-resources">Developer Resources</a>
+    <a href="/docs/developer-resources">开发者资源</a>
     {% if page.id == 'resources-index' %}
       <ul>
         <li ng-class="{active:hash == 'guides'}">
