@@ -56,7 +56,7 @@ $ ionic serve
 
 ## 使用 Cordova
 
-将 [Cordova](https://cordova.apache.org/)集成进 Ionic ，为您的应用带来原生功能。
+将 [Cordova](https://cordova.apache.org/) 集成进 Ionic ，为您的应用带来原生功能。
 
 ```bash
 $ npm install -g cordova
@@ -64,16 +64,16 @@ $ ionic cordova --help
 $ ionic cordova run ios
 ```
 
-`ionic cordova` 命令（除了 `ionic cordova resources` 外）对 Cordova CLI 进行了包装。您可以阅读每个命令的 `--help` 页面中的差异。要了解有关这些命令的更多信息，请参阅[Cordova CLI Reference](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/)文档。
+`ionic cordova` 命令（除了 `ionic cordova resources` 外）对 Cordova CLI 进行了包装。您可以阅读每个命令的 `--help` 页面中的差异。要了解有关这些命令的更多信息，请参阅 [Cordova CLI Reference] (https://cordova.apache.org/docs/en/latest/reference/cordova-cli/)文档。
 
-* 对于 iOS 开发，请参阅 [iOS Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html)。
-* 对于 Android 开发，请参阅 [Android Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html)。
+* 对于 iOS 开发，请参阅 [iOS Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html) 。
+* 对于 Android 开发，请参阅 [Android Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html) 。
 
 ## Ionic 专业版
 
 [Ionic 专业版](/pro)是一套强大的工具和服务套件，它专为完整应用而设计，并将所有的体验都集成在一起。 Ionic 专业版完全支持 Ionic CLI。 请参阅[专业版文档](/docs/pro//basics/getting-started/)起步。
 
-Ionic 云（遗留产物）将支持到2018年1月31日。在此之前，您可以使用`ionic config set -g backend legacy`和`ionic config set -g backend pro`在 Ionic 云和 Ionic 专业版之间切换。不幸的是，每次切换后端模式时，您都需要使用 `ionic login' 重新进行身份验证。
+Ionic 云（遗留产物）将支持到2018年1月31日。在此之前，您可以使用`ionic config set -g backend legacy`和`ionic config set -g backend pro`在 Ionic 云和 Ionic 专业版之间切换。不幸的是，每次切换后端模式时，您都需要使用 `ionic login` 重新进行身份验证。
 
 ## 故障排除
 
