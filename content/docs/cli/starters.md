@@ -21,7 +21,7 @@ DO NOT MODIFY THIS FILE DIRECTLY -- IT IS GENERATED FROM THE CLI REPO
 
 {% include fluid/toc.html %}
 
-这是官方的 Ionic 初学者模板列表，它是您的下一个 Ionic 应用随时可用的入门套件。参阅[`ionic start`](/docs/cli/start/)文档来使用。
+这是官方的 Ionic 初学者模板列表，它是你的下一个 Ionic 应用随时可用的入门套件。参阅[`ionic start`](/docs/cli/start/)文档来使用。
 
 ## 启动器类型
 

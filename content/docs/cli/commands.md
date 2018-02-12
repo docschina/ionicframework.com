@@ -16,49 +16,50 @@ DO NOT MODIFY THIS FILE DIRECTLY -- IT IS GENERATED FROM THE CLI REPO
 {% endcomment %}
 
 
-# Commands
+# 命令
 
 
-This is a comprehensive list of CLI commands. The `ionic --help` command will show a more organized and accurate list of commands.
 
-Command | Description
+这是一个全面的 CLI 命令列表。`ionic --help`命令将显示更加有序和准确的命令列表。
+
+命令 | 描述
 ------- | -----------
-[build](build/) | Build web assets and prepare your app for any platform targets
-[docs](docs/) | Open the Ionic documentation website
-[generate](generate/) | Generate pipes, components, pages, directives, providers, and tabs (ionic-angular >= 3.0.0)
-[info](info/) | Print system/environment info
-[link](link/) | Connect your local app to Ionic
-[login](login/) | Login with your Ionic ID
-[serve](serve/) | Start a local dev server for app dev/testing
-[signup](signup/) | Create an Ionic account
-[start](start/) | Create a new project
-[telemetry](telemetry/) | (deprecated) Opt in and out of telemetry
-[upload](upload/) | (deprecated) Upload a new snapshot of your app
-[config get](config/get/) | Print config values
-[config set](config/set/) | Set config values
-[cordova build](cordova/build/) | Build (prepare + compile) an Ionic project for a given platform
-[cordova compile](cordova/compile/) | Compile native platform code
-[cordova emulate](cordova/emulate/) | Emulate an Ionic project on a simulator or emulator
-[cordova platform](cordova/platform/) | Manage Cordova platform targets
-[cordova plugin](cordova/plugin/) | Manage Cordova plugins
-[cordova prepare](cordova/prepare/) | Copies assets to Cordova platforms, preparing them for native builds
-[cordova requirements](cordova/requirements/) | Checks and print out all the requirements for platforms
-[cordova resources](cordova/resources/) | Automatically create icon and splash screen resources
-[cordova run](cordova/run/) | Run an Ionic project on a connected device
-[doctor check](doctor/check/) | Check the health of your Ionic project
-[doctor ignore](doctor/ignore/) | Ignore a particular issue
-[doctor list](doctor/list/) | List all issue identifiers
-[git remote](git/remote/) | Adds/updates the Ionic git remote to your local Ionic app repository
-[integrations disable](integrations/disable/) | Disable an integration
-[integrations enable](integrations/enable/) | Add various integrations to your app
-[monitoring syncmaps](monitoring/syncmaps/) | Sync Source Maps to Ionic Pro Error Monitoring service
-[package build](package/build/) | (deprecated) Start a package build
-[package download](package/download/) | (deprecated) Download your packaged app
-[package info](package/info/) | (deprecated) Get info about a build
-[package list](package/list/) | (deprecated) List your cloud builds
-[ssh add](ssh/add/) | Add an SSH public key to Ionic
-[ssh delete](ssh/delete/) | Delete an SSH public key from Ionic
-[ssh generate](ssh/generate/) | Generates a private and public SSH key pair
-[ssh list](ssh/list/) | List your SSH public keys on Ionic
-[ssh setup](ssh/setup/) | Setup your Ionic SSH keys automatically
-[ssh use](ssh/use/) | Set your active Ionic SSH key
+[build](build/) | 构建 web 页面相关的文件并让你的应用适用于任何平台
+[docs](docs/) | 打开 Ionic 文档网站
+[generate](generate/) | 生成管道，组件，页面，指令，服务和选项卡（ionic-angular> = 3.0.0）
+[info](info/) | 打印系统/环境信息
+[link](link/) | 将你的本地应用程序连接到 Ionic 
+[login](login/) | 用你的 Ionic ID 登录
+[serve](serve/) | 为应用程序开发/测试环境启动一个本地开发服务器
+[signup](signup/) | 创建一个 Ionic 帐户
+[start](start/) | 创建一个新项目
+[telemetry](telemetry/) |（不建议使用）控制遥测启用/停用
+[upload](upload/) | （不建议使用）上传应用的新快照
+[config get](config/get/) | 打印配置值
+[config set](config/set/) | 设置配置值
+[cordova build](cordova/build/) | 为指定平台构建（预处理+编译）一个 Ionic 项目
+[cordova compile](cordova/compile/) | 编译原生平台代码
+[cordova emulate](cordova/emulate/) | 在模拟器或仿真器上模拟 Ionic 项目
+[cordova platform](cordova/platform/) | 管理 Cordova 的目标平台
+[cordova plugin](cordova/plugin/) | 管理 Cordova 的插件
+[cordova prepare](cordova/prepare/) | 将资产复制到 Cordova 平台，为生成原生代码做好准备
+[cordova requirements](cordova/requirements/) | 检查并打印出平台的所有要求
+[cordova resources](cordova/resources/) | 自动创建图标和启动画面资源
+[cordova run](cordova/run/) | 在连接的设备上运行 Ionic 项目
+[doctor check](doctor/check/) | 检查你的 Ionic 项目的健康状况
+[doctor ignore](doctor/ignore/) | 忽略一个特定的问题
+[doctor list](doctor/list/) | 列出所有问题标识
+[git remote](git/remote/) | 将 Ionic git 远程添加/更新到本地 Ionic 应用程序库
+[integrations disable](integrations/disable/) | 禁用集成
+[integrations enable](integrations/enable/) | 为你的应用添加各种集成
+[monitoring syncmaps](monitoring/syncmaps/) | 将源代码映射同步到  Ionic Pro 错误监视服务
+[package build](package/build/) |（不建议使用）启动包的构建
+[package download](package/download/) |（不建议使用）下载打包的应用程序
+[package info](package/info/) |（不建议使用）获取关于构建的信息
+[package list](package/list/) |（已弃用）列出你的云构建
+[ssh add](ssh/add/) | 添加一个 SSH 公钥给 Ionic 
+[ssh delete](ssh/delete/) | 从 Ionic 中删除 SSH 公钥
+[ssh generate](ssh/generate/) | 生成私有和公共 SSH 密钥对
+[ssh list](ssh/list/) | 在 Ionic 上列出你的 SSH 公钥
+[ssh setup](ssh/setup/) | 自动设置你的 Ionic SSH 密钥
+[ssh use](ssh/use/) | 设置你的主动 Ionic SSH 密钥
