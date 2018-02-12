@@ -19,7 +19,6 @@ DO NOT MODIFY THIS FILE DIRECTLY -- IT IS GENERATED FROM THE CLI REPO
 # 命令
 
 
-
 这是一个全面的 CLI 命令列表。`ionic --help`命令将显示更加有序和准确的命令列表。
 
 命令 | 描述
