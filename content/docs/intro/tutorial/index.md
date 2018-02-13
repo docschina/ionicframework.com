@@ -3,7 +3,7 @@ layout: fluid/docs_base
 category: intro
 id: tutorial
 subid: tutorial
-title: Tutorial
+title: 简易教程
 header_sub_title: Getting Started with Ionic
 prev_page_title: Installing Ionic
 prev_page_link: /docs/intro/installation/
@@ -11,23 +11,23 @@ next_page_title: Project Structure
 next_page_link: /docs/intro/tutorial/project-structure/
 ---
 
-# Ionic Tutorial
+# Ionic 简易教程
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/intro/tutorial/index.md'>
-  Improve this doc
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/tutorial/index.md'>
+  改进这篇翻译
 </a>
 
-Now that you have [Ionic and its dependencies installed](../installation), you
-can build your first app! This section will guide you through the process of
-starting a new application, adding pages, navigating between those pages, and
-more. Let's get started!
+假定你现在已经安装好了 [Ionic 和它的依赖项](../installation)，那就可以构建你的第一个应用了。本章节将指导你通过一系列步骤来创建一个全新的应用程序，并在其中增加若干个页面，然后在这些页面之间进行跳转。让我们开始吧！
 
-> Ionic uses TypeScript for its code. If you're unfamiliar with TypeScript, dont
-> worry, it's very similar to regular JavaScript. But if you want to read up on
-> it, take a look at [this resource
-> page](https://ionicframework.com/docs/resources/what-is/#typescript).
 
-### Starting a New Ionic App
+
+
+> Ionic 使用 TypeScript 来编写代码。如果你对 TypeScript 不太熟悉，别担心，它和普通的 JavaScript 非常相似。若是想进一步了解 TypeScript，可以看一看[这个页面](https://ionicframework.com/docs/resources/what-is/#typescript)。
+
+
+
+
+### 创建一个新 Ionic 应用
 
 To start a new app, open your terminal/command prompt and run:
 
