@@ -22,43 +22,43 @@ next_page_link: /docs/intro/tutorial/project-structure/
 
 
 
-> Ionic 使用 TypeScript 来编写代码。如果你对 TypeScript 不太熟悉，别担心，它和普通的 JavaScript 非常相似。若是想进一步了解 TypeScript，可以看一看[这个页面](https://ionicframework.com/docs/resources/what-is/#typescript)。
+> Ionic 使用 TypeScript 来编写代码。如果你对 TypeScript 不太熟悉，别担心，它和普通的 JavaScript 非常相似。若是想进一步了解 TypeScript，可以看一看[这个资源页面](https://ionicframework.com/docs/resources/what-is/#typescript)。
 
 
 
 
 ### 创建一个新 Ionic 应用
 
-To start a new app, open your terminal/command prompt and run:
+打开您的终端/命令提示符并运行如下命令，即可创建一个新的应用：
 
 ```bash
 $ ionic start MyIonicProject tutorial
 ```
 
-* `start` will tell the CLI create a new app.
-* `MyIonicProject` will be the directory name and the app name from your
-  project.
-* `tutorial` will be the starter template for your project.
+* `start` 会吩咐 CLI 去创建一个新的应用。
+* `MyIonicProject` 将会是项目的目录名以及应用名。
+* `tutorial` 则指定使用初学者模板来创建你的项目。
 
-Along with creating your project, this will also install [node
-modules](../../resources/what-is/#npm) for the application, and prompt you if
-you want [Cordova](../../resources/what-is/#cordova) set up.
 
-Along with the tutorial template, Ionic also provide the follow official
-templates:
+在创建项目的过程中，这条命令还会为该应用程序安装 
+[node modules](../../resources/what-is/#npm)，并提示你是否要设置
+Cordova。
 
-* `tabs` : a simple 3 tab layout
-* `sidemenu`: a layout with a swipable menu on the side
-* `blank`: a bare starter with a single page
-* `super`: starter project with over 14 ready to use page designs
-* `tutorial`: a guided starter project
+除了初学者模板之外，Ionic
+也提供了下列官方模板：
 
-If you don't specify a template at the start, you will be prompted to pick one.
+* `tabs` : 简单的 3 标签页布局
+* `sidemenu`: 侧边带有可滑动菜单的布局
+* `blank`: 只有一个页面的空白模板
+* `super`: 一个已有超过 14 个现成页面的初始项目
+* `tutorial`: 自带向导的初始项目
 
-### Viewing the app in a browser
+如果在开始时没有指定模板，则会提示你选一个。
 
-Now, you can `cd` into the folder that was created. To get a quick preview of
-your app in the browser, use the `serve` command.
+### 在浏览器中查看应用
+
+新项目创建好之后, 你就可以使用 `cd` 命令进入项目目录。若要在浏览器里快速预览你的应用，则使用 `serve` 命令。
+
 
 ```bash
 $ cd MyIonicProject/
@@ -71,5 +71,5 @@ $ ionic serve
 </center>
 <br/>
 
-In the next section, let's go over the project structure created by the `ionic
-start` command.
+在下一节中，让我们回顾一下由
+`ionic start` 命令创建的项目结构。
