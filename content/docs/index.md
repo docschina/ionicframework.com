@@ -40,9 +40,9 @@ pre_footer: true
     </a>
     <a class="section native"
        href="/docs/native">
-      <h3>Ionic Native</h3>
+      <h3>Ionic 原生</h3>
       <p>
-        集成本地设备插件，
+        集成了原生设备插件，
         如蓝牙、地图、HealthKit 等。
       </p>
     </a>
