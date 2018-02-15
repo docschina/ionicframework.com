@@ -2,80 +2,81 @@
 layout: fluid/docs_base
 category: intro
 id: deploying
-title: Deploying
+title: 部署
 header_sub_title: Getting Started with Ionic
 ---
 
 
-# Deploying to a Device
+# 部署到设备
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/intro/migration/index.md'>Improve this doc</a>
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/migration/index.md'>改进这篇翻译</a>
 
-Testing your app in the browser with `ionic serve` or with an emulator is fast, easy and convenient when your app is in development, but eventually you're going to have to test on a device. Not only is it the only way to accurately test how your app will behave and perform, many [Ionic Native](https://ionicframework.com/docs//native/) plugins will only work when they are run on actual hardware.
+虽然使用浏览器（配合 `ionic serve`）或者手机模拟器来测试你的应用不失为一种方便快捷的方式，但是你最终还是需要在真机上测试的。这不仅是唯一可以精准地测试你的应用的行为表现的方式，许多 [Ionic Native](https://ionicframework.com/docs//native/) 插件也只有部署到真实设备上才能正常运行。
 
-## Android Devices
+## Android 设备
 
-Deploying to an Android device is a fairly straightforward process. If you have a working Android development environment, you're ready to go.
+部署到 Android 设备的过程相当简单。如果你已配置好 Android 开发环境，那就可以开始了。
 
-### Requirements
+### 需要安装的软件
 
 - [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
 - [Android Studio](https://developer.android.com/studio/index.html)
-- Updated Android SDK tools, platform and component dependencies. Available through Android Studio's [SDK Manager](https://developer.android.com/studio/intro/update.html)
+- 最新的 SDK 工具、平台和开发应用所需的其他组件。可以使用 Android Studio 自带的 [SDK 管理器](https://developer.android.com/studio/intro/update.html)来更新你的工具。
 
-### Running Your App
+### 运行你的应用
 
-To run your app, all you have to do is enable USB debugging and Developer Mode on your Android device, then run `ionic cordova run android --device` from the command line.
+若要运行应用，你首先要做的是在 Android 设备上启用 USB 调试以及开发者模式，然后在命令行里运行 `ionic cordova run android --device`。
 
-This will produce a debug build of your app, both in terms of Android and Ionic's code
+这将同时在 Android 及 Ionic 代码层面为你的应用生成一份调试版本
 
-Enabling USB debugging and Developer Mode can vary between devices, but is easy to look up with a Google search. You can also check out [Enabling On-device Developer Options](https://developer.android.com/studio/run/device.html#developer-device-options) in the Android docs.
+启用 USB 调试及开发者模式的方法在不同的设备上可能不太一样，但是用 Google 搜一下就能很快找到。你也可以在 Android 官方文档里获取[启用开发者模式的方法](https://developer.android.com/studio/run/device.html#developer-device-options)。
 
-### Production Builds
+### 生产模式构建
 
-To run or build your app for production, run
+若要在生产模式下构建你的应用，运行
 
 ```bash
 ionic cordova run android --prod --release
-# or
+# 或
 ionic cordova build android --prod --release
 ```
 
-This will minify your app's code as Ionic's source and also remove any debugging capabilities from the APK. This is generally used when deploying an app to the Google Play Store.
+这将会像 Ionic 源码一样来压缩你的应用的源代码，并移除 APK 中所有用于调试的功能。通常在将应用部署到 Google Play 商店时会用到该功能。
 
-### Sign Android APK
-If you want to release your app in the Google Play Store, you have to sign your APK file.
-To do this, you have to create a new certificate/keystore.
+### 对 Android APK 进行签名
+如果你想要在 Google Play 商店发布你的应用，那就必须对你的 APK 文件进行签名。为此，您必须创建一个新的证书/密钥库。
 
-Let’s generate your private key using the keytool command that comes with the JDK:
+
+让我们使用 JDK 自带的 teytool 命令来生成你的私钥：
 ```bash
 keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
 ```
-You’ll first be prompted to create a password for the keystore. Then, answer the rest of the nice tools’s questions and when it’s all done, you should have a file called my-release-key.jks created in the current directory.
+你首先会被提示为密钥库创建一个密码。然后回答该工具问你的其他问题，当一切都结束时，你的当前目录里应该会生成一个叫 my-release-key.jks 的文件。
 
-__Note__: Make sure to save this file somewhere safe, if you lose it you won’t be able to submit updates to your app!
+__注意__：确保将该文件保存到安全的地方，一旦丢失的话，你就不能为你的应用提交更新了！
 
-To sign the unsigned APK, run the jarsigner tool which is also included in the JDK:
+若要签署未签名的 APK，需要运行 JDK 自带的 jarsigner 工具：
 
 ```bash
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.jks android-release-unsigned.apk my-alias
 ```
 
-This signs the APK in place. Finally, we need to run the zip align tool to optimize the APK. The zipalign tool can be found in `/path/to/Android/sdk/build-tools/VERSION/zipalign`. For example, on OS X with Android Studio installed, zipalign is in `~/Library/Android/sdk/build-tools/VERSION/zipalign`:
+这样 APK 文件就签名完毕了。最后，我们还需要运行 zipalign 工具来优化 APK。zipalign 工具可以在 `/path/to/Android/sdk/build-tools/VERSION/zipalign` 路径下找到。举例来说，若是在已安装了 Android Studio 的 macOS 系统里，zipalign 就安装在 `~/Library/Android/sdk/build-tools/VERSION/zipalign`：
 
 ```bash
 zipalign -v 4 android-release-unsigned.apk HelloWorld.apk
 ```
 
-To verify that your apk is signed run apksigner. The apksigner can be also found in the same path as the zipalign tool:
+<!-- To verify that your apk is signed run apksigner. The apksigner can be also found in the same path as the zipalign tool: -->
+为了验证你的 apk 是否签名，运行 apksigner。apksigner 和 zipalign 工具在同一个路径下：
 
 ```bash
 apksigner verify HelloWorld.apk
 ```
 
-Now we have our final release binary called HelloWorld.apk and we can release this on the Google Play Store for all the world to enjoy!
+现在我们拥有了最终用来发布的名叫 HelloWorld.apk 二进制包，接着就可以在 Google Play 商店里发布该应用，将其分享给全世界！
 
-All steps can also be found here: [Android SDK docs](https://developer.android.com/studio/publish/app-signing.html#signing-manually)
+所有的步骤也都可以在 [Android SDK 官方文档](https://developer.android.com/studio/publish/app-signing.html#signing-manually)里找到。
 
 ## iOS Devices
 
