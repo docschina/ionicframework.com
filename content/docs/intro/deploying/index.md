@@ -67,95 +67,94 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.
 zipalign -v 4 android-release-unsigned.apk HelloWorld.apk
 ```
 
-<!-- To verify that your apk is signed run apksigner. The apksigner can be also found in the same path as the zipalign tool: -->
 为了验证你的 apk 是否签名，运行 apksigner。apksigner 和 zipalign 工具在同一个路径下：
 
 ```bash
 apksigner verify HelloWorld.apk
 ```
 
-现在我们拥有了最终用来发布的名叫 HelloWorld.apk 二进制包，接着就可以在 Google Play 商店里发布该应用，将其分享给全世界！
+现在我们拥有了最终用来发布的名叫 HelloWorld.apk 的二进制包，接着就可以在 Google Play 商店里发布该应用，将其分享给全世界！
 
 所有的步骤也都可以在 [Android SDK 官方文档](https://developer.android.com/studio/publish/app-signing.html#signing-manually)里找到。
 
-## iOS Devices
+## iOS 设备
 
-Unlike Android, iOS developers need to generate a provisioning profile to code sign their apps for testing. The good news is that, as of iOS9, you can develop and test your apps on your iOS device without a paid Apple Developer account. This is particularly great for developers who want to try out mobile development with Ionic, since it saves the cost but still provides a lot of the features of having a full Apple Developer account. For a full breakdown of the features included, check out [Apple's docs](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html#//apple_ref/doc/uid/TP40012582-CH38-SW1).
+和 Android 不同，iOS 开发者需要为应用生成一份配置文件（Provisioning Profile）来进行代码签名。好消息是，从 iOS 9 开始，你不需要 Apple 开发者账户就可以在你自己的 iOS 设备上开发并测试你的应用。这对于想要尝试使用 Ionic 进行移动端开发的开发者而言着实是个好消息（节省了购买开发者账户的钱），但是拥有一个完整的 Apple 开发者账户还是能多享受很多功能的。若要完整了解开发者账户包含了哪些功能，请查阅 [Apple 官方文档](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html#//apple_ref/doc/uid/TP40012582-CH38-SW1)。
 
-### Requirements
+### 需要安装的软件
 
-- Xcode 7 or higher
+- Xcode 7 或更高版本
 - iOS 9
-- A free [Apple ID](https://appleid.apple.com/) or paid Apple Developer account
+- 一个免费的 [Apple ID](https://appleid.apple.com/) 或者购买 Apple 开发者账户
 
-### Creating a Provisioning Profile
+### 创建配置文件（Provisioning Profile）
 
-To start, you'll need to set up a provisioning profile to code sign your apps.
+首先，你需要设置一份配置文件（Provisioning Profile）来为你的应用进行代码签名。
 
-#### Using an Apple ID
+#### 使用 Apple ID
 
-1. Open Xcode preferences (Xcode > Preferences...)
-2. Click the 'Accounts' tab
-3. Login with your Apple ID (+ > Add Apple ID...)
+1. 打开 Xcode 设置（Xcode > Preferences...）
+2. 点击 'Accounts' 选项卡
+3. 登录你的 Apple ID (+ > Add Apple ID...)
 
-Once you've successfully logged in, a new 'Personal Team' with the role 'Free' will appear beneath your Apple ID.
+成功登录之后，你的 Apple ID 下面会出现 'Personal Team' 和 'Free' 两条规则。
 
 <img src="/img/docs/deploying/profiles.jpg" alt="profiles">
 
-#### Using an Apple Developer Account
+#### 使用 Apple 开发者账户
 
-Creating a provisioning profile with a paid Apple Developer account is a little bit more involved. For full instructions, check out [Launching Your App on Devices](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/LaunchingYourApponDevices/LaunchingYourApponDevices.html) in the Apple Developer docs.
+使用 Apple 开发者账户创建配置文件（Provisioning Profile）稍微有点小复杂。若要查看完整说明，请查看 Apple 开发者文档中的 [Launching Your App on Devices](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/LaunchingYourApponDevices/LaunchingYourApponDevices.html) 这一章。
 
-### Running Your App
+### 运行你的应用
 
-1. Run a production build of your app with `ionic cordova build ios --prod`
-2. Open the `.xcodeproj` file in `platforms/ios/` in Xcode
-3. Connect your phone via USB and select it as the run target
-4. Click the play button in Xcode to try to run your app
+1. 运行 `ionic cordova build ios --prod` 命令，进行生产环境构建
+2. 在 Xcode 中打开 `platforms/ios/` 目录里后缀为 `.xcodeproj` 的工程目录
+3. 使用 USB 线连接你的手机，并将其选为目标设备
+4. 在 Xcode 中点击播放按钮，尝试运行你的应用
 
-Oops, code signing error! No problem.
+不好啦！代码签名报错啦！没关系（都是套路）。
 
-### Code Signing Your App
+### 对你的应用进行代码签名
 
-Next, you'll need to code sign your app. How you do this will depend on if you are running Xcode 8 or an earlier version.
+下一步，你需要对你的应用进行代码签名。对于 Xcode 8 或更早的版本，你将要进行的操作会有些不同。
 
-#### Xcode 7 and Earlier ####
+#### Xcode 7 及更早的版本 ####
 
-If you are running Xcode 7 or earlier, you'll get a code signing error that looks like this when you try to run the app:
+如果你运行的是 Xcode 7 或更早的版本，那么当你尝试运行该应用程序时，会看到如下所示的代码签名错误：
 
 <img src="/img/docs/deploying/sign-fail-1.jpg">
 
-Click the 'Fix Issue' button, then select your 'Personal Team' profile.
+点击 'Fix Issue' 按钮，然后选择你的 'Personal Team' 配置。
 
 <img src="/img/docs/deploying/team-menu-1.jpg">
 
 #### Xcode 8 ####
 
-If you are running Xcode 8, the code signing error will appear as a buildtime error, rather than as a pop-up:
+如果你运行的是 Xcode 8，那么该代码签名错误会以生成时错误（buildtime error）的形式出现，而不是弹出框：
 
 <img src="/img/docs/deploying/code-sign-err-xcode8.png">
 
-To select the certificate to sign your app with, do the following:
+若要选择为你的应用签名的证书，请按下列步骤操作：
 
-1. Go to the 'Project Editor' by clicking the name or your project in the 'Project Navigator'
-2. Select the 'General' section
-3. Select the team associate with your signing certificate from the 'Team' dropdown in the 'Signing' section
+1. 选择 'Project Navigator' 选项卡，然后点击你的项目名（即根目录），来到 'Project Editor' 界面
+2. 选择 'General' 部分
+3. 在 'Signing' 部分的 'Team' 下拉菜单中选择与你的签名证书关联的团队
 
 <img src="/img/docs/deploying/code-sign-xcode8.png">
 
-### Trusting the Certificate ###
+### 信任该证书 ###
 
-Once you've code signed your app, you should get a launch error that looks like this. On Xcode 7 and below you'll see this automatically. On Xcode 8 it will appear the next time you try to run the app:
+当你对你的应用进行代码签名之后，你应该会得到一个如下图所示的启动报错。在 Xcode 7 及更低版本中你会自动地看到这条消息。在 Xcode 8 中会在你尝试运行应用时出现这个报错*（译者注：普通的 Apple ID 会有这个报错，但是 Apple 开发者账户则不会）*：
 
 <img src="/img/docs/deploying/launch-fail-1.jpg">
 
-To get past this, we have to tell our iOS device to trust the certificate we code signed our app with:
+为了搞定这个问题，我们需要告诉 iOS 设备去信任我们经过了代码签名的应用的证书：
 
-1. Open the 'Settings' app on your iOS device
-2. Go to 'General > Device Management'. You'll see the email address associated with the Apple ID or Apple Developer account you used to code sign your app.
-3. Tap the email address
-4. Tap 'Trust &lt;your_email&gt;':
+1. 在你的 iOS 设备中打开「设置」应用
+2. 进入「通用 > 设备管理」。你将会看到过去你所用来签名的与 Apple ID 所关联的电子邮箱地址。
+3. 点击这个电子邮箱地址
+4. 点击「信任“你的电子邮箱地址”」:
 
 <img src="/img/docs/deploying/verify.jpg">
 
-Now, go back to Xcode and hit that play button or run `ionic cordova run ios --device` from the command line to install and launch your app on your iOS device.
+现在，回到 Xcode 点击播放按钮，或者在命令行里运行 `ionic cordova run ios --device`，以便在你的 iOS 设备中安装并启动你的应用。
