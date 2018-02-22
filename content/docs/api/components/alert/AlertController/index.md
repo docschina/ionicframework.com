@@ -63,7 +63,7 @@ Improve this doc
 例如<code>cancel</code>。
 如果某个<code>cancel</code> role 位于其中一个按钮上，则该Alert 组件可以通过点击背景来解除，
 然后它将触发那个 cancel role 按钮的处理函数。</p>
-<h3><a class="anchor" name="alert-inputs" href="#alert-inputs">Alert 输入</a></h3>
+<h3><a class="anchor" name="alert-inputs" href="#alert-inputs">Alert 输入框</a></h3>
 
 
 <p>Alert 组件还可以包括一些能够传递数据给应用的不同输入。
@@ -366,28 +366,28 @@ presentPrompt() {
 </tr>
 </tbody>
 </table>
-<h3 id="dismissing-and-async-navigation">解除警告和异步导航</h3>
+<h3 id="dismissing-and-async-navigation">解除 alert 和异步导航</h3>
 <p>Alert 解除后，
 应用可能还需要根据处理函数的逻辑过渡到另一个页面。
-但是，由于多个转换几乎同时发生，
-导航控制器难以清晰地
-给可能异步启动的多个转换加上动画。
+但是，
+由于多个转换几乎同时发生，
+导航控制器难以清晰地给可能异步启动的多个转换加上动画。
 这在<a href="../../nav/NavController"><code>Nav Transition Promises</code></a>部分会进一步解释。
-对于警告来说，
-这意味着最好等待 Alert 组件在同一个导航控制器上开始新的转换之前
-就完成其转换。</p>
-<p>在下面的示例中，警告按钮被单击后，
+对于 alert 来说，
+这意味着最好等待 Alert
+组件在同一个导航控制器上开始新的转换之前就完成其转换。</p>
+<p>在下面的示例中， alert 按钮被单击后，
 其处理函数会等待异步操作完成，
 <em>然后</em>使用<code>pop</code>导航到同一堆栈中的页面。
-潜在的问题是，异步操作可能在警告结束其转换之前就已经完成了。
-在这种情况下，最好确保警告先完成其转换，<em>然后</em>再开始下一个转换。</p>
+潜在的问题是，异步操作可能在 alert 结束其转换之前就已经完成了。
+在这种情况下，最好确保 alert 先完成其转换，<em>然后</em>再开始下一个转换。</p>
 <pre><code class="lang-ts">let alert = this.alertCtrl.create({
   title: &#39;Hello&#39;,
   buttons: [{
     text: &#39;Ok&#39;,
     handler: () =&gt; {
-      // 用户已点击警告按钮
-      // 启动警告的解散过渡
+      // 用户已点击 alert 按钮
+      // 启动 alert 的解散过渡
       let navTransition = alert.dismiss();
 
       // 启动一些异步方法
@@ -409,11 +409,11 @@ alert.present();
 </code></pre>
 <p>注意到处理函数返回 <code>false</code>是很重要的。
 按钮处理函数的一个功能是：当按钮被点击时，
-它们会自动关闭警告。
+它们会自动关闭 alert 。
 但是，我们需要对这个转换过程进行更多的控制。
-由于处理程序返回 <code>false</code>，因此警告不会自动消除。
-相反，你现在可以完全控制警告何时完成过渡，
-以及能够在开始新过渡之前等待警告完成过渡。</p>
+由于处理程序返回 <code>false</code>，因此 alert 不会自动消除。
+相反，你现在可以完全控制 alert 何时完成过渡，
+以及能够在开始新过渡之前等待 alert 完成过渡。</p>
 
 
 
@@ -615,7 +615,7 @@ alert.present();
         
           <td><code>600</code></td>
         
-        <td><p>警告标题的字体粗细</p>
+        <td><p> alert 标题的字体粗细</p>
 </td>
       </tr>
       
