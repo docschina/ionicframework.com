@@ -42,20 +42,20 @@ Improve this doc
 
 
 
-<p>The MenuController is a provider which makes it easy to control a <a href="../../Menu/Menu/">Menu</a>.
-Its methods can be used to display the menu, enable the menu, toggle the menu, and more.
-The controller will grab a reference to the menu by the <code>side</code>, <code>id</code>, or, if neither
-of these are passed to it, it will grab the first menu it finds.</p>
+<p> MenuController 是一个用来方便操控<a href="../../Menu/Menu/">菜单</a>的提供商（provider）。它的方法可以用来显示菜单，启用菜单，切换菜单等等。控制器将通过 <code>side</code>， <code>id</code> 获得菜单的引用，如果这些都不传递给它，它将获取它找到的第一个菜单。</p>
+
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
-<p>Add a basic menu component to start with. See the <a href="../../Menu/Menu/">Menu</a> API docs
-for more information on adding menu components.</p>
+<p>首先添加一个基本菜单组件。有关添加菜单组件的更多信息，请参阅<a href="../../Menu/Menu/">菜单</a> API 文档。</p>
+
 <pre><code class="lang-html">&lt;ion-menu [content]=&quot;mycontent&quot;&gt;
   &lt;ion-content&gt;
     &lt;ion-list&gt;
@@ -66,9 +66,9 @@ for more information on adding menu components.</p>
 
 &lt;ion-nav #mycontent [root]=&quot;rootPage&quot;&gt;&lt;/ion-nav&gt;
 </code></pre>
-<p>To call the controller methods, inject the <code>MenuController</code> provider
-into the page. Then, create some methods for opening, closing, and
-toggling the menu.</p>
+<p>要调用控制器方法，请将 <code>MenuController</code> 提供商注入到页面。然后创建一些打开，关闭和切换菜单的方法。</p>
+
+
 <pre><code class="lang-ts">import { Component } from &#39;@angular/core&#39;;
 import { MenuController } from &#39;ionic-angular&#39;;
 
@@ -93,12 +93,12 @@ export class MyPage {
 
 }
 </code></pre>
-<p>Since only one menu exists, the <code>MenuController</code> will grab the
-correct menu and call the correct method for each.</p>
-<h3 id="multiple-menus-on-different-sides">Multiple Menus on Different Sides</h3>
-<p>For applications with both a left and right menu, the desired menu can be
-grabbed by passing the <code>side</code> of the menu. If nothing is passed, it will
-default to the <code>&quot;left&quot;</code> menu.</p>
+<p>由于只有一个菜单存在， <code>MenuController</code> 将获取正确的菜单并为这个菜单调用每个正确的方法。</p>
+<h3 id="multiple-menus-on-different-sides">在不同侧栏的多个菜单</h3>
+<p>对于既具有左也有右菜单的应用程序，可以通过传递菜单的 <code>side</code> 来获取所需的菜单。如果没有传递，它将默认为 <code>&quot;左&quot;</code> 菜单。</p>
+
+
+
 <pre><code class="lang-html">&lt;ion-menu side=&quot;left&quot; [content]=&quot;mycontent&quot;&gt;...&lt;/ion-menu&gt;
 &lt;ion-menu side=&quot;right&quot; [content]=&quot;mycontent&quot;&gt;...&lt;/ion-menu&gt;
 &lt;ion-nav #mycontent [root]=&quot;rootPage&quot;&gt;&lt;/ion-nav&gt;
@@ -111,11 +111,11 @@ toggleRightMenu() {
   this.menuCtrl.toggle(&#39;right&#39;);
 }
 </code></pre>
-<h3 id="multiple-menus-on-the-same-side">Multiple Menus on the Same Side</h3>
-<p>An application can have multiple menus on the same side. In order to determine
-the menu to control, an <code>id</code> should be passed. In the example below, the menu
-with the <code>authenticated</code> id will be enabled, and the menu with the <code>unauthenticated</code>
-id will be disabled.</p>
+<h3 id="multiple-menus-on-the-same-side">在同一侧的多个菜单</h3>
+<p>一个应用程序可以在同一侧有多个菜单。为了确定要控制的菜单，应该传递一个 <code>id</code> 。在下面的例子中，带有 <code>认证（authenticated）</code> id的菜单将被启用，并将具有 <code>未认证（unauthenticated）</code> id 的菜单禁用。</p>
+
+
+
 <pre><code class="lang-html">&lt;ion-menu id=&quot;authenticated&quot; side=&quot;left&quot; [content]=&quot;mycontent&quot;&gt;...&lt;/ion-menu&gt;
 &lt;ion-menu id=&quot;unauthenticated&quot; side=&quot;left&quot; [content]=&quot;mycontent&quot;&gt;...&lt;/ion-menu&gt;
 &lt;ion-nav #mycontent [root]=&quot;rootPage&quot;&gt;&lt;/ion-nav&gt;
@@ -125,7 +125,7 @@ id will be disabled.</p>
   this.menuCtrl.enable(false, &#39;unauthenticated&#39;);
 }
 </code></pre>
-<p>Note: if an app only has one menu, there is no reason to pass an <code>id</code>.</p>
+<p>注意：如果一个应用程序只有一个菜单，则没有理由传递一个 <code>id</code>。</p>
 
 
 
@@ -136,7 +136,7 @@ id will be disabled.</p>
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="close"></div>
 
@@ -148,17 +148,17 @@ id will be disabled.</p>
 </a>
 </h3>
 
-Programatically close the Menu. If no `menuId` is given as the first
-argument then it'll close any menu which is open. If a `menuId`
-is given then it'll close that exact menu.
+以编程方式关闭菜单。如果没有`menuId`作为第一个参数传递进来它就会关闭所有打开的菜单。如果有`menuId`
+被给出它将根据这个参数准确关闭菜单。
+
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>细节</th>
     </tr>
   </thead>
   <tbody>
@@ -174,7 +174,7 @@ is given then it'll close that exact menu.
   <code>string</code>
       </td>
       <td>
-        <p>Optionally get the menu by its id, or side.<strong class="tag">Optional</strong></p>
+        <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -189,8 +189,8 @@ is given then it'll close that exact menu.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Promise</code> <p>returns a promise when the menu is fully closed</p>
+<b>返回：</b> 
+  <code>Promise</code> <p>当菜单完全关闭时返回一个 promise。</p>
 
 
 </div>
@@ -208,18 +208,18 @@ is given then it'll close that exact menu.
 </a>
 </h3>
 
-Used to enable or disable a menu. For example, there could be multiple
-left menus, but only one of them should be able to be opened at the same
-time. If there are multiple menus on the same side, then enabling one menu
-will also automatically disable all the others that are on the same side.
+用于启用或禁用菜单。例如，可能有多个左边的菜单，但同一时间只能有其中一个能够在相同的位置打开。如果同一侧有多个菜单，则只启用一个菜单，并自动禁用在同一边的所有其他菜单。
+
+
+
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>细节</th>
     </tr>
   </thead>
   <tbody>
@@ -235,8 +235,8 @@ will also automatically disable all the others that are on the same side.
   <code>string</code>
       </td>
       <td>
-        <p>Optionally get the menu by its id, or side.<strong class="tag">Optional</strong></p>
-
+        <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
+    
         
       </td>
     </tr>
@@ -250,8 +250,8 @@ will also automatically disable all the others that are on the same side.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Menu</code> <p>Returns the instance of the menu, which is useful for chaining.</p>
+<b>返回：</b> 
+  <code>Menu</code> <p>返回菜单实例，这对链式调用很有帮助。</p>
 
 
 </div>
@@ -269,19 +269,19 @@ will also automatically disable all the others that are on the same side.
 </a>
 </h3>
 
-Used to get a menu instance. If a `menuId` is not provided then it'll
-return the first menu found. If a `menuId` is `left` or `right`, then
-it'll return the enabled menu on that side. Otherwise, if a `menuId` is
-provided, then it'll try to find the menu using the menu's `id`
-property. If a menu is not found then it'll return `null`.
+用于获取菜单实例。如果没有提供`menuId`，那么它会返回找到的第一个菜单。如果 `menuId` 是 `left` 或 `right`，那么它会返回启用的那个菜单。否则，如果`menuId`被提供了，那么它会尝试使用菜单的 `id` 属性找到菜单。如果找不到菜单，就会返回`null`。
+
+
+
+
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>细节</th>
     </tr>
   </thead>
   <tbody>
@@ -297,7 +297,7 @@ property. If a menu is not found then it'll return `null`.
   <code>string</code>
       </td>
       <td>
-        <p>Optionally get the menu by its id, or side.<strong class="tag">Optional</strong></p>
+        <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -312,8 +312,8 @@ property. If a menu is not found then it'll return `null`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Menu</code> <p>Returns the instance of the menu if found, otherwise <code>null</code>.</p>
+<b>返回：</b> 
+  <code>Menu</code> <p>如果找到的话返回菜单的实例，否则返回 <code>null</code>。</p>
 
 
 </div>
@@ -340,8 +340,8 @@ property. If a menu is not found then it'll return `null`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Array&lt;Menu&gt;</code> <p>Returns an array of all menu instances.</p>
+<b>返回：</b> 
+  <code>Array&lt;Menu&gt;</code> <p>返回一个由所有菜单实例的数组。</p>
 
 
 </div>
@@ -368,8 +368,8 @@ property. If a menu is not found then it'll return `null`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Menu</code> <p>Returns the instance of the menu already opened, otherwise <code>null</code>.</p>
+<b>返回：</b> 
+  <code>Menu</code> <p>如果菜单已经打开返回菜单实例，否则返回 <code>null</code>。</p>
 
 
 </div>
@@ -393,9 +393,9 @@ property. If a menu is not found then it'll return `null`.
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>细节</th>
     </tr>
   </thead>
   <tbody>
@@ -411,7 +411,7 @@ property. If a menu is not found then it'll return `null`.
   <code>string</code>
       </td>
       <td>
-        <p>Optionally get the menu by its id, or side.<strong class="tag">Optional</strong></p>
+        <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -426,8 +426,8 @@ property. If a menu is not found then it'll return `null`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>boolean</code> <p>Returns true if the menu is currently enabled, otherwise false.</p>
+<b>返回：</b> 
+  <code>boolean</code> <p>如果菜单当前是启用的，返回 true，否则返回 false</p>
 
 
 </div>
@@ -451,9 +451,9 @@ property. If a menu is not found then it'll return `null`.
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>细节</th>
     </tr>
   </thead>
   <tbody>
@@ -469,7 +469,7 @@ property. If a menu is not found then it'll return `null`.
   <code>string</code>
       </td>
       <td>
-        <p>Optionally get the menu by its id, or side.<strong class="tag">Optional</strong></p>
+        <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -484,9 +484,9 @@ property. If a menu is not found then it'll return `null`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>boolean</code> <p>Returns true if the specified menu is currently open, otherwise false.
-If the menuId is not specified, it returns true if ANY menu is currenly open.</p>
+<b>返回：</b> 
+  <code>boolean</code> <p>如果指定的菜单当前是打开的返回 true，否则返回false。
+如果 menuId 没有被指定，返回当前是否有任意菜单被打开的布尔值。</p>
 
 
 </div>
@@ -504,15 +504,15 @@ If the menuId is not specified, it returns true if ANY menu is currenly open.</p
 </a>
 </h3>
 
-Programatically open the Menu.
+以编程方式打开菜单。
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>细节</th>
     </tr>
   </thead>
   <tbody>
@@ -528,7 +528,7 @@ Programatically open the Menu.
   <code>string</code>
       </td>
       <td>
-        <p>Optionally get the menu by its id, or side.<strong class="tag">Optional</strong></p>
+        <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -543,8 +543,8 @@ Programatically open the Menu.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Promise</code> <p>returns a promise when the menu is fully opened</p>
+<b>返回：</b> 
+  <code>Promise</code> <p>在菜单完全打开时返回一个 promise 。</p>
 
 
 </div>
@@ -562,15 +562,15 @@ Programatically open the Menu.
 </a>
 </h3>
 
-Used to enable or disable the ability to swipe open the menu.
+用来启用或禁用滑动打开菜单的功能。
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>细节</th>
     </tr>
   </thead>
   <tbody>
@@ -586,7 +586,7 @@ Used to enable or disable the ability to swipe open the menu.
   <code>boolean</code>
       </td>
       <td>
-        <p>True if it should be swipe-able, false if not.</p>
+        <p>如果想让菜单滑动则为 true，否则为 false。</p>
 
         
       </td>
@@ -603,7 +603,7 @@ Used to enable or disable the ability to swipe open the menu.
   <code>string</code>
       </td>
       <td>
-        <p>Optionally get the menu by its id, or side.<strong class="tag">Optional</strong></p>
+        <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -618,8 +618,8 @@ Used to enable or disable the ability to swipe open the menu.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Menu</code> <p>Returns the instance of the menu, which is useful for chaining.</p>
+<b>返回：</b> 
+  <code>Menu</code> <p>返回菜单实例，这对链式调用非常有帮助。</p>
 
 
 </div>
@@ -637,16 +637,16 @@ Used to enable or disable the ability to swipe open the menu.
 </a>
 </h3>
 
-Toggle the menu. If it's closed, it will open, and if opened, it
-will close.
+切换菜单。如果它是关闭的，则会被打开。如果它是打开的，则会被关闭。
+
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>细节</th>
     </tr>
   </thead>
   <tbody>
@@ -662,7 +662,7 @@ will close.
   <code>string</code>
       </td>
       <td>
-        <p>Optionally get the menu by its id, or side.<strong class="tag">Optional</strong></p>
+        <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -677,8 +677,8 @@ will close.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Promise</code> <p>returns a promise when the menu has been toggled</p>
+<b>返回：</b> 
+  <code>Promise</code> <p>在菜单被切换后返回一个 promise </p>
 
 
 </div>
