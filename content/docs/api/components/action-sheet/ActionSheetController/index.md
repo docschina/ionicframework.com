@@ -48,6 +48,25 @@ Improve this doc
 <p>您可以将所有 Action Sheet 组件的选项传递给 create 方法的第一个参数： <code>ActionSheet.create(opts)</code>。否则， Action Sheet 组件的实例会调用方法来添加选项，比如 <code>setTitle()</code> 或 <code>addButton()</code>。</p>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- @usage tag -->
 
 <h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
@@ -132,6 +151,7 @@ export class MyClass{
 </h3>
 
 打开一个带有标题，子标题和一组按钮的 action sheet 
+
 
 <table class="table param-table" style="margin:0;">
   <thead>
@@ -246,6 +266,18 @@ export class MyClass{
 <h3 id="dismissing-and-async-navigation">解除 action sheets 和异步导航</h3>
 <p>在 action sheet 被解除后，应用程序可能还需要根据处理函数的逻辑过渡到另一个页面。但是，由于多个转换几乎同时发生， 导航控制器难以清晰地给可能异步启动的多个转换加上动画。这在 <a href="../../nav/NavController/#nav-transition-promises"><code>Nav Transition Promises</code></a> 部分有进一步的描述。对于 action sheets 而言，这意味着最好等待 action sheets 在同一个导航控制器上开始新的转换之前就完成其转换。</p>
 <p>在下面的示例中，按钮被单击后，其处理函数会等待异步操作完成，<em>然后</em>使用 <code>pop</code> 导航到同一堆栈中的页面。 潜在的问题是，异步操作可能在 action sheet 结束其转换之前就已经完成了。在这种情况下，最好确保警告先完成其转换，然后再开始下一个转换。</p>
+
+
+
+
+
+
+
+
+
+
+
+
 <pre><code class="lang-ts">let actionSheet = this.actionSheetCtrl.create({
   title: &#39;Hello&#39;,
   buttons: [{
