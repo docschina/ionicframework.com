@@ -42,46 +42,46 @@ Improve this doc
 
 
 
-<p>An Alert is a dialog that presents users with information or collects
-information from the user using inputs. An alert appears on top
-of the app&#39;s content, and must be manually dismissed by the user before
-they can resume interaction with the app. It can also optionally have a
-<code>title</code>, <code>subTitle</code> and <code>message</code>.</p>
-<p>You can pass all of the alert&#39;s options in the first argument of
-the create method: <code>create(opts)</code>. Otherwise the alert&#39;s instance
-has methods to add options, such as <code>setTitle()</code> or <code>addButton()</code>.</p>
-<h3><a class="anchor" name="alert-buttons" href="#alert-buttons">Alert Buttons</a></h3>
+<p>Alert 组件
+是一个向用户提供或收集来自用户输入的信息的对话框。
+它会在顶部显示应用的内容，并且在用户恢复与应用程序交互之前，
+必须由用户手动解除。
+它也可以有一个<code>标题</code>，<code>副标题</code>和<code>消息</code>。</p>
+<p>你可以在 create 方法的第一个参数中传递所有Alert 组件的选项：<code>create(opts)</code>。
+另外，Alert 组件的实例也有方法添加选项，
+像<code>setTitle()</code>或<code>addButton()</code>。</p>
+<h3><a class="anchor" name="alert-buttons" href="#alert-buttons">Alert 按钮</a></h3>
 
 
-<p>In the array of <code>buttons</code>, each button includes properties for its <code>text</code>,
-and optionally a <code>handler</code>. If a handler returns <code>false</code> then the alert
-will not automatically be dismissed when the button is clicked. All
-buttons will show up in the order they have been added to the <code>buttons</code>
-array, from left to right. Note: The right most button (the last one in
-the array) is the main button.</p>
-<p>Optionally, a <code>role</code> property can be added to a button, such as <code>cancel</code>.
-If a <code>cancel</code> role is on one of the buttons, then if the alert is
-dismissed by tapping the backdrop, then it will fire the handler from
-the button with a cancel role.</p>
-<h3><a class="anchor" name="alert-inputs" href="#alert-inputs">Alert Inputs</a></h3>
+<p>在<code>按钮</code>的数组中，
+每个按钮都包含<code>文本</code>的属性，
+和可选的<code>处理函数</code>。
+如果处理函数返回<code> false </code>，则Alert 组件在按钮被点击时不会自动解除。
+所有按钮将按照它们被添加到<code>buttons</code>数组的从左到右的顺序显示数组。
+注意：最右边的按钮（数组的最后一个按钮）是主要按钮。</p>
+<p>或者，可以将<code>role</code>属性添加到按钮，
+例如<code>cancel</code>。
+如果某个<code>cancel</code> role 位于其中一个按钮上，则该Alert 组件可以通过点击背景来解除，
+然后它将触发那个 cancel role 按钮的处理函数。</p>
+<h3><a class="anchor" name="alert-inputs" href="#alert-inputs">Alert 输入框</a></h3>
 
 
-<p>Alerts can also include several different inputs whose data can be passed
-back to the app. Inputs can be used as a simple way to prompt users for
-information. Radios, checkboxes and text inputs are all accepted, but they
-cannot be mixed. For example, an alert could have all radio button inputs,
-or all checkbox inputs, but the same alert cannot mix radio and checkbox
-inputs. Do note however, different types of &quot;text&quot;&quot; inputs can be mixed,
-such as <code>url</code>, <code>email</code>, <code>text</code>, etc. If you require a complex form UI
-which doesn&#39;t fit within the guidelines of an alert then we recommend
-building the form within a modal instead.</p>
+<p>Alert 组件还可以包括一些能够传递数据给应用的不同输入。
+可以将提示用户的信息用一个简单的方法来输入，单选按钮，复选框和文本输入都可以，
+但他们不能混着用。
+例如，Alert 组件可以全部是单选按钮输入，或全部是复选框输入，
+但同一个Alert 组件不能混合单选按钮和复选框来输入。
+注意，不同类型的“文本”输入是可以混合使用的，比如<code>url</code>，<code>email</code>，<code>text</code>等。
+如果你需要复杂的表单UI，
+是不符合Alert 组件的使用原则的，
+我们推荐在一个 modal 组件中构建表单。</p>
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-ts">import { AlertController } from &#39;ionic-angular&#39;;
 
@@ -147,9 +147,9 @@ presentPrompt() {
         text: &#39;Login&#39;,
         handler: data =&gt; {
           if (User.isValid(data.username, data.password)) {
-            // logged in!
+            // 已登录！
           } else {
-            // invalid login
+            // 不合法的登录
             return false;
           }
         }
@@ -169,7 +169,7 @@ presentPrompt() {
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="config"></div>
 
@@ -201,15 +201,15 @@ presentPrompt() {
 </a>
 </h3>
 
-Display an alert with a title, inputs, and buttons
+ &nbsp;&nbsp;&nbsp;显示一个带有标题，输入框和按钮的 Alert 组件。
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -225,7 +225,7 @@ Display an alert with a title, inputs, and buttons
   <code>AlertOptions</code>
       </td>
       <td>
-        <p>Alert. See the table below</p>
+        <p>Alert 组件，请参阅下面的表</p>
 
         
       </td>
@@ -239,162 +239,162 @@ Display an alert with a title, inputs, and buttons
 
 
 
-<h2><a class="anchor" name="advanced" href="#advanced">Advanced</a></h2>
-<p>Alert options</p>
+<h2><a class="anchor" name="advanced" href="#advanced">进阶</a></h2>
+<p>Alert 参数</p>
 <table>
 <thead>
 <tr>
-<th>Property</th>
-<th>Type</th>
-<th>Description</th>
+<th>属性</th>
+<th>类型</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>title</td>
 <td><code>string</code></td>
-<td>The title for the alert.</td>
+<td>Alert 组件的标题</td>
 </tr>
 <tr>
 <td>subTitle</td>
 <td><code>string</code></td>
-<td>The subtitle for the alert.</td>
+<td>Alert 组件的副标题</td>
 </tr>
 <tr>
 <td>message</td>
 <td><code>string</code></td>
-<td>The message for the alert.</td>
+<td>Alert 组件的消息</td>
 </tr>
 <tr>
 <td>cssClass</td>
 <td><code>string</code></td>
-<td>Additional classes for custom styles, separated by spaces.</td>
+<td>自定义样式的其他类，以空格分隔。</td>
 </tr>
 <tr>
 <td>inputs</td>
 <td><code>array</code></td>
-<td>An array of inputs for the alert. See input options.</td>
+<td>Alert 组件的输入数组，请参阅输入框选项。</td>
 </tr>
 <tr>
 <td>buttons</td>
 <td><code>array</code></td>
-<td>An array of buttons for the alert. See buttons options.</td>
+<td>Alert 组件的按钮数组。请参阅按钮选项。</td>
 </tr>
 <tr>
 <td>enableBackdropDismiss</td>
 <td><code>boolean</code></td>
-<td>Whether the alert should be dismissed by tapping the backdrop. Default true.</td>
+<td>是否应该通过点击背景来解除 Alert 。默认为 true 。</td>
 </tr>
 </tbody>
 </table>
-<p> Input options</p>
+<p>输入框选项</p>
 <table>
 <thead>
 <tr>
-<th>Property</th>
-<th>Type</th>
-<th>Description</th>
+<th>属性</th>
+<th>类型</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>type</td>
 <td><code>string</code></td>
-<td>The type the input should be: text, tel, number, etc.</td>
+<td>输入值的类型应该是：text ，tel ，number 等。</td>
 </tr>
 <tr>
 <td>name</td>
 <td><code>string</code></td>
-<td>The name for the input.</td>
+<td>输入框的名称。</td>
 </tr>
 <tr>
 <td>placeholder</td>
 <td><code>string</code></td>
-<td>The input&#39;s placeholder (for textual/numeric inputs)</td>
+<td>输入框的占位符（用于文本/数字输入）。</td>
 </tr>
 <tr>
 <td>value</td>
 <td><code>string</code></td>
-<td>The input&#39;s value.</td>
+<td>输入框的值。</td>
 </tr>
 <tr>
 <td>label</td>
 <td><code>string</code></td>
-<td>The input&#39;s label (only for radio/checkbox inputs)</td>
+<td>输入框的标签（仅用于单选按钮/复选框输入）</td>
 </tr>
 <tr>
 <td>checked</td>
 <td><code>boolean</code></td>
-<td>Whether or not the input is checked.</td>
+<td>输入框是否校验</td>
 </tr>
 <tr>
 <td>id</td>
 <td><code>string</code></td>
-<td>The input&#39;s id.</td>
+<td>输入框的 id 。</td>
 </tr>
 </tbody>
 </table>
-<p> Button options</p>
+<p>按钮选项</p>
 <table>
 <thead>
 <tr>
-<th>Property</th>
-<th>Type</th>
-<th>Description</th>
+<th>属性</th>
+<th>类型</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>text</td>
 <td><code>string</code></td>
-<td>The buttons displayed text.</td>
+<td>按钮显示的文本值。</td>
 </tr>
 <tr>
 <td>handler</td>
 <td><code>any</code></td>
-<td>Emitted when the button is pressed.</td>
+<td>当按钮被按下时触发的处理函数。</td>
 </tr>
 <tr>
 <td>cssClass</td>
 <td><code>string</code></td>
-<td>An additional CSS class for the button.</td>
+<td>按钮的附加 CSS 类。</td>
 </tr>
 <tr>
 <td>role</td>
 <td><code>string</code></td>
-<td>The buttons role, null or <code>cancel</code>.</td>
+<td>按钮 role ，null 或 <code>cancel</code>。</td>
 </tr>
 </tbody>
 </table>
-<h3 id="dismissing-and-async-navigation">Dismissing And Async Navigation</h3>
-<p>After an alert has been dismissed, the app may need to also transition
-to another page depending on the handler&#39;s logic. However, because multiple
-transitions were fired at roughly the same time, it&#39;s difficult for the
-nav controller to cleanly animate multiple transitions that may
-have been kicked off asynchronously. This is further described in the
-<a href="../../nav/NavController"><code>Nav Transition Promises</code></a> section. For alerts,
-this means it&#39;s best to wait for the alert to finish its transition
-out before starting a new transition on the same nav controller.</p>
-<p>In the example below, after the alert button has been clicked, its handler
-waits on async operation to complete, <em>then</em> it uses <code>pop</code> to navigate
-back a page in the same stack. The potential problem is that the async operation
-may have been completed before the alert has even finished its transition
-out. In this case, it&#39;s best to ensure the alert has finished its transition
-out first, <em>then</em> start the next transition.</p>
+<h3 id="dismissing-and-async-navigation">解除 alert 和异步导航</h3>
+<p>Alert 解除后，
+应用可能还需要根据处理函数的逻辑过渡到另一个页面。
+但是，
+由于多个转换几乎同时发生，
+导航控制器难以清晰地给可能异步启动的多个转换加上动画。
+这在<a href="../../nav/NavController"><code>Nav Transition Promises</code></a>部分会进一步解释。
+对于 alert 来说，
+这意味着最好等待 Alert
+组件在同一个导航控制器上开始新的转换之前就完成其转换。</p>
+<p>在下面的示例中， alert 按钮被单击后，
+其处理函数会等待异步操作完成，
+<em>然后</em>使用<code>pop</code>导航到同一堆栈中的页面。
+潜在的问题是，异步操作可能在 alert 结束其转换之前就已经完成了。
+在这种情况下，最好确保 alert 先完成其转换，<em>然后</em>再开始下一个转换。</p>
 <pre><code class="lang-ts">let alert = this.alertCtrl.create({
   title: &#39;Hello&#39;,
   buttons: [{
     text: &#39;Ok&#39;,
     handler: () =&gt; {
-      // user has clicked the alert button
-      // begin the alert&#39;s dismiss transition
+      // 用户已点击 alert 按钮
+      // 启动 alert 的解散过渡
       let navTransition = alert.dismiss();
 
-      // start some async method
+      // 启动一些异步方法
       someAsyncOperation().then(() =&gt; {
-        // once the async operation has completed
-        // then run the next nav transition after the
-        // first transition has finished animating out
+        // 一旦异步方法完成
+        // 就在第一次转换完成动画之后
+        // 运行下一个导航过渡
 
         navTransition.then(() =&gt; {
           this.nav.pop();
@@ -407,23 +407,23 @@ out first, <em>then</em> start the next transition.</p>
 
 alert.present();
 </code></pre>
-<p>It&#39;s important to note that the handler returns <code>false</code>. A feature of
-button handlers is that they automatically dismiss the alert when their button
-was clicked, however, we&#39;ll need more control regarding the transition. Because
-the handler returns <code>false</code>, then the alert does not automatically dismiss
-itself. Instead, you now have complete control of when the alert has finished
-transitioning, and the ability to wait for the alert to finish transitioning
-out before starting a new transition.</p>
+<p>注意到处理函数返回 <code>false</code>是很重要的。
+按钮处理函数的一个功能是：当按钮被点击时，
+它们会自动关闭 alert 。
+但是，我们需要对这个转换过程进行更多的控制。
+由于处理程序返回 <code>false</code>，因此 alert 不会自动消除。
+相反，你现在可以完全控制 alert 何时完成过渡，
+以及能够在开始新过渡之前等待 alert 完成过渡。</p>
 
 
 
-  <h2 id="sass-variable-header"><a class="anchor" name="sass-variables" href="#sass-variables">Sass Variables</a></h2>
+  <h2 id="sass-variable-header"><a class="anchor" name="sass-variables" href="#sass-variables">Sass 变量</a></h2>
   <div id="sass-variables" ng-controller="SassToggleCtrl">
   <div class="sass-platform-toggle">
     
       
       
-      <a ng-init="setSassPlatform('base')" ng-class="{ active: active === 'base' }" ng-click="setSassPlatform('base')" >All</a>
+      <a ng-init="setSassPlatform('base')" ng-class="{ active: active === 'base' }" ng-click="setSassPlatform('base')" >全部</a>
       
       
       
@@ -431,11 +431,11 @@ out before starting a new transition.</p>
       
       
       
-      <a ng-class="{ active: active === 'md' }" ng-click="setSassPlatform('md')">Material Design</a>
+      <a ng-class="{ active: active === 'md' }" ng-click="setSassPlatform('md')">Material 设计</a>
       
       
       
-      <a ng-class="{ active: active === 'wp' }" ng-click="setSassPlatform('wp')">Windows Platform</a>
+      <a ng-class="{ active: active === 'wp' }" ng-click="setSassPlatform('wp')">Windows 平台</a>
       
       
     
@@ -446,9 +446,9 @@ out before starting a new transition.</p>
   <table ng-show="active === 'base'" id="sass-base" class="table param-table" style="margin:0;">
     <thead>
       <tr>
-        <th>Property</th>
-        <th>Default</th>
-        <th>Description</th>
+        <th>属性</th>
+        <th>默认值</th>
+        <th>描述</th>
       </tr>
     </thead>
     <tbody>
@@ -458,7 +458,7 @@ out before starting a new transition.</p>
         
           <td><code>250px</code></td>
         
-        <td><p>Minimum width of the alert</p>
+        <td><p>Alert 组件的最小宽度</p>
 </td>
       </tr>
       
@@ -467,7 +467,7 @@ out before starting a new transition.</p>
         
           <td><code>90%</code></td>
         
-        <td><p>Maximum height of the alert</p>
+        <td><p>Alert 组件的最大高度</p>
 </td>
       </tr>
       
@@ -476,7 +476,7 @@ out before starting a new transition.</p>
         
           <td><code>20px</code></td>
         
-        <td><p>Line height of the alert button</p>
+        <td><p>Alert 组件按钮的行高</p>
 </td>
       </tr>
       
@@ -485,7 +485,7 @@ out before starting a new transition.</p>
         
           <td><code>14px</code></td>
         
-        <td><p>Font size of the alert button</p>
+        <td><p>Alert 组件按钮的字体大小</p>
 </td>
       </tr>
       
@@ -494,7 +494,7 @@ out before starting a new transition.</p>
         
           <td><code>#999</code></td>
         
-        <td><p>Color of the alert input placeholder</p>
+        <td><p>Alert 组件输入框占位符的颜色</p>
 </td>
       </tr>
       
@@ -516,7 +516,7 @@ out before starting a new transition.</p>
         
           <td><code>270px</code></td>
         
-        <td><p>Max width of the alert</p>
+        <td><p>Alert 组件的最大宽度</p>
 </td>
       </tr>
       
@@ -525,7 +525,7 @@ out before starting a new transition.</p>
         
           <td><code>13px</code></td>
         
-        <td><p>Border radius of the alert</p>
+        <td><p>Alert 组件的边框半径</p>
 </td>
       </tr>
       
@@ -534,7 +534,7 @@ out before starting a new transition.</p>
         
           <td><code>#f8f8f8</code></td>
         
-        <td><p>Background color of the alert</p>
+        <td><p>Alert 组件的背景颜色</p>
 </td>
       </tr>
       
@@ -543,7 +543,7 @@ out before starting a new transition.</p>
         
           <td><code>none</code></td>
         
-        <td><p>Box shadow of the alert</p>
+        <td><p>提示框的阴影</p>
 </td>
       </tr>
       
@@ -552,7 +552,7 @@ out before starting a new transition.</p>
         
           <td><code>12px</code></td>
         
-        <td><p>Padding top of the alert head</p>
+        <td><p>Alert 组件头的顶部填充</p>
 </td>
       </tr>
       
@@ -561,7 +561,7 @@ out before starting a new transition.</p>
         
           <td><code>16px</code></td>
         
-        <td><p>Padding end of the alert head</p>
+        <td><p>Alert 组件头的右填充</p>
 </td>
       </tr>
       
@@ -570,7 +570,7 @@ out before starting a new transition.</p>
         
           <td><code>7px</code></td>
         
-        <td><p>Padding bottom of the alert head</p>
+        <td><p>Alert 组件头的底部填充</p>
 </td>
       </tr>
       
@@ -579,7 +579,7 @@ out before starting a new transition.</p>
         
           <td><code>$alert-ios-head-padding-end</code></td>
         
-        <td><p>Padding start of the alert head</p>
+        <td><p>Alert 组件头的左填充</p>
 </td>
       </tr>
       
@@ -588,7 +588,7 @@ out before starting a new transition.</p>
         
           <td><code>center</code></td>
         
-        <td><p>Text align of the alert head</p>
+        <td><p>Alert 组件头的文本对齐</p>
 </td>
       </tr>
       
@@ -597,7 +597,7 @@ out before starting a new transition.</p>
         
           <td><code>8px</code></td>
         
-        <td><p>Margin top of the alert title</p>
+        <td><p>Alert 组件标题的页边距</p>
 </td>
       </tr>
       
@@ -606,7 +606,7 @@ out before starting a new transition.</p>
         
           <td><code>17px</code></td>
         
-        <td><p>Font size of the alert title</p>
+        <td><p>Alert 组件标题的字体大小</p>
 </td>
       </tr>
       
@@ -615,7 +615,7 @@ out before starting a new transition.</p>
         
           <td><code>600</code></td>
         
-        <td><p>Font weight of the alert title</p>
+        <td><p> alert 标题的字体粗细</p>
 </td>
       </tr>
       
@@ -624,7 +624,7 @@ out before starting a new transition.</p>
         
           <td><code>14px</code></td>
         
-        <td><p>Font size of the alert sub title</p>
+        <td><p>Alert 组件子标题的字体大小</p>
 </td>
       </tr>
       
@@ -633,7 +633,7 @@ out before starting a new transition.</p>
         
           <td><code>#666</code></td>
         
-        <td><p>Text color of the alert sub title</p>
+        <td><p>Alert 组件子标题的文本颜色</p>
 </td>
       </tr>
       
@@ -642,7 +642,7 @@ out before starting a new transition.</p>
         
           <td><code>0</code></td>
         
-        <td><p>Padding top of the alert message</p>
+        <td><p>Alert 组件消息的顶部填充</p>
 </td>
       </tr>
       
@@ -651,7 +651,7 @@ out before starting a new transition.</p>
         
           <td><code>16px</code></td>
         
-        <td><p>Padding end of the alert message</p>
+        <td><p>Alert 组件消息的右填充</p>
 </td>
       </tr>
       
@@ -660,7 +660,7 @@ out before starting a new transition.</p>
         
           <td><code>21px</code></td>
         
-        <td><p>Padding bottom of the alert message</p>
+        <td><p>Alert 组件消息的底部填充</p>
 </td>
       </tr>
       
@@ -669,7 +669,7 @@ out before starting a new transition.</p>
         
           <td><code>$alert-ios-message-padding-end</code></td>
         
-        <td><p>Padding start of the alert message</p>
+        <td><p>Alert 组件消息的左填充</p>
 </td>
       </tr>
       
@@ -678,7 +678,7 @@ out before starting a new transition.</p>
         
           <td><code>13px</code></td>
         
-        <td><p>Font size of the alert message</p>
+        <td><p>Alert 组件消息的字体大小</p>
 </td>
       </tr>
       
@@ -687,7 +687,7 @@ out before starting a new transition.</p>
         
           <td><code>center</code></td>
         
-        <td><p>Text align of the alert message</p>
+        <td><p>Alert 组件消息的文本对齐</p>
 </td>
       </tr>
       
@@ -696,7 +696,7 @@ out before starting a new transition.</p>
         
           <td><code>inherit</code></td>
         
-        <td><p>Text color of the alert message</p>
+        <td><p>Alert 组件消息的文本颜色</p>
 </td>
       </tr>
       
