@@ -42,34 +42,15 @@ Improve this doc
 
 
 
-<p>An Action Sheet is a dialog that lets the user choose from a set of
-options. It appears on top of the app&#39;s content, and must be manually
-dismissed by the user before they can resume interaction with the app.
-Dangerous (destructive) options are made obvious in <code>ios</code> mode. There are easy
-ways to cancel out of the action sheet, such as tapping the backdrop or
-hitting the escape key on desktop.</p>
-<p>An action sheet is created from an array of <code>buttons</code>, with each button
-including properties for its <code>text</code>, and optionally a <code>handler</code> and <code>role</code>.
-If a handler returns <code>false</code> then the action sheet will not be dismissed. An
-action sheet can also optionally have a <code>title</code>, <code>subTitle</code> and an <code>icon</code>.</p>
-<p>A button&#39;s <code>role</code> property can either be <code>destructive</code> or <code>cancel</code>. Buttons
-without a role property will have the default look for the platform. Buttons
-with the <code>cancel</code> role will always load as the bottom button, no matter where
-they are in the array. All other buttons will be displayed in the order they
-have been added to the <code>buttons</code> array. Note: We recommend that <code>destructive</code>
-buttons are always the first button in the array, making them the top button.
-Additionally, if the action sheet is dismissed by tapping the backdrop, then
-it will fire the handler from the button with the cancel role.</p>
-<p>You can pass all of the action sheet&#39;s options in the first argument of
-the create method: <code>ActionSheet.create(opts)</code>. Otherwise the action sheet&#39;s
-instance has methods to add options, like <code>setTitle()</code> or <code>addButton()</code>.</p>
-
-
+<p>每个 Action Sheet 组件都是一个能让用户从一组选项中进行选择的对话框。它会在顶部显示应用的内容，并且在用户恢复与应用程序交互之前，必须由用户手动解除。在 <code>ios</code> 模式下，危险的（破坏性）选项是显而易见的。使用简单的方法就可以取消 action sheet，例如点击背景或在桌面上按下 Esc 键。</p>
+<p>一个 action sheet 是由一组 <code>buttons</code> 创建的，每个按钮都包含其 <code>text</code> 属性，以及可选的 <code>handle</code> 和 <code>role</code>。如果处理函数返回 <code>false</code> ，则 Action Sheet 组件不会被解除。 Action Sheet 组件还可以有 <code>title</code>, <code>subTitle</code> 和一个 <code>icon</code>。</p>
+<p>按钮的 <code>role</code> 属性可以是 <code>destructive</code> 或者 <code>cancel</code>。没有 role 属性的按钮将根据平台显示默认的外观。具有 <code>cancel</code> role 的按钮将始终作为底部按钮加载，无论它们位于数组中的什么位置。所有其他的按钮将按照它们添加到 <code>buttons</code> 数组的顺序显示。注意：我们建议 <code>destructive</code> 按钮始终是数组中的第一个按钮，使其成为顶部按钮。另外，如果通过点击背景解除了 Action Sheet 组件，那么它将从具有 cancel role 的按钮中触发处理函数。</p>
+<p>您可以将所有 Action Sheet 组件的选项传递给 create 方法的第一个参数： <code>ActionSheet.create(opts)</code>。否则， Action Sheet 组件的实例会调用方法来添加选项，比如 <code>setTitle()</code> 或 <code>addButton()</code>。</p>
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-ts">import { ActionSheetController } from &#39;ionic-angular&#39;
 
@@ -118,7 +99,7 @@ export class MyClass{
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="config"></div>
 
@@ -150,15 +131,14 @@ export class MyClass{
 </a>
 </h3>
 
-Open an action sheet with a title, subTitle, and an array of buttons
-
+打开一个带有标题，子标题和一组按钮的 action sheet 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>细节</th>
     </tr>
   </thead>
   <tbody>
@@ -174,7 +154,7 @@ Open an action sheet with a title, subTitle, and an array of buttons
   <code>ActionSheetOptions</code>
       </td>
       <td>
-        <p>Action sheet options</p>
+        <p>Action sheet 选项</p>
 
         
       </td>
@@ -188,96 +168,84 @@ Open an action sheet with a title, subTitle, and an array of buttons
 
 
 
-<h2><a class="anchor" name="advanced" href="#advanced">Advanced</a></h2>
-<p>ActionSheet create options</p>
+<h2><a class="anchor" name="advanced" href="#advanced">进阶</a></h2>
+<p>ActionSheet 创建选项</p>
 <table>
 <thead>
 <tr>
-<th>Option</th>
-<th>Type</th>
-<th>Description</th>
+<th>选项</th>
+<th>类型</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>title</td>
 <td><code>string</code></td>
-<td>The title for the Action Sheet.</td>
+<td>Action Sheet 的标题</td>
 </tr>
 <tr>
 <td>subTitle</td>
 <td><code>string</code></td>
-<td>The sub-title for the Action Sheet.</td>
+<td>Action Sheet 的子标题</td>
 </tr>
 <tr>
 <td>cssClass</td>
 <td><code>string</code></td>
-<td>Additional classes for custom styles, separated by spaces.</td>
+<td>自定义样式的其他类，以空格分隔。</td>
 </tr>
 <tr>
 <td>enableBackdropDismiss</td>
 <td><code>boolean</code></td>
-<td>If the Action Sheet should close when the user taps the backdrop.</td>
+<td>是否应该通过点击背景来解除 Action Sheet 。</td>
 </tr>
 <tr>
 <td>buttons</td>
 <td><code>array&lt;any&gt;</code></td>
-<td>An array of buttons to display.</td>
+<td>要显示的一组按钮。</td>
 </tr>
 </tbody>
 </table>
-<p>ActionSheet button options</p>
+<p>ActionSheet 按钮选项</p>
 <table>
 <thead>
 <tr>
-<th>Option</th>
-<th>Type</th>
-<th>Description</th>
+<th>选项</th>
+<th>类型</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>text</td>
 <td><code>string</code></td>
-<td>The buttons text.</td>
+<td>按钮的文本。</td>
 </tr>
 <tr>
 <td>icon</td>
 <td><code>icon</code></td>
-<td>The buttons icons.</td>
+<td>按钮的图标。</td>
 </tr>
 <tr>
 <td>handler</td>
 <td><code>any</code></td>
-<td>An express the button should evaluate.</td>
+<td>按钮应该执行的一个表达式。</td>
 </tr>
 <tr>
 <td>cssClass</td>
 <td><code>string</code></td>
-<td>Additional classes for custom styles, separated by spaces.</td>
+<td>自定义样式的其他类，以空格分隔。</td>
 </tr>
 <tr>
 <td>role</td>
 <td><code>string</code></td>
-<td>How the button should be displayed, <code>destructive</code> or <code>cancel</code>. If not role is provided, it will display the button without any additional styles.</td>
+<td>应该如何显示按钮，<code>destructive</code> 或 <code>cancel</code>。如果没有提供角色，这个按钮将不会显示任何其他样式。</td>
 </tr>
 </tbody>
 </table>
-<h3 id="dismissing-and-async-navigation">Dismissing And Async Navigation</h3>
-<p>After an action sheet has been dismissed, the app may need to also transition
-to another page depending on the handler&#39;s logic. However, because multiple
-transitions were fired at roughly the same time, it&#39;s difficult for the
-nav controller to cleanly animate multiple transitions that may
-have been kicked off asynchronously. This is further described in the
-<a href="../../nav/NavController/#nav-transition-promises"><code>Nav Transition Promises</code></a> section. For action sheets,
-this means it&#39;s best to wait for the action sheet to finish its transition
-out before starting a new transition on the same nav controller.</p>
-<p>In the example below, after the button has been clicked, its handler
-waits on async operation to complete, <em>then</em> it uses <code>pop</code> to navigate
-back a page in the same stack. The potential problem is that the async operation
-may have been completed before the action sheet has even finished its transition
-out. In this case, it&#39;s best to ensure the action sheet has finished its transition
-out first, <em>then</em> start the next transition.</p>
+<h3 id="dismissing-and-async-navigation">解除 action sheets 和异步导航</h3>
+<p>在 action sheet 被解除后，应用程序可能还需要根据处理函数的逻辑过渡到另一个页面。但是，由于多个转换几乎同时发生， 导航控制器难以清晰地给可能异步启动的多个转换加上动画。这在 <a href="../../nav/NavController/#nav-transition-promises"><code>Nav Transition Promises</code></a> 部分有进一步的描述。对于 action sheets 而言，这意味着最好等待 action sheets 在同一个导航控制器上开始新的转换之前就完成其转换。</p>
+<p>在下面的示例中，按钮被单击后，其处理函数会等待异步操作完成，<em>然后</em>使用 <code>pop</code> 导航到同一堆栈中的页面。 潜在的问题是，异步操作可能在 action sheet 结束其转换之前就已经完成了。在这种情况下，最好确保警告先完成其转换，然后再开始下一个转换。</p>
 <pre><code class="lang-ts">let actionSheet = this.actionSheetCtrl.create({
   title: &#39;Hello&#39;,
   buttons: [{
@@ -304,13 +272,13 @@ out first, <em>then</em> start the next transition.</p>
 
 actionSheet.present();
 </code></pre>
-<p>It&#39;s important to note that the handler returns <code>false</code>. A feature of
-button handlers is that they automatically dismiss the action sheet when their button
-was clicked, however, we&#39;ll need more control regarding the transition. Because
-the handler returns <code>false</code>, then the action sheet does not automatically dismiss
-itself. Instead, you now have complete control of when the action sheet has finished
-transitioning, and the ability to wait for the action sheet to finish transitioning
-out before starting a new transition.</p>
+<p>注意到处理函数返回 <code>false</code>是很重要的。
+按钮处理函数的一个功能是：当按钮被点击时，
+它们会自动关闭 action sheet 。
+但是，我们需要对这个转换过程进行更多的控制。
+由于处理程序返回 <code>false</code>，因此 action sheet 不会自动消除。
+相反，你现在可以完全控制 action sheet 何时完成过渡，
+以及能够在开始新过渡之前等待 action sheet 完成过渡。</p>
 
 
 
