@@ -42,26 +42,26 @@ Improve this doc
 
 
 
-<p>The Content component provides an easy to use content area with
-some useful methods to control the scrollable area. There should
-only be one content in a single view component. If additional scrollable
-elements are need, use <a href="../../scroll/Scroll">ionScroll</a>.</p>
-<p>The content area can also implement pull-to-refresh with the
-<a href="../../refresher/Refresher">Refresher</a> component.</p>
+<p>Content 组件提供了一个易于使用的内容区域和一些有用的方法来控制可滚动区域。
+在单个视图（view）组件中应该只有一个 Content 组件。
+如果需要额外的可滚动元素，请使用 <a href="../../scroll/Scroll">ionScroll</a>。</p>
+<p>内容区域也可以使用 <a href="../../refresher/Refresher">Refresher</a> 组件实现下拉刷新。</p>
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-content&gt;
   Add your content here!
 &lt;/ion-content&gt;
 </code></pre>
-<p>To get a reference to the content component from a Page&#39;s logic,
-you can use Angular&#39;s <code>@ViewChild</code> annotation:</p>
+<p>要从页面逻辑中获取对 content 组件的引用，可以使用 Angular 的 <code>@ViewChild</code> 注解：  </p>
+
 <pre><code class="lang-ts">import { Component, ViewChild } from &#39;@angular/core&#39;;
 import { Content } from &#39;ionic-angular&#39;;
 
@@ -84,7 +84,7 @@ export class MyPage{
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="addImg"></div>
 
@@ -116,9 +116,9 @@ export class MyPage{
 </a>
 </h3>
 
-A number representing how many pixels the bottom of the content has been
-adjusted, which could be by either padding or margin. This adjustment
-is to account for the space needed for the footer.
+一个数字，表示 content 组件的底部已被调整了多少个像素，可能是 padding 或 margin。这一调整是为了解决页脚所需的空间。
+
+
 
 
 
@@ -128,7 +128,7 @@ is to account for the space needed for the footer.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>返回：</b> 
   <code>number</code> 
 
 </div>
@@ -146,9 +146,9 @@ is to account for the space needed for the footer.
 </a>
 </h3>
 
-Content height of the viewable area. This does not include content
-which is outside the overflow area, or content area which is under
-headers and footers. Read-only.
+可视区域的 Content 高度。这不包括 content 位于溢出区域之外的部分，或者位于页眉和页脚下方的 content 区域
+。只读。
+
 
 
 
@@ -158,7 +158,7 @@ headers and footers. Read-only.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>返回：</b> 
   <code>number</code> 
 
 </div>
@@ -176,9 +176,9 @@ headers and footers. Read-only.
 </a>
 </h3>
 
-A number representing how many pixels the top of the content has been
-adjusted, which could be by either padding or margin. This adjustment
-is to account for the space needed for the header.
+一个数字，表示内容顶部已被调整了多少个像素，可能是 padding or margin。这种调整是为了解决标题所需的空间。
+
+
 
 
 
@@ -188,7 +188,7 @@ is to account for the space needed for the header.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>返回：</b> 
   <code>number</code> 
 
 </div>
@@ -206,8 +206,8 @@ is to account for the space needed for the header.
 </a>
 </h3>
 
-Content width including content which is not visible on the screen
-due to overflow. Read-only.
+Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
+
 
 
 
@@ -217,7 +217,7 @@ due to overflow. Read-only.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>返回：</b> 
   <code>number</code> 
 
 </div>
@@ -235,8 +235,8 @@ due to overflow. Read-only.
 </a>
 </h3>
 
-The current, or last known, horizontal scroll direction. Possible
-string values include `right` and `left`.
+当前或最后一次已知的水平滚动方向。可能的字符串值包括 `right` 和 `left`。
+
 
 
 
@@ -246,7 +246,7 @@ string values include `right` and `left`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>返回：</b> 
   <code>string</code> 
 
 </div>
@@ -264,8 +264,8 @@ string values include `right` and `left`.
 </a>
 </h3>
 
-The current, or last known, vertical scroll direction. Possible
-string values include `down` and `up`.
+当前或最后一次已知的垂直滚动方向。可能的字符串值包括 `down` 和 `up`。
+
 
 
 
@@ -275,7 +275,7 @@ string values include `down` and `up`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>返回：</b> 
   <code>string</code> 
 
 </div>
@@ -293,7 +293,7 @@ string values include `down` and `up`.
 </a>
 </h3>
 
-Returns the content and scroll elements' dimensions.
+返回 content 和 scroll 元素的尺寸。
 
 
 
@@ -302,16 +302,16 @@ Returns the content and scroll elements' dimensions.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>object</code> <p><span class="fixed-width">dimensions</span>  The content and scroll elements&#39; dimensions</p>
+<b>返回：</b> 
+  <code>object</code> 
 
 
 <table class="table returns-object-table param-table">
       <thead>
         <tr>
-          <th>Property</th>
-          <th>Type</th>
-          <th>Details</th>
+          <th>属性</th>
+          <th>类型</th>
+          <th>详情</th>
         </tr>
       </thead>
       <tbody>
@@ -510,7 +510,7 @@ Returns the content and scroll elements' dimensions.
 </a>
 </h3>
 
-If the content is actively scrolling or not.
+content 是否正在滚动。
 
 
 
@@ -520,7 +520,7 @@ If the content is actively scrolling or not.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>返回：</b> 
   <code>boolean</code> 
 
 </div>
@@ -538,8 +538,8 @@ If the content is actively scrolling or not.
 </a>
 </h3>
 
-Tell the content to recalculate its dimensions. This should be called
-after dynamically adding/removing headers, footers, or tabs.
+告诉 content 重新计算其尺寸。这应该在动态添加/删除 headers, footers, 或 tabs 后调用。
+
 
 
 
@@ -560,8 +560,8 @@ after dynamically adding/removing headers, footers, or tabs.
 </a>
 </h3>
 
-Content height including content which is not visible on the screen
-due to overflow. Read-only.
+Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
+
 
 
 
@@ -571,7 +571,7 @@ due to overflow. Read-only.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>返回：</b> 
   <code>number</code> 
 
 </div>
@@ -589,7 +589,7 @@ due to overflow. Read-only.
 </a>
 </h3>
 
-The distance of the content's left to its leftmost visible content.
+左侧到最左侧可见内容的距离。
 
 
 
@@ -599,7 +599,7 @@ The distance of the content's left to its leftmost visible content.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>返回：</b> 
   <code>number</code> 
 
 </div>
@@ -617,16 +617,16 @@ The distance of the content's left to its leftmost visible content.
 </a>
 </h3>
 
-Scroll to the specified position.
+滚动到指定的位置。
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -642,7 +642,7 @@ Scroll to the specified position.
   <code>number</code>
       </td>
       <td>
-        <p>The x-value to scroll to.</p>
+        <p>需要滚动的 x 值。</p>
 
         
       </td>
@@ -659,7 +659,7 @@ Scroll to the specified position.
   <code>number</code>
       </td>
       <td>
-        <p>The y-value to scroll to.</p>
+        <p>需要滚动的 y 值。</p>
 
         
       </td>
@@ -676,7 +676,7 @@ Scroll to the specified position.
   <code>number</code>
       </td>
       <td>
-        <p>Duration of the scroll animation in milliseconds. Defaults to <code>300</code>.<strong class="tag">Optional</strong></p>
+        <p>滚动动画的持续时间（以毫秒为单位）。默认为<code>300</code>。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -691,8 +691,8 @@ Scroll to the specified position.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Promise</code> <p>Returns a promise which is resolved when the scroll has completed.</p>
+<b>返回：</b> 
+  <code>Promise</code> <p>返回滚动完成后的一个确定的（resolved） promise。</p>
 
 
 </div>
@@ -710,16 +710,16 @@ Scroll to the specified position.
 </a>
 </h3>
 
-Scroll to the bottom of the content component.
+滚动到 content 组件的底部。
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -735,7 +735,7 @@ Scroll to the bottom of the content component.
   <code>number</code>
       </td>
       <td>
-        <p>Duration of the scroll animation in milliseconds. Defaults to <code>300</code>.<strong class="tag">Optional</strong></p>
+        <p>滚动动画的持续时间（以毫秒为单位）。默认为<code>300</code>。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -750,8 +750,8 @@ Scroll to the bottom of the content component.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Promise</code> <p>Returns a promise which is resolved when the scroll has completed.</p>
+<b>返回：</b> 
+  <code>Promise</code> <p>返回滚动完成后的一个确定的（resolved） promise。</p>
 
 
 </div>
@@ -769,7 +769,7 @@ Scroll to the bottom of the content component.
 </a>
 </h3>
 
-Scroll to the top of the content component.
+滚动到 content 组件的顶部。
 
 
 
@@ -794,7 +794,7 @@ Scroll to the top of the content component.
   <code>number</code>
       </td>
       <td>
-        <p>Duration of the scroll animation in milliseconds. Defaults to <code>300</code>.<strong class="tag">Optional</strong></p>
+        <p>滚动动画的持续时间（以毫秒为单位）。默认为<code>300</code>。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -809,8 +809,8 @@ Scroll to the top of the content component.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Promise</code> <p>Returns a promise which is resolved when the scroll has completed.</p>
+<b>返回：</b> 
+  <code>Promise</code> <p>返回滚动完成后的一个确定的（resolved） promise。</p>
 
 
 </div>
@@ -828,7 +828,7 @@ Scroll to the top of the content component.
 </a>
 </h3>
 
-The distance of the content's top to its topmost visible content.
+content 的顶部到最顶部的可见内容距离。
 
 
 
@@ -838,7 +838,7 @@ The distance of the content's top to its topmost visible content.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>返回：</b> 
   <code>number</code> 
 
 </div>
@@ -856,8 +856,8 @@ The distance of the content's top to its topmost visible content.
 </a>
 </h3>
 
-Content width including content which is not visible due to
-overflow. Read-only.
+Content 宽度，包括因为溢出而不可见的内容。只读。
+
 
 
 
@@ -867,7 +867,7 @@ overflow. Read-only.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>返回：</b> 
   <code>number</code> 
 
 </div>
@@ -905,40 +905,40 @@ to transparent.</p>
   </tbody>
 </table>
 <!-- output events on the class -->
-<h2><a class="anchor" name="output-events" href="#output-events">Output Events</a></h2>
+<h2><a class="anchor" name="output-events" href="#output-events">输出事件</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
     
     <tr>
       <td>ionScroll</td>
-      <td><p> Emitted on every scroll event.</p>
+      <td><p>在每个滚动事件中都会触发。</p>
 </td>
     </tr>
     
     <tr>
       <td>ionScrollEnd</td>
-      <td><p> Emitted when scrolling ends.</p>
+      <td><p>当滚动完成后触发。</p>
 </td>
     </tr>
     
     <tr>
       <td>ionScrollStart</td>
-      <td><p> Emitted when the scrolling first starts.</p>
+      <td><p>当滚动首次开始时触发。</p>
 </td>
     </tr>
     
   </tbody>
-</table><h2><a class="anchor" name="advanced" href="#advanced">Advanced</a></h2>
-<h3 id="scroll-events">Scroll Events</h3>
-<p>Scroll events happen outside of Angular&#39;s Zones. This is for performance reasons. So
-if you&#39;re trying to bind a value to any scroll event, it will need to be wrapped in
-a <code>zone.run()</code></p>
+</table><h2><a class="anchor" name="advanced" href="#advanced">进阶</a></h2>
+<h3 id="scroll-events">Scroll 事件</h3>
+<p>滚动事件发生在 Angular 的 Zones 之外。出于性能原因。所以如果你试图将一个值绑定到任何滚动事件上，它需要包装在一个 <code>zone.run()</code> 里。</p>
+
+
 <pre><code class="lang-ts">import { Component, NgZone } from &#39;@angular/core&#39;;
 @Component({
   template: `
@@ -957,18 +957,18 @@ class E2EPage {
  scrollHandler(event) {
    console.log(`ScrollEvent: ${event}`)
    this.zone.run(()=&gt;{
-     // since scrollAmount is data-binded,
-     // the update needs to happen in zone
+     // 因为 scrollAmount 是数据绑定的，
+     // 更新需要在 zone 中发生
      this.scrollAmount++
    })
  }
 }
 </code></pre>
-<p>This goes for any scroll event, not just <code>ionScroll</code>.</p>
-<h3 id="resizing-the-content">Resizing the content</h3>
-<p>If the height of <code>ion-header</code>, <code>ion-footer</code> or <code>ion-tabbar</code>
-changes dynamically, <code>content.resize()</code> has to be called in order to update the
-layout of <code>Content</code>.</p>
+<p>这适用于任何滚动事件，而不仅仅是 <code>ionScroll</code>。</p>
+<h3 id="resizing-the-content">调整 content 的尺寸</h3>
+<p>如果 <code>ion-header</code>, <code>ion-footer</code> 或 <code>ion-tabbar</code>的高度是动态变化的，则必须调用 <code>content.resize()</code> 来更新 Content 的布局。</p>
+
+
 <pre><code class="lang-ts">@Component({
   template: `
     &lt;ion-header&gt;
@@ -994,7 +994,7 @@ class E2EPage {
   }
 }
 </code></pre>
-<p>Scroll to a specific position</p>
+<p>滚动到特定的位置</p>
 <pre><code class="lang-ts">import { Component, ViewChild } from &#39;@angular/core&#39;;
 import { Content } from &#39;ionic-angular&#39;;
 
@@ -1007,8 +1007,8 @@ export class MyPage{
   @ViewChild(Content) content: Content;
 
   scrollTo() {
-    // set the scrollLeft to 0px, and scrollTop to 500px
-    // the scroll duration should take 200ms
+    // 将 scrollLeft 设置为0px，将 scrollTop 设置为500px
+    // 滚动时间持续200ms
     this.content.scrollTo(0, 500, 200);
   }
 }

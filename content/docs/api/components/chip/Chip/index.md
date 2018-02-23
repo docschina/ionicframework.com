@@ -44,14 +44,14 @@ Improve this doc
 
 
 
-<p>Chips represent complex entities in small blocks, such as a contact.</p>
+<p>Chips 代表小块内容中的复杂实体，比如联系人。</p>
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-chip&gt;
   &lt;ion-label&gt;Default&lt;/ion-label&gt;
@@ -94,7 +94,7 @@ Improve this doc
 
 
 
-<!-- instance methods on the class --><h2><a class="anchor" name="advanced" href="#advanced">Advanced</a></h2>
+<!-- instance methods on the class --><h2><a class="anchor" name="advanced" href="#advanced">进阶</a></h2>
 <pre><code class="lang-html">&lt;ion-chip #chip1&gt;
   &lt;ion-label&gt;Default&lt;/ion-label&gt;
   &lt;button ion-button clear color=&quot;light&quot; (click)=&quot;delete(chip1)&quot;&gt;

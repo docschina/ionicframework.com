@@ -42,7 +42,7 @@ Improve this doc
 
 
 
-<p>Badges are simple components in Ionic containing numbers or text. You can display a badge to indicate that there is new information associated with the item it is on.</p>
+<p>Badges 是 Ionic 中包含数字或文字的简单组件。你可以显示一个 badge 来表明有关它所在项目的新信息。</p>
 
 
 

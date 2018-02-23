@@ -158,7 +158,7 @@ export class MyClass{
     <tr>
       <th>参数</th>
       <th>类型</th>
-      <th>细节</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>

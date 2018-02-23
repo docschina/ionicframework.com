@@ -42,8 +42,8 @@ Improve this doc
 
 
 
-<p>An Avatar is a component that creates a circular image for an item.
-Avatars can be placed on the left or right side of an item with the <code>item-start</code> or <code>item-end</code> directive.</p>
+<p> Avatar 是一个为物品创建圆形图像的组件。可以使用 <code>item-start</code> 或 <code>item-end</code> 指令将 Avatars 放在一个物品的左侧或右侧。
+</p>
 
 
 
@@ -62,9 +62,9 @@ Avatars can be placed on the left or right side of an item with the <code>item-s
 
 <!-- related link -->
 
-<h2><a class="anchor" name="related" href="#related">Related</a></h2>
+<h2><a class="anchor" name="related" href="#related">相关的</a></h2>
 
-<a href="/docs/components/#avatar-list">Avatar Component Docs</a><!-- end content block -->
+<a href="/docs/components/#avatar-list">Avatar 组件文档</a><!-- end content block -->
 
 
 <!-- end body block -->
