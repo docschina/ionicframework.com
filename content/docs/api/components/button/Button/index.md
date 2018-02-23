@@ -44,17 +44,17 @@ Improve this doc
 
 
 
-<p>Buttons are simple components in Ionic. They can consist of text and icons
-and be enhanced by a wide range of attributes.</p>
+<p>Buttons 是 Ionic 的简单组件。它们由文本和图标组成，并通过各种属性进行增强。</p>
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
-<pre><code class="lang-html">&lt;!-- Colors --&gt;
+<pre><code class="lang-html">&lt;!-- 颜色 --&gt;
 &lt;button ion-button&gt;Default&lt;/button&gt;
 
 &lt;button ion-button color=&quot;secondary&quot;&gt;Secondary&lt;/button&gt;
@@ -65,21 +65,21 @@ and be enhanced by a wide range of attributes.</p>
 
 &lt;button ion-button color=&quot;dark&quot;&gt;Dark&lt;/button&gt;
 
-&lt;!-- Shapes --&gt;
+&lt;!-- 形状 --&gt;
 &lt;button ion-button full&gt;Full Button&lt;/button&gt;
 
 &lt;button ion-button block&gt;Block Button&lt;/button&gt;
 
 &lt;button ion-button round&gt;Round Button&lt;/button&gt;
 
-&lt;!-- Outline --&gt;
+&lt;!-- 轮廓 --&gt;
 &lt;button ion-button full outline&gt;Outline + Full&lt;/button&gt;
 
 &lt;button ion-button block outline&gt;Outline + Block&lt;/button&gt;
 
 &lt;button ion-button round outline&gt;Outline + Round&lt;/button&gt;
 
-&lt;!-- Icons --&gt;
+&lt;!-- 图标 --&gt;
 &lt;button ion-button icon-start&gt;
   &lt;ion-icon name=&quot;star&quot;&gt;&lt;/ion-icon&gt;
   Left Icon
@@ -94,7 +94,7 @@ and be enhanced by a wide range of attributes.</p>
   &lt;ion-icon name=&quot;star&quot;&gt;&lt;/ion-icon&gt;
 &lt;/button&gt;
 
-&lt;!-- Sizes --&gt;
+&lt;!-- 尺寸 --&gt;
 &lt;button ion-button large&gt;Large&lt;/button&gt;
 
 &lt;button ion-button&gt;Default&lt;/button&gt;
@@ -111,13 +111,13 @@ and be enhanced by a wide range of attributes.</p>
 
 <!-- instance methods on the class -->
 <!-- input methods on the class -->
-<h2><a class="anchor" name="input-properties" href="#input-properties">Input Properties</a></h2>
+<h2><a class="anchor" name="input-properties" href="#input-properties">输入属性</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>类型</th>
+      <th>细节</th>
     </tr>
   </thead>
   <tbody>
@@ -125,115 +125,115 @@ and be enhanced by a wide range of attributes.</p>
     <tr>
       <td>block</td>
       <td><code>boolean</code></td>
-      <td><p> If true, activates a button style that fills the available width.</p>
+      <td><p>如果为 true，就激活按钮的填充可用宽度样式。</p>
 </td>
     </tr>
     
     <tr>
       <td>clear</td>
       <td><code>boolean</code></td>
-      <td><p> If true, activates a transparent button style without a border.</p>
+      <td><p>如果为 true，就激活按钮的不带边框的透明样式。</p>
 </td>
     </tr>
     
     <tr>
       <td>color</td>
       <td><code>string</code></td>
-      <td><p> The color to use from your Sass <code>$colors</code> map.
-Default options are: <code>&quot;primary&quot;</code>, <code>&quot;secondary&quot;</code>, <code>&quot;danger&quot;</code>, <code>&quot;light&quot;</code>, and <code>&quot;dark&quot;</code>.
-For more information, see <a href="/docs/theming/theming-your-app">Theming your App</a>.</p>
+      <td><p> 从 Sass <code>$colors</code> 中映射的颜色。默认选项是： <code>&quot;primary&quot;</code>, <code>&quot;secondary&quot;</code>, <code>&quot;danger&quot;</code>, <code>&quot;light&quot;</code>, 和 <code>&quot;dark&quot;</code>。有关更多信息，请参阅 <a href="/docs/theming/theming-your-app">主题化你的应用</a>。</p>
+      
+      
 </td>
     </tr>
     
     <tr>
       <td>default</td>
       <td><code>boolean</code></td>
-      <td><p> If true, activates the default button size. Normally the default, useful for buttons in an item.</p>
+      <td><p>如果为 true，则激活按钮的默认大小。通常是默认值，对 item 中的按钮有效。</p>
 </td>
     </tr>
     
     <tr>
       <td>full</td>
       <td><code>boolean</code></td>
-      <td><p> If true, activates a button style that fills the available width without
-a left and right border.</p>
+      <td><p>如果为 true，则激活按钮的填充可用宽度但无左右边框样式。</p>
+
 </td>
     </tr>
     
     <tr>
       <td>large</td>
       <td><code>boolean</code></td>
-      <td><p> If true, activates the large button size.</p>
+      <td><p>如果为 true，则激活按钮的大尺寸样式。</p>
 </td>
     </tr>
     
     <tr>
       <td>mode</td>
       <td><code>string</code></td>
-      <td><p> The mode determines which platform styles to use.
-Possible values are: <code>&quot;ios&quot;</code>, <code>&quot;md&quot;</code>, or <code>&quot;wp&quot;</code>.
-For more information, see <a href="/docs/theming/platform-specific-styles">Platform Styles</a>.</p>
+      <td><p>决定使用哪种平台样式。可能的值是： <code>&quot;ios&quot;</code>, <code>&quot;md&quot;</code>, 或 <code>&quot;wp&quot;</code>。有关更多信息，请参阅<a href="/docs/theming/platform-specific-styles">平台样式</a>。</p>
+
+
 </td>
     </tr>
     
     <tr>
       <td>outline</td>
       <td><code>boolean</code></td>
-      <td><p> If true, activates a transparent button style with a border.</p>
+      <td><p>如果为 true，就激活按钮的带有边框的透明样式。</p>
 </td>
     </tr>
     
     <tr>
       <td>round</td>
       <td><code>boolean</code></td>
-      <td><p> If true, activates a button with rounded corners.</p>
+      <td><p>如果为 true，就激活按钮的圆角样式。</p>
 </td>
     </tr>
     
     <tr>
       <td>small</td>
       <td><code>boolean</code></td>
-      <td><p> If true, activates the small button size.</p>
+      <td><p>如果为 true ，就激活按钮的小尺寸样式。</p>
 </td>
     </tr>
     
     <tr>
       <td>solid</td>
       <td><code>boolean</code></td>
-      <td><p> If true, activates a solid button style. Normally the default, useful for buttons in a toolbar.</p>
+      <td><p>如果为 true，就激活按钮的固态（solid）样式。通常是默认值，对 toolbar 中的按钮很有用。</p>
 </td>
     </tr>
     
     <tr>
       <td>strong</td>
       <td><code>boolean</code></td>
-      <td><p> If true, activates a button with a heavier font weight.</p>
+      <td><p>如果为 true，则激活按钮的字体较粗样式。</p>
 </td>
     </tr>
     
   </tbody>
-</table><h2><a class="anchor" name="advanced" href="#advanced">Advanced</a></h2>
-<pre><code class="lang-html">&lt;!-- Bind the color and outline inputs to an expression --&gt;
+</table><h2><a class="anchor" name="advanced" href="#advanced">进阶</a></h2>
+<pre><code class="lang-html">&lt;!-- 将 color 和 outline 输入属性绑定到表达式 --&gt;
 &lt;button ion-button [color]=&quot;isDanger ? &#39;danger&#39; : &#39;primary&#39;&quot; [outline]=&quot;isOutline&quot;&gt;
   Danger (Solid)
 &lt;/button&gt;
 
-&lt;!-- Bind the color and round inputs to an expression --&gt;
+&lt;!-- 将 color 和 round 输入属性绑定到表达式 --&gt;
 &lt;button ion-button [color]=&quot;myColor&quot; [round]=&quot;isRound&quot;&gt;
   Secondary (Round)
 &lt;/button&gt;
 
-&lt;!-- Bind the color and clear inputs to an expression --&gt;
+&lt;!-- 将 color 和 clear 输入属性绑定到表达式 --&gt;
 &lt;button ion-button [color]=&quot;isSecondary ? &#39;secondary&#39; : &#39;primary&#39;&quot;  [clear]=&quot;isClear&quot;&gt;
   Primary (Clear)
 &lt;/button&gt;
 
-&lt;!-- Bind the color, outline and round inputs to an expression --&gt;
+&lt;!-- 将 color，outline 和 round 输入属性绑定到表达式 --&gt;
 &lt;button ion-button [color]=&quot;myColor2&quot; [outline]=&quot;isOutline&quot; [round]=&quot;isRound&quot;&gt;
   Dark (Solid + Round)
 &lt;/button&gt;
 
-&lt;!-- Bind the click event to a method --&gt;
+&lt;!-- 将 click 事件绑定到一个方法 --&gt;
 &lt;button ion-button (click)=&quot;logEvent($event)&quot;&gt;
   Click me!
 &lt;/button&gt;

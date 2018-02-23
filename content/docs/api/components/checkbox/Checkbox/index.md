@@ -44,17 +44,17 @@ Improve this doc
 
 
 
-<p>The Checkbox is a simple component styled based on the mode. It can be
-placed in an <code>ion-item</code> or used as a stand-alone checkbox.</p>
-<p>See the <a href="https://angular.io/docs/ts/latest/guide/forms.html">Angular Docs</a>
-for more info on forms and inputs.</p>
+<p>Checkbox 是样式基于 mode 的简单组件。它可以放置在 <code>ion-item</code> 中或用作独立复选框。</p>
+<p>有关表单和输入的更多信息，请参阅<a href="https://angular.io/docs/ts/latest/guide/forms.html">Angular 文档</a>。</p>
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-list&gt;
 
@@ -85,13 +85,13 @@ for more info on forms and inputs.</p>
 
 <!-- instance methods on the class -->
 <!-- input methods on the class -->
-<h2><a class="anchor" name="input-properties" href="#input-properties">Input Properties</a></h2>
+<h2><a class="anchor" name="input-properties" href="#input-properties">输入属性</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>类型</th>
+      <th>细节</th>
     </tr>
   </thead>
   <tbody>
@@ -99,13 +99,13 @@ for more info on forms and inputs.</p>
     <tr>
       <td>checked</td>
       <td><code>boolean</code></td>
-      <td><p> If true, the element is selected.</p>
+      <td><p>如果为 true，就选中这个元素。</p>
 </td>
     </tr>
     
   </tbody>
-</table><h2><a class="anchor" name="advanced" href="#advanced">Advanced</a></h2>
-<pre><code class="lang-html">&lt;!-- Call function when state changes --&gt;
+</table><h2><a class="anchor" name="advanced" href="#advanced">进阶</a></h2>
+<pre><code class="lang-html">&lt;!-- 当状态变更时调用函数 --&gt;
  &lt;ion-list&gt;
 
    &lt;ion-item&gt;
