@@ -44,36 +44,36 @@ Improve this doc
 
 
 
-<p><code>&lt;ion-fab&gt;</code> is not a FAB button by itself but a container that assist the fab button (<code>&lt;button ion-fab&gt;</code>) allowing it
-to be placed in fixed position that does not scroll with the content. It is also used to implement &quot;material design speed dial&quot;,
-ie. a FAB buttons displays a small lists of related actions when clicked.</p>
+<p><code>&lt;ion-fab&gt;</code> 本身不是 FAB 按钮，而是一个辅助 fab 按钮（<code>&lt;button ion-fab&gt;</code>）的容器，可以将其放置在不随内容滚动的固定位置。它也被用来实现“ material 设计快速拨号（ speed dial ）”，即点击 FAB 按钮时会显示一小部分相关操作。</p>
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
-<pre><code class="lang-html">&lt;!-- this fab is placed at top right --&gt;
+<pre><code class="lang-html">&lt;!-- 这个 fab 放在右上角 --&gt;
 &lt;ion-content&gt;
  &lt;ion-fab top right&gt;
    &lt;button ion-fab&gt;Button&lt;/button&gt;
  &lt;/ion-fab&gt;
 
- &lt;!-- this fab is placed at the center of the content viewport --&gt;
+ &lt;!-- 这个 fab 放在内容视口的中心 --&gt;
  &lt;ion-fab center middle&gt;
    &lt;button ion-fab&gt;Button&lt;/button&gt;
  &lt;/ion-fab&gt;
 &lt;/ion-content&gt;
 </code></pre>
-<p>Ionic&#39;s FAB also supports &quot;material design&#39;s fab speed dial&quot;. It is a normal fab button
-that shows a list of related actions when clicked.</p>
-<p>The same <code>ion-fab</code> container can contain several <code>ion-fab-list</code> with different side values:
-<code>top</code>, <code>bottom</code>, <code>left</code> and <code>right</code>. For example, if you want to have a list of button that are
-on the top of the main button, you should use <code>side=&quot;top&quot;</code> and so on. By default, if side is ommited, <code>side=&quot;bottom&quot;</code>.</p>
+<p>Ionic 的 FAB 也支持“ material 设计的 fab快速拨号（ speed dial ）”。这是一个正常的 fab 按钮，显示点击时相关操作的列表。</p>
+<p>相同的 <code>ion-fab</code> 容器可以包含几个不同的 <code>ion-fab-list</code> ：<code>top</code>, <code>bottom</code>, <code>left</code> 和 <code>right</code>。例如，如果你想要在主按钮顶部有一个按钮列表，则应该使用 <code>side=&quot;top&quot;</code> ，依此类推。默认情况下，如果 side 是省略的，那么 <code>side=&quot;bottom&quot;</code>。</p>
+
+
+
 <pre><code class="lang-html">&lt;ion-content&gt;
- &lt;!-- this fab is placed at bottom right --&gt;
+ &lt;!-- 这个 fab 放在右下角 --&gt;
  &lt;ion-fab bottom right &gt;
    &lt;button ion-fab&gt;Share&lt;/button&gt;
    &lt;ion-fab-list side=&quot;top&quot;&gt;
@@ -87,7 +87,7 @@ on the top of the main button, you should use <code>side=&quot;top&quot;</code> 
  &lt;/ion-fab&gt;
 &lt;/ion-content&gt;
 </code></pre>
-<p>A FAB speed dial can also be closed programatically.</p>
+<p>FAB 快速拨号（ speed dial ）也可以用编程方式关闭。</p>
 <pre><code class="lang-html">&lt;ion-content&gt;
  &lt;ion-fab bottom right #fab&gt;
    &lt;button ion-fab&gt;Share&lt;/button&gt;
@@ -109,11 +109,11 @@ on the top of the main button, you should use <code>side=&quot;top&quot;</code> 
 
 <!-- @property tags -->
 
-<h2><a class="anchor" name="attributes" href="#attributes">Attributes</a></h2>
+<h2><a class="anchor" name="attributes" href="#attributes">属性</a></h2>
 <table class="table" style="margin:0;">
 <thead>
 <tr>
-<th>Attribute</th>
+<th>属性</th>
 
 
 
@@ -133,7 +133,7 @@ on the top of the main button, you should use <code>side=&quot;top&quot;</code> 
 
 
 
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -146,7 +146,7 @@ top
 
 
 <td>
-Places the container on the top of the content
+将 container 放置在内容的顶部
 </td>
 </tr>
 
@@ -158,7 +158,7 @@ bottom
 
 
 <td>
-Places the container on the bottom  of the content
+将 container 放置在内容的底部
 </td>
 </tr>
 
@@ -170,7 +170,7 @@ left
 
 
 <td>
-Places the container on the left
+将 container 放置在左边
 </td>
 </tr>
 
@@ -182,7 +182,7 @@ right
 
 
 <td>
-Places the container on the right
+将 container 放置在右边
 </td>
 </tr>
 
@@ -194,7 +194,7 @@ middle
 
 
 <td>
-Places the container on the middle vertically
+将 container 放置在垂直居中的位置
 </td>
 </tr>
 
@@ -206,7 +206,7 @@ center
 
 
 <td>
-Places the container on the center horizontally
+将 container 放置在水平居中的位置
 </td>
 </tr>
 
@@ -218,7 +218,7 @@ edge
 
 
 <td>
-Used to place the container between the content and the header/footer
+用于将 container 放置在内容和页眉/页脚之间
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ Used to place the container between the content and the header/footer
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="close"></div>
 
@@ -242,7 +242,7 @@ Used to place the container between the content and the header/footer
 </a>
 </h3>
 
-Close an active FAB list container
+关闭一个激活的 FAB 列表 container
 
 
 
