@@ -44,25 +44,17 @@ Improve this doc
 
 
 
-<p><code>ion-input</code> is meant for text type inputs only, such as <code>text</code>,
-<code>password</code>, <code>email</code>, <code>number</code>, <code>search</code>, <code>tel</code>, and <code>url</code>. Ionic
-still uses an actual <code>&lt;input type=&quot;text&quot;&gt;</code> HTML element within the
-component, however, with Ionic wrapping the native HTML input
-element it&#39;s better able to handle the user experience and
-interactivity.</p>
-<p>Similarly, <code>&lt;ion-textarea&gt;</code> should be used in place of <code>&lt;textarea&gt;</code>.</p>
-<p>An <code>ion-input</code> is <strong>not</strong> used for non-text type inputs, such as a
-<code>checkbox</code>, <code>radio</code>, <code>toggle</code>, <code>range</code>, <code>select</code>, etc.</p>
-<p>Along with the blur/focus events, <code>input</code> support all standard text input
-events like <code>keyup</code>, <code>keydown</code>, <code>keypress</code>, <code>input</code>,etc. Any standard event
-can be attached and will function as expected.</p>
+<p> <code>ion-input</code> 仅用于文本类型输入，如<code>text</code>, <code>password</code>, <code>email</code>, <code>number</code>, <code>search</code>, <code>tel</code>, 和 <code>url</code>。Ionic 仍然在组件中使用实际的 <code>&lt;input type=&quot;text&quot;&gt;</code> HTML元素，但是，通过 Ionic 包装本地的 HTML 输入元素，它可以更好地处理用户体验和交互性。</p>
+<p>同样，应该使用 <code>&lt;ion-textarea&gt;</code> 来代替 <code>&lt;textarea&gt;</code>。</p>
+<p><code>ion-input</code> <strong>不</strong>用于非文本类型的输入，例如 <code>checkbox</code>, <code>radio</code>, <code>toggle</code>, <code>range</code>, <code>select</code>等。</p>
+<p>除了模糊/焦点事件，<code>input</code> 还支持所有标准文本输入事件，如 <code>keyup</code>, <code>keydown</code>, <code>keypress</code>, <code>input</code>等。任何标准事件都可以附加，并按预期运行。</p>
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-list&gt;
   &lt;ion-item&gt;
@@ -113,7 +105,7 @@ can be attached and will function as expected.</p>
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="ngAfterContentInit"></div>
 
@@ -155,13 +147,13 @@ can be attached and will function as expected.</p>
 
 
 <!-- input methods on the class -->
-<h2><a class="anchor" name="input-properties" href="#input-properties">Input Properties</a></h2>
+<h2><a class="anchor" name="input-properties" href="#input-properties">输入属性</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -169,72 +161,70 @@ can be attached and will function as expected.</p>
     <tr>
       <td>autocomplete</td>
       <td><code>string</code></td>
-      <td><p> Set the input&#39;s autocomplete property. Values: <code>&quot;on&quot;</code>, <code>&quot;off&quot;</code>. Default <code>&quot;off&quot;</code>.</p>
+      <td><p>设置 input 的自动完成属性。值：<code>&quot;on&quot;</code>, <code>&quot;off&quot;</code>。默认 <code>&quot;off&quot;</code>。</p>
 </td>
     </tr>
     
     <tr>
       <td>autocorrect</td>
       <td><code>string</code></td>
-      <td><p> Set the input&#39;s autocorrect property. Values: <code>&quot;on&quot;</code>, <code>&quot;off&quot;</code>. Default <code>&quot;off&quot;</code>.</p>
+      <td><p>设置 input 的自动更正属性。值：<code>&quot;on&quot;</code>, <code>&quot;off&quot;</code>。默认 <code>&quot;off&quot;</code>。</p>
 </td>
     </tr>
     
     <tr>
       <td>clearInput</td>
       <td><code>boolean</code></td>
-      <td><p> If true, a clear icon will appear in the input when there is a value. Clicking it clears the input.</p>
+      <td><p>如果为 true，则有值时会在 input 中显示一个清除图标。点击它清除 input。</p>
 </td>
     </tr>
     
     <tr>
       <td>clearOnEdit</td>
       <td><code>boolean</code></td>
-      <td><p> If true, the value will be cleared after focus upon edit.
-Defaults to <code>true</code> when <code>type</code> is <code>&quot;password&quot;</code>, <code>false</code> for all other types.</p>
+      <td><p>如果为 true，则在 focus 编辑后重新设置值。当 <code>type</code> 为 <code>&quot;password&quot;</code> 时默认为 <code>true</code> ，其他类型都为 <code>false</code> 。</p>
 </td>
     </tr>
     
     <tr>
       <td>max</td>
       <td><code>any</code></td>
-      <td><p> The maximum value, which must not be less than its minimum (min attribute) value.</p>
+      <td><p>最大值，不得小于其最小值（最小属性）值。</p>
 </td>
     </tr>
     
     <tr>
       <td>min</td>
       <td><code>any</code></td>
-      <td><p> The minimum value, which must not be greater than its maximum (max attribute) value.</p>
+      <td><p>最小值，不得大于其最大（最大属性）值。</p>
 </td>
     </tr>
     
     <tr>
       <td>placeholder</td>
       <td><code>string</code></td>
-      <td><p> Instructional text that shows before the input has a value.</p>
+      <td><p>在输入值之前显示的指示性文字。</p>
 </td>
     </tr>
     
     <tr>
       <td>readonly</td>
       <td><code>boolean</code></td>
-      <td><p> If true, the user cannot modify the value.</p>
+      <td><p>如果为 true，则用户不能修改该值。</p>
 </td>
     </tr>
     
     <tr>
       <td>step</td>
       <td><code>any</code></td>
-      <td><p> Works with the min and max attributes to limit the increments at which a value can be set.</p>
+      <td><p>与最小和最大属性一起使用以限制可写值的增量。</p>
 </td>
     </tr>
     
     <tr>
       <td>type</td>
       <td><code>string</code></td>
-      <td><p> The type of control to display. The default type is text.
-Possible values are: <code>&quot;text&quot;</code>, <code>&quot;password&quot;</code>, <code>&quot;email&quot;</code>, <code>&quot;number&quot;</code>, <code>&quot;search&quot;</code>, <code>&quot;tel&quot;</code>, or <code>&quot;url&quot;</code>.</p>
+      <td><p>要控制显示的类型。默认类型是文本。可能的值包括：<code>&quot;text&quot;</code>, <code>&quot;password&quot;</code>, <code>&quot;email&quot;</code>, <code>&quot;number&quot;</code>, <code>&quot;search&quot;</code>, <code>&quot;tel&quot;</code>, 或 <code>&quot;url&quot;</code>。</p>
 </td>
     </tr>
     

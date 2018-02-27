@@ -44,19 +44,19 @@ Improve this doc
 
 
 
-<p>The Infinite Scroll allows you to perform an action when the user
-scrolls a specified distance from the bottom or top of the page.</p>
-<p>The expression assigned to the <code>infinite</code> event is called when
-the user scrolls to the specified distance. When this expression
-has finished its tasks, it should call the <code>complete()</code> method
-on the infinite scroll instance.</p>
+<p>Infinite Scroll 允许你在用户从页面底部或顶部滚动指定的距离时执行操作。</p>
+<p>当用户滚动到指定距离时， <code>infinite</code> 事件的表达式就会被调用。当这个表达式完成它的任务时，它就会在 infinite scroll 实例上调用 <code>complete()</code> 方法。</p>
+
+
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-content&gt;
 
@@ -95,9 +95,9 @@ export class NewsFeedPage {
 
 }
 </code></pre>
-<h2 id="-waitfor-method-of-infinitescroll"><code>waitFor</code> method of InfiniteScroll</h2>
-<p>In case if your async operation returns promise you can utilize
-<code>waitFor</code> method inside your template.</p>
+<h2 id="-waitfor-method-of-infinitescroll"><code>waitFor</code> 方法的 InfiniteScroll</h2>
+<p>如果你的异步操作返回 promise，你可以在你的模板中使用 <code>waitFor</code> 方法。</p>
+
 <pre><code class="lang-html">&lt;ion-content&gt;
 
  &lt;ion-list&gt;
@@ -136,11 +136,11 @@ export class NewsFeedPage {
   }
 }
 </code></pre>
-<h2 id="infinite-scroll-content">Infinite Scroll Content</h2>
-<p>By default, Ionic uses the infinite scroll spinner that looks
-best for the platform the user is on. However, you can change the
-default spinner or add text by adding properties to the
-<code>ion-infinite-scroll-content</code> component.</p>
+<h2 id="infinite-scroll-content">Infinite Scroll 内容</h2>
+<p>默认情况下，Ionic 使用最适合用户所在平台的 infinite scroll spinner。但是，你可以通过向 <code>ion-infinite-scroll-content</code> 组件添加属性来更改默认 spinner 或添加文本。</p>
+
+
+
 <pre><code class="lang-html">&lt;ion-content&gt;
 
   &lt;ion-infinite-scroll (ionInfinite)=&quot;doInfinite($event)&quot;&gt;
@@ -152,14 +152,14 @@ default spinner or add text by adding properties to the
 
 &lt;/ion-content&gt;
 </code></pre>
-<h2 id="further-customizing-infinite-scroll-content">Further Customizing Infinite Scroll Content</h2>
-<p>The <code>ion-infinite-scroll</code> component holds the infinite scroll logic.
-It requires a child component in order to display the content.
-Ionic uses <code>ion-infinite-scroll-content</code> by default. This component
-displays the infinite scroll and changes the look depending
-on the infinite scroll&#39;s state. Separating these components allows
-developers to create their own infinite scroll content components.
-You could replace our default content with custom SVG or CSS animations.</p>
+<h2 id="further-customizing-infinite-scroll-content">进一步定制 Infinite Scroll Content</h2>
+<p><code>ion-infinite-scroll</code> 组件保存无限滚动逻辑，需要一个子组件才能显示内容。 Ionic 默认使用 <code>ion-infinite-scroll-content</code>。此组件会显示 infinite scroll 并根据无限滚动的状态更改外观。分离这些组件允许开发人员创建他们自己的 infinite scroll content 组件。你也可以使用自定义 SVG 或 CSS 动画替换我们的默认内容。</p>
+
+
+
+
+
+
 
 
 
@@ -170,7 +170,7 @@ You could replace our default content with custom SVG or CSS animations.</p>
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="complete"></div>
 
@@ -182,14 +182,14 @@ You could replace our default content with custom SVG or CSS animations.</p>
 </a>
 </h3>
 
-Call `complete()` within the `infinite` output event handler when
-your async operation has completed. For example, the `loading`
-state is while the app is performing an asynchronous operation,
-such as receiving more data from an AJAX request to add more items
-to a data list. Once the data has been received and UI updated, you
-then call this method to signify that the loading has completed.
-This method will change the infinite scroll's state from `loading`
-to `enabled`.
+当异步操作完成时，在 `infinite` 事件处理函数中调用 `complete()`。
+例如， `loading` 状态是应用程序执行异步操作时，比如从 AJAX 请求接收更多数据，将更多项添加到数据列表。
+一旦接收到这些数据并更新 UI，就调用此方法来表示加载已完成。
+这种方法会将 infinite scroll 状态从 `loading` 更改为 `enabled`。 
+
+
+
+
 
 
 
@@ -210,18 +210,18 @@ to `enabled`.
 </a>
 </h3>
 
-Call `enable(false)` to disable the infinite scroll from actively
-trying to receive new data while scrolling. This method is useful
-when it is known that there is no more data that can be added, and
-the infinite scroll is no longer needed.
+调用 `enable(false)` 可禁用无限滚动，以便在滚动时主动尝试接收新数据。当已知不再有可以添加的数据，并且不再需要无限滚动时，此方法非常有用。
+
+
+
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -237,9 +237,9 @@ the infinite scroll is no longer needed.
   <code>boolean</code>
       </td>
       <td>
-        <p>If the infinite scroll should be
-enabled or not. Setting to <code>false</code> will remove scroll event listeners
-and hide the display.</p>
+        <p> infinite scroll 是否启用。设置为 <code>false</code> 将删除滚动事件侦听器并隐藏显示。</p>
+
+
 
         
       </td>
@@ -277,13 +277,13 @@ change state of infiniteScroll to "complete"
 
 
 <!-- input methods on the class -->
-<h2><a class="anchor" name="input-properties" href="#input-properties">Input Properties</a></h2>
+<h2><a class="anchor" name="input-properties" href="#input-properties">输入属性</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -291,54 +291,52 @@ change state of infiniteScroll to "complete"
     <tr>
       <td>enabled</td>
       <td><code>boolean</code></td>
-      <td><p> If true, Whether or not the infinite scroll should be
-enabled or not. Setting to <code>false</code> will remove scroll event listeners
-and hide the display.</p>
+      <td><p>如果为true，就启用无限滚动。设置为 <code>false</code> 将删除滚动事件侦听器并隐藏显示。</p>
+
+
 </td>
     </tr>
     
     <tr>
       <td>position</td>
       <td><code>string</code></td>
-      <td><p> The position of the infinite scroll element.
-The value can be either <code>top</code> or <code>bottom</code>.
-Default is <code>bottom</code>.</p>
+      <td><p>无限滚动元素的位置。该值可以是<code>top</code> 或 <code>bottom</code>。默认是 <code>bottom</code>。</p>
 </td>
     </tr>
     
     <tr>
       <td>threshold</td>
       <td><code>string</code></td>
-      <td><p> The threshold distance from the bottom
-of the content to call the <code>infinite</code> output event when scrolled.
-The threshold value can be either a percent, or
-in pixels. For example, use the value of <code>10%</code> for the <code>infinite</code>
-output event to get called when the user has scrolled 10%
-from the bottom of the page. Use the value <code>100px</code> when the
-scroll is within 100 pixels from the bottom of the page.
-Default is <code>15%</code>.</p>
+      <td><p>滚动时，从 content 底部开始调用 <code>infinite</code> 输出事件的阈值距离。阈值可以是百分比，也可以是像素。例如，当用户从页面底部滚动 <code>10%</code> 时，就会将 <code>infinite</code> 输出事件的值设为10％。当滚动距离页面底部100像素以内时，请使用值 <code>100px</code> 。默认值是 <code>15%</code>。</p>
+
+
+
+
+
+
+
 </td>
     </tr>
     
   </tbody>
 </table>
 <!-- output events on the class -->
-<h2><a class="anchor" name="output-events" href="#output-events">Output Events</a></h2>
+<h2><a class="anchor" name="output-events" href="#output-events">输出事件</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
     
     <tr>
       <td>ionInfinite</td>
-      <td><p> Emitted when the scroll reaches
-the threshold distance. From within your infinite handler,
-you must call the infinite scroll&#39;s <code>complete()</code> method when
-your async operation has completed.</p>
+      <td><p>当滚动达到阈值距离时触发。在你的 infinite 处理函数中，当异步操作完成时，你必须调用无限滚动的 <code>complete()</code> 方法。</p>
+
+
+
 </td>
     </tr>
     
