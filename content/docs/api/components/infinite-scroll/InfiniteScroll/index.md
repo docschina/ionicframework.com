@@ -301,6 +301,8 @@ change state of infiniteScroll to "complete"
       <td>position</td>
       <td><code>string</code></td>
       <td><p>无限滚动元素的位置。该值可以是<code>top</code> 或 <code>bottom</code>。默认是 <code>bottom</code>。</p>
+
+
 </td>
     </tr>
     
