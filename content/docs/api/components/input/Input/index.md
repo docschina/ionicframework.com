@@ -52,6 +52,14 @@ Improve this doc
 
 
 
+
+
+
+
+
+
+
+
 <!-- @usage tag -->
 
 <h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
@@ -183,6 +191,7 @@ Improve this doc
       <td>clearOnEdit</td>
       <td><code>boolean</code></td>
       <td><p>如果为 true，则在 focus 编辑后重新设置值。当 <code>type</code> 为 <code>&quot;password&quot;</code> 时默认为 <code>true</code> ，其他类型都为 <code>false</code> 。</p>
+
 </td>
     </tr>
     
@@ -225,6 +234,7 @@ Improve this doc
       <td>type</td>
       <td><code>string</code></td>
       <td><p>要控制显示的类型。默认类型是文本。可能的值包括：<code>&quot;text&quot;</code>, <code>&quot;password&quot;</code>, <code>&quot;email&quot;</code>, <code>&quot;number&quot;</code>, <code>&quot;search&quot;</code>, <code>&quot;tel&quot;</code>, 或 <code>&quot;url&quot;</code>。</p>
+
 </td>
     </tr>
     
