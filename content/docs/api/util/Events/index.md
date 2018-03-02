@@ -42,19 +42,19 @@ Improve this doc
 
 
 
-<p>Events is a publish-subscribe style event system for sending and responding to application-level
-events across your app.</p>
+<p>Events 是一个发布 - 订阅式事件系统，用于在应用程序中发送和响应应用程序级别（application-level）的事件。</p>
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-ts">import { Events } from &#39;ionic-angular&#39;;
 
-// first page (publish an event when a user is created)
+// 第一页（创建用户时，发布一个事件）
 constructor(public events: Events) {}
 createUser(user) {
   console.log(&#39;User created!&#39;)
@@ -62,10 +62,10 @@ createUser(user) {
 }
 
 
-// second page (listen for the user created event after function is called)
+// 第二页（在函数调用后，监听用户创建的事件）
 constructor(public events: Events) {
   events.subscribe(&#39;user:created&#39;, (user, time) =&gt; {
-    // user and time are the same arguments passed in `events.publish(user, time)`
+    // user 和 time 是 `events.publish(user, time)` 中传递的参数
     console.log(&#39;Welcome&#39;, user, &#39;at&#39;, time);
   });
 }
@@ -80,7 +80,7 @@ constructor(public events: Events) {
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="publish"></div>
 
@@ -92,16 +92,16 @@ constructor(public events: Events) {
 </a>
 </h3>
 
-Publish an event to the given topic.
+发布一个给定主题的事件。
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -117,7 +117,7 @@ Publish an event to the given topic.
   <code>string</code>
       </td>
       <td>
-        <p>the topic to publish to</p>
+        <p>发布的主题</p>
 
         
       </td>
@@ -134,7 +134,7 @@ Publish an event to the given topic.
   <code>any</code>
       </td>
       <td>
-        <p>the data to send as the event</p>
+        <p>作为事件发送的数据</p>
 
         
       </td>
@@ -160,16 +160,16 @@ Publish an event to the given topic.
 </a>
 </h3>
 
-Subscribe to an event topic. Events that get posted to that topic will trigger the provided handler.
+订阅事件主题。发布到该主题的事件将触发提供的处理函数。
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -185,7 +185,7 @@ Subscribe to an event topic. Events that get posted to that topic will trigger t
   <code>string</code>
       </td>
       <td>
-        <p>the topic to subscribe to</p>
+        <p>要订阅的主题</p>
 
         
       </td>
@@ -202,7 +202,7 @@ Subscribe to an event topic. Events that get posted to that topic will trigger t
   <code>function</code>
       </td>
       <td>
-        <p>the event handler</p>
+        <p>事件处理函数</p>
 
         
       </td>
@@ -228,16 +228,16 @@ Subscribe to an event topic. Events that get posted to that topic will trigger t
 </a>
 </h3>
 
-Unsubscribe from the given topic. Your handler will no longer receive events published to this topic.
+取消订阅给定的主题。你的处理函数将不再接收发布到该主题的事件。
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -253,7 +253,7 @@ Unsubscribe from the given topic. Your handler will no longer receive events pub
   <code>string</code>
       </td>
       <td>
-        <p>the topic to unsubscribe from</p>
+        <p>需要取消订阅的主题</p>
 
         
       </td>
@@ -270,7 +270,7 @@ Unsubscribe from the given topic. Your handler will no longer receive events pub
   <code>function</code>
       </td>
       <td>
-        <p>the event handler</p>
+        <p>事件处理函数</p>
 
         
       </td>
@@ -285,8 +285,8 @@ Unsubscribe from the given topic. Your handler will no longer receive events pub
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-   <p>true if a handler was removed</p>
+<b>返回：</b> 
+   <p>如果处理函数被移除，则为 true</p>
 
 
 </div>

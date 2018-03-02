@@ -50,8 +50,8 @@ pre_footer: true
        href="/docs/theming/">
       <h3>主题化</h3>
       <p>
-        学习如何轻松定制和修改您应用的设计，
-        以适应您的品牌。
+        学习如何轻松定制和修改你应用的设计，
+        以适应你的品牌。
       </p>
     </a>
     <a class="section ionicons-link"

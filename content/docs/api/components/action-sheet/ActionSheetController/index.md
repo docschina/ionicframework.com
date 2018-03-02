@@ -45,7 +45,7 @@ Improve this doc
 <p>每个 Action Sheet 组件都是一个能让用户从一组选项中进行选择的对话框。它会在顶部显示应用的内容，并且在用户恢复与应用程序交互之前，必须由用户手动解除。在 <code>ios</code> 模式下，危险的（破坏性）选项是显而易见的。使用简单的方法就可以取消 action sheet，例如点击背景或在桌面上按下 Esc 键。</p>
 <p>一个 action sheet 是由一组 <code>buttons</code> 创建的，每个按钮都包含其 <code>text</code> 属性，以及可选的 <code>handle</code> 和 <code>role</code>。如果处理函数返回 <code>false</code> ，则 Action Sheet 组件不会被解除。 Action Sheet 组件还可以有 <code>title</code>, <code>subTitle</code> 和一个 <code>icon</code>。</p>
 <p>按钮的 <code>role</code> 属性可以是 <code>destructive</code> 或者 <code>cancel</code>。没有 role 属性的按钮将根据平台显示默认的外观。具有 <code>cancel</code> role 的按钮将始终作为底部按钮加载，无论它们位于数组中的什么位置。所有其他的按钮将按照它们添加到 <code>buttons</code> 数组的顺序显示。注意：我们建议 <code>destructive</code> 按钮始终是数组中的第一个按钮，使其成为顶部按钮。另外，如果通过点击背景解除了 Action Sheet 组件，那么它将从具有 cancel role 的按钮中触发处理函数。</p>
-<p>您可以将所有 Action Sheet 组件的选项传递给 create 方法的第一个参数： <code>ActionSheet.create(opts)</code>。否则， Action Sheet 组件的实例会调用方法来添加选项，比如 <code>setTitle()</code> 或 <code>addButton()</code>。</p>
+<p>你可以将所有 Action Sheet 组件的选项传递给 create 方法的第一个参数： <code>ActionSheet.create(opts)</code>。否则， Action Sheet 组件的实例会调用方法来添加选项，比如 <code>setTitle()</code> 或 <code>addButton()</code>。</p>
 
 
 

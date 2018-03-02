@@ -75,7 +75,7 @@ Improve this doc
 例如，动画 GIF 会造成巨大的性能消耗，
 但是，通过 <code>ion-img</code> ，
 该应用程序可以将资源专用于可见图像。
-但是，如果上面列出的问题在您的应用程序中不存在，
+但是，如果上面列出的问题在你的应用程序中不存在，
 那么标准 <code>img</code> 元素可能是最好的。</p>
 <h3><a class="anchor" name="image-dimensions" href="#image-dimensions">图像尺寸</a></h3>
 

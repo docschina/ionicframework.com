@@ -44,7 +44,7 @@ Improve this doc
 
 
 
-<p><code>ion-fab-list</code> 是多个 FAB 按钮的容器。它们是 <code>ion-fab</code> 的组件，可以让您指定按钮的位置，比如左侧，右侧，顶部，底部。</p>
+<p><code>ion-fab-list</code> 是多个 FAB 按钮的容器。它们是 <code>ion-fab</code> 的组件，可以让你指定按钮的位置，比如左侧，右侧，顶部，底部。</p>
 
 
 

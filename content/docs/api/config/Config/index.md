@@ -42,8 +42,8 @@ Improve this doc
 
 
 
-<p>The Config lets you configure your entire app or specific platforms.
-You can set the tab placement, icon mode, animations, and more here.</p>
+<p>Config 允许你配置整个应用程序或特定平台。你可以在此处设置 tab 位置，icon 模式，动画等。</p>
+
 <pre><code class="lang-ts">import { IonicApp, IonicModule } from &#39;ionic-angular&#39;;
 
 @NgModule({
@@ -64,8 +64,8 @@ You can set the tab placement, icon mode, animations, and more here.</p>
   providers: []
 })
 </code></pre>
-<p>Config can be overwritten at multiple levels allowing for more granular configuration.
-Below is an example where an app can override any setting we want based on a platform.</p>
+<p>Config 可以在多个层次上被覆盖，从而实现更细化的配置。下面是一个例子，其中一个应用可以覆盖任何我们想要的基于平台的设置。</p>
+
 <pre><code class="lang-ts">import { IonicModule } from &#39;ionic-angular&#39;;
 
 @NgModule({
@@ -84,174 +84,174 @@ Below is an example where an app can override any setting we want based on a pla
   ...
 })
 </code></pre>
-<p>We could also configure these values at a component level. Take <code>tabsPlacement</code>,
-we can configure this as a property on our <code>ion-tabs</code>.</p>
+<p>我们也可以在组件级别配置这些值。采用 <code>tabsPlacement</code>，我们可以将其配置为 <code>ion-tabs</code> 上的属性。</p>
+
 <pre><code class="lang-html">&lt;ion-tabs tabsPlacement=&quot;top&quot;&gt;
   &lt;ion-tab tabTitle=&quot;Dash&quot; tabIcon=&quot;pulse&quot; [root]=&quot;tabRoot&quot;&gt;&lt;/ion-tab&gt;
 &lt;/ion-tabs&gt;
 </code></pre>
-<p>The last way we could configure is through URL query strings. This is useful for testing
-while in the browser. Simply add <code>?ionic&lt;PROPERTYNAME&gt;=&lt;value&gt;</code> to the url.</p>
+<p>我们可以配置的最后一种方式是通过 URL 查询字符串。这对在浏览器中进行测试是很有用的。只需将 <code>?ionic&lt;PROPERTYNAME&gt;=&lt;value&gt;</code> 添加到 url 即可。</p>
+
 <pre><code class="lang-bash">http://localhost:8100/?ionicTabsPlacement=bottom
 </code></pre>
-<p>Any value can be added to config, and looked up at a later in any component.</p>
+<p>任何值都可以添加到 config 中，然后在任何组件中查找。</p>
 <pre><code class="lang-js">config.set(&#39;ios&#39;, &#39;favoriteColor&#39;, &#39;green&#39;);
 
-// from any page in your app:
-config.get(&#39;favoriteColor&#39;); // &#39;green&#39; when iOS
+// 来自你应用中的任意页面：
+config.get(&#39;favoriteColor&#39;); // &#39;green&#39; 当平台是 iOS 时
 </code></pre>
-<p>A config value can come from anywhere and be anything, but there are default
-values for each mode. The <a href="../../../theming/platform-specific-styles/">theming</a>
-documentation has a chart of the default mode configuration. The following
-chart displays each property with a description of what it controls.</p>
+<p>config 值可以来自任何地方，可以是任意东西，但每种模式都有默认值。<a href="../../../theming/platform-specific-styles/">主题</a>文档具有默认模式配置的表格。下面的表格显示了每个属性的描述以及它所控制的内容。</p>
+
+
+
 <table>
 <thead>
 <tr>
-<th>Config Property</th>
-<th>Type</th>
-<th>Details</th>
+<th>Config 属性</th>
+<th>类型</th>
+<th>详情</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>activator</code></td>
 <td><code>string</code></td>
-<td>Used for buttons, changes the effect of pressing on a button. Available options: <code>&quot;ripple&quot;</code>, <code>&quot;highlight&quot;</code>.</td>
+<td>用于按钮，改变按下按钮的效果。可用选项：<code>&quot;ripple&quot;</code>, <code>&quot;highlight&quot;</code>。</td>
 </tr>
 <tr>
 <td><code>actionSheetEnter</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while an action sheet is presented.</td>
+<td>呈现 action sheet 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>actionSheetLeave</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while an action sheet is dismissed.</td>
+<td>关闭 action sheet 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>alertEnter</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while an alert is presented.</td>
+<td>呈现 alert 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>alertLeave</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while an alert is dismissed.</td>
+<td>关闭 alert 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>backButtonText</code></td>
 <td><code>string</code></td>
-<td>The text to display by the back button icon in the navbar.</td>
+<td>navbar 中返回按钮图标显示的文本。</td>
 </tr>
 <tr>
 <td><code>backButtonIcon</code></td>
 <td><code>string</code></td>
-<td>The icon to use as the back button icon.</td>
+<td>用作返回按钮图标的图标。</td>
 </tr>
 <tr>
 <td><code>iconMode</code></td>
 <td><code>string</code></td>
-<td>The mode to use for all icons throughout the application. Available options: <code>&quot;ios&quot;</code>, <code>&quot;md&quot;</code></td>
+<td>整个应用程序中用于所有图标的模式。可用选项： <code>&quot;ios&quot;</code>, <code>&quot;md&quot;</code>。</td>
 </tr>
 <tr>
 <td><code>locationStrategy</code></td>
 <td><code>string</code></td>
-<td>Set to &#39;path&#39; to remove hashbangs when using Deeplinking.</td>
+<td>为了使用 Deeplinking 时移除 hashbangs，设置为 &#39;path&#39 。</td>
 </tr>
 <tr>
 <td><code>loadingEnter</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while a loading indicator is presented.</td>
+<td>呈现 loading 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>loadingLeave</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while a loading indicator is dismissed.</td>
+<td>关闭 loading 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>menuType</code></td>
 <td><code>string</code></td>
-<td>Type of menu to display. Available options: <code>&quot;overlay&quot;</code>, <code>&quot;reveal&quot;</code>, <code>&quot;push&quot;</code>.</td>
+<td>要显示的菜单的类型。可用选项： <code>&quot;overlay&quot;</code>, <code>&quot;reveal&quot;</code>, <code>&quot;push&quot;</code>。</td>
 </tr>
 <tr>
 <td><code>modalEnter</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while a modal is presented.</td>
+<td>呈现 modal 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>modalLeave</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while a modal is dismiss.</td>
+<td>关闭 modal 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>mode</code></td>
 <td><code>string</code></td>
-<td>The mode to use throughout the application.</td>
+<td>在整个应用程序中使用的模式。</td>
 </tr>
 <tr>
 <td><code>pageTransition</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while changing pages. Available options: <code>&quot;ios-transition&quot;</code>, <code>&quot;md-transition&quot;</code>, <code>&quot;wp-transition&quot;</code>.</td>
+<td>改变页面时要使用的过渡效果（transition）的名称。可选选项有：<code>&quot;ios-transition&quot;</code>, <code>&quot;md-transition&quot;</code>, <code>&quot;wp-transition&quot;</code>。</td>
 </tr>
 <tr>
 <td><code>pickerEnter</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while a picker is presented.</td>
+<td>呈现 picker 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>pickerLeave</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while a picker is dismissed.</td>
+<td>关闭 picker 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>popoverEnter</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while a popover is presented.</td>
+<td>呈现 popover 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>popoverLeave</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while a popover is dismissed.</td>
+<td>关闭 popover 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>spinner</code></td>
 <td><code>string</code></td>
-<td>The default spinner to use when a name is not defined.</td>
+<td>未定义名称时使用的默认 spinner。</td>
 </tr>
 <tr>
 <td><code>swipeBackEnabled</code></td>
 <td><code>boolean</code></td>
-<td>Whether native iOS swipe to go back functionality is enabled.</td>
+<td>是否启用原生 iOS 刷回后退功能。</td>
 </tr>
 <tr>
 <td><code>tabsHighlight</code></td>
 <td><code>boolean</code></td>
-<td>Whether to show a highlight line under the tab when it is selected.</td>
+<td>选择时是否在 tab 下显示高亮线。</td>
 </tr>
 <tr>
 <td><code>tabsLayout</code></td>
 <td><code>string</code></td>
-<td>The layout to use for all tabs. Available options: <code>&quot;icon-top&quot;</code>, <code>&quot;icon-start&quot;</code>, <code>&quot;icon-end&quot;</code>, <code>&quot;icon-bottom&quot;</code>, <code>&quot;icon-hide&quot;</code>, <code>&quot;title-hide&quot;</code>.</td>
+<td>用于所有 tabs 的布局。可用选项：<code>&quot;icon-top&quot;</code>, <code>&quot;icon-start&quot;</code>, <code>&quot;icon-end&quot;</code>, <code>&quot;icon-bottom&quot;</code>, <code>&quot;icon-hide&quot;</code>, <code>&quot;title-hide&quot;</code>。</td>
 </tr>
 <tr>
 <td><code>tabsPlacement</code></td>
 <td><code>string</code></td>
-<td>The position of the tabs relative to the content. Available options: <code>&quot;top&quot;</code>, <code>&quot;bottom&quot;</code></td>
+<td>tab 相对于 content 的位置。可用选项：<code>&quot;top&quot;</code>, <code>&quot;bottom&quot;</code>。</td>
 </tr>
 <tr>
 <td><code>tabsHideOnSubPages</code></td>
 <td><code>boolean</code></td>
-<td>Whether to hide the tabs on child pages or not. If <code>true</code> it will not show the tabs on child pages.</td>
+<td>是否隐藏子页面上的 tabs。如果为 <code>true</code>，则不会显示子页面上的 tabs。</td>
 </tr>
 <tr>
 <td><code>toastEnter</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while a toast is presented.</td>
+<td>呈现 toast 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 <tr>
 <td><code>toastLeave</code></td>
 <td><code>string</code></td>
-<td>The name of the transition to use while a toast is dismissed.</td>
+<td>关闭 popover 时要使用的过渡效果（transition）的名称。</td>
 </tr>
 </tbody>
 </table>
@@ -268,7 +268,7 @@ chart displays each property with a description of what it controls.</p>
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="get"></div>
 
@@ -280,15 +280,15 @@ chart displays each property with a description of what it controls.</p>
 </a>
 </h3>
 
-Returns a single config value, given a key.
+给定一个键，返回一个配置值。
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -304,7 +304,7 @@ Returns a single config value, given a key.
   <code>string</code>
       </td>
       <td>
-        <p>the key for the config value<strong class="tag">Optional</strong></p>
+        <p>配置值的键 <strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -321,9 +321,9 @@ Returns a single config value, given a key.
   <code>any</code>
       </td>
       <td>
-        <p>a fallback value to use when the config
-value was not found, or is config value is <code>null</code>. Fallback value
- defaults to <code>null</code>.<strong class="tag">Optional</strong></p>
+        <p>未找到配置值或者配置值为 <code>null</code> 时使用的回退值。回退值默认为 <code>null</code>。<strong class="tag">可选的</strong></p>
+
+
 
         
       </td>
@@ -349,19 +349,19 @@ value was not found, or is config value is <code>null</code>. Fallback value
 </a>
 </h3>
 
-Same as `get()`, however always returns a boolean value. If the
-value from `get()` is `null`, then it'll return the `fallbackValue`
-which defaults to `false`. Otherwise, `getBoolean()` will return
-if the config value is truthy or not. It also returns `true` if
-the config value was the string value `"true"`.
+与 `get()` 相同，但总是返回一个布尔值。如果 `get()` 的值为 `null`，则它将返回默认为 `false` 的 `fallbackValue`。否则 `getBoolean()` 将返回配置值是否为真值（truthy），则 。如果配置值是字符串值 `true` ，它也会返回 `true` 。
+
+
+
+
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -377,7 +377,7 @@ the config value was the string value `"true"`.
   <code>string</code>
       </td>
       <td>
-        <p>the key for the config value<strong class="tag">Optional</strong></p>
+        <p>配置值的键 <strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -394,8 +394,8 @@ the config value was the string value `"true"`.
   <code>boolean</code>
       </td>
       <td>
-        <p>a fallback value to use when the config
-value was <code>null</code>. Fallback value defaults to <code>false</code>.<strong class="tag">Optional</strong></p>
+        <p>未找到配置值或者配置值为 <code>null</code> 时使用的回退值。回退值默认为 <code>false</code>。<strong class="tag">可选的</strong></p>
+
 
         
       </td>
@@ -421,19 +421,19 @@ value was <code>null</code>. Fallback value defaults to <code>false</code>.<stro
 </a>
 </h3>
 
-Same as `get()`, however always returns a number value. Uses `parseFloat()`
-on the value received from `get()`. If the result from the parse is `NaN`,
-then it will return the value passed to `fallbackValue`. If no fallback
-value was provided then it'll default to returning `NaN` when the result
-is not a valid number.
+与 `get()` 相同，但总是返回一个数字，把来自 `get()` 的值使用 `parseFloat()` 接收。如果解析后的结果为 `NaN`，说明这个结果不是合法值，它会返回默认为 `NaN` 的 `fallbackValue`。
+
+
+
+
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -449,7 +449,7 @@ is not a valid number.
   <code>string</code>
       </td>
       <td>
-        <p>the key for the config value<strong class="tag">Optional</strong></p>
+        <p>配置值的键 <strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -466,8 +466,8 @@ is not a valid number.
   <code>number</code>
       </td>
       <td>
-        <p>a fallback value to use when the config
-value turned out to be <code>NaN</code>. Fallback value defaults to <code>NaN</code>.<strong class="tag">Optional</strong></p>
+        <p>配置值转成 <code>NaN</code>使用的回退值。 回退值默认为 <code>NaN</code>。<strong class="tag">可选的</strong></p>
+
 
         
       </td>
@@ -493,15 +493,15 @@ value turned out to be <code>NaN</code>. Fallback value defaults to <code>NaN</c
 </a>
 </h3>
 
-Sets a single config value.
+设置单个的配置值。
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -517,7 +517,7 @@ Sets a single config value.
   <code>string</code>
       </td>
       <td>
-        <p>The platform (either &#39;ios&#39; or &#39;android&#39;) that the config value should apply to. Leaving this blank will apply the config value to all platforms.<strong class="tag">Optional</strong></p>
+        <p>该配置值应适配的平台（&#39;ios&#39; 或 &#39;android&#39;）。如果留空，则会将配置值应用于所有平台。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -534,7 +534,7 @@ Sets a single config value.
   <code>string</code>
       </td>
       <td>
-        <p>The key used to look up the value at a later point in time.<strong class="tag">Optional</strong></p>
+        <p>用于在稍后的时间点查找该值的键。<strong class="tag">可选的</strong></p>
 
         
       </td>
@@ -551,7 +551,7 @@ Sets a single config value.
   <code>string</code>
       </td>
       <td>
-        <p>The config value being stored.<strong class="tag">Optional</strong></p>
+        <p>被存储的配置值。<strong class="tag">可选的</strong></p>
 
         
       </td>
