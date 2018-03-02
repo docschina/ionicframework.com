@@ -78,6 +78,7 @@ gulp.task('jekyll-build', [], function(done) {
 - 注意 `gulp watch` 中的 `build-prep` 任务下的 `images` 子任务耗时很久，第一次运行，之后运行时要注释掉
 - **重要** 在 `content` 下翻译 html 和 markdown 文件
 - 可能 `watch` 命令有报错，每次修改 html 和 markdown 文件后，需要手动执行 `jekyll-rebuild` 任务，可以将 content 文件夹下的文件，重新生成到 _site 文件夹下，刷新页面就可以看到效果，无须重新执行 `watch` 任务
+- WebStorm 用户可以排除掉 `_site` 文件夹
 
 ```
 [17:06:41] Starting 'watch'...
