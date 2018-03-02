@@ -44,37 +44,37 @@ Improve this doc
 
 
 
-<p>An item can contain text, images, and anything else. Generally it is placed in a list with other
-items. It can easily be swiped, deleted, reordered, edited, and more. An item is only required to
-be in a <a href="../../list/List">List</a> if manipulating the item via gestures is required. It requires an
-<a href="../ItemSliding">ItemSliding</a> wrapper element in order to be swiped.</p>
-<h2 id="common-usage">Common Usage</h2>
-<p>There are a few elements that are considered items, but not all of them are styled to look the same.
-The basic item can be written as an <code>&lt;ion-item&gt;</code> element or it can be added to any element by adding
-<code>ion-item</code> as an attribute. List headers and item dividers, although styled differently, are also items
-and can be written as <code>&lt;ion-list-header&gt;</code> and <code>&lt;ion-item-divider&gt;</code>, respectively.</p>
-<h3><a class="anchor" name="as-an-element" href="#as-an-element">As an Element</a></h3>
+<p>一个 item 可以包含文本，图像和其他任意东西。通常它被放在有其他 items 的列表里。它可以被轻松地刷动（swiped），删除，重新排列，编辑等等。如果需要通过手势操作该项目，则只需要一个项目在<a href="../../list/List">列表</a>中。它需要一个 <a href="../ItemSliding">ItemSliding</a> 包装元素才能被刷过。</p>
+<h2 id="common-usage">普通用法</h2>
+<p>有少量元素可以被视为 item，
+但并非所有元素都被设计为相同的样式。
+基本的 item 可以写成 <code>&lt;ion-item&gt;</code> 元素，或者可以通过添加 <code>ion-item</code> 作为属性添加到任何元素。列表头和 item 分隔符虽然样式不同，但也是 item，可以分别编写为 <code>&lt;ion-list-header&gt;</code> 和 <code>&lt;ion-item-divider&gt;</code>。</p>
 
-<p>A basic item should be written as a <code>&lt;ion-item&gt;</code> element when it is not clickable.</p>
+
+
+
+<h3><a class="anchor" name="as-an-element" href="#as-an-element">作为一个元素</a></h3>
+
+<p>当基本 item 不可点击时，应将其写为 <code>&lt;ion-item&gt;</code> 元素。</p>
 <pre><code class="lang-html">&lt;ion-item&gt;
   Item
 &lt;/ion-item&gt;
 </code></pre>
-<p>A list header should be written as <code>&lt;ion-list-header&gt;</code>.</p>
+<p>列表头应该写为 <code>&lt;ion-list-header&gt;</code>。</p>
 <pre><code class="lang-html">&lt;ion-list-header&gt;
-  List Header
+  List Header 
 &lt;/ion-list-header&gt;
 </code></pre>
-<p>An item divider should be written as <code>&lt;ion-item-divider&gt;</code>.</p>
+<p>项目分隔线应该写成 <code>&lt;ion-item-divider&gt;</code>。</p>
 <pre><code class="lang-html">&lt;ion-item-divider&gt;
   Item Divider
 &lt;/ion-item-divider&gt;
 </code></pre>
-<h3><a class="anchor" name="as-an-attribute" href="#as-an-attribute">As an Attribute</a></h3>
+<h3><a class="anchor" name="as-an-attribute" href="#as-an-attribute">作为属性</a></h3>
 
-<p>The attribute <code>ion-item</code> should be added to a <code>&lt;button&gt;</code> when the item can be clicked or tapped. It
-should be added to an <code>&lt;a&gt;</code> element when the item needs to contain a <code>href</code>. It can be added as an
-attribute to any element to take on the item styling.</p>
+<p>当 item 可以被点击或触击(tapped)时，属性 <code>ion-item</code> 应该被添加到一个 <code>&lt;button&gt;</code>。当项目需要包含 <code>href</code> 时，它应该被添加到 <code>&lt;a&gt;</code> 元素。它可以作为一个属性添加到任意元素上应用 item 的样式。</p>
+
+
 <pre><code class="lang-html">&lt;button ion-item (click)=&quot;buttonClick()&quot;&gt;
   Button Item
 &lt;/button&gt;
@@ -83,13 +83,13 @@ attribute to any element to take on the item styling.</p>
   Anchor Item
 &lt;/a&gt;
 </code></pre>
-<p>Note: do not add <code>ion-item</code> as an attribute to an <code>&lt;ion-list-header&gt;</code> or <code>&lt;ion-item-divider&gt;</code> element
-as they are already items and their styling will be changed to look like a basic item.</p>
-<h2 id="detail-arrows">Detail Arrows</h2>
-<p>By default, <code>&lt;button&gt;</code> and <code>&lt;a&gt;</code> elements with the <code>ion-item</code> attribute will display a right arrow icon
-on <code>ios</code> mode. To hide the right arrow icon on either of these elements, add the <code>detail-none</code> attribute
-to the item. To show the right arrow icon on an element that doesn&#39;t display it naturally, add the
-<code>detail-push</code> attribute to the item.</p>
+<p>注意：不要将 <code>ion-item</code> 作为属性添加到 <code>&lt;ion-list-header&gt;</code> 或 <code>&lt;ion-item-divider&gt;</code> 元素，因为它们已经是 item，它们的样式将会更改为基本的 item 样子。</p>
+<h2 id="detail-arrows">详情箭头</h2>
+<p>默认情况下，具有 <code>ion-item</code> 属性的 <code>&lt;button&gt;</code> 和 <code>&lt;a&gt;</code> 元素将在 <code>ios</code> 模式下显示右箭头图标。要隐藏这些元素中任意一个右箭头图标，请将 <code>detail-none</code> 属性添加到该 item。要在非原生显示的元素上显示右箭头图标，请将 <code>detail-push</code> 属性添加到该 item。</p>
+
+
+
+
 <pre><code class="lang-html">&lt;ion-item detail-push&gt;
   Item with Detail Arrow
 &lt;/ion-item&gt;
@@ -102,66 +102,66 @@ to the item. To show the right arrow icon on an element that doesn&#39;t display
   Anchor Item with no Detail Arrow
 &lt;/a&gt;
 </code></pre>
-<p>This feature is not enabled by default for <code>md</code> and <code>wp</code> modes, but it can be enabled by setting the
-Sass variables <code>$item-md-detail-push-show</code> and <code>$item-wp-detail-push-show</code>, respectively, to <code>true</code>.
-It can also be disabled for ios by setting <code>$item-ios-detail-push-show</code> to <code>false</code>. See the
-<a href="https://ionicframework.com/docs/theming/overriding-ionic-variables/">theming documentation</a> for
-more information on overriding Sass variables.</p>
-<h2 id="item-placement">Item Placement</h2>
-<p>Items rely heavily on content projection to position content. The item grabs content based on the
-element or attribute and positions it that way. This logic makes it possible to write a complex
-item with simple, understandable markup without having to worry about styling and positioning
-the elements.</p>
-<p>The below chart details the attributes item looks for and where it will place the element with
-that attribute inside of the item:</p>
+<p> <code>md</code> 和 <code>wp</code> 模式默认不启用此功能，但可以通过将 Sass 变量 <code>$item-md-detail-push-show</code> 和 <code>$item-wp-detail-push-show</code> 分别设置为 true 来启用此功能。通过将 <code>$item-ios-detail-push-show</code> 设置为 <code>false</code> 来禁用 ios。有关覆盖 Sass 变量的更多信息，请参阅 <a href="https://ionicframework.com/docs/theming/overriding-ionic-variables/">主题文档</a>。</p>
+<h2 id="item-placement">Item 布置</h2>
+<p>Items 严重依赖内容投影来定位内容。 item 根据元素或属性抓取内容并将其定位。这种逻辑使得使用简单易懂的标记编写复杂的项目成为可能，而不必担心元素的样式和定位。</p>
+<p>下面的图表详细说明了 item 要查找的属性以及将该元素放置在 item 内的位置：</p>
+
+
+
+
+
+
+
+
 <table>
 <thead>
 <tr>
-<th>Attribute</th>
-<th>Description</th>
+<th>属性</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>item-start</code></td>
-<td>Placed to the left of all other elements, outside of the inner item.</td>
+<td>放置在所有 inner item 之外的其他元素的左侧。</td>
 </tr>
 <tr>
 <td><code>item-end</code></td>
-<td>Placed to the right of all other elements, inside of the inner item, outside of the input wrapper.</td>
+<td>放置在所有 inner item 之内，input 包装之外的其他元素的右侧。</td>
 </tr>
 <tr>
 <td><code>item-content</code></td>
-<td>Placed to the right of any <code>ion-label</code>, inside of the input wrapper.</td>
+<td>放置在所有 input 包装之内的<code>ion-label</code>的右侧。</td>
 </tr>
 </tbody>
 </table>
-<h3><a class="anchor" name="checkboxes-radios-and-toggles" href="#checkboxes-radios-and-toggles">Checkboxes, Radios and Toggles</a></h3>
+<h3><a class="anchor" name="checkboxes-radios-and-toggles" href="#checkboxes-radios-and-toggles">Checkboxes, Radios 和 Toggles</a></h3>
 
-<p><a href="../../checkbox/Checkbox">Checkboxes</a> are positioned in the same place as the <code>item-start</code> attribute.
-<a href="../../radio/RadioButton">Radios</a> and <a href="../../toggle/Toggle">Toggles</a> are positioned in the same place
-as the <code>item-end</code> attribute. All of these components can be positioned differently by adding the
-<code>item-start</code> or <code>item-end</code> attribute.</p>
-<h3><a class="anchor" name="content-and-inputs" href="#content-and-inputs">Content and Inputs</a></h3>
+<p><a href="../../checkbox/Checkbox">Checkboxes</a> 与 <code>item-start</code> 属性位于同一位置。
+<a href="../../radio/RadioButton">Radios</a> 和 <a href="../../toggle/Toggle">Toggles</a> 与 <code>item-end</code> 属性位于同一位置。
+通过添加 <code>item-start</code> 或 <code>item-end</code> 属性，
+所有的这些组件都可以有不同的定位。</p>
+<h3><a class="anchor" name="content-and-inputs" href="#content-and-inputs">Content 和 Inputs</a></h3>
 
-<p>A <a href="../../label/Label">Label</a> is placed inside of the item to the left of all content and inputs. The
-following components are all placed in the same position as the <code>item-content</code> attribute: <a href="../../select/Select">Select</a>,
-<a href="../../input/Input">Input</a>, <a href="../../input/TextArea">TextArea</a>, <a href="../../datetime/DateTime">DateTime</a>, and
-<a href="../../range/Range">Range</a>.</p>
-<p>Any element directly placed inside of an <code>&lt;ion-item&gt;</code> that does not have one of the previously mentioned
-attributes and isn&#39;t one of the above elements will be placed inside of a <a href="../../label/Label">Label</a>.</p>
-<h3><a class="anchor" name="text-alignment" href="#text-alignment">Text Alignment</a></h3>
+<p>A <a href="../../label/Label">Label</a> 放置在所有 content 和 input 左侧的 item 里。
+以下组件都放置在与 <code>item-content</code> 属性相同的位置：
+<a href="../../select/Select">Select</a>,<a href="../../input/Input">Input</a>, <a href="../../input/TextArea">TextArea</a>, <a href="../../datetime/DateTime">DateTime</a>,和 <a href="../../range/Range">Range</a>。</p>
+<p>任何直接放置在 <code>&lt;ion-item&gt;</code> 中的元素都没有前面提到的属性，
+并且不是以上元素，
+它们将放置在 <a href="../../label/Label">Label</a> 内。</p>
+<h3><a class="anchor" name="text-alignment" href="#text-alignment">文本对齐</a></h3>
 
-<p>By default, Items will align text to the left and add an ellipsis when the text is wider than the item.
-See the <a href="../../../../theming/css-utilities/">Utility Attributes Documentation</a> for attributes that can
-be added to <code>ion-item</code> to transform the text.</p>
+<p>默认情况下，Items 会将文本向左对齐，并在文本宽于 item 时添加省略号。查看<a href="../../../../theming/css-utilities/">实用属性文档</a> 以获取可添加到 <code>ion-item</code> 以转换文本的属性。</p>
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-list&gt;
 
@@ -212,7 +212,7 @@ be added to <code>ion-item</code> to transform the text.</p>
 
 
 
-<!-- instance methods on the class --><h2><a class="anchor" name="advanced" href="#advanced">Advanced</a></h2>
+<!-- instance methods on the class --><h2><a class="anchor" name="advanced" href="#advanced">进阶</a></h2>
 <pre><code class="lang-html">&lt;ion-list&gt;
 
   &lt;!-- List header with buttons on each side --&gt;

@@ -44,286 +44,286 @@ Improve this doc
 
 
 
-<p>The DateTime component is used to present an interface which makes it easy for
-users to select dates and times. Tapping on <code>&lt;ion-datetime&gt;</code> will display a picker
-interface that slides up from the bottom of the page. The picker then displays
-scrollable columns that can be used to individually select years, months, days,
-hours and minute values. The DateTime component is similar to the native
-<code>&lt;input type=&quot;datetime-local&quot;&gt;</code> element, however, Ionic&#39;s DateTime component makes
-it easy to display the date and time in a preferred format, and manage the datetime
-values.</p>
+<p>DateTime 组件用来显示一个让用户可以轻松选择日期和时间的界面。点击 <code>&lt;ion-datetime&gt;</code> 会显示一个从页面底部往上滑动的选取器（picker）界面。然后，选取器（picker）会显示可滚动的列，来单独选择年，月，日，小时和分钟的值。DateTime 组件类似于原生的
+<code>&lt;input type=&quot;datetime-local&quot;&gt;</code> 元素，但是，Ionic 的 DateTime 组件可以很轻松地以首选格式显示日期和时间，并管理日期时间值。</p>
+
+
+
+
+
+
 <pre><code class="lang-html">&lt;ion-item&gt;
   &lt;ion-label&gt;Date&lt;/ion-label&gt;
   &lt;ion-datetime displayFormat=&quot;MM/DD/YYYY&quot; [(ngModel)]=&quot;myDate&quot;&gt;&lt;/ion-datetime&gt;
 &lt;/ion-item&gt;
 </code></pre>
-<h2 id="display-and-picker-formats">Display and Picker Formats</h2>
-<p>The DateTime component displays the values in two places: in the <code>&lt;ion-datetime&gt;</code>
-component, and in the interface that is presented from the bottom of the screen.
-The following chart lists all of the formats that can be used.</p>
+<h2 id="display-and-picker-formats">显示和选取器（picker）格式</h2>
+<p>DateTime 组件在两个位置显示值： <code>&lt;ion-datetime&gt;</code> 组件里，以及从屏幕底部显示的界面里。下面的表格列出了可以使用的所有格式。</p>
+
+
 <table>
 <thead>
 <tr>
-<th>Format</th>
-<th>Description</th>
-<th>Example</th>
+<th>格式</th>
+<th>描述</th>
+<th>示例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>YYYY</code></td>
-<td>Year, 4 digits</td>
+<td>年，4位数</td>
 <td><code>2018</code></td>
 </tr>
 <tr>
 <td><code>YY</code></td>
-<td>Year, 2 digits</td>
+<td>年，2位数</td>
 <td><code>18</code></td>
 </tr>
 <tr>
 <td><code>M</code></td>
-<td>Month</td>
+<td>月</td>
 <td><code>1</code> ... <code>12</code></td>
 </tr>
 <tr>
 <td><code>MM</code></td>
-<td>Month, leading zero</td>
+<td>月，0开头</td>
 <td><code>01</code> ... <code>12</code></td>
 </tr>
 <tr>
 <td><code>MMM</code></td>
-<td>Month, short name</td>
+<td>月，缩写名称</td>
 <td><code>Jan</code></td>
 </tr>
 <tr>
 <td><code>MMMM</code></td>
-<td>Month, full name</td>
+<td>月，全称</td>
 <td><code>January</code></td>
 </tr>
 <tr>
 <td><code>D</code></td>
-<td>Day</td>
+<td>日</td>
 <td><code>1</code> ... <code>31</code></td>
 </tr>
 <tr>
 <td><code>DD</code></td>
-<td>Day, leading zero</td>
+<td>日，0开头</td>
 <td><code>01</code> ... <code>31</code></td>
 </tr>
 <tr>
 <td><code>DDD</code></td>
-<td>Day, short name</td>
+<td>日，缩写名称</td>
 <td><code>Fri</code></td>
 </tr>
 <tr>
 <td><code>DDDD</code></td>
-<td>Day, full name</td>
+<td>日，全称</td>
 <td><code>Friday</code></td>
 </tr>
 <tr>
 <td><code>H</code></td>
-<td>Hour, 24-hour</td>
+<td>小时，24小时制</td>
 <td><code>0</code> ... <code>23</code></td>
 </tr>
 <tr>
 <td><code>HH</code></td>
-<td>Hour, 24-hour, leading zero</td>
+<td>小时，24小时制，0开头</td>
 <td><code>00</code> ... <code>23</code></td>
 </tr>
 <tr>
 <td><code>h</code></td>
-<td>Hour, 12-hour</td>
+<td>小时，12小时制</td>
 <td><code>1</code> ... <code>12</code></td>
 </tr>
 <tr>
 <td><code>hh</code></td>
-<td>Hour, 12-hour, leading zero</td>
+<td>小时，12小时制，0开头</td>
 <td><code>01</code> ... <code>12</code></td>
 </tr>
 <tr>
 <td><code>a</code></td>
-<td>12-hour time period, lowercase</td>
+<td>12小时制，小写</td>
 <td><code>am</code> <code>pm</code></td>
 </tr>
 <tr>
 <td><code>A</code></td>
-<td>12-hour time period, uppercase</td>
+<td>12小时制，大写</td>
 <td><code>AM</code> <code>PM</code></td>
 </tr>
 <tr>
 <td><code>m</code></td>
-<td>Minute</td>
+<td>分钟</td>
 <td><code>1</code> ... <code>59</code></td>
 </tr>
 <tr>
 <td><code>mm</code></td>
-<td>Minute, leading zero</td>
+<td>分钟，0开头</td>
 <td><code>01</code> ... <code>59</code></td>
 </tr>
 <tr>
 <td><code>s</code></td>
-<td>Second</td>
+<td>秒</td>
 <td><code>1</code> ... <code>59</code></td>
 </tr>
 <tr>
 <td><code>ss</code></td>
-<td>Second, leading zero</td>
+<td>秒，0开头</td>
 <td><code>01</code> ... <code>59</code></td>
 </tr>
 <tr>
 <td><code>Z</code></td>
-<td>UTC Timezone Offset</td>
-<td><code>Z or +HH:mm or -HH:mm</code></td>
+<td>UTC 时区偏移量</td>
+<td><code>Z 或 +HH:mm or -HH:mm</code></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Important</strong>: See the <a href="#month-names-and-day-of-the-week-names">Month Names and Day of the Week Names</a>
-section below on how to use different names for the month and day.</p>
-<h3><a class="anchor" name="display-format" href="#display-format">Display Format</a></h3>
+<p><strong>重要提示</strong>：请参阅<a href="#month-names-and-day-of-the-week-names">月份名称和星期名称</a>
+以了解如何在月份和日期中使用不同的名称。</p>
+<h3><a class="anchor" name="display-format" href="#display-format">显示格式</a></h3>
 
 
-<p>The <code>displayFormat</code> input property specifies how a datetime&#39;s value should be
-printed, as formatted text, within the <code>ion-datetime</code> component.</p>
-<p>In the following example, the display in the <code>&lt;ion-datetime&gt;</code> will use the
-month&#39;s short name, the numerical day with a leading zero, a comma and the
-four-digit year. In addition to the date, it will display the time with the hours
-in the 24-hour format and the minutes. Any character can be used as a separator.
-An example display using this format is: <code>Jun 17, 2005 11:06</code>.</p>
+<p> <code>displayFormat</code> 的输入属性会指定如何将日期时间值作为格式化文本打印在 <code>ion-datetime</code> 组件内。</p>
+<p>在以下示例中， <code>&lt;ion-datetime&gt;</code> 中的显示将使用月份的缩写名称，0开头的日期数字，一个逗号，和四位数年份。除了日期之外，它还会以24小时格式和显示分钟和小时。任何字符都可以用作分隔符。使用这种格式的示例：<code>Jun 17, 2005 11:06</code>。</p>
+
+
+
+
+
 <pre><code class="lang-html">&lt;ion-item&gt;
   &lt;ion-label&gt;Date&lt;/ion-label&gt;
   &lt;ion-datetime displayFormat=&quot;MMM DD, YYYY HH:mm&quot; [(ngModel)]=&quot;myDate&quot;&gt;&lt;/ion-datetime&gt;
 &lt;/ion-item&gt;
 </code></pre>
-<h3><a class="anchor" name="picker-format" href="#picker-format">Picker Format</a></h3>
+<h3><a class="anchor" name="picker-format" href="#picker-format">选取器（Picker）格式</a></h3>
 
 
-<p>The <code>pickerFormat</code> input property determines which columns should be shown in the
-interface, the order of the columns, and which format to use within each column.
-If the <code>pickerFormat</code> input is not provided then it will default to the <code>displayFormat</code>.</p>
-<p>In the following example, the display in the <code>&lt;ion-datetime&gt;</code> will use the
-<code>MM/YYYY</code> format, such as <code>06/2020</code>. However, the picker interface
-will display two columns with the month&#39;s long name, and the four-digit year.</p>
+<p> <code>pickerFormat</code> 的输入属性会决定应该在界面中显示的列，列的顺序以及每列中使用哪种格式。如果未提供 <code>pickerFormat</code> 输入，则它将默认为 <code>displayFormat</code>。</p>
+<p>在下面的示例中， <code>&lt;ion-datetime&gt;</code> 中的显示将使用 <code>MM/YYYY</code> 格式，例如 <code>06/2020</code>。但是，选取器（picker）界面将显示两个全称月份和四位数年份的列。</p>
+
+
+
+
 <pre><code class="lang-html">&lt;ion-item&gt;
   &lt;ion-label&gt;Date&lt;/ion-label&gt;
   &lt;ion-datetime displayFormat=&quot;MM/YYYY&quot; pickerFormat=&quot;MMMM YYYY&quot; [(ngModel)]=&quot;myDate&quot;&gt;&lt;/ion-datetime&gt;
 &lt;/ion-item&gt;
 </code></pre>
-<h3><a class="anchor" name="datetime-data" href="#datetime-data">Datetime Data</a></h3>
+<h3><a class="anchor" name="datetime-data" href="#datetime-data">Datetime 数据</a></h3>
 
 
-<p>Historically, handling datetime values within JavaScript, or even within HTML
-inputs, has always been a challenge. Specifically, JavaScript&#39;s <code>Date</code> object is
-notoriously difficult to correctly parse apart datetime strings or to format
-datetime values. Even worse is how different browsers and JavaScript versions
-parse various datetime strings differently, especially per locale.</p>
-<p>But no worries, all is not lost! Ionic&#39;s datetime input has been designed so
-developers can avoid the common pitfalls, allowing developers to easily format
-datetime values within the input, and give the user a simple datetime picker for a
-great user experience.</p>
-<h3><a class="anchor" name="iso-8601-datetime-format-yyyy-mm-ddthh-mmz" href="#iso-8601-datetime-format-yyyy-mm-ddthh-mmz">ISO 8601 Datetime Format: YYYY-MM-DDTHH:mmZ</a></h3>
+<p>从历史上看，处理 JavaScript 的 datetime 值，
+甚至 HTML 的输入，一直是一个挑战。特别是， 
+JavaScript 的 <code>Date</code> 对象非常难以正确地解析 datetime 字符串或格式化日期时间值。
+更糟糕的是，不同的浏览器和 JavaScript 版本以不同的方式解析各种 datetime 字符串，
+尤其是在每个不同的语言环境（locale）中。</p>
+<p>但不用担心，一切都不会遗失！
+ Ionic 的 datetime 时间输入的设计使开发人员可以避免常见的陷阱，
+ 允许开发人员轻松地在输入中设置 datetime 值的格式，
+ 并为用户提供简单的 datetime 选取器（picker），以获得绝佳的用户体验。</p>
+<h3><a class="anchor" name="iso-8601-datetime-format-yyyy-mm-ddthh-mmz" href="#iso-8601-datetime-format-yyyy-mm-ddthh-mmz">ISO 8601 Datetime 格式: YYYY-MM-DDTHH:mmZ</a></h3>
 
 
-<p>Ionic uses the <a href="https://www.w3.org/TR/NOTE-datetime">ISO 8601 datetime format</a>
-for its value. The value is simply a string, rather than using JavaScript&#39;s <code>Date</code>
-object. Additionally, when using the ISO datetime format, it makes it easier
-to serialize and pass within JSON objects, and sending databases a standardized
-format which it can be easily parsed if need be.</p>
-<p>An ISO format can be used as a simple year, or just the hour and minute, or get more
-detailed down to the millisecond and timezone. Any of the ISO formats below can be used,
-and after a user selects a new value, Ionic will continue to use the same ISO format
-which datetime value was originally given as.</p>
+<p>Ionic 为其价值使用 <a href="https://www.w3.org/TR/NOTE-datetime">ISO 8601 datetime 格式</a>。该值只是一个字符串，而不是使用 JavaScript 的 <code>Date</code> 对象。此外，使用 ISO 日期时间格式时，它可以更容易地在 JSON 对象中进行序列化和传递，并向数据库发送标准化格式，如果需要的话可以轻松解析它。</p>
+<p> ISO 格式可以用于单纯的年，或者单纯的小时和分钟，或者更详细地描述毫秒和时区。可以使用以下任何 ISO 格式，在用户选择新值后，Ionic 将继续使用最初给定的 datetime 值相同的 ISO 格式。</p>
+
+
+
+
+
+
+
 <table>
 <thead>
 <tr>
-<th>Description</th>
-<th>Format</th>
-<th>Datetime Value Example</th>
+<th>描述</th>
+<th>格式</th>
+<th>Datetime 值示例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Year</td>
+<td>年</td>
 <td>YYYY</td>
 <td>1994</td>
 </tr>
 <tr>
-<td>Year and Month</td>
+<td>年和月</td>
 <td>YYYY-MM</td>
 <td>1994-12</td>
 </tr>
 <tr>
-<td>Complete Date</td>
+<td>完整的日期</td>
 <td>YYYY-MM-DD</td>
 <td>1994-12-15</td>
 </tr>
 <tr>
-<td>Date and Time</td>
+<td>日期和时间</td>
 <td>YYYY-MM-DDTHH:mm</td>
 <td>1994-12-15T13:47</td>
 </tr>
 <tr>
-<td>UTC Timezone</td>
+<td>UTC 时区</td>
 <td>YYYY-MM-DDTHH:mm:ssTZD</td>
 <td>1994-12-15T13:47:20.789Z</td>
 </tr>
 <tr>
-<td>Timezone Offset</td>
+<td>时区偏移量</td>
 <td>YYYY-MM-DDTHH:mm:ssTZD</td>
 <td>1994-12-15T13:47:20.789+5:00</td>
 </tr>
 <tr>
-<td>Hour and Minute</td>
+<td>小时和分钟</td>
 <td>HH:mm</td>
 <td>13:47</td>
 </tr>
 <tr>
-<td>Hour, Minute, Second</td>
+<td>小时，分钟，秒</td>
 <td>HH:mm:ss</td>
 <td>13:47:20</td>
 </tr>
 </tbody>
 </table>
-<p>Note that the year is always four-digits, milliseconds (if it&#39;s added) is always
-three-digits, and all others are always two-digits. So the number representing
-January always has a leading zero, such as <code>01</code>. Additionally, the hour is always
-in the 24-hour format, so <code>00</code> is <code>12am</code> on a 12-hour clock, <code>13</code> means <code>1pm</code>,
-and <code>23</code> means <code>11pm</code>.</p>
-<p>It&#39;s also important to note that neither the <code>displayFormat</code> or <code>pickerFormat</code> can
-set the datetime value&#39;s output, which is the value that is set by the component&#39;s
-<code>ngModel</code>. The format&#39;s are merely for displaying the value as text and the picker&#39;s
-interface, but the datetime&#39;s value is always persisted as a valid ISO 8601 datetime
-string.</p>
-<h2 id="min-and-max-datetimes">Min and Max Datetimes</h2>
-<p>Dates are infinite in either direction, so for a user&#39;s selection there should be at
-least some form of restricting the dates that can be selected. Be default, the maximum
-date is to the end of the current year, and the minimum date is from the beginning
-of the year that was 100 years ago.</p>
-<p>To customize the minimum and maximum datetime values, the <code>min</code> and <code>max</code> component
-inputs can be provided which may make more sense for the app&#39;s use-case, rather
-than the default of the last 100 years. Following the same IS0 8601 format listed
-in the table above, each component can restrict which dates can be selected by the
-user. Below is an example of restricting the date selection between the beginning
-of 2016, and October 31st of 2020:</p>
+<p>注意，年份总是四位数，毫秒（如果添加的话）始终为三位数字，其他所有数字始终为两位数字。因此，代表1月份的数字总是有一个前导零，例如 <code>01</code>。此外，小时总是24小时制，因此 <code>00</code> 是 <code>12小时制</code> 时钟，12代表下午1点， <code>13</code>代表 <code>下午1点</code>， <code>23</code> 代表 <code>晚上11点</code>。</p>
+<p>同样重要的需要注意， <code>displayFormat</code> 或 <code>pickerFormat</code> 都不能设置 datetime 值的输出，这是由组件 中 <code>ngModel</code>设置的值。格式仅用于将文本和选取器（picker）的界面显示的值，但 datetime 值始终作为有效的 ISO 8601 datetime 时间字符串而持续存在。</p>
+<h2 id="min-and-max-datetimes">最小和最大 Datetimes</h2>
+<p>日期在任何方向上都是无限的，因此对于用户的选择，至少应该有某种形式的限制可以选择的日期。默认情况下，最大日期是到当年年底，最小日期是从100年前的年份开始。</p>
+<p>要定制最小和最大的 datetime 值，可以提供 <code>min</code> 和 <code>max</code> 输入属性，这可能对应用程序的用例来说更有意义，而不是用过去100年的默认值。按照上表中列出的相同 IS0 8601 格式，每个组件都可以限制用户可以选择哪些日期。以下是限制2016年初至2020年10月31日之间选择日期的示例：</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <pre><code class="lang-html">&lt;ion-item&gt;
   &lt;ion-label&gt;Date&lt;/ion-label&gt;
   &lt;ion-datetime displayFormat=&quot;MMMM YYYY&quot; min=&quot;2016&quot; max=&quot;2020-10-31&quot; [(ngModel)]=&quot;myDate&quot;&gt;
   &lt;/ion-datetime&gt;
 &lt;/ion-item&gt;
 </code></pre>
-<h2 id="month-names-and-day-of-the-week-names">Month Names and Day of the Week Names</h2>
-<p>At this time, there is no one-size-fits-all standard to automatically choose the correct
-language/spelling for a month name, or day of the week name, depending on the language
-or locale. Good news is that there is an
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat">Intl.DateTimeFormat</a>
-standard which <em>most</em> browsers have adopted. However, at this time the standard has not
-been fully implemented by all popular browsers so Ionic is unavailable to take advantage
-of it <em>yet</em>. Additionally, Angular also provides an internationalization service, but it
-is still under heavy development so Ionic does not depend on it at this time.</p>
-<p>All things considered, the by far easiest solution is to just provide an array of names
-if the app needs to use names other than the default English version of month and day
-names. The month names and day names can be either configured at the app level, or
-individual <code>ion-datetime</code> level.</p>
-<h3><a class="anchor" name="app-config-level" href="#app-config-level">App Config Level</a></h3>
+<h2 id="month-names-and-day-of-the-week-names">月份名称和星期名称</h2>
+<p>目前，没有一种通用的标准可以根据语言或地区自动选择月份名称或星期名称的正确语言/拼写。好消息是大多数浏览器都采用了 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat">Intl.DateTimeFormat</a> 标准。但是，目前这个标准还没有被所有 <em>主流</em> 浏览器完全实现，所以 Ionic 不能使用它。 <em>此外 </em>， Angular 还提供国际化服务，但还处于沉重的发展中阶段，所以目前 Ionic 也不依赖它。</p>
+<p>总而言之，如果应用程序需要使用默认英文版的月份和日期名称以外的名称，那么最简单的解决方案就是提供一组名称。月份名称和日期名称可以在应用级别配置，也可以在独立的 <code>ion-datetime</code> 级别配置。</p>
+<h3><a class="anchor" name="app-config-level" href="#app-config-level">应用级别配置</a></h3>
+
+
+
+
+
+
+
+
+
+
 
 
 <pre><code class="lang-ts">//app.module.ts
@@ -340,7 +340,7 @@ imports: [
 ...
 })
 </code></pre>
-<h3><a class="anchor" name="component-input-level" href="#component-input-level">Component Input Level</a></h3>
+<h3><a class="anchor" name="component-input-level" href="#component-input-level">组件级别输入</a></h3>
 
 
 <pre><code class="lang-html">&lt;ion-item&gt;
@@ -352,28 +352,28 @@ imports: [
     dayShortNames=&quot;dom, seg, ter, ...&quot;&gt;&lt;/ion-datetime&gt;
 &lt;/ion-item&gt;
 </code></pre>
-<h3><a class="anchor" name="advanced-datetime-validation-and-manipulation" href="#advanced-datetime-validation-and-manipulation">Advanced Datetime Validation and Manipulation</a></h3>
+<h3><a class="anchor" name="advanced-datetime-validation-and-manipulation" href="#advanced-datetime-validation-and-manipulation">进阶 Datetime 验证和操作</a></h3>
 
 
-<p>The datetime picker provides the simplicity of selecting an exact format, and persists
-the datetime values as a string using the standardized
-<a href="https://www.w3.org/TR/NOTE-datetime">ISO 8601 datetime format</a>.
-However, it&#39;s important to note that <code>ion-datetime</code> does not attempt to solve all
-situtations when validating and manipulating datetime values. If datetime values need
-to be parsed from a certain format, or manipulated (such as adding 5 days to a date,
-subtracting 30 minutes, etc.), or even formatting data to a specific locale, then we highly
-recommend using <a href="http://momentjs.com/">moment.js</a> to &quot;Parse, validate, manipulate, and
-display dates in JavaScript&quot;. <a href="http://momentjs.com/">Moment.js</a> has quickly become
-our goto standard when dealing with datetimes within JavaScript, but Ionic does not
-prepackage this dependency since most apps will not require it, and its locale
-configuration should be decided by the end-developer.</p>
+<p> datetime 选取器（picker）提供了选择确切格式的便利性，并使用标准化的 <a href="https://www.w3.org/TR/NOTE-datetime">ISO 8601 datetime 格式</a> 将日期时间值保留为字符串。但是，重要的是要注意在验证和操作 datetime 值时，<code>ion-datetime</code> 并不试图解决所有问题。如果 datetime 值需要从某种格式进行解析或操作（例如将日期添加5天，减去30分钟等），甚至将数据为特定的语言环境格式化，那么我们强烈建议使用 <a href="http://momentjs.com/">moment.js</a> “通过 JavaScript 解析，验证，操作和显示日期。”在处理 JavaScript 中的 datetimes 时， <a href="http://momentjs.com/">Moment.js</a> 很快就变成了我们的标准，但 Ionic 并未预先打包这种依赖，因为大多数应用程序都不需要它，它的语言环境配置应由最终开发人员决定。 </p>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-item&gt;
   &lt;ion-label&gt;Date&lt;/ion-label&gt;
@@ -391,7 +391,7 @@ configuration should be decided by the end-developer.</p>
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="validate"></div>
 
@@ -413,13 +413,13 @@ configuration should be decided by the end-developer.</p>
 
 
 <!-- input methods on the class -->
-<h2><a class="anchor" name="input-properties" href="#input-properties">Input Properties</a></h2>
+<h2><a class="anchor" name="input-properties" href="#input-properties">输入属性</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -427,184 +427,184 @@ configuration should be decided by the end-developer.</p>
     <tr>
       <td>cancelText</td>
       <td><code>string</code></td>
-      <td><p> The text to display on the picker&#39;s cancel button. Default: <code>Cancel</code>.</p>
+      <td><p>要在选取器（picker）的取消按钮上显示的文本。默认： <code>Cancel</code>。 </p>
 </td>
     </tr>
     
     <tr>
       <td>dayNames</td>
       <td><code>array</code></td>
-      <td><p> Full day of the week names. This can be used to provide
-locale names for each day in the week. Defaults to English.</p>
+      <td><p>一整个星期的名称。这可以用来提供特定语言环境（locale）中一周里每天的名称。默认为英文。</p>
+
 </td>
     </tr>
     
     <tr>
       <td>dayShortNames</td>
       <td><code>array</code></td>
-      <td><p> Short abbreviated day of the week names. This can be used to provide
-locale names for each day in the week. Defaults to English.</p>
+      <td><p>一整个星期的缩写名称。这可以用来提供特定语言环境（locale）中一周里每天的名称。默认为英文。</p>
+
 </td>
     </tr>
     
     <tr>
       <td>dayValues</td>
       <td><code>array | string</code></td>
-      <td><p> Values used to create the list of selectable days. By default
-every day is shown for the given month. However, to control exactly which days of
-the month to display, the <code>dayValues</code> input can take either an array of numbers, or
-string of comma separated numbers. Note that even if the array days have an invalid
-number for the selected month, like <code>31</code> in February, it will correctly not show
-days which are not valid for the selected month.</p>
+      <td><p>用于创建可选天数列表的值。默认情况下，每个月都会显示给定的月份。但是，要准确控制要显示的月份中的哪几天， <code>dayValues</code> 输入可以采用数字数组，也可以采用逗号分隔的数字字符串。注意，即使数组的天数对于选定的月份具有无效的数字（如2月份的 <code>31</code> ），它也不会正确显示对所选月份无效的日期。</p>
+
+
+
+
+
 </td>
     </tr>
     
     <tr>
       <td>displayFormat</td>
       <td><code>string</code></td>
-      <td><p> The display format of the date and time as text that shows
-within the item. When the <code>pickerFormat</code> input is not used, then the
-<code>displayFormat</code> is used for both display the formatted text, and determining
-the datetime picker&#39;s columns. See the <code>pickerFormat</code> input description for
-more info. Defaults to <code>MMM D, YYYY</code>.</p>
+      <td><p>日期和时间在项目中显示的文本的显示格式。 当不使用 <code>pickerFormat</code> 输入时， <code>displayFormat</code> 用于显示带格式的文本，并确定日期时间选取器（picker）的列。有关更多信息，请参阅 <code>pickerFormat</code> 输入描述。默认为 <code>MMM D, YYYY</code>。</p>
+
+
+
+
 </td>
     </tr>
     
     <tr>
       <td>doneText</td>
       <td><code>string</code></td>
-      <td><p> The text to display on the picker&#39;s &quot;Done&quot; button. Default: <code>Done</code>.</p>
+      <td><p>显示在选取器（picker）的“完成”按钮上的文本。默认：完成。 The text to display on the picker&#39;s &quot;Done&quot; button. Default: <code>Done</code>.</p>
 </td>
     </tr>
     
     <tr>
       <td>hourValues</td>
       <td><code>array | string</code></td>
-      <td><p> Values used to create the list of selectable hours. By default
-the hour values range from <code>0</code> to <code>23</code> for 24-hour, or <code>1</code> to <code>12</code> for 12-hour. However,
-to control exactly which hours to display, the <code>hourValues</code> input can take either an
-array of numbers, or string of comma separated numbers.</p>
+      <td><p>用于创建可选小时列表的值。默认情况下，24小时的小时值范围为 <code>0</code> 到 <code>23</code>，或12小时为 <code>1</code> 到 <code>12</code> 。但是，要精确控制要显示的小时数， <code>hourValues</code> 输入可以采用数字数组或逗号分隔的数字串。</p>
+
+
+
 </td>
     </tr>
     
     <tr>
       <td>max</td>
       <td><code>string</code></td>
-      <td><p> The maximum datetime allowed. Value must be a date string
-following the
-<a href="https://www.w3.org/TR/NOTE-datetime">ISO 8601 datetime format standard</a>,
-<code>1996-12-19</code>. The format does not have to be specific to an exact
-datetime. For example, the maximum could just be the year, such as <code>1994</code>.
-Defaults to the end of this year.</p>
+      <td><p>允许的最大 datetime 。值必须遵循 <a href="https://www.w3.org/TR/NOTE-datetime">ISO 8601 datetime 时间格式标准</a>， <code>1996-12-19</code> 的日期字符串。格式不一定要针对确切的日期时间。例如，最大值可能只是一年，比如  <code>1994</code>。默认为今年年底。</p>
+
+
+
+
+
 </td>
     </tr>
     
     <tr>
       <td>min</td>
       <td><code>string</code></td>
-      <td><p> The minimum datetime allowed. Value must be a date string
-following the
-<a href="https://www.w3.org/TR/NOTE-datetime">ISO 8601 datetime format standard</a>,
-such as <code>1996-12-19</code>. The format does not have to be specific to an exact
-datetime. For example, the minimum could just be the year, such as <code>1994</code>.
-Defaults to the beginning of the year, 100 years ago from today.</p>
+      <td><p>允许的最小 datetime 。值必须遵循 <a href="https://www.w3.org/TR/NOTE-datetime">ISO 8601 datetime 时间格式标准</a>， <code>1996-12-19</code> 的日期字符串。格式不一定要针对确切的日期时间。例如，最小值可能只是一年，比如  <code>1994</code>。默认为从今天开始的100年前的年初。</p>
+
+
+
+
+
 </td>
     </tr>
     
     <tr>
       <td>minuteValues</td>
       <td><code>array | string</code></td>
-      <td><p> Values used to create the list of selectable minutes. By default
-the mintues range from <code>0</code> to <code>59</code>. However, to control exactly which minutes to display,
-the <code>minuteValues</code> input can take either an array of numbers, or string of comma separated
-numbers. For example, if the minute selections should only be every 15 minutes, then
-this input value would be <code>minuteValues=&quot;0,15,30,45&quot;</code>.</p>
+      <td><p>用于创建可选分钟列表的值。默认情况下，分钟的范围是 <code>0</code> 到 <code>59</code>.但是，要准确控制显示哪些分钟， <code>minuteValues</code> 输入可以采用数字数组或逗号分隔数字字符串。例如，如果分钟选择应该每15分钟一次，那么该输入值将是 <code>minuteValues=&quot;0,15,30,45&quot;</code>。</p>
+
+
+
+
 </td>
     </tr>
     
     <tr>
       <td>monthNames</td>
       <td><code>array</code></td>
-      <td><p> Full names for each month name. This can be used to provide
-locale month names. Defaults to English.</p>
+      <td><p>每个月份的全称。用来提供本地语言环境（locale）月份名称。默认为英文。</p>
+
 </td>
     </tr>
     
     <tr>
       <td>monthShortNames</td>
       <td><code>array</code></td>
-      <td><p> Short abbreviated names for each month name. This can be used to provide
-locale month names. Defaults to English.</p>
+      <td><p>每个月份名称的缩写名称。用来提供本地语言环境（locale）月份名称。默认为英文。</p>
+
 </td>
     </tr>
     
     <tr>
       <td>monthValues</td>
       <td><code>array | string</code></td>
-      <td><p> Values used to create the list of selectable months. By default
-the month values range from <code>1</code> to <code>12</code>. However, to control exactly which months to
-display, the <code>monthValues</code> input can take either an array of numbers, or string of
-comma separated numbers. For example, if only summer months should be shown, then this
-input value would be <code>monthValues=&quot;6,7,8&quot;</code>. Note that month numbers do <em>not</em> have a
-zero-based index, meaning January&#39;s value is <code>1</code>, and December&#39;s is <code>12</code>.</p>
+      <td><p>用于创建可选月份列表的值。默认情况下，月份值范围为 <code>1</code> 到 <code>12</code>.但是，要精确控制要显示的月份， <code>monthValues</code> 输入可以采用数字数组或逗号分隔的数字字符串。例如，如果只显示夏季月份，则此输入值为 <code>monthValues=&quot;6,7,8&quot;</code>。请注意，月份数字没有从零开始的索引，这意味着1月份的值为1，12月份的值为12。</p>
+
+
+
+
+
 </td>
     </tr>
     
     <tr>
       <td>pickerFormat</td>
       <td><code>string</code></td>
-      <td><p> The format of the date and time picker columns the user selects.
-A datetime input can have one or many datetime parts, each getting their
-own column which allow individual selection of that particular datetime part. For
-example, year and month columns are two individually selectable columns which help
-choose an exact date from the datetime picker. Each column follows the string
-parse format. Defaults to use <code>displayFormat</code>.</p>
+      <td><p>用户选择的日期和时间选取器（picker）列的格式。 datetime 输入可以有一个或多个 datetime 部分，每个部分都有自己的列，允许单独选择该特定的 datetime 部分。例如，年份和月份列是两个可单独选择的列，可帮助从 datetime 选取器（picker）中选择确切的日期。每列都遵循字符串解析格式。默认使用 <code>displayFormat</code>。</p>
+
+
+
+
+
 </td>
     </tr>
     
     <tr>
       <td>pickerOptions</td>
       <td><code>any</code></td>
-      <td><p> Any additional options that the picker interface can accept.
-See the <a href="../../picker/Picker">Picker API docs</a> for the picker options.</p>
+      <td><p>选取器（picker）接口可以接受的其他任意选项。有关选取器选项，请参阅 <a href="../../picker/Picker">选取器 API 文档</a> 。</p>
+
 </td>
     </tr>
     
     <tr>
       <td>placeholder</td>
       <td><code>string</code></td>
-      <td><p> The text to display when there&#39;s no date selected yet.
-Using lowercase to match the input attribute</p>
+      <td><p>当没有选择日期时显示的文本。使用小写来匹配输入属性。</p>
+
 </td>
     </tr>
     
     <tr>
       <td>yearValues</td>
       <td><code>array | string</code></td>
-      <td><p> Values used to create the list of selectable years. By default
-the year values range between the <code>min</code> and <code>max</code> datetime inputs. However, to
-control exactly which years to display, the <code>yearValues</code> input can take either an array
-of numbers, or string of comma separated numbers. For example, to show upcoming and
-recent leap years, then this input&#39;s value would be <code>yearValues=&quot;2024,2020,2016,2012,2008&quot;</code>.</p>
+      <td><p>用于创建可选年份列表的值。默认情况下，年份值介于 <code>min</code> 和 <code>max</code> 日期时间输入之间。但是，要精确控制要显示哪些年份， <code>yearValues</code> 输入可以采用数字数组，也可以采用逗号分隔的数字字符串。例如，为了显示即将到来的和最近的闰年，则该输入的值将是 <code>yearValues=&quot;2024,2020,2016,2012,2008&quot;</code>。</p>
+
+
+
+
 </td>
     </tr>
     
   </tbody>
 </table>
 <!-- output events on the class -->
-<h2><a class="anchor" name="output-events" href="#output-events">Output Events</a></h2>
+<h2><a class="anchor" name="output-events" href="#output-events">输出事件</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
     
     <tr>
       <td>ionCancel</td>
-      <td><p> Emitted when the datetime selection was cancelled.</p>
+      <td><p> datetime 选择被取消时触发。</p>
 </td>
     </tr>
     

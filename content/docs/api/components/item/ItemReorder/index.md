@@ -44,26 +44,26 @@ Improve this doc
 
 
 
-<p>Item reorder adds the ability to change an item&#39;s order in a group.
-It can be used within an <code>ion-list</code> or <code>ion-item-group</code> to provide a
-visual drag and drop interface.</p>
-<h2 id="grouping-items">Grouping Items</h2>
-<p>All reorderable items must be grouped in the same element. If an item
-should not be reordered, it shouldn&#39;t be included in this group. For
-example, the following code works because the items are grouped in the
-<code>&lt;ion-list&gt;</code>:</p>
+<p>Item reorder 添加了改变一组 item 顺序的功能。它可以在 <code>ion-list</code> 或 <code>ion-item-group</code> 中使用，提供可视化的拖放界面。</p>
+<h2 id="grouping-items">对 Items 分组</h2>
+<p>所有可重新排序的 item 必须分组在同一个元素中。如果一个 item 不应重新排序，那它就不应该包含在这个组中。例如，下面的代码是可以运行的，因为这些项目被分组在 <code>&lt;ion-list&gt;</code>中：</p>
+
+
+
+
+
 <pre><code class="lang-html">&lt;ion-list reorder=&quot;true&quot;&gt;
   &lt;ion-item *ngFor=&quot;let item of items&quot;&gt;{% raw %}{{ item }}{% endraw %}&lt;/ion-item&gt;
 &lt;/ion-list&gt;
 </code></pre>
-<p>However, the below list includes a header that shouldn&#39;t be reordered:</p>
+<p>但是，下面的列表包含了不应重新排序的列表头：</p>
 <pre><code class="lang-html">&lt;ion-list reorder=&quot;true&quot;&gt;
   &lt;ion-list-header&gt;Header&lt;/ion-list-header&gt;
   &lt;ion-item *ngFor=&quot;let item of items&quot;&gt;{% raw %}{{ item }}{% endraw %}&lt;/ion-item&gt;
 &lt;/ion-list&gt;
 </code></pre>
-<p>In order to mix different sets of items, <code>ion-item-group</code> should be used to
-group the reorderable items:</p>
+<p>为了混合不同的 items，应该使用 <code>ion-item-group</code> 来对可重新排序的 item 进行分组：</p>
+
 <pre><code class="lang-html">&lt;ion-list&gt;
   &lt;ion-list-header&gt;Header&lt;/ion-list-header&gt;
   &lt;ion-item-group reorder=&quot;true&quot;&gt;
@@ -71,23 +71,23 @@ group the reorderable items:</p>
   &lt;/ion-item-group&gt;
 &lt;/ion-list&gt;
 </code></pre>
-<p>It&#39;s important to note that in this example, the <code>[reorder]</code> directive is applied to
-the <code>&lt;ion-item-group&gt;</code> instead of the <code>&lt;ion-list&gt;</code>. This way makes it possible to
-mix items that should and shouldn&#39;t be reordered.</p>
-<h2 id="implementing-the-reorder-function">Implementing the Reorder Function</h2>
-<p>When the item is dragged and dropped into the new position, the <code>(ionItemReorder)</code> event is
-emitted. This event provides the initial index (from) and the new index (to) of the reordered
-item. For example, if the first item is dragged to the fifth position, the event will emit
-<code>{from: 0, to: 4}</code>. Note that the index starts at zero.</p>
-<p>A function should be called when the event is emitted that handles the reordering of the items.
-See <a href="#usage">usage</a> below for some examples.</p>
+<p>需要注意的是，在本例中，<code>[reorder]</code> 指令应用于 <code>&lt;ion-item-group&gt;</code> 而不是 <code>&lt;ion-list&gt;</code>。这样可以混合应该和不应该重新排序的 item。</p>
+<h2 id="implementing-the-reorder-function">实现重新排序功能</h2>
+<p>当物品被拖放到新位置时，会触发 <code>(ionItemReorder)</code> 事件。此事件提供重新排序 item 的初始索引（from）和新索引（to）。例如，如果第一个项目被拖动到第五个位置，则该事件将发出 <code>{from: 0, to: 4}</code>。请注意，索引从零开始。</p>
+<p>当事件触发时，应该调用一个函数来处理 item 的重新排序。有关示例，请参阅下面的 <a href="#usage">用法</a>。</p>
+
+
+
+
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-list&gt;
   &lt;ion-list-header&gt;Header&lt;/ion-list-header&gt;
@@ -112,8 +112,8 @@ See <a href="#usage">usage</a> below for some examples.</p>
   }
 }
 </code></pre>
-<p>Ionic also provides a helper function called <code>reorderArray</code> to
-reorder the array of items. This can be used instead:</p>
+<p>Ionic 还提供了一个称为 <code>reorderArray</code> 的辅助函数来重新排序 item 数组。这可以用来代替前面的做法：</p>
+
 <pre><code class="lang-ts">import { reorderArray } from &#39;ionic-angular&#39;;
 
 class MyComponent {
@@ -130,7 +130,7 @@ class MyComponent {
   }
 }
 </code></pre>
-<p>Alternatevely you can execute helper function inside template:</p>
+<p>或者，你可以在模板中执行辅助函数：</p>
 <pre><code class="lang-html">&lt;ion-list&gt;
   &lt;ion-list-header&gt;Header&lt;/ion-list-header&gt;
   &lt;ion-item-group reorder=&quot;true&quot; (ionItemReorder)=&quot;$event.applyTo(items)&quot;&gt;
@@ -148,13 +148,13 @@ class MyComponent {
 
 <!-- instance methods on the class -->
 <!-- input methods on the class -->
-<h2><a class="anchor" name="input-properties" href="#input-properties">Input Properties</a></h2>
+<h2><a class="anchor" name="input-properties" href="#input-properties">输入属性</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -162,27 +162,27 @@ class MyComponent {
     <tr>
       <td>side</td>
       <td><code>string</code></td>
-      <td><p> Which side of the view the ion-reorder should be placed. Default <code>&quot;end&quot;</code>.</p>
+      <td><p>应该放置 ion-reorder 的视图的那一侧。默认 <code>&quot;end&quot;</code>。</p>
 </td>
     </tr>
     
   </tbody>
 </table>
 <!-- output events on the class -->
-<h2><a class="anchor" name="output-events" href="#output-events">Output Events</a></h2>
+<h2><a class="anchor" name="output-events" href="#output-events">输出事件</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
     
     <tr>
       <td>ionItemReorder</td>
-      <td><p> Emitted when the item is reordered. Emits an object
-with <code>from</code> and <code>to</code> properties.</p>
+      <td><p>item 重新排序时触发。使用 <code>from</code> 和 <code>to</code> 属性来发射一个对象。</p>
+
 </td>
     </tr>
     

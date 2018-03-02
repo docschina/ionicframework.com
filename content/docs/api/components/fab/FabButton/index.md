@@ -44,34 +44,34 @@ Improve this doc
 
 
 
-<p>FABs (Floating Action Buttons) are standard material design components. They are shaped as a circle that represents a promoted action. When pressed, it may contain more related actions.
-FABs as its name suggests are floating over the content in a fixed position. This is not achieved exclusively with <code>&lt;button ion-fab&gt;Button&lt;/button&gt;</code> but it has to wrapped with the <code>&lt;ion-fab&gt;</code> component, like this:</p>
+<p>FABs（浮动按钮 Floating Action Buttons）是标准的 material 设计组件。它们被塑造成一个代表促进行动的圈。
+按下时，它可能包含更多相关的操作。顾名思义，FABs 就是以固定的位置浮在内容上的。这不是专门用 <code>&lt;button ion-fab&gt;Button&lt;/button&gt;</code> 实现的，但它必须用 <code>&lt;ion-fab&gt;</code> 组件包装，如下所示：</p>
 <pre><code class="lang-html">&lt;ion-content&gt;
- &lt;!-- Real floating action button, fixed. It will not scroll with the content --&gt;
+ &lt;!-- 真正的浮动行为按钮，固定着的。它不会随着内容滚动 --&gt;
  &lt;ion-fab&gt;
    &lt;button ion-fab&gt;Button&lt;/button&gt;
  &lt;/ion-fab&gt;
 
- &lt;!-- Button shaped as a circle that just like a normal button scrolls with the content --&gt;
+ &lt;!-- 按钮形状像一个正常的按钮，与内容一起滚动 --&gt;
  &lt;button ion-fab&gt;Button&lt;/button&gt;
 &lt;/ion-content&gt;
 </code></pre>
-<p>In case the button is not wrapped with <code>&lt;ion-fab&gt;</code>, the fab button will behave like a normal button, scrolling with the content.</p>
-<p>See [ion-fab] to learn more information about how to position the fab button.</p>
+<p>如果按钮没有用 <code>&lt;ion-fab&gt;</code> 包装，fab 按钮的行为就像一个正常的按钮，随着内容滚动。</p>
+<p>请参阅 [ion-fab] 了解更多关于如何定位 fab 按钮的信息。</p>
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
-<pre><code class="lang-html">&lt;!-- Colors --&gt;
+<pre><code class="lang-html">&lt;!-- 颜色 --&gt;
 &lt;ion-fab&gt;
   &lt;button ion-fab color=&quot;primary&quot;&gt;Button&lt;/button&gt;
 &lt;/ion-fab&gt;
 
-&lt;!-- Mini --&gt;
+&lt;!-- 迷你尺寸 --&gt;
 &lt;ion-fab&gt;
   &lt;button ion-fab mini&gt;Small&lt;/button&gt;
 &lt;/ion-fab&gt;
@@ -82,11 +82,11 @@ FABs as its name suggests are floating over the content in a fixed position. Thi
 
 <!-- @property tags -->
 
-<h2><a class="anchor" name="attributes" href="#attributes">Attributes</a></h2>
+<h2><a class="anchor" name="attributes" href="#attributes">属性</a></h2>
 <table class="table" style="margin:0;">
 <thead>
 <tr>
-<th>Attribute</th>
+<th>属性</th>
 
 
 
@@ -94,7 +94,7 @@ FABs as its name suggests are floating over the content in a fixed position. Thi
 
 
 
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -107,7 +107,7 @@ mini
 
 
 <td>
-Makes a fab button with a reduced size.
+制作缩小尺寸的 fab 按钮。
 
 </td>
 </tr>

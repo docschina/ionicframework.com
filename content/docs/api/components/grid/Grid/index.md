@@ -42,146 +42,146 @@ Improve this doc
 
 
 
-<p>The grid is a powerful mobile-first flexbox system for building custom layouts.
-It is heavily influenced by <a href="http://v4-alpha.getbootstrap.com/layout/grid/">Bootstrap&#39;s grid system</a>.</p>
-<p>The grid is composed of three units — a grid, row(s) and column(s). Columns will expand to fill their
-row, and will resize to fit additional columns. It is based on a 12 column layout with different
-breakpoints based on the screen size. The number of columns and breakpoints can be fully customized
-using Sass.</p>
+<p>grid 是用于构建自定义布局的，功能强大的，移动端优先的弹性布局系统。它深受 <a href="http://v4-alpha.getbootstrap.com/layout/grid/">Bootstrap 网格系统</a> 的影响。</p>
+<p> grid 由三个单元组成 — 一个网格，一个或多个行和一个或多个列。列会延伸来填充所在的行，并调整大小以适合其他的列。它是基于根据不同屏幕大小的不同断点的12列布局。使用 Sass 可以完全自定义列数和断点数。</p>
+
+
+
+
 <ul>
-<li><a href="#how-it-works">How it works</a></li>
-<li><a href="#grid-size">Grid size</a></li>
-<li><a href="#grid-attributes">Grid attributes</a></li>
-<li><a href="#default-breakpoints">Default breakpoints</a></li>
-<li><a href="#auto-layout-columns">Auto-layout columns</a><ul>
-<li><a href="#equal-width">Equal-width</a></li>
-<li><a href="#setting-one-column-width">Setting one column width</a></li>
-<li><a href="#variable-width">Variable-width</a></li>
+<li><a href="#how-it-works">运行原理</a></li>
+<li><a href="#grid-size">Grid 尺寸</a></li>
+<li><a href="#grid-attributes">Grid 属性</a></li>
+<li><a href="#default-breakpoints">默认断点</a></li>
+<li><a href="#auto-layout-columns">自动布局的列</a><ul>
+<li><a href="#equal-width">等宽</a></li>
+<li><a href="#setting-one-column-width">设置一个列宽</a></li>
+<li><a href="#variable-width">可变宽度</a></li>
 </ul>
 </li>
-<li><a href="#responsive-attributes">Responsive attributes</a><ul>
-<li><a href="#all-breakpoints">All breakpoints</a></li>
-<li><a href="#stacked-to-horizontal">Stacked to horizontal</a></li>
+<li><a href="#responsive-attributes">响应式属性</a><ul>
+<li><a href="#all-breakpoints">所有断点</a></li>
+<li><a href="#stacked-to-horizontal">在水平堆叠</a></li>
 </ul>
 </li>
-<li><a href="#reordering">Reordering</a><ul>
-<li><a href="#offsetting-columns">Offsetting columns</a></li>
-<li><a href="#push-and-pull">Push and pull</a></li>
+<li><a href="#reordering">重新排列</a><ul>
+<li><a href="#offsetting-columns">偏移列</a></li>
+<li><a href="#push-and-pull">Push 和 pull</a></li>
 </ul>
 </li>
-<li><a href="#alignment">Alignment</a><ul>
-<li><a href="#vertical-alignment">Vertical Alignment</a></li>
-<li><a href="#horizontal-alignment">Horizontal Alignment</a></li>
+<li><a href="#alignment">对齐</a><ul>
+<li><a href="#vertical-alignment">垂直对齐</a></li>
+<li><a href="#horizontal-alignment">水平对齐</a></li>
 </ul>
 </li>
-<li><a href="#customizing-the-grid">Customizing the grid</a><ul>
-<li><a href="#number-of-columns-and-padding">Number of columns and padding</a></li>
-<li><a href="#grid-tiers">Grid tiers</a></li>
+<li><a href="#customizing-the-grid">定制化网格</a><ul>
+<li><a href="#number-of-columns-and-padding">列数和填充</a></li>
+<li><a href="#grid-tiers">网格层</a></li>
 </ul>
 </li>
 </ul>
-<h2 id="how-it-works">How it works</h2>
-<p>The grid is a mobile-first system made up of any number of rows and columns.
-It is built with flexbox making it extremely responsive. The components that
-make up the grid can be written as an element (e.g., <code>&lt;ion-grid&gt;</code>) or added as
-an attribute to any element (e.g., <code>&lt;div ion-row&gt;</code>).</p>
-<p>Here&#39;s how it works:</p>
+<h2 id="how-it-works">运行原理</h2>
+<p> grid 是由任意数量的行和列组成的移动端优先系统。它使用弹性盒子（flexbox）构建，非常灵活。组成 grid 的组件可以写成一个元素（例如， <code>&lt;ion-grid&gt;</code>）或者作为属性添加到任何元素（例如， <code>&lt;div ion-row&gt;</code>）。</p>
+<p>以下是它的运行原理：</p>
+
+
+
 <ul>
-<li>Grids act as a container for all rows and columns. Grids take up the full width of their container,
-but adding the <code>fixed</code> attribute will specify the width per screen size, see <a href="#grid-size">grid size</a> below.</li>
-<li>Rows are horizontal groups of columns that line the columns up properly.</li>
-<li>Content should be placed within columns, and only columns may be immediate children of rows.</li>
-<li>Grid columns without a specified width will automatically have equal widths.
-For example, four instances of <code>col-sm</code> will each automatically be 25% wide for small breakpoints.</li>
-<li>Column attributes indicate the number of columns to use out of the default 12 per row.
-So, <code>col-4</code> can be added in order to have three equal-width columns.</li>
-<li>Column widths are set as a percentage, so they’re always fluid and sized relative to their parent element.</li>
-<li>Columns have padding between individual columns, however, the padding can be removed from the grid and
-columns by adding <code>no-padding</code> on the grid.</li>
-<li>There are five grid tiers by default, one for each responsive breakpoint: all breakpoints (extra small),
-small, medium, large, and extra large.</li>
-<li>Grid tiers are based on minimum widths, meaning they apply to their tier and all those larger than it
-(e.g., <code>col-sm-4</code> applies to small, medium, large, and extra large devices).</li>
-<li>Grids can easily be customized via Sass variables. See <a href="#customizing-the-grid">customizing the grid</a>.</li>
+<li>Grids 充当所有行和列的容器。Grids 会占据所在容器的整个宽度，但添加 <code>fixed</code> 属性将会指定每个屏幕大小的宽度，请参阅下面的<a href="#grid-size">网格尺寸</a>。</li>
+<li>行是水平的列的集合，并将列排列适当。</li>
+<li>内容应放置在列中，并且只有列可以是行的直接子节点。</li>
+<li>没有指定宽度的 Grid 列将自动拥有相同的宽度。例如， <code>col-sm</code> 的四个实例每个都会自动设置为 small 断点25％的宽度。</li>
+<li>列属性表明在每行默认为12的值之外使用的列数。因此，可以添加 <code>col-4</code> 以便具有三个等宽列。</li>
+<li>列宽设置为百分比，所以它们始终是相对于其父元素的尺寸的流体。</li>
+<li>列可以在单个列之间有 padding ，然而也可以通过在网格中添加 <code>no-padding</code> 来从网格和列中移除 padding。</li>
+<li>默认情况下有五个网格层，每个响应式断点都有一个： all 断点（extra small），small，medium，large 和 extra large。</li>
+<li>网格层基于最小宽度，这意味着它们适用于所在的层级和所有大于它的层级（例如， <code>col-sm-4</code> 适用于 small, medium, large, 和 extra large 设备）。</li>
+<li>Grids 可以通过 Sass 变量轻松定制。请参阅<a href="#customizing-the-grid">自定义网格</a>。</li>
+
+
+
+
+
+
 </ul>
-<p>There are some <a href="https://github.com/philipwalton/flexbugs">known bugs with flexbox</a> that
-should be checked prior to creating issues with Ionic.</p>
-<h2 id="grid-size">Grid size</h2>
-<p>By default, the grid will take up 100% width. To set a maximum width based on the screen
-size add the <code>fixed</code> attribute. The maximum width of the grid for each breakpoint is defined
-in the <code>$grid-max-widths</code> Sass variable. For more information, see
-<a href="#customizing-the-grid">customizing the grid</a>.</p>
+<p>在使用 Ionic 创建问题之前，应该检查一些 <a href="https://github.com/philipwalton/flexbugs">已知的与 flexbox 有关的 bug</a>。</p>
+<h2 id="grid-size">Grid 尺寸</h2>
+<p>默认情况下， grid 将占用100％的宽度。要根据屏幕大小设置最大宽度，请添加 <code>fixed</code> 属性。每个断点的 grid 的最大宽度在 <code>$grid-max-widths</code> Sass 变量中定义。有关更多信息，请参阅<a href="#customizing-the-grid">自定义网格</a>。</p>
+
+
+
+
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Value</th>
-<th>Description</th>
+<th>名称</th>
+<th>值</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>xs</td>
 <td>auto</td>
-<td>Don&#39;t set the grid width for xs screens</td>
+<td>不为 xs 屏幕设置网格宽度</td>
 </tr>
 <tr>
 <td>sm</td>
 <td>540px</td>
-<td>Set grid width to 540px when (min-width: 576px)</td>
+<td>当（最小宽度：576px）时，设置网格宽度为540px</td>
 </tr>
 <tr>
 <td>md</td>
 <td>720px</td>
-<td>Set grid width to 720px when (min-width: 768px)</td>
+<td>当（最小宽度：768px）时，将网格宽度设置为720px</td>
 </tr>
 <tr>
 <td>lg</td>
 <td>960px</td>
-<td>Set grid width to 960px when (min-width: 992px)</td>
+<td>当（最小宽度：992px）时，将网格宽度设置为960px</td>
 </tr>
 <tr>
 <td>xl</td>
 <td>1140px</td>
-<td>Set grid width to 1140px when (min-width: 1200px)</td>
+<td>当（最小宽度：1200px）时，将网格宽度设置为1140px</td>
 </tr>
 </tbody>
 </table>
-<h2 id="grid-attributes">Grid attributes</h2>
-<p>The grid takes up full width and has padding added to it based on the screen size. There are two
-attributes that can be used to adjust this behavior.</p>
+<h2 id="grid-attributes">Grid 属性</h2>
+<p> grid 占用全部宽度，并根据屏幕大小添加 padding。有两个属性可用于调整此行为。</p>
+
 <table>
 <thead>
 <tr>
-<th>Property</th>
-<th>Description</th>
+<th>属性</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>no-padding</td>
-<td>Removes padding from the grid and immediate children columns.</td>
+<td>从 grid 和是直接子节点的列中移除 padding。</td>
 </tr>
 <tr>
 <td>fixed</td>
-<td>Set a max width based on the screen size.</td>
+<td>根据屏幕尺寸设置最大宽度。</td>
 </tr>
 </tbody>
 </table>
-<h2 id="default-breakpoints">Default breakpoints</h2>
-<p>The default breakpoints are defined by the <code>$grid-breakpoints</code> Sass variable. It can be
-customized to use different values for the breakpoint, rename and add/remove breakpoints.
-For more information, see <a href="#customizing-the-grid">customizing the grid</a>.</p>
+<h2 id="default-breakpoints">默认断点</h2>
+<p>默认断点由 <code>$grid-breakpoints</code> Sass 变量定义。它可以被自定义为不同的断点值，重命名和添加/删除断点。有关更多信息，请参阅 <a href="#customizing-the-grid">自定义网格</a>。</p>
+
+
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Value</th>
-<th>Width Prefix</th>
-<th>Offset Prefix</th>
-<th>Push Prefix</th>
-<th>Pull Prefix</th>
-<th>Description</th>
+<th>名称</th>
+<th>值</th>
+<th>宽度前缀</th>
+<th>偏移量前缀</th>
+<th>Push 前缀</th>
+<th>Pull 前缀</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -192,7 +192,7 @@ For more information, see <a href="#customizing-the-grid">customizing the grid</
 <td><code>offset-</code></td>
 <td><code>push-</code></td>
 <td><code>pull-</code></td>
-<td>Set columns when (min-width: 0)</td>
+<td>当（最小宽度：0）设置列</td>
 </tr>
 <tr>
 <td>sm</td>
@@ -201,7 +201,7 @@ For more information, see <a href="#customizing-the-grid">customizing the grid</
 <td><code>offset-sm-</code></td>
 <td><code>push-sm-</code></td>
 <td><code>pull-sm-</code></td>
-<td>Set columns when (min-width: 576px)</td>
+<td>当（最小宽度：576px）设置列</td>
 </tr>
 <tr>
 <td>md</td>
@@ -210,7 +210,7 @@ For more information, see <a href="#customizing-the-grid">customizing the grid</
 <td><code>offset-md-</code></td>
 <td><code>push-md-</code></td>
 <td><code>pull-md-</code></td>
-<td>Set columns when (min-width: 768px)</td>
+<td>当（最小宽度：768px）设置列</td>
 </tr>
 <tr>
 <td>lg</td>
@@ -219,7 +219,7 @@ For more information, see <a href="#customizing-the-grid">customizing the grid</
 <td><code>offset-lg-</code></td>
 <td><code>push-lg-</code></td>
 <td><code>pull-lg-</code></td>
-<td>Set columns when (min-width: 992px)</td>
+<td>当（最小宽度：992px）设置列</td>
 </tr>
 <tr>
 <td>xl</td>
@@ -228,17 +228,17 @@ For more information, see <a href="#customizing-the-grid">customizing the grid</
 <td><code>offset-xl-</code></td>
 <td><code>push-xl-</code></td>
 <td><code>pull-xl-</code></td>
-<td>Set columns when (min-width: 1200px)</td>
+<td>当（最小宽度：1200px）设置列</td>
 </tr>
 </tbody>
 </table>
-<p><em>Note: the first breakpoint must have the value set to 0 and all breakpoint values must be in
-ascending order.</em></p>
-<h2 id="auto-layout-columns">Auto-layout columns</h2>
-<h3><a class="anchor" name="equal-width" href="#equal-width">Equal-width</a></h3>
+<p><em>注意：第一个断点必须将值设置为0，
+并且所有断点值必须升序排列。</em></p>
+<h2 id="auto-layout-columns">自动布局的列</h2>
+<h3><a class="anchor" name="equal-width" href="#equal-width">等宽</a></h3>
 
 
-<p>By default, columns will take up equal width inside of a row for all devices and screen sizes.</p>
+<p>默认情况下，对于所有设备和屏幕大小，列的宽度将相等。</p>
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row&gt;
     &lt;ion-col&gt;
@@ -261,12 +261,12 @@ ascending order.</em></p>
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<h3><a class="anchor" name="setting-one-column-width" href="#setting-one-column-width">Setting one column width</a></h3>
+<h3><a class="anchor" name="setting-one-column-width" href="#setting-one-column-width">设置一个列宽</a></h3>
 
 
-<p>Set the width of one column and the others will automatically resize around it.
-This can be done using our predefined grid attributes. In the example below,
-the other columns will resize no matter the width of the center column.</p>
+<p>设置一列的宽度，其他列将自动调整其大小。这可以使用我们预定义的网格属性来完成。在下面的示例中，无论中心列的宽度如何，其他列都将调整大小。</p>
+
+
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row&gt;
     &lt;ion-col&gt;
@@ -292,12 +292,12 @@ the other columns will resize no matter the width of the center column.</p>
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<h3><a class="anchor" name="variable-width" href="#variable-width">Variable-width</a></h3>
+<h3><a class="anchor" name="variable-width" href="#variable-width">可变宽度</a></h3>
 
 
-<p>Using the <code>col-{breakpoint}-auto</code> attributes, the column can size itself based on the
-natural width of its content. This is extremely useful for setting a column width
-using pixels. The columns next to the variable-width column will resize to fill the row.</p>
+<p>使用 <code>col-{breakpoint}-auto</code> 属性，该列可以根据其内容的自然宽度自行调整大小。这对使用像素设置的列宽非常有用。可变宽度列旁边的列将调整大小以填充行。</p>
+
+
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row&gt;
     &lt;ion-col&gt;
@@ -326,13 +326,13 @@ using pixels. The columns next to the variable-width column will resize to fill 
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<h2 id="responsive-attributes">Responsive attributes</h2>
-<h3><a class="anchor" name="all-breakpoints" href="#all-breakpoints">All breakpoints</a></h3>
+<h2 id="responsive-attributes">响应式属性</h2>
+<h3><a class="anchor" name="all-breakpoints" href="#all-breakpoints">所有断点</a></h3>
 
 
-<p>To customize a column&#39;s width for all devices and screens, add the <code>col-*</code>
-attribute. These attributes tell the column to take up <code>*</code> columns out
-of the available columns.</p>
+<p>要为所有设备和屏幕自定义列的宽度，请添加 <code>col-*</code> 属性。这些属性告诉列从可用的列中占用 <code>*</code> 列。</p>
+
+
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row&gt;
     &lt;ion-col col-4&gt;
@@ -350,11 +350,11 @@ of the available columns.</p>
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<h3><a class="anchor" name="-stacked-to-horizontal" href="#-stacked-to-horizontal"> Stacked to horizontal</a></h3>
+<h3><a class="anchor" name="-stacked-to-horizontal" href="#-stacked-to-horizontal"> 在水平堆叠</a></h3>
 
 
-<p>Use a combination of width and breakpoint attributes to create a grid that starts out stacked
-on extra small screens before becoming horizontal on small screens.</p>
+<p>使用宽度和断点属性的组合来创建一个网格，该网格在 small 屏幕上是水平的，在 extra small 屏幕上会堆叠起来。</p>
+
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row&gt;
     &lt;ion-col col-12 col-sm&gt;
@@ -372,13 +372,13 @@ on extra small screens before becoming horizontal on small screens.</p>
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<h2 id="reordering">Reordering</h2>
-<h3><a class="anchor" name="offsetting-columns" href="#offsetting-columns">Offsetting columns</a></h3>
+<h2 id="reordering">重新排列</h2>
+<h3><a class="anchor" name="offsetting-columns" href="#offsetting-columns">偏移列</a></h3>
 
 
-<p>Move columns to the right by adding the <code>offset-*</code> attributes. These attributes
-increase the margin start of the column by <code>*</code> columns. For example, in the following
-grid the last column will be offset by 3 columns and take up 3 columns:</p>
+<p>通过添加 <code>offset-*</code> 属性将列移动到右侧。这些属性通过 <code>*</code> 列增加了列的 margin 起点 。例如，在下面的网格中，最后一列将偏移3列并占用3列：</p>
+
+
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row&gt;
     &lt;ion-col col-3&gt;
@@ -390,8 +390,8 @@ grid the last column will be offset by 3 columns and take up 3 columns:</p>
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<p>Offsets can also be added based on screen breakpoints. Here&#39;s an example of a
-grid where the last column will be offset by 3 columns for <code>md</code> screens and up:</p>
+<p>也可以根据屏幕断点添加偏移量。
+下面是一个网格的例子，其中最后一列将被 <code>md</code> 屏幕偏移3列，到这行的最后：</p>
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row&gt;
     &lt;ion-col col-md-3&gt;
@@ -406,13 +406,13 @@ grid where the last column will be offset by 3 columns for <code>md</code> scree
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<h3><a class="anchor" name="push-and-pull" href="#push-and-pull">Push and pull</a></h3>
+<h3><a class="anchor" name="push-and-pull" href="#push-and-pull">Push 和 pull</a></h3>
 
 
-<p>Reorder the columns by adding the <code>push-*</code> and <code>pull-*</code> attributes. These attributes
-adjust the <code>left</code> and <code>right</code> of the columns by <code>*</code> columns making it easy to reorder
-columns. For example, in the following grid the column with the <code>1st col</code> description
-will actually be the last column and the <code>2nd col</code> will be the first column.</p>
+<p>通过添加 <code>push-*</code> 和 <code>pull-*</code> 属性使列重新排列。这些属性通过 <code>*</code> 列调整列的 <code>left</code> 侧和 <code>right</code> 侧，以便重新排列此列。例如，在下面的网格中，<code>第一列</code> 描述的列实际上是最后一列， <code>第二列</code> 将变成第一列。</p>
+
+
+
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row&gt;
     &lt;ion-col col-9 push-3&gt;
@@ -424,9 +424,9 @@ will actually be the last column and the <code>2nd col</code> will be the first 
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<p>Push and pull can also be added based on screen breakpoints. In the following example,
-the column with the <code>3rd</code> column description will actually be the first column for
-<code>md</code> screens and up:</p>
+<p>Push 和 pull 也可以基于屏幕断点添加。在以下示例中， <code>第三列</code> 描述的列实际上是 <code>md</code> 屏幕的第一列：</p>
+
+
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row&gt;
     &lt;ion-col col-md-6 push-md-3&gt;
@@ -441,13 +441,13 @@ the column with the <code>3rd</code> column description will actually be the fir
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<h2 id="alignment">Alignment</h2>
-<h3><a class="anchor" name="vertical-alignment" href="#vertical-alignment">Vertical alignment</a></h3>
+<h2 id="alignment">对齐</h2>
+<h3><a class="anchor" name="vertical-alignment" href="#vertical-alignment">垂直对齐</a></h3>
 
 
-<p>All columns can be vertically aligned inside of a row by adding different
-attributes to the row. For a list of available attributes, see
-<a href="../Row#row-attributes">row attributes</a>.</p>
+<p>通过向行（row）添加不同的属性，所有列可以在行内垂直对齐。有关可用属性的列表，请参阅<a href="../Row#row-attributes">行属性</a>。</p>
+
+
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row align-items-start&gt;
     &lt;ion-col&gt;
@@ -495,9 +495,9 @@ attributes to the row. For a list of available attributes, see
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<p>Columns can also align themselves differently than other columns by
-adding the alignment attribute directly to the column. For a list of available
-attributes, see <a href="../Col#column-attributes">column attributes</a>.</p>
+<p>通过将对齐（ alignment ）属性直接添加到列中，列也可以与其他列对齐。有关可用属性的列表，请参阅<a href="../Row#row-attributes">行属性</a>。</p>
+
+
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row&gt;
     &lt;ion-col align-self-start&gt;
@@ -523,12 +523,12 @@ attributes, see <a href="../Col#column-attributes">column attributes</a>.</p>
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<h3><a class="anchor" name="horizontal-alignment" href="#horizontal-alignment">Horizontal alignment</a></h3>
+<h3><a class="anchor" name="horizontal-alignment" href="#horizontal-alignment">水平对齐</a></h3>
 
 
-<p>All columns can be horizontally aligned inside of a row by adding different
-attributes to the row. For a list of available attributes, see
-<a href="../Row#row-attributes">row attributes</a>.</p>
+<p>通过向行（row）添加不同的属性，所有列可以在行内水平对齐。有关可用属性的列表，请参阅<a href="../Row#row-attributes">行属性</a>。</p>
+
+
 <pre><code>&lt;ion-grid&gt;
   &lt;ion-row justify-content-start&gt;
     &lt;ion-col col-3&gt;
@@ -576,18 +576,18 @@ attributes to the row. For a list of available attributes, see
   &lt;/ion-row&gt;
 &lt;/ion-grid&gt;
 </code></pre>
-<h2 id="customizing-the-grid">Customizing the grid</h2>
-<p>Using our built-in grid Sass variables and maps, it’s possible to completely customize
-the predefined grid attributes. Change the number of breakpoints, the media query values,
-the number of columns, and more.</p>
-<h3><a class="anchor" name="number-of-columns-and-padding" href="#number-of-columns-and-padding">Number of columns and padding</a></h3>
+<h2 id="customizing-the-grid">定制化网格</h2>
+<p>使用我们内置的网格 Sass 变量和地图，
+可以完全自定义预先确定的网格属性。
+更改断点的数量，媒体查询值，列数等等。</p>
+<h3><a class="anchor" name="number-of-columns-and-padding" href="#number-of-columns-and-padding">列数和填充</a></h3>
 
 
-<p>The number of grid columns and their padding can be modified via Sass variables.
-<code>$grid-columns</code> is used to generate the widths (in percent) of each individual column.
-<code>$grid-padding-width</code> is used for the padding on the grid, while <code>$grid-padding-widths</code>
-allows breakpoint-specific widths that are divided evenly across <code>padding-left</code> and
-<code>padding-right</code> as well as <code>padding-top</code> and <code>padding-bottom</code> of the grid and columns.</p>
+<p>网格列的数量和 padding 可以通过 Sass 变量修改。 <code>$grid-columns</code> 用于生成每个单独列的宽度（以百分比表示）。 <code>$grid-padding-width</code> 用于网格上的 padding，而 <code>$grid-padding-widths</code> 允许在 <code>padding-left</code> 和 <code>padding-right</code> 以及 <code>padding-top</code> 和 <code>padding-bottom</code> 之间均匀划分的特定断点的宽度网格和列。</p>
+
+
+
+
 <pre><code>$grid-columns:               12 !default;
 
 $grid-padding-width:         10px !default;
@@ -600,12 +600,12 @@ $grid-padding-widths: (
   xl: $grid-padding-width
 ) !default;
 </code></pre>
-<h3><a class="anchor" name="grid-tiers" href="#grid-tiers">Grid tiers</a></h3>
+<h3><a class="anchor" name="grid-tiers" href="#grid-tiers">网格层</a></h3>
 
 
-<p>To customize the breakpoints and their values, override the values of
-<code>$grid-breakpoints</code> and <code>$grid-max-widths</code>. For example, to only use
-3 breakpoints, the following could be written:</p>
+<p>要定制断点及其值，请覆盖 <code>$grid-max-widths</code> 和 <code>$grid-max-widths</code> 的值。例如，要仅使用3个断点，可以写下以下内容：</p>
+
+
 <pre><code>$grid-breakpoints: (
   sm: 0,
   md: 768px,
