@@ -40,17 +40,17 @@ Improve this doc
 
 
 
-<p>The <code>Haptic</code> class interacts with a haptic engine on the device, if
-available. Generally, Ionic components use this under the hood, but you&#39;re
-welcome to get a bit crazy with it if you fancy.</p>
-<p>Currently, this uses the Taptic engine on iOS.</p>
+<p>如果设备支持，<code>Haptic</code> 类会与设备上的触觉引擎交互。通常情况下，Ionic 组件使用这个引擎，但是如果你喜欢的话，欢迎你投入其中并获得乐趣。</p>
+<p>目前，在 iOS 上使用 Taptic 引擎。</p>
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-ts">export class MyClass{
  constructor(haptic: Haptic){
@@ -68,7 +68,7 @@ welcome to get a bit crazy with it if you fancy.</p>
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="available"></div>
 
@@ -80,7 +80,7 @@ welcome to get a bit crazy with it if you fancy.</p>
 </a>
 </h3>
 
-Check to see if the Haptic Plugin is available
+检查 Haptic 插件是否可用
 
 
 
@@ -90,7 +90,7 @@ Check to see if the Haptic Plugin is available
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
 <b>Returns:</b> 
-  <code>boolean</code> <p>Returns true or false if the plugin is available</p>
+  <code>boolean</code> <p>插件是否可用，返回 true 或 false</p>
 
 
 </div>
@@ -108,7 +108,7 @@ Check to see if the Haptic Plugin is available
 </a>
 </h3>
 
-Tell the haptic engine that a selection changed during a gesture.
+告知 haptic 引擎在手势过程中 selection 发生的变化。
 
 
 
@@ -129,8 +129,8 @@ Tell the haptic engine that a selection changed during a gesture.
 </a>
 </h3>
 
-Tell the haptic engine we are done with a gesture. This needs to be
-called lest resources are not properly recycled.
+通过手势告知 haptic 引擎工作完成。这被称为土地资源（lest resources）不妥善的回收。
+
 
 
 
@@ -151,7 +151,7 @@ called lest resources are not properly recycled.
 </a>
 </h3>
 
-Tell the haptic engine that a gesture for a selection change is starting.
+告知 haptic 引擎 selection 改变的手势正在启动。
 
 
 
@@ -172,8 +172,8 @@ Tell the haptic engine that a gesture for a selection change is starting.
 </a>
 </h3>
 
-Use this to indicate success/failure/warning to the user.
-options should be of the type `{ style: 'light' }` (or `medium`/`heavy`)
+用它来指示用户的成功/失败/警告。选项应该是 `{ style: 'light' }` （或 `medium`/`heavy`）
+
 
 
 
@@ -194,8 +194,8 @@ options should be of the type `{ style: 'light' }` (or `medium`/`heavy`)
 </a>
 </h3>
 
-Use this to indicate success/failure/warning to the user.
-options should be of the type `{ type: 'success' }` (or `warning`/`error`)
+用它来指示用户的成功/失败/警告。选项应该是 `{ type: 'success' }` （或 `warning`/`error`）
+
 
 
 
@@ -216,8 +216,8 @@ options should be of the type `{ type: 'success' }` (or `warning`/`error`)
 </a>
 </h3>
 
-Trigger a selection changed haptic event. Good for one-time events
-(not for gestures)
+触发 selection 更改的 haptic 事件。适合一次性事件（不适用于手势）
+
 
 
 
