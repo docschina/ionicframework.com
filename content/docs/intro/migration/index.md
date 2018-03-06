@@ -2,20 +2,20 @@
 layout: fluid/docs_base
 category: intro
 id: migration
-title: Migration
+title: 迁移
 header_sub_title: Getting Started with Ionic
 ---
 
 
-# Migration Concepts
+# 迁移：核心概念
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/intro/migration/index.md'>Improve this doc</a>
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/migration/index.md'>改进这篇翻译</a>
 
-Ionic is built on top of Angular, which is a complete rewrite of the original framework. All the parts of Angular you know are still there, but there are new syntax and structural changes about which developers need to be aware. For an overview of the changes in Angular, take a look at [Learn Angular](http://learnangular2.com/).
+Ionic 建立在 Angular 之上，而 Angular 的原始框架已经被完全重写了一遍。老 Angular 原有的所有部分仍然存在，但是开发人员需要注意的语法和结构有了新的改变。有关 Angular 中的更改的概述，请参阅 [Learn Angular](http://learnangular2.com/)。
 
-In Ionic, things should feel quite familiar. All the concepts from Ionic Vv1 are still in the latest versions, though they may look slightly different. You still have views and controllers like you did in v2, but they have been merged into one instance.
+在 Ionic 中，所有的东西和之前也差不太多。Ionic v1 中所有的概念依然是最新的，虽然它们会看上去和之前略有不同。你依然拥有类似于 v2 中的视图和控制器，但它们如今已经合并到一个实例中。
 
-Take this v1 example.
+来看看这个基于 v1 的例子。
 
 
 v1
@@ -35,7 +35,7 @@ v1
 })
 ```
 
-You can rewrite this using the latest Ionic like this:
+你现在可以使用最新的 Ionic 将其重写为如下代码：
 
 ```
 @Component({
@@ -48,7 +48,7 @@ export class MainCmp {
 }
 ```
 
-Other changes, like navigation changes, are much different, but for good reasons, we promise. Now, you can treat components as arbitrary views and navigate to them any way you want to. This makes navigation much more flexible and allows for much more native-styled navigation stacks.
+至于其他改变（诸如导航的变化）就有很大不同了，不过我们承诺，所有的这些改变都是为了你好。如今你可以将组件视为任意视图，并以任何你想要的方式导航到它们上。这使得导航变得更加的灵活，并允许使用更多基于元素样式的导航栈。
 
 # Migrating from Angular 1
 
