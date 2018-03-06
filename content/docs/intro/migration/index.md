@@ -54,9 +54,9 @@ export class MainCmp {
 
 虽然 Angular 2 需要更新应用程序以进行语法更改，但开发人员可以采取积极主动的措施，通过遵循最佳做法并使用 [John Papa 的 Angular Style 指南](https://github.com/johnpapa/angular-styleguide)或 [Todd Motto 的 Angular Style 指南](https://github.com/toddmotto/angularjs-styleguide)来确保其应用程序可升级。这两种方法都为你提供了一系列用于准备迁移代码的步骤。
 
-### ControllerAs Syntax
+### ControllerAs 语法
 
-ControllerAs Syntax is a feature in Angular 1.x where, instead of binding data to `$scope`, you can bind to the direct instance of the controller. This makes migrating a Angular 1.x controller to an Angular 2 class much easier. It's fairly easy to migrate to `controllerAs` from a traditional controller:
+ControllerAs 语法是 Angular 1.x 中的一项功能，你可以将数据绑定到 controller 的直接实例，而不是将其绑定到 `$scope`。这使得将 Angular 1.x 的 controller 迁移到 Angular 2 的 class 变得更容易。从传统的 controller 迁移到 `controllerAs` 是相当简单的：
 
 _index.html_
 
@@ -80,7 +80,7 @@ _app.js_
     })
 ```
 
-To convert this to `controllerAs` syntax, you only have to change a few things.
+要将其转换为 `controllerAs` 语法，你只需更改其中的一部分内容即可。
 
 _index.html_
 
