@@ -67,11 +67,11 @@ Ionic
 
 
 
-### How does navigation work?
+### 导航（Navigation）是如何工作的？
 
-Navigation works like a stack &mdash; **push** a page to the stack to navigate
-to it, and **pop** to go back. Modals and alerts can also be displayed by
-pushing them onto the navigation stack.
+导航（Navigation）的工作原理类似于栈
+&mdash; 将需要显示的页面 **push** 进栈，然后使用
+**pop** 以便返回。模态框和警告框同样可以通过 push 进导航栈的方式来显示。
 
 ### Who is behind Ionic?
 
