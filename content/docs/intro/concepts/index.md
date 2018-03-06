@@ -2,33 +2,33 @@
 layout: fluid/docs_base
 category: intro
 id: concepts
-title: Concepts
+title: 概念
 header_sub_title: Getting Started with Ionic
 ---
 
-# Core Concepts
+# 核心概念
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/intro/concepts/index.md'>Improve
-this doc</a>
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/concepts/index.md'>改进这篇翻译</a>
 
-If you’re completely new to Ionic and/or hybrid mobile app development, it can
-be helpful to get a high-level understanding of the core philosophy, concepts,
-and tools behind Ionic. The information below can help you familiarize yourself
-with what Ionic is and how it works.
 
-### What is Ionic Framework?
+如果你对 Ionic 
+以及混合移动应用开发完全陌生，这篇文章可以帮助你理解 Ionic 
+背后的哲学、概念以及工具。下面的信息有助于使你熟悉 Ionic 
+以及它是如何工作的。
 
-Ionic Framework is an open source SDK that enables developers to build
-performant, high-quality mobile apps using familiar web technologies (HTML, CSS,
-and JavaScript).
+### 什么是 Ionic 框架？
 
-Ionic is focused mainly on the look and feel, or the UI interaction, of an app.
-This means that it’s not a replacement for Cordova or your favorite JavaScript
-framework. Instead, Ionic fits in well with these projects, in order to simplify
-one big part of your app development process: the front-end. Check out [“Where
+Ionic 框架是一套开源的 
+SDK，支持开发人员使用熟悉的网络技术（HTML, CSS
+及 JavaScript）构建高性能、高质量的移动应用程序。
+
+Ionic 主要专注于应用程序的视觉感知以及 UI 交互。这意味着它并不是 
+Cordova 或者你所喜欢的 JavaScript 框架的替代品。相反的是，Ionic 
+可以很好地适用于这些项目，以便简化应用程序开发流程中的一个大环节：前端开发。请阅读 
+[“Where
 does the Ionic Framework fit
-in?”](https://blog.ionicframework.com/where-does-the-ionic-framework-fit-in/) to
-get a good understanding of Ionic's core philosophy and goals.
+in?”](https://blog.ionicframework.com/where-does-the-ionic-framework-fit-in/) 
+这篇博文以便更好地理解 Ionic 的核心理念和目标。
 
 ### How is Ionic Licensed?
 
