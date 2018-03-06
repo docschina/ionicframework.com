@@ -56,16 +56,16 @@ Ionic 组件（Components）作为构建时的基础模块，是为移动应用�
 UI 元素。组件由 HTML、CSS 以及
 JavaScript 组成。每个
 Ionic 
-组件都和你的应用所在的平台兼容。我们将其称为**平台连续性（Platform Continuity）**，请向下阅读 Theming 部分以便深入了解它的工作方式。
+组件都和你的应用所在的平台兼容。我们将其称为**平台连续性（Platform Continuity）**，请向下阅读主题化（Theming）部分以便深入了解它的工作方式。
 
-### What is theming?
+### 什么是主题化？
 
-Themes are sets of styles that get applied to an app. Ionic uses a light theme
-by default, but it also comes with a dark theme. In addition to theming, Ionic’s
-**Platform Continuity** enables components to have platform-specific styles.
-This means the app’s styles will change based on the platform (iOS, Android,
-etc.) on which it’s being run, offering your users an experience with which
-they’re familiar.
+主题是一套或多套应用在应用程序上的样式集。Ionic
+默认使用浅色主题（同时随附一套深色主题）。除了主题外，Ionic
+的**平台连续性（Platform Continuity）**还使得组件具有特定于平台的样式。这意味着应用程序的样式将根据其所运行的平台（iOS、Android
+等）进行更改，从而为用户提供熟悉的体验。
+
+
 
 ### How does navigation work?
 
