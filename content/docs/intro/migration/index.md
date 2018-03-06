@@ -134,9 +134,9 @@ _app.ts_
 
 ```
 
-### Project Structure
+### 项目结构
 
-With Angular 1, it was a practice to keep all your JavaScript together and separate from your templates. Since Ionic and Angular 2 will be moving to a component base setup, you can reorganize your project to help mentally enforce that concept. So a project whose directory looks like this...
+使用 Angular 1 时，将所有的 JavaScript 都放在在一起并与模板分离是一种惯例。由于 Ionic 和 Angular 2 将转向组件化的基础思路，因此你可以重新组织您的项目以便在精神上实施该理念。所以一个长得像这样的项目目录。。。
 
 ```
     |-www/
@@ -154,7 +154,7 @@ With Angular 1, it was a practice to keep all your JavaScript together and separ
 
 ```
 
-could start to be reorganized to look like this:
+可能会被重新组织成如下所示：
 
 ```
     |-www/
@@ -171,4 +171,4 @@ could start to be reorganized to look like this:
     |-app.js
 ```
 
-Organizing your project like this can help get you in the mindset that each of your app's views/states are a component, with a template and a controller.
+这样组织项目可以帮助你理解每个应用程序的视图/状态是一个组件，而该组件包含一个模板和一个控制器。
