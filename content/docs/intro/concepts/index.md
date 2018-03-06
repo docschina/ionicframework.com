@@ -73,18 +73,18 @@ Ionic
 &mdash; 将需要显示的页面 **push** 进栈，然后使用
 **pop** 以便返回。模态框和警告框同样可以通过 push 进导航栈的方式来显示。
 
-### Who is behind Ionic?
+### Ionic 的背后都有谁？
 
-Ionic was originally built by [@benjsperry](https://twitter.com/benjsperry),
-[@adamdbradley](https://twitter.com/adamdbradley), and
-[@maxlynch](https://twitter.com/maxlynch). After releasing an alpha version of
-Ionic in November 2013, we released a 1.0 beta in March 2014 and a 1.0 final in
-May 2015.
+Ionic 最开始是由 [@benjsperry](https://twitter.com/benjsperry)、[@adamdbradley](https://twitter.com/adamdbradley)
+以及 [@maxlynch](https://twitter.com/maxlynch)
+开发的。在 2013 年 11 月发布 Ionic 的第一个 alpha 版本之后，我们在
+2014 年 3 月发布了 1.0 beta 版，并在
+2015 年 5 月发布 1.0 正式版。
 
-Now, Ionic has a massive international community of developers and contributors
-propelling its growth and adoption. Companies small and large are using Ionic to
-build better apps, faster. In 2015 Ionic developers reportedly created over 1.3M
-apps with Ionic, a number that continues to grow each day.
+如今，Ionic 拥有一个由开发人员和开源贡献者所组成并驱动的庞大国际社区。大小公司都在使用
+Ionic 来更快更好地构建应用程序。据报道，在 2015
+年 Ionic 开发者创造了超过 130 万个
+Ionic 应用程序，而这个数字每天都在继续增长。
 
 ### What is Angular?
 
