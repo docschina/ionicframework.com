@@ -30,16 +30,16 @@ does the Ionic Framework fit
 in?”](https://blog.ionicframework.com/where-does-the-ionic-framework-fit-in/) 
 这篇博文以便更好地理解 Ionic 的核心理念和目标。
 
-### How is Ionic Licensed?
+### Ionic 是如何授权的？
 
-Ionic is completely free and open source, released under the permissive
-[MIT](http://opensource.org/licenses/MIT) license, which means you can use Ionic
-in personal or commercial projects for free. For example, MIT is the same
-license used by such popular projects as jQuery and Ruby on Rails.
+Ionic 完全免费并开源，是基于较为宽松的
+[MIT](http://opensource.org/licenses/MIT) 许可证发布的，这意味着你可以免费地将
+Ionic 用于个人或商业用途。许多流行的项目，比如 jQuery 以及 Ruby on Rails 都是使用
+MIT 许可进行授权的。
 
-This website and documentation content (found in the
-[ionic-site](https://github.com/ionic-team/ionic-site) repo) is licensed under
-the Apache 2 license.
+本网站及文档内容（位于
+ [ionic-site](https://github.com/ionic-team/ionic-site) 仓库中）是基于
+Apache 2 协议发布的。
 
 ### What is the Ionic CLI?
 
