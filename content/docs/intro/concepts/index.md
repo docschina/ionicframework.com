@@ -50,13 +50,13 @@ Ionic 开发者提供许多实用命令的工具。除了安装和更新 Ionic
 [Ionic Pro](/pro)，CLI
 还可以用于导出代码，乃至在命令行中操作你的帐号。
 
-### What are components?
+### 什么是组件？
 
-Components in Ionic are reusable UI elements that serve as the building blocks
-for your mobile app. Components are made up of HTML, CSS, and sometimes
-JavaScript. Every Ionic component adapts to the platform on which your app is
-running. We call this **Platform Continuity** and go more in depth on how it
-works in Theming.
+Ionic 组件（Components）作为构建时的基础模块，是为移动应用所设计的可复用
+UI 元素。组件由 HTML、CSS 以及
+JavaScript 组成。每个
+Ionic 
+组件都和你的应用所在的平台兼容。我们将其称为**平台连续性（Platform Continuity）**，请向下阅读 Theming 部分以便深入了解它的工作方式。
 
 ### What is theming?
 
