@@ -44,16 +44,16 @@ Improve this doc
 
 
 
-<p>A sliding item is a list item that can be swiped to reveal buttons. It requires
-an <a href="../Item">Item</a> component as a child and a <a href="../../list/List">List</a> component as
-a parent. All buttons to reveal can be placed in the <code>&lt;ion-item-options&gt;</code> element.</p>
+<p>sliding item 是可以用滑动来显示按钮的 list item。它需要将一个 <a href="../Item">Item</a> 组件作为子项，并将 <a href="../../list/List">List</a> 组件作为父项。所有要显示的按钮都可以放在 <code>&lt;ion-item-options&gt;</code> 元素中。</p>
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-list&gt;
   &lt;ion-item-sliding #item&gt;
@@ -71,12 +71,12 @@ a parent. All buttons to reveal can be placed in the <code>&lt;ion-item-options&
   &lt;/ion-item-sliding&gt;
 &lt;/ion-list&gt;
 </code></pre>
-<h3 id="swipe-direction">Swipe Direction</h3>
-<p>By default, the buttons are revealed when the sliding item is swiped from right to left,
-so the buttons are placed in the right side. But it&#39;s also possible to reveal them
-in the right side (sliding from left to right) by setting the <code>side</code> attribute
-on the <code>ion-item-options</code> element. Up to 2 <code>ion-item-options</code> can used at the same time
-in order to reveal two different sets of buttons depending the swipping direction.</p>
+<h3 id="swipe-direction">滑动方向</h3>
+<p>默认情况下，sliding item 从右向左滑动时显示按钮，因此按钮位于右侧。但是也可以通过在 <code>ion-item-options</code> 元素上设置 <code>side</code> 属性在右侧显示它们（从左向右滑动）。根据滑动方向，最多可以同时使用2个 <code>ion-item-options</code> 选项，用来显示两组不同的按钮。</p>
+
+
+
+
 <pre><code class="lang-html">&lt;ion-item-options side=&quot;right&quot;&gt;
   &lt;button ion-button (click)=&quot;archive(item)&quot;&gt;
     &lt;ion-icon name=&quot;archive&quot;&gt;&lt;/ion-icon&gt;
@@ -91,9 +91,9 @@ in order to reveal two different sets of buttons depending the swipping directio
   &lt;/button&gt;
 &lt;/ion-item-options&gt;
 </code></pre>
-<h3 id="listening-for-events-iondrag-and-ionswipe-">Listening for events (ionDrag) and (ionSwipe)</h3>
-<p>It&#39;s possible to know the current relative position of the sliding item by subscribing
-to the (ionDrag)` event.</p>
+<h3 id="listening-for-events-iondrag-and-ionswipe-">监听事件（ionDrag）和（ionSwipe）</h3>
+<p>通过订阅 <code>ionDrag</code> 事件可以知道 sliding item 当前的相对位置。</p>
+
 <pre><code class="lang-html">&lt;ion-item-sliding (ionDrag)=&quot;logDrag($event)&quot;&gt;
   &lt;ion-item&gt;Item&lt;/ion-item&gt;
   &lt;ion-item-options&gt;
@@ -101,11 +101,11 @@ to the (ionDrag)` event.</p>
   &lt;/ion-item-options&gt;
 &lt;/ion-item-sliding&gt;
 </code></pre>
-<h3 id="button-layout">Button Layout</h3>
-<p>If an icon is placed with text in the option button, by default it will
-display the icon on top of the text. This can be changed to display the icon
-to the left of the text by setting <code>icon-start</code> as an attribute on the
-<code>&lt;ion-item-options&gt;</code> element.</p>
+<h3 id="button-layout">按钮布局</h3>
+<p>如果在选项按钮中放置了带有文本的图标，默认情况下，它将在文本顶部显示图标。通过设置 <code>icon-start</code> 作为 <code>&lt;ion-item-options&gt;</code> 元素上的一个属性，可以更改此图标以显示文本左侧的图标。</p>
+
+
+
 <pre><code class="lang-html">&lt;ion-item-options icon-start&gt;
   &lt;button ion-button (click)=&quot;archive(item)&quot;&gt;
     &lt;ion-icon name=&quot;archive&quot;&gt;&lt;/ion-icon&gt;
@@ -113,10 +113,10 @@ to the left of the text by setting <code>icon-start</code> as an attribute on th
   &lt;/button&gt;
 &lt;/ion-item-options&gt;
 </code></pre>
-<h3 id="expandable-options">Expandable Options</h3>
-<p>Options can be expanded to take up the full width of the item if you swipe past
-a certain point. This can be combined with the <code>ionSwipe</code> event to call methods
-on the class.</p>
+<h3 id="expandable-options">可扩展选项</h3>
+<p>如果你滑过某个点，则可以扩展选项占据该 item 的整个宽度。这可以结合 <code>ionSwipe</code> 事件来调用该类的方法。</p>
+
+
 <pre><code class="lang-html">&lt;ion-item-sliding (ionSwipe)=&quot;delete(item)&quot;&gt;
   &lt;ion-item&gt;Item&lt;/ion-item&gt;
   &lt;ion-item-options&gt;
@@ -124,7 +124,7 @@ on the class.</p>
   &lt;/ion-item-options&gt;
 &lt;/ion-item-sliding&gt;
 </code></pre>
-<p>We can call <code>delete</code> by either clicking the button, or by doing a full swipe on the item.</p>
+<p>我们可以通过点击按钮，或者在 item 上全力滑动来调用 <code>delete</code> 功能。</p>
 
 
 
@@ -135,7 +135,7 @@ on the class.</p>
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="close"></div>
 
@@ -147,11 +147,11 @@ on the class.</p>
 </a>
 </h3>
 
-Close the sliding item. Items can also be closed from the [List](../../list/List).
+关闭 sliding item。Items 也可以从 [List](../../list/List) 中关闭。
 
-The sliding item can be closed by grabbing a reference to `ItemSliding`. In the
-below example, the template reference variable `slidingItem` is placed on the element
-and passed to the `share` method.
+
+
+sliding item 可以通过获取 `ItemSliding` 的引用来关闭它。在下面的示例中，模板引用变量 `slidingItem` 放置在元素上并传递给 `share` 方法。
 
 ```html
 <ion-list>
@@ -189,27 +189,27 @@ export class MyClass {
 
 
 <!-- output events on the class -->
-<h2><a class="anchor" name="output-events" href="#output-events">Output Events</a></h2>
+<h2><a class="anchor" name="output-events" href="#output-events">输出事件</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
     
     <tr>
       <td>ionDrag</td>
-      <td><p> Emitted when the sliding position changes.
-It reports the relative position.</p>
+      <td><p>当滑动位置改变时触发。它会报告相对位置。</p>
+
 <pre><code class="lang-ts">ondrag(item) {
   let percent = item.getSlidingPercent();
   if (percent &gt; 0) {
-    // positive
+    // 正的
     console.log(&#39;right side&#39;);
   } else {
-    // negative
+    // 负的
     console.log(&#39;left side&#39;);
   }
   if (Math.abs(percent) &gt; 1) {
