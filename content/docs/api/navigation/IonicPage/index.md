@@ -40,29 +40,29 @@ Improve this doc
 
 
 
-<p>The Ionic Page handles registering and displaying specific pages based on URLs. It&#39;s used
-underneath <code>NavController</code> so it will never have to be interacted with directly. When a new
-page is pushed with <code>NavController</code>, the URL is updated to match the path to this page.</p>
-<p>Unlike traditional web apps, URLs don&#39;t dictate navigation in Ionic apps.
-Instead, URLs help us link to specific pieces of content as a breadcrumb.
-The current URL gets updated as we navigate, but we use the <code>NavController</code>
-push and pop, or <code>NavPush</code> and <code>NavPop</code> to move around. This makes it much easier
-to handle complicated nested navigation.</p>
-<p>We refer to our URL system as a deep link system instead of a router to encourage
-Ionic developers to think of URLs as a breadcrumb rather than as the source of
-truth in navigation. This encourages flexible navigation design and happy apps all
-over the world.</p>
+<p>Ionic 页面处理基于 URL 的注册和显示特定页面。它在 <code>NavController</code> 下面使用，所以它不会直接与之交互。当使用 <code>NavController</code> 推入新页面时，URL 会更新以匹配此页面的路径。</p>
+<p>与传统的网络应用程序不同，URL 不指定 Ionic 应用程序中的导航。相反，URL 可以帮助我们链接到特定的内容作为面包屑（breadcrumb）。当前的 URL 在我们导航时更新，但我们使用 <code>NavController</code> 推入和弹出页面，或者用 <code>NavPush</code> 和 <code>NavPop</code> 来移动页面。这使得处理复杂的嵌套导航变得更容易。</p>
+<p>我们将我们的 URL 系统称为深层链接（deep link ）系统，而不是路由，以鼓励 Ionic 开发人员将 URL 视为面包屑而不是导航的真实来源。这鼓励设计灵活的导航和全球各地的巧妙应用。</p>
+
+
+
+
+
+
+
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
-<p>The first step to setting up deep links is to add the page that should be
-a deep link in the <code>IonicPageModule.forChild</code> import of the page&#39;s module.
-For our examples, this will be <code>MyPage</code>:</p>
+<p>设置 deep links 的第一步是添加页面，该页面应该是页面模块的 <code>IonicPageModule.forChild</code> 导入中的 deep link 。举个例子，这将会是 <code>MyPage</code>：</p>
+
+
 <pre><code class="lang-ts">@NgModule({
   declarations: [
     MyPage
@@ -76,16 +76,16 @@ For our examples, this will be <code>MyPage</code>:</p>
 })
 export class MyPageModule {}
 </code></pre>
-<p>Then, add the <code>@IonicPage</code> decorator to the component. The most simple usage is adding an
-empty decorator:</p>
+<p>然后，将 <code>@IonicPage</code> 装饰器添加到组件。最简单的用法是添加一个空的装饰器：</p>
+
 <pre><code class="lang-ts">@IonicPage()
 @Component({
   templateUrl: &#39;main.html&#39;
 })
 export class MyPage {}
 </code></pre>
-<p>This will automatically create a link to the <code>MyPage</code> component using the same name as the class,
-<code>name</code>: <code>&#39;MyPage&#39;</code>. The page can now be navigated to by using this name. For example:</p>
+<p>这将自动创建一个到 <code>MyPage</code> 组件的链接，使用与该类相同的名称，<code>name</code>： <code>&#39;MyPage&#39;</code>。现在可以使用该名称导航页面。例如：</p>
+
 <pre><code class="lang-ts">@Component({
   templateUrl: &#39;another-page.html&#39;
 })
@@ -93,61 +93,61 @@ export class AnotherPage {
   constructor(public navCtrl: NavController) {}
 
   goToMyPage() {
-    // go to the MyPage component
+    // 前往 MyPage 组件
     this.navCtrl.push(&#39;MyPage&#39;);
   }
 }
 </code></pre>
-<p>The <code>@IonicPage</code> decorator accepts a <code>DeepLinkMetadataType</code> object. This object accepts
-the following properties: <code>name</code>, <code>segment</code>, <code>defaultHistory</code>, and <code>priority</code>. All of them
-are optional but can be used to create complex navigation links.</p>
-<h3 id="changing-name">Changing Name</h3>
-<p>As mentioned previously, the <code>name</code> property will be set to the class name if it isn&#39;t provided.
-Changing the name of the link is extremely simple. To change the name used to link to the
-component, simply pass it in the decorator like so:</p>
+<p> <code>@IonicPage</code> 装饰器接受 <code>DeepLinkMetadataType</code> 对象。该对象接受以下属性：<code>name</code>, <code>segment</code>, <code>defaultHistory</code>, 和 <code>priority</code>。它们都是可选的，但可用于创建复杂的导航链接。</p>
+<h3 id="changing-name">更改名称</h3>
+<p>如前所述，如果没有提供 <code>name</code> 属性，它将被设置为类名称。更改链接的名称非常简单。要更改用于链接到组件的名称，只需在装饰器中传递它即可：</p>
+
+
+
+
 <pre><code class="lang-ts">@IonicPage({
   name: &#39;my-page&#39;
 })
 </code></pre>
-<p>This will create a link to the <code>MyPage</code> component using the name <code>&#39;my-page&#39;</code>. Similar to the previous
-example, the page can be navigated to by using the name:</p>
+<p>这将使用名称 <code>&#39;my-page&#39;</code> 创建一个到 <code>MyPage</code> 组件的链接。与前面的示例类似，可以使用以下名称导航页面：</p>
+
 <pre><code class="lang-ts">goToMyPage() {
-  // go to the MyPage component
+  // 前往 MyPage 组件
   this.navCtrl.push(&#39;my-page&#39;);
 }
 </code></pre>
-<h3 id="setting-url-path">Setting URL Path</h3>
-<p>The <code>segment</code> property is used to set the URL to the page. If this property isn&#39;t provided, the
-<code>segment</code> will use the value of <code>name</code>. Since components can be loaded anywhere in the app, the
-<code>segment</code> doesn&#39;t require a full URL path. When a page becomes the active page, the <code>segment</code> is
-appended to the URL.</p>
-<p>The <code>segment</code> can be changed to anything and doesn&#39;t have to match the <code>name</code>. For example, passing
-a value for <code>name</code> and <code>segment</code>:</p>
+<h3 id="setting-url-path">设置 URL 路径</h3>
+<p><code>segment</code> 属性用于设置页面的 URL。如果未提供此属性，那么 <code>segment</code> 将使用 <code>name</code> 的值。由于组件可以在应用程序的任意位置加载，因此该 <code>segment</code> 不需要完整的 URL 路径。当页面成为激活页面时，该 <code>segment</code> 将附加到 URL。</p>
+<p>该 <code>segment</code> 可以更改为任意内容并且不必与 <code>name</code> 匹配。例如，传递 <code>name</code> 和 <code>segment</code>的值：</p>
+
+
+
+
 <pre><code class="lang-ts">@IonicPage({
   name: &#39;my-page&#39;,
   segment: &#39;some-path&#39;
 })
 </code></pre>
-<p>When navigating to this page as the first page in the app, the URL will look something like:</p>
+<p>当导航到此页面作为应用程序的第一页时，该 URL 将如下所示：</p>
 <pre><code>http://localhost:8101/#/some-path
 </code></pre>
-<p>However, navigating to the page will still use the <code>name</code> like the previous examples do.</p>
-<h3 id="dynamic-links">Dynamic Links</h3>
-<p>The <code>segment</code> property is useful for creating dynamic links. Sometimes the URL isn&#39;t known ahead
-of time, so it can be passed as a variable.</p>
-<p>Since passing data around is common practice in an app, it can be reflected in the app&#39;s URL by
-using the <code>:param</code> syntax. For example, set the <code>segment</code> in the <code>@IonicPage</code> decorator:</p>
+<p>但是，导航到页面仍然会像前面的示例那样使用 <code>name</code>。</p>
+<h3 id="dynamic-links">动态链接</h3>
+<p><code>segment</code> 属性对于创建动态链接很有用。有时 URL 并未提早被了解，所以它可以作为变量传递。</p>
+<p>由于传递数据是应用程序中的常见做法，因此可以使用 <code>:param</code> 语法将其映射到应用程序的 URL 中。例如，在 <code>@IonicPage</code> 装饰器中设置 <code>segment</code>：</p>
+
+
 <pre><code class="lang-ts">@IonicPage({
   name: &#39;detail-page&#39;,
   segment: &#39;detail/:id&#39;
 })
 </code></pre>
-<p>In this case, when we <code>push</code> to a new instance of <code>&#39;detail-page&#39;</code>, the value of <code>id</code> will
-in the <code>detailInfo</code> data being passed to <code>push</code> will replace <code>:id</code> in the URL.</p>
-<p>Important: The property needs to be something that can be converted into a string, objects
-are not supported.</p>
-<p>For example, to push the <code>&#39;detail-page&#39;</code> in the <code>ListPage</code> component, the following code could
-be used:</p>
+<p>在这种情况下，当我们 <code>push</code> 到 <code>&#39;detail-page&#39;</code> 的新实例时，传递给 <code>push</code> 的 <code>detailInfo</code> 数据中的 <code>id</code> 值将替换 URL 中的 <code>:id</code>。</p>
+<p>重要提示：属性需要是可以转换为字符串的东西，不支持对象。</p>
+<p>例如，要推入 <code>ListPage</code> 组件中的 <code>&#39;detail-page&#39;</code>，可以使用以下代码：</p>
+
+
+
 <pre><code class="lang-ts">@IonicPage({
   name: &#39;list&#39;
 })
@@ -155,49 +155,49 @@ export class ListPage {
   constructor(public navCtrl: NavController) {}
 
   pushPage(detailInfo) {
-    // Push an `id` to the `&#39;detail-page&#39;`
+    // 将一个 `id` 推到 `&#39;detail-page&#39;`
     this.navCtrl.push(&#39;detail-page&#39;, {
       &#39;id&#39;: detailInfo.id
     })
   }
 }
 </code></pre>
-<p>If the value of <code>detailInfo.id</code> is <code>12</code>, for example, the URL would end up looking like this:</p>
+<p>例如，如果 <code>detailInfo.id</code> 的值是 <code>12</code>，则 URL 最终会看起来像这样：</p>
 <pre><code>http://localhost:8101/#/list/detail/12
 </code></pre>
-<p>Since this <code>id</code> will be used to pull in the data of the specific detail page, it&#39;s Important
-that the <code>id</code> is unique.</p>
-<p>Note: Even though the <code>name</code> is <code>detail-page</code>, the <code>segment</code> uses <code>detail/:id</code>, and the URL
-will use the <code>segment</code>.</p>
-<h3 id="default-history">Default History</h3>
-<p>Pages can be navigated to using deep links from anywhere in the app, but sometimes the app is
-launched from a URL and the page needs to have the same history as if it were navigated to from
-inside of the app.</p>
-<p>By default, the page would be navigated to as the first page in the stack with no prior history.
-A good example is the App Store on iOS. Clicking on a URL to an application in the App Store will
-load the details of the application with no back button, as if it were the first page ever viewed.</p>
-<p>The default history of any page can be set in the <code>defaultHistory</code> property. This history will only
-be used if the history doesn&#39;t already exist, meaning if you navigate to the page the history will
-be the pages that were navigated from.</p>
-<p>The <code>defaultHistory</code> property takes an array of strings. For example, setting the history of the
-detail page to the list page where the <code>name</code> is <code>list</code>:</p>
+<p>由于此 <code>id</code> 将用于提取特定详细信息页面的数据，因此重要的是该 <code>id</code> 是唯一的。</p>
+<p>注意：即使 <code>name</code> 是 <code>detail-page</code>， <code>segment</code> 使用 <code>detail/:id</code>，URL 也将使用该 <code>segment</code>。</p>
+<h3 id="default-history">默认历史</h3>
+<p>可以将页面导航到应用程序中任意位置的深度链接，但有时应用程序是从 URL 启动的，并且该页面需要具有相同的历史记录，就像从应用程序内部导航一样。</p>
+<p>默认情况下，页面将被导航到堆栈中的第一页，并且没有以前的历史记录。一个很好的例子就是 iOS 上的 App Store。点击 App Store 中应用程序的 URL 将会加载应用程序的详细信息，而不需要后退按钮，就好像它是有史以来的第一页。</p>
+<p>任何页面的默认历史记录都可以在 <code>defaultHistory</code> 属性中设置。只有当历史记录不存在时才会使用此历史记录，这意味着如果你导航到页面，历史记录里的页面将是从中导航的页面。</p>
+<p><code>defaultHistory</code> 属性需要一个字符串数组。例如，将详情页面的历史记录设置为 <code>name</code> 列表所在的 <code>list</code> 页面：</p>
+
+
+
+
+
+
+
+
+
 <pre><code class="lang-ts">@IonicPage({
   name: &#39;detail-page&#39;,
   segment: &#39;detail/:id&#39;,
   defaultHistory: [&#39;list&#39;]
 })
 </code></pre>
-<p>In this example, if the app is launched at <code>http://localhost:8101/#/detail/my-detail</code> the displayed page
-will be the <code>&#39;detail-page&#39;</code> with an id of <code>my-detail</code> and it will show a back button that goes back to
-the <code>&#39;list&#39;</code> page.</p>
-<p>An example of an application with a set history stack is the Instagram application. Opening a link
-to an image on Instagram will show the details for that image with a back button to the user&#39;s profile
-page. There is no &quot;right&quot; way of setting the history for a page, it is up to the application.</p>
-<h3 id="priority">Priority</h3>
-<p>The <code>priority</code> property is only used during preloading. By default, preloading is turned off so setting
-this property would do nothing. Preloading eagerly loads all deep links after the application boots
-instead of on demand as needed. To enable preloading, set <code>preloadModules</code> in the main application module
-config to <code>true</code>:</p>
+<p>在本例中，如果应用程序在 <code>http://localhost:8101/#/detail/my-detail</code> 中启动，那么显示的页面将成为具有 <code>my-detail</code> 标识的 <code>&#39;detail-page&#39;</code>，并显示一个可以返回到 <code>&#39;list&#39;</code> 页面的返回按钮。</p>
+<p>一个设置历史堆栈的应用程序的示例是 Instagram 应用程序。在 Instagram 上打开指向图片的链接，会在用户的个人资料页面上显示返回按钮，以显示该图片的详细信息。没有“正确”的方式来设置页面的历史记录，这取决于应用程序。</p>
+<h3 id="priority">优先级</h3>
+<p><code>priority</code> 属性仅用于预加载。默认情况下，预加载是关闭的，因此设置此属性将不会执行任何操作。
+预加载在应用程序引导后迅速地加载所有 deep links，而不是根据需要按需加载。要启用预加载，请将主应用程序模块配置中的 <code>preloadModules</code> 设置为 <code>true</code>：</p>
+
+
+
+
+
+
 <pre><code class="lang-ts">@NgModule({
   declarations: [
     MyApp
@@ -215,20 +215,20 @@ config to <code>true</code>:</p>
 })
 export class AppModule { }
 </code></pre>
-<p>If preloading is turned on, it will load the modules based on the value of <code>priority</code>. The following
-values are possible for <code>priority</code>: <code>&quot;high&quot;</code>, <code>&quot;low&quot;</code>, and <code>&quot;off&quot;</code>. When there is no <code>priority</code>, it
-will be set to <code>&quot;low&quot;</code>.</p>
-<p>All deep links with their priority set to <code>&quot;high&quot;</code> will be loaded first. Upon completion of loading the
-<code>&quot;high&quot;</code> priority modules, all deep links with a priority of <code>&quot;low&quot;</code> (or no priority) will be loaded. If
-the priority is set to <code>&quot;off&quot;</code> the link will not be preloaded. Setting the <code>priority</code> is as simple as
-passing it to the <code>@IonicPage</code> decorator:</p>
+<p>如果打开预加载，它将根据 <code>priority</code> 值加载模块。以下值可用于 <code>priority</code>： <code>&quot;high&quot;</code>, <code>&quot;low&quot;</code>, 和 <code>&quot;off&quot;</code>。当没有 <code>priority</code>时，它将被设置为 <code>&quot;low&quot;</code>。</p>
+<p>所有优先级设置为 <code>&quot;high&quot;</code> 的 deep links 将首先加载。在加载 <code>&quot;high&quot;</code> 优先级模块完成后，将加载所有具有 <code>&quot;low&quot;</code> （或无优先级）的 deep links。如果优先级设置为 <code>&quot;off&quot;</code>，则 link 不会被预加载。设置 <code>priority</code> 与将它传递给 <code>@IonicPage</code> 装饰器一样简单：</p>
+
+
+
+
+
 <pre><code class="lang-ts">@IonicPage({
   name: &#39;my-page&#39;,
   priority: &#39;high&#39;
 })
 </code></pre>
-<p>We recommend setting the <code>priority</code> to <code>&quot;high&quot;</code> on the pages that will be viewed first when launching
-the application.</p>
+<p>我们建议在启动应用程序时首先将页面上的 <code>priority</code> 设置为 <code>&quot;high&quot;</code>。</p>
+
 
 
 

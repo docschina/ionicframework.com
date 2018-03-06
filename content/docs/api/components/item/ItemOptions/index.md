@@ -42,7 +42,7 @@ Improve this doc
 
 
 
-<p>用于 <code>ion-item-sliding</code> 的选项按钮。这些按钮可以放置在左侧或右侧。您可以结合 <code>(ionSwipe)</code> 事件和 <code>expandable</code> 指令来为该 item 创建完整的滑动操作。</p>
+<p>用于 <code>ion-item-sliding</code> 的选项按钮。这些按钮可以放置在左侧或右侧。你可以结合 <code>(ionSwipe)</code> 事件和 <code>expandable</code> 指令来为该 item 创建完整的滑动操作。</p>
 
 
 
@@ -87,7 +87,7 @@ Improve this doc
     <tr>
       <td>side</td>
       <td><code>string</code></td>
-      <td><p>选项按钮应该处于打开状态。默认为 <code>&quot;right&quot;</code>。如果您有多个 <code>ion-item-options</code>，就必须为每个 item 提供一条边。</p>
+      <td><p>选项按钮应该处于打开状态。默认为 <code>&quot;right&quot;</code>。如果你有多个 <code>ion-item-options</code>，就必须为每个 item 提供一条边。</p>
 
 </td>
     </tr>
