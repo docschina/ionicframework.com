@@ -40,9 +40,9 @@ Improve this doc
 
 
 
-<p>The <code>IonicErrorHandler</code> intercepts the default <code>Console</code> error handling
-and displays runtime errors as an overlay when using Ionic&#39;s Dev Build Server.</p>
-<h3><a class="anchor" name="ionicerrorhandler-example" href="#ionicerrorhandler-example">IonicErrorHandler Example</a></h3>
+<p><code>IonicErrorHandler</code> 拦截默认的 <code>Console</code> 错误处理，并在使用 Ionic 的 Dev Build Server 时将运行时的错误叠加显示。</p>
+<h3><a class="anchor" name="ionicerrorhandler-example" href="#ionicerrorhandler-example">IonicErrorHandler 示例</a></h3>
+
 
 
 <pre><code class="lang-typescript">import { NgModule, ErrorHandler } from &#39;@angular/core&#39;;
@@ -53,14 +53,14 @@ import { IonicErrorHandler } from &#39;ionic-angular&#39;;
 })
 class AppModule {}
 </code></pre>
-<h3><a class="anchor" name="custom-error-handlers" href="#custom-error-handlers">Custom Error Handlers</a></h3>
+<h3><a class="anchor" name="custom-error-handlers" href="#custom-error-handlers">自定义错误处理函数</a></h3>
 
 
-<p>Custom error handlers can be built to replace the default, or extend Ionic&#39;s
-error handler.</p>
+<p>可以构建自定义错误处理函数来替换默认值，或者扩展 Ionic 的错误处理程序。</p>
+
 <pre><code class="lang-typescript">class MyErrorHandler implements ErrorHandler {
   handleError(err: any): void {
-    // do something with the error
+    // 对错误做些什么
   }
 }
 
@@ -69,7 +69,7 @@ error handler.</p>
 })
 class AppModule {}
 </code></pre>
-<p>More information about Angular&#39;s <a href="https://angular.io/docs/ts/latest/api/core/index/ErrorHandler-class.html"><code>ErrorHandler</code></a>.</p>
+<p>有关 Angular <a href="https://angular.io/docs/ts/latest/api/core/index/ErrorHandler-class.html"><code>ErrorHandler</code></a>的更多信息。</p>
 
 
 

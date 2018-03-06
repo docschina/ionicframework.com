@@ -42,38 +42,38 @@ Improve this doc
 
 
 
-<p>Columns are cellular components of the <a href="../Grid">grid</a> system and go inside of a <a href="../Row">row</a>.
-They will expand to fill their row. All content within a grid should go inside of a column.</p>
-<h2 id="column-attributes">Column attributes</h2>
-<p>By default, columns will stretch to fill the entire height of the row.
-There are several attributes that can be added to a column to customize this behavior.</p>
+<p>列（Columns ）是 <a href="../Grid">网格（grid）</a> 系统的基本组成部分，并且置身于 <a href="../Row">行（row）</a> 中。他们会通过扩张来使所在的行变满。网格内的所有内容都应该放在列里面。</p>
+<h2 id="column-attributes">列属性</h2>
+<p>默认情况下，列将延伸填充行的整个高度。
+有几个属性可以添加到列中来自定义此行为。</p>
+
 <table>
 <thead>
 <tr>
-<th>Property</th>
-<th>Description</th>
+<th>属性</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>align-self-start</td>
-<td>Adds <code>align-self: flex-start</code>. The column will be vertically aligned at the top.</td>
+<td>添加<code>align-self: flex-start</code>。该列将垂直居顶对齐。</td>
 </tr>
 <tr>
 <td>align-self-center</td>
-<td>Adds <code>align-self: center</code>. The column will be vertically aligned in the center.</td>
+<td>添加<code>align-self: center</code>。该列将垂直居中对齐。</td>
 </tr>
 <tr>
 <td>align-self-end</td>
-<td>Adds <code>align-self: flex-end</code>. The column will be vertically aligned at the bottom.</td>
+<td>添加<code>align-self: flex-end</code>。该列将垂直居底对齐。</td>
 </tr>
 <tr>
 <td>align-self-stretch</td>
-<td>Adds <code>align-self: stretch</code>. The column will be stretched to take up the entire height of the row.</td>
+<td>添加<code>align-self: stretch</code>。该列将被拉伸从而占据所在行的整个高度。</td>
 </tr>
 <tr>
 <td>align-self-baseline</td>
-<td>Adds <code>align-self: baseline</code>. The column will be vertically aligned at its baseline.</td>
+<td>添加<code>align-self: baseline</code>。该列将垂直对齐其基线。</td>
 </tr>
 </tbody>
 </table>

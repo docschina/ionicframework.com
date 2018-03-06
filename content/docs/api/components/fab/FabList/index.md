@@ -44,14 +44,14 @@ Improve this doc
 
 
 
-<p><code>ion-fab-list</code> is a container for multiple FAB buttons. They are components of <code>ion-fab</code> and allow you to specificy the buttons position, left, right, top, bottom.</p>
+<p><code>ion-fab-list</code> 是多个 FAB 按钮的容器。它们是 <code>ion-fab</code> 的组件，可以让你指定按钮的位置，比如左侧，右侧，顶部，底部。</p>
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-fab bottom right &gt;
   &lt;button ion-fab&gt;Share&lt;/button&gt;

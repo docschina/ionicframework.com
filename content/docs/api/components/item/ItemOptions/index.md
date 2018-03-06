@@ -42,15 +42,15 @@ Improve this doc
 
 
 
-<p>The option buttons for an <code>ion-item-sliding</code>. These buttons can be placed either on the left or right side.
-You can combine the <code>(ionSwipe)</code> event plus the <code>expandable</code> directive to create a full swipe action for the item.</p>
+<p>用于 <code>ion-item-sliding</code> 的选项按钮。这些按钮可以放置在左侧或右侧。你可以结合 <code>(ionSwipe)</code> 事件和 <code>expandable</code> 指令来为该 item 创建完整的滑动操作。</p>
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-item-sliding&gt;
   &lt;ion-item&gt;
@@ -73,13 +73,13 @@ You can combine the <code>(ionSwipe)</code> event plus the <code>expandable</cod
 
 <!-- instance methods on the class -->
 <!-- input methods on the class -->
-<h2><a class="anchor" name="input-properties" href="#input-properties">Input Properties</a></h2>
+<h2><a class="anchor" name="input-properties" href="#input-properties">输入属性</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -87,27 +87,27 @@ You can combine the <code>(ionSwipe)</code> event plus the <code>expandable</cod
     <tr>
       <td>side</td>
       <td><code>string</code></td>
-      <td><p> The side the option button should be on. Defaults to <code>&quot;right&quot;</code>.
-If you have multiple <code>ion-item-options</code>, a side must be provided for each.</p>
+      <td><p>选项按钮应该处于打开状态。默认为 <code>&quot;right&quot;</code>。如果你有多个 <code>ion-item-options</code>，就必须为每个 item 提供一条边。</p>
+
 </td>
     </tr>
     
   </tbody>
 </table>
 <!-- output events on the class -->
-<h2><a class="anchor" name="output-events" href="#output-events">Output Events</a></h2>
+<h2><a class="anchor" name="output-events" href="#output-events">输出事件</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
     
     <tr>
       <td>ionSwipe</td>
-      <td><p> Emitted when the item has been fully swiped.</p>
+      <td><p>当 item 整个滑动时触发。</p>
 </td>
     </tr>
     

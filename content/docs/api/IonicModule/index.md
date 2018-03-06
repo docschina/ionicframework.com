@@ -40,11 +40,11 @@ Improve this doc
 
 
 
-<p>IonicModule is an <a href="https://angular.io/docs/ts/latest/guide/ngmodule.html">NgModule</a> that bootstraps
-an Ionic App. By passing a root component, IonicModule will make sure that all of the components,
-directives, and providers from the framework are imported.</p>
-<p>Any configuration for the app can be passed as the second argument to <code>forRoot</code>. This can be any
-valid property from the <a href="/docs/api/config/Config/">Config</a>.</p>
+<p>IonicModule 是一个启动 Ionic App 的 <a href="https://angular.io/docs/ts/latest/guide/ngmodule.html">NgModule</a>。通过传递一个根组件，IonicModule 将确保框架中的所有组件，指令和提供程序都被导入。</p>
+<p>应用程序的任何配置都可以作为第二个参数传递给 <code>forRoot</code>。这可以是 <a href="/docs/api/config/Config/">Config</a> 中的任意有效属性。</p>
+
+
+
 
 
 
@@ -85,21 +85,21 @@ export class AppModule {}
 
 
 <!-- @property tags -->
-<h2><a class="anchor" name="static-members" href="#static-members">Static Members</a></h2>
+<h2><a class="anchor" name="static-members" href="#static-members">静态成员</a></h2>
 <div id="forRoot"></div>
 <h3><a class="anchor" name="forRoot" href="#forRoot"><code>forRoot(appRoot,&nbsp;config,&nbsp;deepLinkConfig)</code>
   
 </a></h3>
 
-Set the root app component for you IonicModule
+为你的 IonicModule 设置应用的根组件 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -115,7 +115,7 @@ Set the root app component for you IonicModule
   <code>any</code>
       </td>
       <td>
-        <p>The root AppComponent for this app.</p>
+        <p>这个应用程序的根 AppComponent。</p>
 
         
       </td>
@@ -132,7 +132,7 @@ Set the root app component for you IonicModule
   <code>any</code>
       </td>
       <td>
-        <p>Config Options for the app. Accepts any config property.</p>
+        <p>配置应用程序的选项。接受任何配置属性。</p>
 
         
       </td>
@@ -149,7 +149,7 @@ Set the root app component for you IonicModule
   <code>any</code>
       </td>
       <td>
-        <p>Any configuration needed for the Ionic Deeplinker.</p>
+        <p>Ionic Deeplinker 所需的所有配置。</p>
 
         
       </td>

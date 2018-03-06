@@ -42,66 +42,66 @@ Improve this doc
 
 
 
-<p>Rows are horizontal components of the <a href="../Grid">grid</a> system and contain varying numbers of
-<a href="../Col">columns</a>. They ensure the columns are positioned properly.</p>
-<h2 id="row-attributes">Row attributes</h2>
-<p>By default, columns will stretch to fill the entire height of the row and wrap when necessary.
-There are several attributes that can be added to a row to customize this behavior.</p>
+<p>Rows 是 <a href="../Grid">grid</a> 系统的水平组件， <a href="../Col">列</a> 。他们确保列正确排列。</p>
+<h2 id="row-attributes">行属性</h2>
+<p>默认情况下，列将伸展以填充行的整个高度，并在必要时进行换行。有几个属性可以添加到行中用来自定义此行为。</p>
+
+
 <table>
 <thead>
 <tr>
-<th>Property</th>
-<th>Description</th>
+<th>属性</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>nowrap</td>
-<td>Adds <code>flex-wrap: nowrap</code>. Forces the columns to a single row.</td>
+<td>添加 <code>flex-wrap: nowrap</code>。强制所有列在单行内。</td>
 </tr>
 <tr>
 <td>wrap-reverse</td>
-<td>Adds <code>flex-wrap: wrap-reverse</code>. The columns will wrap in reverse.</td>
+<td>添加 <code>flex-wrap: wrap-reverse</code>。列将反转。</td>
 </tr>
 <tr>
 <td>align-items-start</td>
-<td>Adds <code>align-items: flex-start</code>. All columns will be vertically aligned at the top, unless they specify their own alignment.</td>
+<td>添加 <code>align-items: flex-start</code>。所有列将垂直居顶对齐，除非它们指定了自己的对齐方式。</td>
 </tr>
 <tr>
 <td>align-items-center</td>
-<td>Adds <code>align-items: center</code>. All columns will be vertically aligned in the center, unless they specify their own alignment.</td>
+<td>添加 <code>align-items: center</code>。所有列将垂直居中对齐，除非它们指定了自己的对齐方式。</td>
 </tr>
 <tr>
 <td>align-items-end</td>
-<td>Adds <code>align-items: flex-end</code>. All columns will be vertically aligned at the bottom, unless they specify their own alignment.</td>
+<td>添加 <code>align-items: flex-end</code>。所有列将垂直居底对齐，除非它们指定了自己的对齐方式。</td>
 </tr>
 <tr>
 <td>align-items-stretch</td>
-<td>Adds <code>align-items: stretch</code>. All columns will be stretched to take up the entire height of the row, unless they specify their own alignment.</td>
+<td>添加 <code>align-items: stretch</code>。所有列将被拉伸以占据该行的整个高度，除非它们指定了自己的对齐方式。</td>
 </tr>
 <tr>
 <td>align-items-baseline</td>
-<td>Adds <code>align-items: baseline</code>. All columns will be vertically aligned at their baselines, unless they specify their own alignment.</td>
+<td>添加 <code>align-items: baseline</code>。所有列将在其基线上垂直对齐，除非它们指定了自己的对齐方式。</td>
 </tr>
 <tr>
 <td>justify-content-start</td>
-<td>Adds <code>justify-content: start</code>. All columns will be horizontally aligned at the start.</td>
+<td>添加<code>justify-content: start</code>。所有列将水平居始对齐。</td>
 </tr>
 <tr>
 <td>justify-content-center</td>
-<td>Adds <code>justify-content: center</code>. All columns will be horizontally aligned at the center.</td>
+<td>添加<code>justify-content: center</code>。所有列将水平居中对齐。</td>
 </tr>
 <tr>
 <td>justify-content-end</td>
-<td>Adds <code>justify-content: end</code>. All columns will be horizontally aligned at the end.</td>
+<td>添加<code>justify-content: end</code>。所有列将水平居尾对齐。</td>
 </tr>
 <tr>
 <td>justify-content-around</td>
-<td>Adds <code>justify-content: space-around</code>. All columns will be horizontally aligned with equal space around them.</td>
+<td>添加<code>justify-content: space-around</code>。所有的列将水平对齐，并在其周围有相同的间隔空间。</td>
 </tr>
 <tr>
 <td>justify-content-between</td>
-<td>Adds <code>justify-content: space-between</code>. All columns will be horizontally aligned with a half-size space on either end.</td>
+<td>添加<code>justify-content: space-between</code>。所有列都将水平对齐，并在两端都有半尺寸（half-size）空间。</td>
 </tr>
 </tbody>
 </table>

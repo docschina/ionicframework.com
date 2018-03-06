@@ -40,7 +40,7 @@ Improve this doc
 
 
 
-<p>App is a utility class used in Ionic to get information about various aspects of an app</p>
+<p>App 是 Ionic 的通用类，用于获取当前应用各个方面的信息。</p>
 
 
 
@@ -54,7 +54,7 @@ Improve this doc
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="getActiveNav"></div>
 
@@ -75,8 +75,8 @@ Improve this doc
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>NavController</code> <p>Returns the first Active Nav Controller from the list. This method is deprecated</p>
+<b>返回：</b> 
+  <code>NavController</code> <p>从列表中返回第一个激活的 Nav Controller。此方法已弃用。</p>
 
 
 </div>
@@ -123,8 +123,8 @@ Improve this doc
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>NavController[]</code> <p>Returns the active NavControllers. Using this method is preferred when we need access to the top-level navigation controller while on the outside views and handlers like <code>registerBackButtonAction()</code></p>
+<b>返回：</b> 
+  <code>NavController[]</code> <p>返回激活的 NavControllers。如果我们需要访问最高阶层的导航控制器，在外部视图和处理函数（如 <code>registerBackButtonAction()</code> ）上使用此方法。</p>
 
 
 </div>
@@ -191,8 +191,8 @@ Improve this doc
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>NavController</code> <p>Returns the root NavController</p>
+<b>返回：</b> 
+  <code>NavController</code> <p>返回根导航控制器。</p>
 
 
 </div>
@@ -230,7 +230,7 @@ Improve this doc
 </a>
 </h3>
 
-Boolean if the app is actively scrolling or not.
+应用是否正在滚动或不滚动的布尔值。
 
 
 
@@ -239,8 +239,8 @@ Boolean if the app is actively scrolling or not.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>boolean</code> <p>returns true or false</p>
+<b>返回：</b> 
+  <code>boolean</code> <p>返回 true 或 false 。</p>
 
 
 </div>
@@ -258,15 +258,15 @@ Boolean if the app is actively scrolling or not.
 </a>
 </h3>
 
-Sets the document title.
+设置文档标题。
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -282,7 +282,7 @@ Sets the document title.
   <code>string</code>
       </td>
       <td>
-        <p>Value to set the document title to.</p>
+        <p>设置文档标题的值。</p>
 
         
       </td>
@@ -308,7 +308,7 @@ Sets the document title.
 </a>
 </h3>
 
-Observable that emits after any view is entered in the app.
+在应用中进入任意视图后发出的可观察对象。
 
 
 
@@ -317,8 +317,8 @@ Observable that emits after any view is entered in the app.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b> 
+  <code>Observable</code> <p>返回一个可观察对象</p>
 
 
 </div>
@@ -336,7 +336,7 @@ Observable that emits after any view is entered in the app.
 </a>
 </h3>
 
-Observable that emits after any view is exited in the app.
+在应用中退出任意视图后发出的可观察对象。
 
 
 
@@ -345,8 +345,8 @@ Observable that emits after any view is exited in the app.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b> 
+  <code>Observable</code> <p>返回一个可观察对象</p>
 
 
 </div>
@@ -364,7 +364,7 @@ Observable that emits after any view is exited in the app.
 </a>
 </h3>
 
-Observable that emits whenever a view loads in the app.
+在应用中加载任意视图后发出的可观察对象。
 
 
 
@@ -373,8 +373,8 @@ Observable that emits whenever a view loads in the app.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b> 
+  <code>Observable</code> <p>返回一个可观察对象</p>
 
 
 </div>
@@ -392,7 +392,7 @@ Observable that emits whenever a view loads in the app.
 </a>
 </h3>
 
-Observable that emits before any view is entered in the app.
+在应用中加载任意视图前发出的可观察对象。
 
 
 
@@ -401,8 +401,8 @@ Observable that emits before any view is entered in the app.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b> 
+  <code>Observable</code> <p>返回一个可观察对象</p>
 
 
 </div>
@@ -420,7 +420,7 @@ Observable that emits before any view is entered in the app.
 </a>
 </h3>
 
-Observable that emits before any view is exited in the app.
+在应用中退出任意视图前发出的可观察对象。
 
 
 
@@ -429,8 +429,8 @@ Observable that emits before any view is exited in the app.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b> 
+  <code>Observable</code> <p>返回一个可观察对象</p>
 
 
 </div>
@@ -448,7 +448,7 @@ Observable that emits before any view is exited in the app.
 </a>
 </h3>
 
-Observable that emits before any view unloads in the app.
+在应用中未加载任意视图前发出的可观察对象。
 
 
 
@@ -457,8 +457,8 @@ Observable that emits before any view unloads in the app.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b> 
+  <code>Observable</code> <p>返回一个可观察对象</p>
 
 
 </div>

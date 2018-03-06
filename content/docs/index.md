@@ -40,9 +40,9 @@ pre_footer: true
     </a>
     <a class="section native"
        href="/docs/native">
-      <h3>Ionic Native</h3>
+      <h3>Ionic 原生</h3>
       <p>
-        集成本地设备插件，
+        集成了原生设备插件，
         如蓝牙、地图、HealthKit 等。
       </p>
     </a>
@@ -50,8 +50,8 @@ pre_footer: true
        href="/docs/theming/">
       <h3>主题化</h3>
       <p>
-        学习如何轻松定制和修改您应用的设计，
-        以适应您的品牌。
+        学习如何轻松定制和修改你应用的设计，
+        以适应你的品牌。
       </p>
     </a>
     <a class="section ionicons-link"

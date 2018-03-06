@@ -40,15 +40,15 @@ Improve this doc
 
 
 
-<p>IonicPageModule is an <a href="https://angular.io/docs/ts/latest/guide/ngmodule.html">NgModule</a> that
-bootstraps a child <a href="../navigation/IonicPage/">IonicPage</a> in order to set up routing.</p>
+<p>IonicPageModule 是一个 <a href="https://angular.io/docs/ts/latest/guide/ngmodule.html">NgModule</a>，用于引导子 <a href="../navigation/IonicPage/">IonicPage</a> 设置路由。</p>
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-ts">import { NgModule } from &#39;@angular/core&#39;;
 
@@ -74,7 +74,7 @@ export class HomePageModule { }
 
 
 <!-- @property tags -->
-<h2><a class="anchor" name="static-members" href="#static-members">Static Members</a></h2>
+<h2><a class="anchor" name="static-members" href="#static-members">静态成员</a></h2>
 <div id="forChild"></div>
 <h3><a class="anchor" name="forChild" href="#forChild"><code>forChild()</code>
   
