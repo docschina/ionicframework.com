@@ -39,16 +39,16 @@ MIT 许可进行授权的。
 
 本网站及文档内容（位于
  [ionic-site](https://github.com/ionic-team/ionic-site) 仓库中）是基于
-Apache 2 协议发布的。
+Apache 2 许可证授权的。
 
-### What is the Ionic CLI?
+### 什么是 Ionic CLI？
 
-The [CLI](../../resources/what-is/#cli), or command line interface, is a tool
-that provides a number of helpful commands to Ionic developers. In addition to
-installing and updating Ionic, the CLI comes with a built-in development server,
-build and debugging tools, and much more. If you are using [Ionic Pro](/pro),
-the CLI can be used to export code and even interact with your account
-programmatically.
+[CLI](../../resources/what-is/#cli)（命令行界面）是一种用于为
+Ionic 开发者提供许多实用命令的工具。除了安装和更新 Ionic 
+之外，CLI 
+还配备了内置的开发服务器，构建及调试工具等。如果你正在使用
+[Ionic Pro](/pro)，CLI
+还可以用于导出代码，乃至在命令行中操作你的帐号。
 
 ### What are components?
 
