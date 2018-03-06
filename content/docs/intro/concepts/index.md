@@ -86,9 +86,9 @@ Ionic 来更快更好地构建应用程序。据报道，在 2015
 年 Ionic 开发者创造了超过 130 万个
 Ionic 应用程序，而这个数字每天都在继续增长。
 
-### What is Angular?
+### 什么是 Angular？
 
-[Angular](https://angular.io/) is the underlying framework that powers Ionic. It
-is responsible for the component API that is the building block of Ionic. For an
-overview on Angular, be sure to checkout the official [Angular
-Docs](https://angular.io/docs/ts/latest/).
+[Angular](https://angular.io/) 是驱动 Ionic 的底层框架。它负责作为
+Ionic 构建模块时的组件 API。有关
+Angular 的概述，请查阅
+[Angular 官方文档](https://angular.io/docs/ts/latest/)。
