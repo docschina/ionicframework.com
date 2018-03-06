@@ -107,7 +107,7 @@ _app.js_
 
 ### TypeScript
 
-TypeScript is a superset of JavaScript that provides ES6 Classes and type annotations in your code. By adopting TypeScript now, you can write your code as ES6 Classes that will be easy to move to Ionic. The best part is that any valid JavaScript is also valid TypeScript, so you can convert your code piece by piece. If you take your controller from before, you can easily convert it to a TypeScript class like this.
+TypeScript 是 JavaScript 的超集，可以在你的代码中提供 ES6 Classes 语法以及静态类型系统。通过采用 TypeScript，如今你可以将代码编写为易于迁移至 Ionic 的 ES6 Classes。因为 TypeScript 中同样支持 JavaScript，所以你可以一点一点地将代码转换过来。如果你使用了前面的方法转换 controller，那就可以很容易地将其进一步转换为如下所示的 TypeScript 类。
 
 _app.js_
 
