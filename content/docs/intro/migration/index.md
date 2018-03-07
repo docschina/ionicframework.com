@@ -52,6 +52,7 @@ export class MainCmp {
 
 # 从 Angular 1 迁移
 
+
 虽然 Angular 2 需要更新应用程序以进行语法更改，但开发人员可以采取积极主动的措施，通过遵循最佳做法并使用 [John Papa 的 Angular Style 指南](https://github.com/johnpapa/angular-styleguide)或 [Todd Motto 的 Angular Style 指南](https://github.com/toddmotto/angularjs-styleguide)来确保其应用程序可升级。这两种方法都为你提供了一系列用于准备迁移代码的步骤。
 
 ### ControllerAs 语法
