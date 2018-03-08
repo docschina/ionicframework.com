@@ -4,32 +4,32 @@
   改进这篇文档
 </a>
 
-Tabs powers a multi-tabbed interface with a Tab Bar and a set of views that can be tabbed through.
+Tabs 为多页签界面提供选项卡栏和一组分页式的视图。
 
-_For more information, Check out the [Tabs API docs](../api/components/tabs/Tabs) and the [Tab API docs](../api/components/tabs/Tab)._
+_有关更多信息，请查看 [API 文档](../api/components/tabs/Tab)。_
 
 <ul class="docs-content">
-  <li class="docs-content-header">Contents</li>
-  <li class="docs-content-item"><a href="#tabs">Text Tabs</a></li>
-  <li class="docs-content-item"><a href="#tabs-icon">Icon Tabs</a></li>
-  <li class="docs-content-item"><a href="#tabs-icon-text">Text and Icon Tabs</a></li>
-  <li class="docs-content-item"><a href="#tabs-badges">Badge Tabs</a></li>
+  <li class="docs-content-header">内容</li>
+  <li class="docs-content-item"><a href="#tabs">文本 Tabs</a></li>
+  <li class="docs-content-item"><a href="#tabs-icon">图标 Tabs</a></li>
+  <li class="docs-content-item"><a href="#tabs-icon-text">文本和图标 Tabs</a></li>
+  <li class="docs-content-item"><a href="#tabs-badges">徽章 Tabs</a></li>
 
 </ul>
 
-### Basic Usage
+### 基本用法
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/tab-basic">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/tabs/basic">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-To initialize Tabs, use [`<ion-tabs>`](../api/components/tabs/Tabs/), with a child [`<ion-tab>`](../api/components/tabs/Tab/) for each tab:
+  要初始化 Tabs，请为每个 tab 使用 [`<ion-tabs>`](../api/components/tabs/Tabs/) 和一个子选项 [`<ion-tab>`](../api/components/tabs/Tab/)：
 
 ```typescript
 import { Component } from '@angular/core';
@@ -55,7 +55,7 @@ class MyApp {
 }
 ```
 
-Individual tabs are just `@Components`
+单个 tabs 只是 `@Components`
 
 ```typescript
 import { Component } from '@angular/core';
@@ -83,7 +83,7 @@ export class Tab1 {}
 export class Tab2 {}
 ```
 
-Notice that each `<ion-tab>` binds to a `[root]` property, just like [`<ion-nav>`](../api/components/nav/Nav/) in the [Navigation](#navigation) section above.  That is because each `<ion-tab>` is really just a navigation controller.  This means that each tab has its own history stack, and [`NavController instances injected`](../api/components/nav/NavController/#injecting_nav_controller) into children `@Components` of each tab will be unique to each tab:
+  请注意，每个 `<ion-tab>` 绑定到 `[root]` 属性，就像上面导航部分的 [`<ion-nav>`](../api/components/nav/Nav/) 一样。那是因为每个 `<ion-tab>` 实际上只是一个导航控制器。这意味着每个 tab 都有自己的历史堆栈，并且 [`NavController 实例注入`](../api/components/nav/NavController/#injecting_nav_controller)到每个 tab 的  `@Components` ，这对于每个 tab 都是唯一的：
 
 ```typescript
 import { Component } from '@angular/core';
@@ -94,7 +94,7 @@ import { NavController } from 'ionic-angular';
 })
 class Tab1 {
   constructor(public navCtrl: NavController) {
-    // Id is 1, nav refers to Tab1
+    // Id 是1，nav 是指 Tab1
     console.log(this.nav.id)
   }
 }
@@ -104,25 +104,25 @@ class Tab1 {
 })
 class Tab2 {
   constructor(public navCtrl: NavController) {
-    // Id is 2, nav refers to Tab2
+    // Id是2，nav 是指 Tab2
     console.log(this.nav.id)
   }
 }
 ```
 
-<h3 class="section-nav" id="tabs-icon">Icon Tabs</h3>
+<h3 class="section-nav" id="tabs-icon">图标 Tabs</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/tab-icon">
       Demo
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/tabs/icon">
-      Demo Source
+      Demo 源码
     </a>
   </nobr>
 </p>
 
-To add an icon inside of a tab, use the `tab-icon` attribute. This attribute can be passed the name of any [icon](#icon):
+要在 tab 内添加图标，请使用 `tab-icon` 属性。该属性可以传递任意 [icon](#icon) 的名称：
 
 ```typescript
 @Component({
@@ -157,19 +157,19 @@ export class TabsIconPage {
 }
 ```
 
-<h3 class="section-nav" id="tabs-icon-text">Icon and Text</h3>
+<h3 class="section-nav" id="tabs-icon-text">图标和文本</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/tab-icon-text">
       Demo
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/tabs/icon-text">
-      Demo Source
+      Demo 源码
     </a>
   </nobr>
 </p>
 
-To add text and an icon inside of a tab, use the `tab-icon` and `tab-title` attributes:
+要在 tab 内添加文字和图标，请使用 `tab-icon` 和 `tab-title` 属性：
 
 ```typescript
 @Component({
@@ -211,12 +211,12 @@ export class TabsTextPage {
       Demo
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/tabs/icon-text">
-      Demo Source
+      Demo 源码
     </a>
   </nobr>
 </p>
 
-To add a badge to a tab, use the `tabBadge` and `tabBadgeStyle` attributes. The `tabBadgeStyle` attribute can be passed the name of any [color](/docs/theming/theming-your-app/):
+要将徽章添加到 tab，请使用 `tabBadge` 和 `tabBadgeStyle` 属性。`tabBadgeStyle` 属性可以传递任何[颜色](/docs/theming/theming-your-app/)的名称：
 
 
 ```typescript
@@ -251,4 +251,4 @@ export class BadgesPage {
 }
 ```
 
-For more information on tabs, check out the [Tabs API reference](../api/components/tabs/Tabs/).
+    有关更多信息，请查看 [API 文档](../api/components/toolbar/Tabs)。
