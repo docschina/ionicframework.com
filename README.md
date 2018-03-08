@@ -106,4 +106,4 @@ gulp.task('jekyll-build', [], function(done) {
 ### 分支管理
 - 合并分支：http://mp.weixin.qq.com/s/_ricIlWhDbRZW-CmH0Ik5w
 - 翻译流程：https://github.com/webpack-china/webpack.js.org
-- git 命令示意图：![git 命令示意图](https://github.com/docschina/ionicframework.com/tree/cn/assets/img/ionic-git-flow.png)
+- git 命令示意图：![git 命令示意图](ionic-git-flow.png)
