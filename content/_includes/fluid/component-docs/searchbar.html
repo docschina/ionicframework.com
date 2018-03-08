@@ -1,21 +1,21 @@
 <h2 id="searchbar" class="section-header">Searchbar</h2>
 
-<a target="_blank" class="improve-v2-docs" href="https://github.com/ionic-team/ionic-site/edit/master/content/_includes/fluid/component-docs/searchbar.html">
-  Improve this Doc
+<a target="_blank" class="improve-v2-docs" href="https://github.com/docschina/ionicframework.com/edit/cn/content/_includes/fluid/component-docs/searchbar.html">
+  改进这篇翻译
 </a>
 
-A Searchbar binds to a model, and emits an input event when the model is changed.
+Searchbar 绑定到 model，并在 model 变更时触发输入事件。
 
-_For more information, Check out the [API docs](../api/components/searchbar/Searchbar)._
+_有关更多信息，请查看 [API 文档](../api/components/searchbar/Searchbar)。_
 
-<h3 class="section-nav">Basic Usage</h3>
+<h3 class="section-nav">基本用法</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/searchbar-basic">
       Demo
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/searchbars">
-      Demo Source
+      Demo 源码
     </a>
   </nobr>
 </p>
@@ -29,7 +29,7 @@ _For more information, Check out the [API docs](../api/components/searchbar/Sear
 </ion-list>
 ```
 
-Note that in this example, the `getItems()` function is called when the input changes, which updates the cities that are displayed. Although this example filters the list based on the search input, Searchbar can be used in many different scenarios:
+请注意，在本例中，当输入发生变化时会调用 `getItems()` 函数，这会更新显示的城市。虽然这个例子基于搜索输入框的过滤列表，但 Searchbar 可以用于许多不同的场景：
 
 ```typescript
 @Component({
@@ -53,13 +53,13 @@ class SearchPage {
   }
 
   getItems(ev: any) {
-    // Reset items back to all of the items
+    // 将 items 重新设定到原来全部的 items
     this.initializeItems();
 
-    // set val to the value of the searchbar
+    // 将 val 设置为 searchbar 的值
     let val = ev.target.value;
 
-    // if the value is an empty string don't filter the items
+    // 如果该值为空字符串，就不过滤 item
     if (val && val.trim() != '') {
       this.items = this.items.filter((item) => {
         return (item.toLowerCase().indexOf(val.toLowerCase()) > -1);
