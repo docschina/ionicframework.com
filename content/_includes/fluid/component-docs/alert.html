@@ -1,16 +1,16 @@
 <h2 id="alert" class="section-header">Alerts</h2>
 
-<a target="_blank" class="improve-v2-docs" href="https://github.com/ionic-team/ionic-site/edit/master/content/_includes/fluid/component-docs/alert.html">
-  Improve this Doc
+<a target="_blank" class="improve-v2-docs" href="https://github.com/docschina/ionicframework.com/edit/cn/content/_includes/fluid/component-docs/alert.html">
+  改进这篇翻译
 </a>
 
-Alerts are a great way to offer the user the ability to choose a specific action or list of actions. They also can provide the user with important information, or require them to make a decision (or multiple decisions).
+Alerts 弹框不失为一种向用户提供单个特定操作，或者一系列操作选项的好方法。它们还可以为用户提示重要信息，或者要求用户做出一个（或多个）决定。
 
-From a UI perspective, Alerts can be thought of as a type of “floating” modal that covers only a portion of the screen. This means Alerts should only be used for quick actions like password verification, small app notifications, or quick options. More in depth user flows should be reserved for full screen ​[Modals](#modals)​.
+从 UI 的角度来看，Alerts 可以被当做一种只挡住一部分屏幕的“浮动”模态框。这意味着 Alerts 只能用于诸如密码验证、简单的应用提示等其他快速操作。而更加深入的用户操作流则应该保留给全屏的[模态框](#modals)。
 
-Alerts are quite flexible, and can easily be customized.
+Alerts 弹框是非常灵活，且易于定制的。
 
-_For more information, Check out the [API docs](../api/components/alert/AlertController)._
+_若要获取更多信息，请查阅 [API 文档](../api/components/alert/AlertController)。_
 
 <ul class="docs-content">
   <li class="docs-content-header">Contents</li>
@@ -21,20 +21,20 @@ _For more information, Check out the [API docs](../api/components/alert/AlertCon
   <li class="docs-content-item"><a href="#alert-checkbox">Checkbox Alerts</a></li>
 </ul>
 
-<h3 class="section-nav" id="alerts">Basic Usage</h3>
+<h3 class="section-nav" id="alerts">基础用法</h3>
 
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/alert-basic">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/basic">
-      Demo Source
+      示例链接
     </a>
   </nobr>
 </p>
 
-Basic Alerts are typically used to notify the user about new information (a change in the app, a new feature, etc), an urgent situation that requires acknowledgement, or as a confirmation to the user that an action was successful or not.
+Basic Alerts 通常用于向用户提示一些新增的信息（如应用中的改动以及新功能等），需要用户确认的紧急情况，或是告知用户操作成功与否的提示。
 
 ```typescript
 import { AlertController } from 'ionic-angular';
