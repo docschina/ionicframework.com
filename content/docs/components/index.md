@@ -2,16 +2,16 @@
 layout: fluid/docs_base
 category: components
 id: components
-title: Ionic Component Documentation
+title: Ionic 组件文档
 show_preview_device: true
 angular_controller: ComponentsCtrl
 next_page_title: API Docs
 next_page_link: /docs//api
 ---
 
-<h1 id="overview">Components</h1>
+<h1 id="overview">组件</h1>
 
-Ionic apps are made of high-level building blocks called components. Components allow you to quickly construct an interface for your app. Ionic comes with a number of components, including modals, popups, and cards. Check out the examples below to see what each component looks like and to learn how to use each one. Once you're familiar with the basics, head over to the [API docs](../api) for ideas on how to customize each component.
+Ionic 应用程序是由被称为组件的高级构建模块所组成的。组件化的开发方式能让你得以快速地构建出应用程序的图形界面。Ionic 内置了大量的组件，包括模态框、弹出窗口，以及卡片等。请查阅下面的示例，看一看每个组件都长啥样，并学习如何使用这些组件。熟悉完基础知识之后，可以前往 [API 文档](../api)了解如何自定义组件。
 
 {% include fluid/component-docs/action-sheets.html %}
 {% include fluid/component-docs/alert.html %}

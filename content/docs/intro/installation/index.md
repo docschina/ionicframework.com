@@ -2,7 +2,7 @@
 layout: fluid/docs_base
 category: intro
 id: installation
-title: Installing Ionic
+title: 安装 Ionic
 header_sub_title: Getting Started with Ionic
 next_page_title: Tutorial
 next_page_link: /docs//intro/tutorial
