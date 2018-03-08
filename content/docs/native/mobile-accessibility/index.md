@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Mobile Accessibility</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/mobile-accessibility/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -408,7 +408,7 @@ Posts a notification with a string for the screen reader to announce if it is ru
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -449,7 +449,7 @@ Speaks a given string through the screenreader. On Android, if ChromeVox is acti
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       queueMode</td>
@@ -459,7 +459,7 @@ Speaks a given string through the screenreader. On Android, if ChromeVox is acti
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       properties</td>

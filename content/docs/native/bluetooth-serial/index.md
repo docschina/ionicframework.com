@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Bluetooth Serial</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/bluetooth-serial/index.ts#L2">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -163,7 +163,7 @@ Disconnect from the connected device
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="write" href="#write"></a><code>write(data)</code></h3>
 
 

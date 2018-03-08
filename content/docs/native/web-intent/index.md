@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Web Intent<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/web-intent/index.ts#L2">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -173,7 +173,7 @@ Launches an Android intent
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="startActivityForResult" href="#startActivityForResult"></a><code>startActivityForResult(options)</code></h3>
 
 
@@ -202,7 +202,7 @@ Starts a new activity and return the result to the application
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="hasExtra" href="#hasExtra"></a><code>hasExtra(extra)</code></h3>
 
 
@@ -230,7 +230,7 @@ Checks if this app was invoked with specified extra
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getExtra" href="#getExtra"></a><code>getExtra(extra)</code></h3>
 
 
@@ -258,7 +258,7 @@ Gets the extra that this app was invoked with
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getUri" href="#getUri"></a><code>getUri()</code></h3>
 
 
@@ -267,7 +267,7 @@ Gets the Uri the app was invoked with
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="onNewIntent" href="#onNewIntent"></a><code>onNewIntent()</code></h3>
 
 
@@ -278,7 +278,7 @@ Gets the Uri the app was invoked with
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;string&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;string&gt;</code>
 </div><h3><a class="anchor" name="sendBroadcast" href="#sendBroadcast"></a><code>sendBroadcast(options)</code></h3>
 
 
@@ -307,7 +307,7 @@ Sends a custom intent passing optional extras
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="registerBroadcastReceiver" href="#registerBroadcastReceiver"></a><code>registerBroadcastReceiver(filters)</code></h3>
 
 
@@ -370,7 +370,7 @@ Returns the content of the intent used whenever the application activity is laun
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

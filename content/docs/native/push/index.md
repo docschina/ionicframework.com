@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Push</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/push/index.ts#L223">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -150,7 +150,7 @@ Init push notifications
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>PushObject</code> 
+  <b>Returns:</b> <code>PushObject</code>
 </div><h3><a class="anchor" name="hasPermission" href="#hasPermission"></a><code>hasPermission()</code></h3>
 
 
@@ -202,7 +202,7 @@ Delete a notification channel for Android O and above.
     <td>
       id</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -218,7 +218,7 @@ Returns a list of currently configured channels.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Channel[]&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Channel[]&gt;</code>
 </div>
 
 
@@ -236,7 +236,7 @@ Returns a list of currently configured channels.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       registrationId
@@ -247,10 +247,10 @@ Returns a list of currently configured channels.
     <td>
       <p>The registration ID provided by the 3rd party remote push service.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -266,7 +266,7 @@ Returns a list of currently configured channels.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       message
@@ -277,10 +277,10 @@ Returns a list of currently configured channels.
     <td>
       <p>The text of the push message sent from the 3rd party service.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       title
@@ -294,7 +294,7 @@ Returns a list of currently configured channels.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       count
@@ -306,10 +306,10 @@ Returns a list of currently configured channels.
       <p>The number of messages to be displayed in the badge iOS or message count in the notification shade in Android.
 For windows, it represents the value in the badge notification which could be a number or a status glyph.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sound
@@ -320,10 +320,10 @@ For windows, it represents the value in the badge notification which could be a 
     <td>
       <p>The name of the sound file to be played upon receipt of the notification.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       image
@@ -334,10 +334,10 @@ For windows, it represents the value in the badge notification which could be a 
     <td>
       <p>The path of the image file to be displayed in the notification.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       additionalData
@@ -348,10 +348,10 @@ For windows, it represents the value in the badge notification which could be a 
     <td>
       <p>An optional collection of data sent by the 3rd party push service that does not fit in the above properties.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -367,7 +367,7 @@ For windows, it represents the value in the badge notification which could be a 
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       foreground
@@ -381,7 +381,7 @@ For windows, it represents the value in the badge notification which could be a 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       collapse_key
@@ -390,11 +390,11 @@ For windows, it represents the value in the badge notification which could be a 
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       coldstart
@@ -403,11 +403,11 @@ For windows, it represents the value in the badge notification which could be a 
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       from
@@ -416,11 +416,11 @@ For windows, it represents the value in the badge notification which could be a 
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       notId
@@ -429,11 +429,11 @@ For windows, it represents the value in the badge notification which could be a 
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -449,7 +449,7 @@ For windows, it represents the value in the badge notification which could be a 
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       fcmSandbox
@@ -463,7 +463,7 @@ For windows, it represents the value in the badge notification which could be a 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       alert
@@ -481,7 +481,7 @@ user in Settings&gt;Notifications&gt;App Name. This is normal iOS behaviour.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       badge
@@ -499,7 +499,7 @@ user in Settings&gt;Notifications&gt;App Name. This is normal iOS behaviour.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sound
@@ -517,7 +517,7 @@ user in Settings&gt;Notifications&gt;App Name. This is normal iOS behaviour.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clearBadge
@@ -531,7 +531,7 @@ user in Settings&gt;Notifications&gt;App Name. This is normal iOS behaviour.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       topics
@@ -547,7 +547,7 @@ subscribe to a GcmPubSub topic.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       categories
@@ -562,7 +562,7 @@ Action Buttons on iOS - <a href="https://github.com/phonegap/phonegap-plugin-pus
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -578,7 +578,7 @@ Action Buttons on iOS - <a href="https://github.com/phonegap/phonegap-plugin-pus
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       senderID
@@ -589,10 +589,10 @@ Action Buttons on iOS - <a href="https://github.com/phonegap/phonegap-plugin-pus
     <td>
       <p>Maps to the project number in the Google Developer Console.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       icon
@@ -607,7 +607,7 @@ not include the extension.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       iconColor
@@ -622,7 +622,7 @@ not include the extension.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sound
@@ -637,7 +637,7 @@ sound.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       vibrate
@@ -651,7 +651,7 @@ sound.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clearBadge
@@ -665,7 +665,7 @@ sound.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clearNotifications
@@ -679,7 +679,7 @@ sound.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       forceShow
@@ -694,7 +694,7 @@ foreground.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       topics
@@ -709,7 +709,7 @@ subscribe to a GcmPubSub topic.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       messageKey
@@ -723,7 +723,7 @@ subscribe to a GcmPubSub topic.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       titleKey
@@ -737,7 +737,7 @@ subscribe to a GcmPubSub topic.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -753,7 +753,7 @@ subscribe to a GcmPubSub topic.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       applicationServerKey
@@ -767,7 +767,7 @@ subscribe to a GcmPubSub topic.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       pushServiceURL
@@ -782,7 +782,7 @@ Default: <a href="http://push.api.phonegap.com/v1/push">http://push.api.phonegap
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -798,7 +798,7 @@ Default: <a href="http://push.api.phonegap.com/v1/push">http://push.api.phonegap
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       ios
@@ -807,11 +807,11 @@ Default: <a href="http://push.api.phonegap.com/v1/push">http://push.api.phonegap
       <code>IOSPushOptions</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       android
@@ -820,11 +820,11 @@ Default: <a href="http://push.api.phonegap.com/v1/push">http://push.api.phonegap
       <code>AndroidPushOptions</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       windows
@@ -833,11 +833,11 @@ Default: <a href="http://push.api.phonegap.com/v1/push">http://push.api.phonegap
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       browser
@@ -846,11 +846,11 @@ Default: <a href="http://push.api.phonegap.com/v1/push">http://push.api.phonegap
       <code>BrowserPushOptions</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">In App Purchase</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/in-app-purchase/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -213,7 +213,7 @@ Call this function after purchasing a "consumable" product to mark it as consume
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       receipt</td>
@@ -223,7 +223,7 @@ Call this function after purchasing a "consumable" product to mark it as consume
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       signature</td>
@@ -238,7 +238,7 @@ Call this function after purchasing a "consumable" product to mark it as consume
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="restorePurchases" href="#restorePurchases"></a><code>restorePurchases()</code></h3>
 
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Broadcaster</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/broadcaster/index.ts#L2">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -129,7 +129,7 @@ This function sends data to the native code
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       eventData</td>

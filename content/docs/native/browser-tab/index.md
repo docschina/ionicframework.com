@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Browser Tab</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/browser-tab/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 

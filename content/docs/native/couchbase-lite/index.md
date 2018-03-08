@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Couchbase Lite</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/couchbase-lite/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -113,8 +113,8 @@ getAllDocuments(database_name:string){
        .catch((error:any) =&gt; {
           return Observable.throw(error.json() || &#39;Couchbase Lite error&#39;);
        })        .
-}      
-createDocument(database_name:string,document){   
+}
+createDocument(database_name:string,document){
      let url = this.getUrl();
      url = url + database_name;
      return this._http
@@ -131,9 +131,9 @@ let document = {
 createDocument(&#39;justbe&#39;, document);
 // successful response
 { &quot;id&quot;: &quot;string&quot;,&quot;rev&quot;: &quot;string&quot;,&quot;ok&quot;: true }
-updateDocument(database_name:string,document){    
+updateDocument(database_name:string,document){
      let url = this.getUrl();
-     url = url + database_name + &#39;/&#39; + document._id;     
+     url = url + database_name + &#39;/&#39; + document._id;
      return this._http
        .put(url,document)
        .map(data =&gt; { this.results = data[&#39;results&#39;] })

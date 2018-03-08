@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Streaming Media</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/streaming-media/index.ts#L16">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -102,7 +102,7 @@ Streams a video
       <p>The URL of the video</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -141,7 +141,7 @@ Streams an audio
       <p>The URL of the audio stream</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -205,7 +205,7 @@ Resumes streaming audio
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       successCallback
@@ -214,11 +214,11 @@ Resumes streaming audio
       <code>Function</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       errorCallback
@@ -227,11 +227,11 @@ Resumes streaming audio
       <code>Function</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       orientation
@@ -240,11 +240,11 @@ Resumes streaming audio
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -260,7 +260,7 @@ Resumes streaming audio
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       bgColor
@@ -269,11 +269,11 @@ Resumes streaming audio
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bgImage
@@ -282,11 +282,11 @@ Resumes streaming audio
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bgImageScale
@@ -295,11 +295,11 @@ Resumes streaming audio
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       initFullscreen
@@ -308,11 +308,11 @@ Resumes streaming audio
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       successCallback
@@ -321,11 +321,11 @@ Resumes streaming audio
       <code>Function</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       errorCallback
@@ -334,11 +334,11 @@ Resumes streaming audio
       <code>Function</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

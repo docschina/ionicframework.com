@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Launch Navigator</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/launch-navigator/index.ts#L237">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -118,7 +118,7 @@ Launches navigator app
       <p>Location name or coordinates (as string or array)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -133,7 +133,7 @@ Launches navigator app
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="isAppAvailable" href="#isAppAvailable"></a><code>isAppAvailable(app)</code></h3>
 
 
@@ -161,7 +161,7 @@ Determines if the given app is installed and available on the current device.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="availableApps" href="#availableApps"></a><code>availableApps()</code></h3>
 
 
@@ -170,7 +170,7 @@ Returns a list indicating which apps are installed and available on the current 
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;string[]&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;string[]&gt;</code>
 </div><h3><a class="anchor" name="getAppDisplayName" href="#getAppDisplayName"></a><code>getAppDisplayName(app)</code></h3>
 
 
@@ -200,7 +200,7 @@ Returns the display name of the specified app.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="getAppsForPlatform" href="#getAppsForPlatform"></a><code>getAppsForPlatform(platform)</code></h3>
 
 
@@ -230,7 +230,7 @@ Returns list of supported apps on a given platform.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string[]</code> 
+  <b>Returns:</b> <code>string[]</code>
 </div><h3><a class="anchor" name="supportsTransportMode" href="#supportsTransportMode"></a><code>supportsTransportMode(app,&nbsp;platform)</code></h3>
 
 
@@ -256,7 +256,7 @@ Indicates if an app on a given platform supports specification of transport mode
       <p>specified as a string, you can use one of the constants, e.g <code>LaunchNavigator.APP.GOOGLE_MAPS</code></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       platform</td>
@@ -271,7 +271,7 @@ Indicates if an app on a given platform supports specification of transport mode
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="getTransportModes" href="#getTransportModes"></a><code>getTransportModes(app,&nbsp;platform)</code></h3>
 
 
@@ -296,7 +296,7 @@ Returns the list of transport modes supported by an app on a given platform.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       platform</td>
@@ -311,7 +311,7 @@ Returns the list of transport modes supported by an app on a given platform.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string[]</code> 
+  <b>Returns:</b> <code>string[]</code>
 </div><h3><a class="anchor" name="supportsDestName" href="#supportsDestName"></a><code>supportsDestName(app,&nbsp;platform)</code></h3>
 
 
@@ -336,7 +336,7 @@ Returns the list of transport modes supported by an app on a given platform.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       platform</td>
@@ -351,7 +351,7 @@ Returns the list of transport modes supported by an app on a given platform.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="supportsStart" href="#supportsStart"></a><code>supportsStart(app,&nbsp;platform)</code></h3>
 
 
@@ -376,7 +376,7 @@ Indicates if an app on a given platform supports specification of start location
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       platform</td>
@@ -391,7 +391,7 @@ Indicates if an app on a given platform supports specification of start location
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="supportsStartName" href="#supportsStartName"></a><code>supportsStartName(app,&nbsp;platform)</code></h3>
 
 
@@ -416,7 +416,7 @@ Indicates if an app on a given platform supports specification of start location
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       platform</td>
@@ -431,7 +431,7 @@ Indicates if an app on a given platform supports specification of start location
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="supportsLaunchMode" href="#supportsLaunchMode"></a><code>supportsLaunchMode(app,&nbsp;platform)</code></h3>
 
 
@@ -457,7 +457,7 @@ Note that currently only Google Maps on Android does.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       platform</td>
@@ -472,7 +472,7 @@ Note that currently only Google Maps on Android does.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="userSelect" href="#userSelect"></a><code>userSelect(destination,&nbsp;options)</code></h3>
 
 
@@ -497,7 +497,7 @@ Note that currently only Google Maps on Android does.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -532,7 +532,7 @@ Note that currently only Google Maps on Android does.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       successCallback
@@ -546,7 +546,7 @@ Note that currently only Google Maps on Android does.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       errorCallback
@@ -561,7 +561,7 @@ A single string argument containing the error message will be passed in.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       app
@@ -578,7 +578,7 @@ If not specified, defaults to User Selection.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       destinationName
@@ -592,7 +592,7 @@ If not specified, defaults to User Selection.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       start
@@ -613,7 +613,7 @@ Either:</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       startName
@@ -627,7 +627,7 @@ Either:</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       transportMode
@@ -641,7 +641,7 @@ Either:</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       enableDebug
@@ -655,7 +655,7 @@ Either:</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       extras
@@ -669,7 +669,7 @@ Either:</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       launchModeGoogleMaps
@@ -685,7 +685,7 @@ Defaults to <code>launchnavigator.LAUNCH_MODE.MAPS</code> if not specified.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       launchModeAppleMaps
@@ -701,7 +701,7 @@ Defaults to <code>launchnavigator.LAUNCH_MODE.URI_SCHEME</code> if not specified
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       enableGeolocation
@@ -715,7 +715,7 @@ Defaults to <code>launchnavigator.LAUNCH_MODE.URI_SCHEME</code> if not specified
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       appSelection
@@ -729,7 +729,7 @@ Defaults to <code>launchnavigator.LAUNCH_MODE.URI_SCHEME</code> if not specified
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -745,7 +745,7 @@ Defaults to <code>launchnavigator.LAUNCH_MODE.URI_SCHEME</code> if not specified
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       callback
@@ -760,7 +760,7 @@ This will be passed a single boolean value indicating the user&#39;s decision.</
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       headerText
@@ -775,7 +775,7 @@ Defaults to &quot;Remember your choice?&quot; if not specified.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bodyText
@@ -790,7 +790,7 @@ Defaults to &quot;Use the same app for navigating next time?&quot; if not specif
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       yesButtonText
@@ -805,7 +805,7 @@ Defaults to &quot;Yes&quot; if not specified.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       noButtonText
@@ -820,7 +820,7 @@ Defaults to &quot;No&quot; if not specified.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -836,7 +836,7 @@ Defaults to &quot;No&quot; if not specified.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       enabled
@@ -858,7 +858,7 @@ Defaults to &quot;No&quot; if not specified.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       promptFn
@@ -874,7 +874,7 @@ This will be passed a callback function which should be invoked with a single bo
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       prompt
@@ -888,7 +888,7 @@ This will be passed a callback function which should be invoked with a single bo
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -904,7 +904,7 @@ This will be passed a callback function which should be invoked with a single bo
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       dialogHeaderText
@@ -919,7 +919,7 @@ Defaults to &quot;Select app for navigation&quot; if not specified.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cancelButtonText
@@ -934,7 +934,7 @@ Defaults to &quot;Cancel&quot; if not specified.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       list
@@ -950,7 +950,7 @@ By default, all available apps will be displayed.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       callback
@@ -965,7 +965,7 @@ A single string argument is passed which is the app what was selected defined as
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       androidTheme
@@ -980,7 +980,7 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       rememberChoice
@@ -994,7 +994,7 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -1010,7 +1010,7 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       exists
@@ -1021,10 +1021,10 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
     <td>
       <p>Indicates whether a user choice exists for a preferred navigator app.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       get
@@ -1035,10 +1035,10 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
     <td>
       <p>Returns current user choice of preferred navigator app.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       set
@@ -1049,10 +1049,10 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
     <td>
       <p>Sets the current user choice of preferred navigator app.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clear
@@ -1063,10 +1063,10 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
     <td>
       <p>Clears the current user choice of preferred navigator app.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -1082,7 +1082,7 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       get
@@ -1093,10 +1093,10 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
     <td>
       <p>Indicates whether user has already been prompted whether to remember their choice a preferred navigator app.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       set
@@ -1107,10 +1107,10 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
     <td>
       <p>Sets flag indicating user has already been prompted whether to remember their choice a preferred navigator app.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clear
@@ -1121,10 +1121,10 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
     <td>
       <p>Clears flag which indicates if user has already been prompted whether to remember their choice a preferred navigator app.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -1140,7 +1140,7 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       userChoice
@@ -1149,11 +1149,11 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
       <code>UserChoice</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       userPrompted
@@ -1162,11 +1162,11 @@ Default <code>actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT</code></p>
       <code>UserPrompted</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

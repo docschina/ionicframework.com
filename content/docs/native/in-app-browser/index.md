@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">In App Browser</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/in-app-browser/index.ts#L150">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -101,7 +101,7 @@ Opens a URL in a new InAppBrowser instance, the current browser instance, or the
       <p>The URL to load.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       target</td>
@@ -112,7 +112,7 @@ Opens a URL in a new InAppBrowser instance, the current browser instance, or the
       <p>The target in which to load the URL, an optional parameter that defaults to _self.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -130,7 +130,7 @@ Opens a URL in a new InAppBrowser instance, the current browser instance, or the
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>InAppBrowserObject</code> 
+  <b>Returns:</b> <code>InAppBrowserObject</code>
 </div>
 
 <h2><a class="anchor" name="InAppBrowserObject" href="#InAppBrowserObject"></a>InAppBrowserObject</h2>
@@ -196,7 +196,7 @@ Injects JavaScript code into the InAppBrowser window.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="insertCSS" href="#insertCSS"></a><code>insertCSS(css)</code></h3>
 
 
@@ -225,7 +225,7 @@ Injects CSS into the InAppBrowser window.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="on" href="#on"></a><code>on(event)</code></h3>
 
 
@@ -270,7 +270,7 @@ A method that allows you to listen to events happening in the browser.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       type
@@ -281,10 +281,10 @@ A method that allows you to listen to events happening in the browser.
     <td>
       <p>the eventname, either loadstart, loadstop, loaderror, or exit.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       url
@@ -295,10 +295,10 @@ A method that allows you to listen to events happening in the browser.
     <td>
       <p>the URL that was loaded.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       code
@@ -309,10 +309,10 @@ A method that allows you to listen to events happening in the browser.
     <td>
       <p>the error code, only in the case of loaderror.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       message
@@ -323,10 +323,10 @@ A method that allows you to listen to events happening in the browser.
     <td>
       <p>the error message, only in the case of loaderror.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -342,7 +342,7 @@ A method that allows you to listen to events happening in the browser.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       location
@@ -356,7 +356,7 @@ A method that allows you to listen to events happening in the browser.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hidden
@@ -371,7 +371,7 @@ Omit or set to no (default) to have the browser open and load normally.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clearcache
@@ -385,7 +385,7 @@ Omit or set to no (default) to have the browser open and load normally.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clearsessioncache
@@ -399,7 +399,7 @@ Omit or set to no (default) to have the browser open and load normally.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       zoom
@@ -413,7 +413,7 @@ Omit or set to no (default) to have the browser open and load normally.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hardwareback
@@ -428,7 +428,7 @@ If there is no previous page, the InAppBrowser will close. The default value is 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       mediaPlaybackRequiresUserAction
@@ -442,7 +442,7 @@ If there is no previous page, the InAppBrowser will close. The default value is 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       shouldPauseOnSuspend
@@ -456,7 +456,7 @@ If there is no previous page, the InAppBrowser will close. The default value is 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       closebuttoncaption
@@ -470,7 +470,7 @@ If there is no previous page, the InAppBrowser will close. The default value is 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       disallowoverscroll
@@ -484,7 +484,7 @@ If there is no previous page, the InAppBrowser will close. The default value is 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       toolbar
@@ -498,7 +498,7 @@ If there is no previous page, the InAppBrowser will close. The default value is 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       enableViewportScale
@@ -512,7 +512,7 @@ If there is no previous page, the InAppBrowser will close. The default value is 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       allowInlineMediaPlayback
@@ -527,7 +527,7 @@ The HTML&#39;s video element must also include the webkit-playsinline attribute 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       keyboardDisplayRequiresUserAction
@@ -541,7 +541,7 @@ The HTML&#39;s video element must also include the webkit-playsinline attribute 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       suppressesIncrementalRendering
@@ -555,7 +555,7 @@ The HTML&#39;s video element must also include the webkit-playsinline attribute 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       presentationstyle
@@ -569,7 +569,7 @@ The HTML&#39;s video element must also include the webkit-playsinline attribute 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       transitionstyle
@@ -583,7 +583,7 @@ The HTML&#39;s video element must also include the webkit-playsinline attribute 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       toolbarposition
@@ -597,7 +597,7 @@ The HTML&#39;s video element must also include the webkit-playsinline attribute 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       fullscreen
@@ -612,7 +612,7 @@ Please note that if location=no is also specified, there will be no control pres
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

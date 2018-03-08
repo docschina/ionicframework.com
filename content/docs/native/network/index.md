@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Network</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/network/index.ts#L6">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -104,7 +104,7 @@ Connection type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="downlinkMax" href="#downlinkMax"></a><code>downlinkMax</code></h3>
 
 
@@ -113,7 +113,7 @@ Downlink Max Speed
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="onchange" href="#onchange"></a><code>onchange()</code></h3>
 
 
@@ -122,7 +122,7 @@ Returns an observable to watch connection changes
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="onDisconnect" href="#onDisconnect"></a><code>onDisconnect()</code></h3>
 
 

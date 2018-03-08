@@ -32,7 +32,7 @@ IonicPage
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/navigation/ionic-page.ts#L9">
-Improve this doc
+改进这篇文档
 </a>
 
 

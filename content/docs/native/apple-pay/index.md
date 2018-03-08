@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Apple Pay</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/apple-pay/index.ts#L77">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -182,7 +182,7 @@ subscribing to shipping contact selection events first
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise</code> 
+  <b>Returns:</b> <code>Promise</code>
 </div><h3><a class="anchor" name="makePaymentRequest" href="#makePaymentRequest"></a><code>makePaymentRequest(order)</code></h3>
 
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">File Opener</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/file-opener/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -100,7 +100,7 @@ Open an file
       <p>File Path</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       fileMIMEType</td>
@@ -116,7 +116,7 @@ Open an file
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="uninstall" href="#uninstall"></a><code>uninstall(packageId)</code></h3>
 
 
@@ -147,7 +147,7 @@ Uninstalls a package
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="appIsInstalled" href="#appIsInstalled"></a><code>appIsInstalled(packageId)</code></h3>
 
 
@@ -178,7 +178,7 @@ Check if an app is already installed
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

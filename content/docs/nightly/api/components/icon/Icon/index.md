@@ -11,7 +11,7 @@ doc: "Icon"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/icon/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -36,7 +36,7 @@ Icon
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/icon/icon.ts#L4">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -91,14 +91,14 @@ markup once while Ionic applies the appropriate icon based on the mode.</p>
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>ios</td>
       <td><code>string</code></td>
       <td><p> Specifies which icon to use on <code>ios</code> mode.</p>
 </td>
     </tr>
-    
+
     <tr>
       <td>isActive</td>
       <td><code>boolean</code></td>
@@ -107,14 +107,14 @@ An active icon is filled in, and an inactive icon is the outline of the icon.
 The <code>isActive</code> property is largely used by the tabbar. Only affects <code>ios</code> icons.</p>
 </td>
     </tr>
-    
+
     <tr>
       <td>md</td>
       <td><code>string</code></td>
       <td><p> Specifies which icon to use on <code>md</code> mode.</p>
 </td>
     </tr>
-    
+
     <tr>
       <td>name</td>
       <td><code>string</code></td>
@@ -122,7 +122,7 @@ The <code>isActive</code> property is largely used by the tabbar. Only affects <
 For more information, see <a href="/docs/ionicons/">Ionicons</a>.</p>
 </td>
     </tr>
-    
+
   </tbody>
 </table>
 

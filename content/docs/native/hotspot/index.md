@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Hotspot<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/hotspot/index.ts#L101">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -89,7 +89,7 @@ this.hotspot.scanWifi().then((networks: Array&lt;HotspotNetwork&gt;) =&gt; {
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="toggleWifi" href="#toggleWifi"></a><code>toggleWifi()</code></h3>
 
 
@@ -98,7 +98,7 @@ this.hotspot.scanWifi().then((networks: Array&lt;HotspotNetwork&gt;) =&gt; {
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="createHotspot" href="#createHotspot"></a><code>createHotspot(SSID,&nbsp;mode,&nbsp;password)</code></h3>
 
 
@@ -123,7 +123,7 @@ Configures and starts hotspot with SSID and Password
       <p>SSID of your new Access Point</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       mode</td>
@@ -134,7 +134,7 @@ Configures and starts hotspot with SSID and Password
       <p>encryption mode (Open, WEP, WPA, WPA_PSK)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       password</td>
@@ -185,7 +185,7 @@ Configures hotspot with SSID and Password
       <p>SSID of your new Access Point</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       mode</td>
@@ -196,7 +196,7 @@ Configures hotspot with SSID and Password
       <p>encryption mode (Open, WEP, WPA, WPA_PSK)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       password</td>
@@ -241,7 +241,7 @@ Checks if hotspot is enabled
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;HotspotDevice&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;HotspotDevice&gt;&gt;</code>
 </div><h3><a class="anchor" name="connectToWifi" href="#connectToWifi"></a><code>connectToWifi(ssid,&nbsp;password)</code></h3>
 
 
@@ -266,7 +266,7 @@ Connect to a WiFi network
       <p>SSID to connect</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       password</td>
@@ -307,7 +307,7 @@ Connect to a WiFi network
       <p>SSID to connect</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       password</td>
@@ -318,7 +318,7 @@ Connect to a WiFi network
       <p>Password to use</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       authentication</td>
@@ -329,7 +329,7 @@ Connect to a WiFi network
       <p>Authentication modes to use (LEAP, SHARED, OPEN)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       encryption</td>
@@ -370,7 +370,7 @@ Add a WiFi network
       <p>SSID of network</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       mode</td>
@@ -381,7 +381,7 @@ Add a WiFi network
       <p>Authentication mode of (Open, WEP, WPA, WPA_PSK)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       password</td>
@@ -436,7 +436,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="isConnectedToInternetViaWifi" href="#isConnectedToInternetViaWifi"></a><code>isConnectedToInternetViaWifi()</code></h3>
 
 
@@ -445,7 +445,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="isWifiOn" href="#isWifiOn"></a><code>isWifiOn()</code></h3>
 
 
@@ -454,7 +454,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="isWifiSupported" href="#isWifiSupported"></a><code>isWifiSupported()</code></h3>
 
 
@@ -463,7 +463,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="isWifiDirectSupported" href="#isWifiDirectSupported"></a><code>isWifiDirectSupported()</code></h3>
 
 
@@ -472,7 +472,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="scanWifi" href="#scanWifi"></a><code>scanWifi()</code></h3>
 
 
@@ -481,7 +481,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;HotspotNetwork&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;HotspotNetwork&gt;&gt;</code>
 </div><h3><a class="anchor" name="scanWifiByLevel" href="#scanWifiByLevel"></a><code>scanWifiByLevel()</code></h3>
 
 
@@ -490,7 +490,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;HotspotNetwork&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;HotspotNetwork&gt;&gt;</code>
 </div><h3><a class="anchor" name="startWifiPeriodicallyScan" href="#startWifiPeriodicallyScan"></a><code>startWifiPeriodicallyScan()</code></h3>
 
 
@@ -499,7 +499,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="stopWifiPeriodicallyScan" href="#stopWifiPeriodicallyScan"></a><code>stopWifiPeriodicallyScan()</code></h3>
 
 
@@ -508,7 +508,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getNetConfig" href="#getNetConfig"></a><code>getNetConfig()</code></h3>
 
 
@@ -517,7 +517,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;HotspotNetworkConfig&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;HotspotNetworkConfig&gt;</code>
 </div><h3><a class="anchor" name="getConnectionInfo" href="#getConnectionInfo"></a><code>getConnectionInfo()</code></h3>
 
 
@@ -526,7 +526,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;HotspotConnectionInfo&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;HotspotConnectionInfo&gt;</code>
 </div><h3><a class="anchor" name="pingHost" href="#pingHost"></a><code>pingHost()</code></h3>
 
 
@@ -535,7 +535,7 @@ Remove a WiFi network
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;string&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;string&gt;</code>
 </div><h3><a class="anchor" name="getMacAddressOfHost" href="#getMacAddressOfHost"></a><code>getMacAddressOfHost(ip)</code></h3>
 
 
@@ -653,7 +653,7 @@ Checks if device is rooted
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       SSID
@@ -664,10 +664,10 @@ Checks if device is rooted
     <td>
       <p>The service set identifier (SSID) of the current 802.11 network.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       BSSID
@@ -678,10 +678,10 @@ Checks if device is rooted
     <td>
       <p>The basic service set identifier (BSSID) of the current access point.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       linkSpeed
@@ -692,10 +692,10 @@ Checks if device is rooted
     <td>
       <p>The current link speed in Mbps</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       IPAddress
@@ -706,10 +706,10 @@ Checks if device is rooted
     <td>
       <p>The IP Address</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       networkID
@@ -720,10 +720,10 @@ Checks if device is rooted
     <td>
       <p>Each configured network has a unique small integer ID, used to identify the network when performing operations on the supplicant.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -739,7 +739,7 @@ Checks if device is rooted
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       SSID
@@ -750,10 +750,10 @@ Checks if device is rooted
     <td>
       <p>Human readable network name</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       BSSID
@@ -764,10 +764,10 @@ Checks if device is rooted
     <td>
       <p>MAC Address of the access point</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       frequency
@@ -778,10 +778,10 @@ Checks if device is rooted
     <td>
       <p>The primary 20 MHz frequency (in MHz) of the channel over which the client is communicating with the access point.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       level
@@ -792,10 +792,10 @@ Checks if device is rooted
     <td>
       <p>The detected signal level in dBm, also known as the RSSI.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       timestamp
@@ -806,10 +806,10 @@ Checks if device is rooted
     <td>
       <p>Timestamp in microseconds (since boot) when this result was last seen.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       capabilities
@@ -820,10 +820,10 @@ Checks if device is rooted
     <td>
       <p>Describes the authentication, key management, and encryption schemes supported by the access point.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -839,7 +839,7 @@ Checks if device is rooted
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       deviceIPAddress
@@ -850,10 +850,10 @@ Checks if device is rooted
     <td>
       <p>Device IP Address</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       deviceMacAddress
@@ -864,10 +864,10 @@ Checks if device is rooted
     <td>
       <p>Device MAC Address</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       gatewayIPAddress
@@ -878,10 +878,10 @@ Checks if device is rooted
     <td>
       <p>Gateway IP Address</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       gatewayMacAddress
@@ -892,10 +892,10 @@ Checks if device is rooted
     <td>
       <p>Gateway MAC Address</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -911,7 +911,7 @@ Checks if device is rooted
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       ip
@@ -922,10 +922,10 @@ Checks if device is rooted
     <td>
       <p>Hotspot IP Address</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       mac
@@ -936,10 +936,10 @@ Checks if device is rooted
     <td>
       <p>Hotspot MAC Address</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

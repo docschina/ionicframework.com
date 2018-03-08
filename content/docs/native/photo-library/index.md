@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Photo Library</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/photo-library/index.ts#L49">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -191,7 +191,7 @@ Provides means to request URL of thumbnail, with specified size or quality.
       <p>Id of photo, or LibraryItem.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -233,7 +233,7 @@ Provides means to request photo URL by id.
       <p>Id or LibraryItem.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -275,7 +275,7 @@ Returns thumbnail as Blob.
       <p>Id or LibraryItem.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -317,7 +317,7 @@ Returns photo as Blob.
       <p>Id or LibraryItem.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -360,7 +360,7 @@ LibraryItem that represents saved image is returned.
       <p>URL of a file, or DataURL.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       album</td>
@@ -371,7 +371,7 @@ LibraryItem that represents saved image is returned.
       <p>Name of an album or AlbumItem object.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -413,7 +413,7 @@ Saves video to specified album. Album will be created if not exists.
       <p>URL of a file, or DataURL.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       album</td>

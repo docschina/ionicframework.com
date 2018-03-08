@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Action Sheet</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/action-sheet/index.ts#L54">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -151,7 +151,7 @@ Progamtically hide the native ActionSheet
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       buttonLabels
@@ -162,10 +162,10 @@ Progamtically hide the native ActionSheet
     <td>
       <p>The labels for the buttons. Uses the index x</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       title
@@ -179,7 +179,7 @@ Progamtically hide the native ActionSheet
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       subtitle
@@ -193,7 +193,7 @@ Progamtically hide the native ActionSheet
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       androidTheme
@@ -207,7 +207,7 @@ Progamtically hide the native ActionSheet
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       androidEnableCancelButton
@@ -221,7 +221,7 @@ Progamtically hide the native ActionSheet
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       winphoneEnableCancelButton
@@ -235,7 +235,7 @@ Progamtically hide the native ActionSheet
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       addCancelButtonWithLabel
@@ -249,7 +249,7 @@ Progamtically hide the native ActionSheet
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       addDestructiveButtonWithLabel
@@ -263,7 +263,7 @@ Progamtically hide the native ActionSheet
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       position
@@ -277,7 +277,7 @@ Progamtically hide the native ActionSheet
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       destructiveButtonLast
@@ -291,7 +291,7 @@ Progamtically hide the native ActionSheet
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

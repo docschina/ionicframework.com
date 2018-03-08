@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Appodeal</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/appodeal/index.ts#L2">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -102,7 +102,7 @@ initialize Appodeal SDK
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       adType</td>
@@ -123,7 +123,7 @@ check if SDK has been initialized
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="show" href="#show"></a><code>show(adType)</code></h3>
 
 
@@ -151,7 +151,7 @@ show ad of specified type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="showWithPlacement" href="#showWithPlacement"></a><code>showWithPlacement(adType,&nbsp;placement)</code></h3>
 
 
@@ -174,7 +174,7 @@ show ad of specified type with placement options
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       placement</td>
@@ -189,7 +189,7 @@ show ad of specified type with placement options
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="hide" href="#hide"></a><code>hide(adType)</code></h3>
 
 
@@ -267,7 +267,7 @@ check if ad of specified type has been loaded
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="isPrecache" href="#isPrecache"></a><code>isPrecache(adType)</code></h3>
 
 
@@ -295,7 +295,7 @@ check if ad of specified
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="setAutoCache" href="#setAutoCache"></a><code>setAutoCache(adType,&nbsp;autoCache)</code></h3>
 
 
@@ -318,12 +318,12 @@ check if ad of specified
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       autoCache</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -473,7 +473,7 @@ enable or disable banner animations
     <td>
       value</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -567,7 +567,7 @@ get version of Appdeal SDK
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       adType</td>
@@ -602,7 +602,7 @@ get version of Appdeal SDK
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       adType</td>
@@ -777,7 +777,7 @@ enable event listeners
       <p>name of rule</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -813,7 +813,7 @@ enable event listeners
       <p>name of rule</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -848,7 +848,7 @@ set rule with float value
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -884,7 +884,7 @@ set rule with string value
       <p>name of rule</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -914,7 +914,7 @@ set ID preference in Appodeal for current user
     <td>
       id</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -939,7 +939,7 @@ set Email preference in Appodeal for current user
     <td>
       email</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -964,7 +964,7 @@ set Birthday preference in Appodeal for current user
     <td>
       birthday</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -989,7 +989,7 @@ et Age preference in Appodeal for current user
     <td>
       age</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -1014,7 +1014,7 @@ set Gender preference in Appodeal for current user
     <td>
       gender</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -1039,7 +1039,7 @@ set Occupation preference in Appodeal for current user
     <td>
       occupation</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -1064,7 +1064,7 @@ set Relation preference in Appodeal for current user
     <td>
       relation</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -1089,7 +1089,7 @@ set Smoking preference in Appodeal for current user
     <td>
       smoking</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -1114,7 +1114,7 @@ set Alcohol preference in Appodeal for current user
     <td>
       alcohol</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -1139,7 +1139,7 @@ set Interests preference in Appodeal for current user
     <td>
       interests</td>
     <td>
-      
+
     </td>
     <td>
       </td>

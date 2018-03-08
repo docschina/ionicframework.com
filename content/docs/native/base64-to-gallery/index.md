@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Base64 To Gallery</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/base64-to-gallery/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -103,7 +103,7 @@ Converts a base64 string to an image file in the device gallery
       <p>The actual base64 string that you want to save</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>

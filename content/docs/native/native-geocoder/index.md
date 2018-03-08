@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Native Geocoder</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/native-geocoder/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -104,7 +104,7 @@ Reverse geocode a given latitude and longitude to find location address
       <p>The latitude</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       longitude</td>
@@ -120,7 +120,7 @@ Reverse geocode a given latitude and longitude to find location address
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;NativeGeocoderReverseResult&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;NativeGeocoderReverseResult&gt;</code>
 </div><h3><a class="anchor" name="forwardGeocode" href="#forwardGeocode"></a><code>forwardGeocode(addressString)</code></h3>
 
 
@@ -151,7 +151,7 @@ Forward geocode a given address to find coordinates
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;NativeGeocoderForwardResult&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;NativeGeocoderForwardResult&gt;</code>
 </div>
 
 
@@ -169,7 +169,7 @@ Forward geocode a given address to find coordinates
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       countryCode
@@ -180,10 +180,10 @@ Forward geocode a given address to find coordinates
     <td>
       <p>The country code.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       countryName
@@ -194,10 +194,10 @@ Forward geocode a given address to find coordinates
     <td>
       <p>The country name.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       postalCode
@@ -208,10 +208,10 @@ Forward geocode a given address to find coordinates
     <td>
       <p>The postal code.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       administrativeArea
@@ -222,10 +222,10 @@ Forward geocode a given address to find coordinates
     <td>
       <p>The administrativeArea.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       subAdministrativeArea
@@ -236,10 +236,10 @@ Forward geocode a given address to find coordinates
     <td>
       <p>The subAdministrativeArea.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       locality
@@ -250,10 +250,10 @@ Forward geocode a given address to find coordinates
     <td>
       <p>The locality.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       subLocality
@@ -264,10 +264,10 @@ Forward geocode a given address to find coordinates
     <td>
       <p>The subLocality.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       thoroughfare
@@ -278,10 +278,10 @@ Forward geocode a given address to find coordinates
     <td>
       <p>The thoroughfare.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       subThoroughfare
@@ -292,10 +292,10 @@ Forward geocode a given address to find coordinates
     <td>
       <p>The subThoroughfare.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -311,7 +311,7 @@ Forward geocode a given address to find coordinates
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       latitude
@@ -322,10 +322,10 @@ Forward geocode a given address to find coordinates
     <td>
       <p>The latitude.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       longitude
@@ -336,10 +336,10 @@ Forward geocode a given address to find coordinates
     <td>
       <p>The longitude.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

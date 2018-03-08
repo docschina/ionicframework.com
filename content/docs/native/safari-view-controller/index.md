@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Safari View Controller</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/safari-view-controller/index.ts#L15">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -104,7 +104,7 @@ Checks if SafariViewController is available
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="show" href="#show"></a><code>show(options)</code></h3>
 
 
@@ -135,7 +135,7 @@ Shows Safari View Controller
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="hide" href="#hide"></a><code>hide()</code></h3>
 
 
@@ -151,7 +151,7 @@ Tries to connect to the  Chrome's custom tabs service. you must call this method
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="warmUp" href="#warmUp"></a><code>warmUp()</code></h3>
 
 
@@ -160,7 +160,7 @@ Call this method whenever there's a chance the user will open an external url.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="mayLaunchUrl" href="#mayLaunchUrl"></a><code>mayLaunchUrl(url)</code></h3>
 
 
@@ -188,7 +188,7 @@ For even better performance optimization, call this methods if there's more than
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -206,7 +206,7 @@ For even better performance optimization, call this methods if there's more than
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       animated
@@ -215,11 +215,11 @@ For even better performance optimization, call this methods if there's more than
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       barColor
@@ -228,11 +228,11 @@ For even better performance optimization, call this methods if there's more than
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       controlTintColor
@@ -241,11 +241,11 @@ For even better performance optimization, call this methods if there's more than
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       enterReaderModeIfAvailable
@@ -254,11 +254,11 @@ For even better performance optimization, call this methods if there's more than
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hidden
@@ -267,11 +267,11 @@ For even better performance optimization, call this methods if there's more than
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       showDefaultShareMenuItem
@@ -280,11 +280,11 @@ For even better performance optimization, call this methods if there's more than
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       tintColor
@@ -293,11 +293,11 @@ For even better performance optimization, call this methods if there's more than
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       toolbarColor
@@ -306,11 +306,11 @@ For even better performance optimization, call this methods if there's more than
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       transition
@@ -319,11 +319,11 @@ For even better performance optimization, call this methods if there's more than
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       url
@@ -332,11 +332,11 @@ For even better performance optimization, call this methods if there's more than
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

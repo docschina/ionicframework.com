@@ -11,7 +11,7 @@ doc: "Icon"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/icon/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -36,7 +36,7 @@ Icon
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/icon/icon.ts#L4">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -91,14 +91,14 @@ Improve this doc
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>ios</td>
       <td><code>string</code></td>
       <td><p>指定在 <code>ios</code> 模式下使用哪个图标。</p>
 </td>
     </tr>
-    
+
     <tr>
       <td>isActive</td>
       <td><code>boolean</code></td>
@@ -107,14 +107,14 @@ Improve this doc
 
 </td>
     </tr>
-    
+
     <tr>
       <td>md</td>
       <td><code>string</code></td>
       <td><p>指定在 <code>md</code> 模式下使用哪个图标。</p>
 </td>
     </tr>
-    
+
     <tr>
       <td>name</td>
       <td><code>string</code></td>
@@ -122,7 +122,7 @@ Improve this doc
 
 </td>
     </tr>
-    
+
   </tbody>
 </table>
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Network Interface</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/network-interface/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -104,7 +104,7 @@ Gets the WiFi IP address
       <p>Callback used when successful</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       error</td>
@@ -141,7 +141,7 @@ Gets the wireless carrier IP address
       <p>Callback used when successful</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       error</td>

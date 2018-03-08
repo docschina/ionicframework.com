@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Native Keyboard<span class="paid" title="paid">Paid</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/native-keyboard/index.ts#L171">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -139,7 +139,7 @@ Programmatically pop up the keyboard again if the user dismissed it.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="hideMessengerKeyboard" href="#hideMessengerKeyboard"></a><code>hideMessengerKeyboard()</code></h3>
 
 
@@ -164,7 +164,7 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -189,7 +189,7 @@ Manipulate the messenger while it's open. For instance if you want to update the
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       onSubmit
@@ -200,10 +200,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>A function invoked when the user submits his input. Receives the text as a single property. Make sure your page is UTF-8 encoded so Chinese and Emoji are rendered OK.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       onKeyboardWillShow
@@ -214,10 +214,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>A function invoked when the keyboard is about to pop up. Receives the height as a single property. (iOS only)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       onKeyboardDidShow
@@ -228,10 +228,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>A function invoked when the keyboard popped up. Receives the height as a single property.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       onKeyboardWillHide
@@ -242,10 +242,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>A function invoked when the keyboard is about to close. (iOS only)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       onKeyboardDidHide
@@ -256,10 +256,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>A function invoked when the keyboard closed.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       onTextChanged
@@ -270,10 +270,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>A function invoked when any key is pressed, sends the entire text as response.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       autoscrollElement
@@ -284,10 +284,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Highly recommended to pass in if you want to replicate the behavior of the video&#39;s above (scroll down when the keyboard opens). Pass in the scrollable DOM element containing the messages.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       scrollToBottomAfterMessengerShows
@@ -298,10 +298,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>If <code>autoscrollElement</code> was set you can also make the list scroll down initially, when the messenger bar (without the keyboard popping up) is shown.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       keepOpenAfterSubmit
@@ -312,10 +312,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Setting this to <code>true</code> is like the video&#39;s above: the keyboard doesn&#39;t close upon submit. Defaults to <code>false</code>.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       animated
@@ -326,10 +326,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Makes the messenger bar slide in from the bottom. Defaults to <code>false</code>.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       showKeyboard
@@ -340,10 +340,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Open the keyboard when showing the messenger. Defaults to <code>false</code>.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       text
@@ -354,10 +354,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>The default text set in the messenger input bar.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       textColor
@@ -368,10 +368,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>The color of the typed text. Defaults to <code>#444444</code>.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       placeholder
@@ -382,10 +382,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Like a regular HTML input placeholder.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       placeholderColor
@@ -396,10 +396,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>The color of the placeholder text. Defaults to <code>#CCCCCC</code>.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       backgroundColor
@@ -410,10 +410,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>The background color of the messenger bar. Defaults to <code>#F6F6F6</code>.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       textViewBackgroundColor
@@ -424,10 +424,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>The background color of the textview. Looks nicest on Android if it&#39;s the same color as the <code>backgroundColor</code> property. Defaults to <code>#F6F6F6</code>.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       textViewBorderColor
@@ -438,10 +438,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>The border color of the textview. Defaults to <code>#666666</code>. (iOS only)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       maxChars
@@ -452,10 +452,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Setting this &gt; 0 will make a counter show up on iOS (and ignore superfluous input on Android, for now)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       counterStyle
@@ -466,10 +466,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Options are: <code>&quot;none&quot;</code>, <code>&quot;split&quot;</code>, <code>&quot;countdown&quot;</code>, <code>&quot;countdownreversed&quot;</code>. Note that if <code>maxChars</code> is set, <code>&quot;none&quot;</code> will still show a counter. Defaults to <code>&quot;none&quot;</code>. (iOS only)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       type
@@ -480,10 +480,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Options are: &quot;default&quot;, &quot;decimalpad&quot;, &quot;phonepad&quot;, &quot;numberpad&quot;, &quot;namephonepad&quot;, &quot;number&quot;, &quot;email&quot;, &quot;twitter&quot;, &quot;url&quot;, &quot;alphabet&quot;, &quot;search&quot;, &quot;ascii&quot;. (iOS only)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       appearance
@@ -494,10 +494,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Options are: &quot;light&quot;, &quot;dark&quot;. (iOS only)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       secure
@@ -508,10 +508,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Disables things like the Emoji keyboard and the Predicive text entry bar (iOS only)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       leftButton
@@ -520,11 +520,11 @@ Manipulate the messenger while it's open. For instance if you want to update the
       <code>NativeKeyboardLeftButton</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       rightButton
@@ -533,11 +533,11 @@ Manipulate the messenger while it's open. For instance if you want to update the
       <code>NativeKeyboardButton</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -553,7 +553,7 @@ Manipulate the messenger while it's open. For instance if you want to update the
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       type
@@ -564,10 +564,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Either &quot;text&quot; (Android only currently), &quot;fontawesome&quot; or &quot;ionicon&quot;.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       value
@@ -578,10 +578,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Depends on the type. Examples: for &quot;text&quot; use &quot;Send&quot;, for &quot;fontawesome&quot; use &quot;fa-battery-quarter&quot;, for &quot;ionicon&quot; use &quot;\uf48a&quot; (go to <a href="http://ionicons.com">http://ionicons.com</a>, right-click and inspect the icon and use the value you find in :before). Note that some fonticons are not supported as the embedded fonts in the plugin may lag behind a little. So try one of the older icons first.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       textStyle
@@ -592,10 +592,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>If type is &quot;text&quot; you can set this to either &quot;normal&quot;, &quot;bold&quot; or &quot;italic&quot;.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       onPress
@@ -606,10 +606,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>A function invoked when the button is pressed. Use this button to prompt the user what he wants to do next by for instance rendering an ActionSheet.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -625,7 +625,7 @@ Manipulate the messenger while it's open. For instance if you want to update the
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       disabledWhenTextEntered
@@ -636,10 +636,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Set to <code>true</code> to disable the button once text has been entered.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -655,7 +655,7 @@ Manipulate the messenger while it's open. For instance if you want to update the
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       text
@@ -666,10 +666,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Replace the messenger&#39;s text by this. The current text remains if omitted.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       caretIndex
@@ -680,10 +680,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>Position the cursor anywhere in the text range. Defaults to the end of the text.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       showKeyboard
@@ -694,10 +694,10 @@ Manipulate the messenger while it's open. For instance if you want to update the
     <td>
       <p>If <code>false</code> or omitted no changes to the keyboard state are made.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

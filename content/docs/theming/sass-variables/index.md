@@ -12,8 +12,8 @@ next_page_link: /docs/theming/platform-specific-styles/
 
 <h1 class="title">Sass Variables</h1>
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/theming/sass-variables/index.md'>
-  Improve this doc
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/theming/sass-variables/index.md'>
+  改进这篇文档
 </a>
 
 Sass Variables allow you to define a value once and use it in multiple places. Variables begin with dollar signs and are set like CSS properties. You can change the value of the variable in one place, and all instances where it is used will be changed, too. For example, if you wanted to set the same height for two different selectors, you could create a variable called `$control-height`:

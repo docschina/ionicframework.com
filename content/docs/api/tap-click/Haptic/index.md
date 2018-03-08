@@ -32,7 +32,7 @@ Haptic
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/tap-click/haptic.ts#L2">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -75,7 +75,7 @@ Improve this doc
 <h3>
 <a class="anchor" name="available" href="#available">
 <code>available()</code>
-  
+
 
 </a>
 </h3>
@@ -89,7 +89,7 @@ Improve this doc
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>boolean</code> <p>插件是否可用，返回 true 或 false</p>
 
 
@@ -103,7 +103,7 @@ Improve this doc
 <h3>
 <a class="anchor" name="gestureSelectionChanged" href="#gestureSelectionChanged">
 <code>gestureSelectionChanged()</code>
-  
+
 
 </a>
 </h3>
@@ -124,7 +124,7 @@ Improve this doc
 <h3>
 <a class="anchor" name="gestureSelectionEnd" href="#gestureSelectionEnd">
 <code>gestureSelectionEnd()</code>
-  
+
 
 </a>
 </h3>
@@ -146,7 +146,7 @@ Improve this doc
 <h3>
 <a class="anchor" name="gestureSelectionStart" href="#gestureSelectionStart">
 <code>gestureSelectionStart()</code>
-  
+
 
 </a>
 </h3>
@@ -167,7 +167,7 @@ Improve this doc
 <h3>
 <a class="anchor" name="impact" href="#impact">
 <code>impact()</code>
-  
+
 
 </a>
 </h3>
@@ -189,7 +189,7 @@ Improve this doc
 <h3>
 <a class="anchor" name="notification" href="#notification">
 <code>notification()</code>
-  
+
 
 </a>
 </h3>
@@ -211,7 +211,7 @@ Improve this doc
 <h3>
 <a class="anchor" name="selection" href="#selection">
 <code>selection()</code>
-  
+
 
 </a>
 </h3>

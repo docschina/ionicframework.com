@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">File Encryption</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/file-encryption/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -99,7 +99,7 @@ Enrcypt a file
       <p>A string representing a local URI</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       key</td>
@@ -139,7 +139,7 @@ Decrypt a file
       <p>A string representing a local URI</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       key</td>

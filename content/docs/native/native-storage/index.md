@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Native Storage</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/native-storage/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -105,12 +105,12 @@ Stores a value
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -120,7 +120,7 @@ Stores a value
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getItem" href="#getItem"></a><code>getItem(reference)</code></h3>
 
 
@@ -148,7 +148,7 @@ Gets a stored item
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="keys" href="#keys"></a><code>keys()</code></h3>
 
 
@@ -157,7 +157,7 @@ Retrieving all keys
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="remove" href="#remove"></a><code>remove(reference)</code></h3>
 
 
@@ -185,7 +185,7 @@ Removes a single stored item
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="clear" href="#clear"></a><code>clear()</code></h3>
 
 
@@ -194,7 +194,7 @@ Removes all stored values.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

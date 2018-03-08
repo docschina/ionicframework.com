@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Firebase Dynamic Links<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/firebase-dynamic-links/index.ts#L8">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -163,7 +163,7 @@ Display invitation dialog.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       title
@@ -172,11 +172,11 @@ Display invitation dialog.
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       message
@@ -185,11 +185,11 @@ Display invitation dialog.
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       deepLink
@@ -198,11 +198,11 @@ Display invitation dialog.
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       callToActionText
@@ -211,11 +211,11 @@ Display invitation dialog.
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

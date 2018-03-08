@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Screenshot</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/screenshot/index.ts#L3">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -101,7 +101,7 @@ Takes screenshot and saves the image
 On ios, only &#39;jpg&#39; format is supported</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       quality</td>
@@ -113,7 +113,7 @@ On ios, only &#39;jpg&#39; format is supported</p>
        Default quality is set to 100.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       filename</td>
@@ -129,7 +129,7 @@ On ios, only &#39;jpg&#39; format is supported</p>
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="URI" href="#URI"></a><code>URI(quality)</code></h3>
 
 Takes screenshot and returns the image as an URI
@@ -159,7 +159,7 @@ Takes screenshot and returns the image as an URI
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

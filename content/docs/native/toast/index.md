@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Toast</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/toast/index.ts#L36">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -104,7 +104,7 @@ Show a native toast for the given duration at the specified position.
       <p>The message to display.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       duration</td>
@@ -115,7 +115,7 @@ Show a native toast for the given duration at the specified position.
       <p>Duration to show the toast, either &#39;short&#39;, &#39;long&#39; or any number of milliseconds: &#39;1500&#39;.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       position</td>
@@ -374,7 +374,7 @@ Shorthand for `show(message, 'long', 'bottom')`.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       message
@@ -388,7 +388,7 @@ Shorthand for `show(message, 'long', 'bottom')`.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       duration
@@ -402,7 +402,7 @@ Shorthand for `show(message, 'long', 'bottom')`.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       position
@@ -416,7 +416,7 @@ Shorthand for `show(message, 'long', 'bottom')`.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       addPixelsY
@@ -430,7 +430,7 @@ Shorthand for `show(message, 'long', 'bottom')`.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       data
@@ -444,7 +444,7 @@ Shorthand for `show(message, 'long', 'bottom')`.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       styling
@@ -465,7 +465,7 @@ Shorthand for `show(message, 'long', 'bottom')`.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

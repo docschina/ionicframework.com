@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Serial</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/serial/index.ts#L20">
-  Improve this doc
+  改进这篇文档
 </a>
 
 

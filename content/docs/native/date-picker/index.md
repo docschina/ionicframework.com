@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Date Picker</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/date-picker/index.ts#L119">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -128,7 +128,7 @@ Shows the date and/or time picker dialog(s)
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       mode
@@ -140,10 +140,10 @@ Shows the date and/or time picker dialog(s)
       <p>The mode of the date picker
 Values: date | time | datetime</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       date
@@ -154,10 +154,10 @@ Values: date | time | datetime</p>
     <td>
       <p>Selected date</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       minDate
@@ -172,7 +172,7 @@ Default: empty String</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       maxDate
@@ -187,7 +187,7 @@ Default?: empty String</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       titleText
@@ -202,7 +202,7 @@ Default?: empty String</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       okText
@@ -216,7 +216,7 @@ Default?: empty String</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cancelText
@@ -230,7 +230,7 @@ Default?: empty String</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       todayText
@@ -244,7 +244,7 @@ Default?: empty String</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       nowText
@@ -258,7 +258,7 @@ Default?: empty String</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       is24Hour
@@ -272,7 +272,7 @@ Default?: empty String</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       androidTheme
@@ -287,7 +287,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       allowOldDates
@@ -301,7 +301,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       allowFutureDates
@@ -315,7 +315,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       doneButtonLabel
@@ -329,7 +329,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       doneButtonColor
@@ -343,7 +343,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cancelButtonLabel
@@ -357,7 +357,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cancelButtonColor
@@ -371,7 +371,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       x
@@ -385,7 +385,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       y
@@ -399,7 +399,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       minuteInterval
@@ -413,7 +413,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       popoverArrowDirection
@@ -427,7 +427,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       locale
@@ -441,7 +441,7 @@ Values: 1: THEME_TRADITIONAL | 2: THEME_HOLO_DARK | 3: THEME_HOLO_LIGHT | 4: THE
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

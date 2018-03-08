@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Android Full Screen</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/android-full-screen/index.ts#L30">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -85,7 +85,7 @@ Is this plugin supported?
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="isImmersiveModeSupported" href="#isImmersiveModeSupported"></a><code>isImmersiveModeSupported()</code></h3>
 
 
@@ -94,7 +94,7 @@ Is immersive mode supported?
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="immersiveWidth" href="#immersiveWidth"></a><code>immersiveWidth()</code></h3>
 
 
@@ -103,7 +103,7 @@ The width of the screen in immersive mode.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;number&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;number&gt;</code>
 </div><h3><a class="anchor" name="immersiveHeight" href="#immersiveHeight"></a><code>immersiveHeight()</code></h3>
 
 
@@ -112,7 +112,7 @@ The height of the screen in immersive mode.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;number&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;number&gt;</code>
 </div><h3><a class="anchor" name="leanMode" href="#leanMode"></a><code>leanMode()</code></h3>
 
 
@@ -121,7 +121,7 @@ Hide system UI until user interacts.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="showSystemUI" href="#showSystemUI"></a><code>showSystemUI()</code></h3>
 
 
@@ -130,7 +130,7 @@ Show system UI.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="showUnderStatusBar" href="#showUnderStatusBar"></a><code>showUnderStatusBar()</code></h3>
 
 
@@ -139,7 +139,7 @@ Extend your app underneath the status bar (Android 4.4+ only).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="showUnderSystemUI" href="#showUnderSystemUI"></a><code>showUnderSystemUI()</code></h3>
 
 
@@ -148,7 +148,7 @@ Extend your app underneath the system UI (Android 4.4+ only).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="immersiveMode" href="#immersiveMode"></a><code>immersiveMode()</code></h3>
 
 
@@ -157,7 +157,7 @@ Hide system UI and keep it hidden (Android 4.4+ only).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="setSystemUiVisibility" href="#setSystemUiVisibility"></a><code>setSystemUiVisibility(visibility)</code></h3>
 
 
@@ -186,7 +186,7 @@ Manually set the the system UI to a custom mode. This mirrors the Android method
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div>
 
 

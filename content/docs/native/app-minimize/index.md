@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">App Minimize</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/app-minimize/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -85,7 +85,7 @@ Minimizes the application
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

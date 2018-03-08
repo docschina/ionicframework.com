@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Text To Speech</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/text-to-speech/index.ts#L10">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -114,7 +114,7 @@ Stop any current TTS playback
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -132,7 +132,7 @@ Stop any current TTS playback
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       text
@@ -143,10 +143,10 @@ Stop any current TTS playback
     <td>
       <p>text to speak</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       locale
@@ -160,7 +160,7 @@ Stop any current TTS playback
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       rate
@@ -174,7 +174,7 @@ Stop any current TTS playback
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

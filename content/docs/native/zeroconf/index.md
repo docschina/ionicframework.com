@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Zeroconf</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/zeroconf/index.ts#L18">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -99,7 +99,7 @@ Returns this device's hostname.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;string&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;string&gt;</code>
 </div><h3><a class="anchor" name="register" href="#register"></a><code>register(type,&nbsp;domain,&nbsp;name,&nbsp;port,&nbsp;txtRecord)</code></h3>
 
 
@@ -123,7 +123,7 @@ Publishes a new service.
       <p>Service type name, e.g. &quot;_http._tcp&quot;.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       domain</td>
@@ -134,7 +134,7 @@ Publishes a new service.
       <p>Domain scope of the service, typically &quot;local.&quot;.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       name</td>
@@ -145,7 +145,7 @@ Publishes a new service.
       <p>Unqualified service instance name.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       port</td>
@@ -156,7 +156,7 @@ Publishes a new service.
       <p>Local port on which the service runs.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       txtRecord</td>
@@ -196,7 +196,7 @@ Unregisters a service.
       <p>Service type name, e.g. &quot;_http._tcp&quot;.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       domain</td>
@@ -207,7 +207,7 @@ Unregisters a service.
       <p>Domain scope of the service, typically &quot;local.&quot;.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       name</td>
@@ -223,7 +223,7 @@ Unregisters a service.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="stop" href="#stop"></a><code>stop()</code></h3>
 
 
@@ -232,7 +232,7 @@ Unregisters all published services.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="watch" href="#watch"></a><code>watch(type,&nbsp;domain)</code></h3>
 
 
@@ -258,7 +258,7 @@ Starts watching for services of the specified type.
       <p>Service type name, e.g. &quot;_http._tcp&quot;.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       domain</td>
@@ -298,7 +298,7 @@ Stops watching for services of the specified type.
       <p>Service type name, e.g. &quot;_http._tcp&quot;.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       domain</td>
@@ -314,7 +314,7 @@ Stops watching for services of the specified type.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="close" href="#close"></a><code>close()</code></h3>
 
 
@@ -323,7 +323,7 @@ Closes the service browser and stops watching.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="reInit" href="#reInit"></a><code>reInit()</code></h3>
 
 
@@ -332,7 +332,7 @@ Re-initializes the plugin to clean service & browser state.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div>
 
 

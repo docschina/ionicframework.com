@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">In App Purchase 2</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/in-app-purchase-2/index.ts#L177">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -386,7 +386,7 @@ Get product by id or alias
     <td>
       idOrAlias</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -468,27 +468,27 @@ Add or register a product
     <td>
       query</td>
     <td>
-      
+
     </td>
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       event</td>
     <td>
-      
+
     </td>
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       callback</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -498,7 +498,7 @@ Add or register a product
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>IAPProductEvents</code> 
+  <b>Returns:</b> <code>IAPProductEvents</code>
 </div><h3><a class="anchor" name="once" href="#once"></a><code>once(query,&nbsp;event,&nbsp;callback)</code></h3>
 
 
@@ -523,7 +523,7 @@ Identical to `when`, but the callback will be called only once. After being call
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       event</td>
@@ -534,7 +534,7 @@ Identical to `when`, but the callback will be called only once. After being call
       <p><strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       callback</td>
@@ -550,7 +550,7 @@ Identical to `when`, but the callback will be called only once. After being call
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>IAPProductEvents</code> 
+  <b>Returns:</b> <code>IAPProductEvents</code>
 </div><h3><a class="anchor" name="off" href="#off"></a><code>off(callback)</code></h3>
 
 

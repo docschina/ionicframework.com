@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Calendar</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/calendar/index.ts#L50">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -91,7 +91,7 @@ If this returns false, you should call the `requestReadWritePermission` function
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="hasReadPermission" href="#hasReadPermission"></a><code>hasReadPermission()</code></h3>
 
 
@@ -100,7 +100,7 @@ Check if we have read permission
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="hasWritePermission" href="#hasWritePermission"></a><code>hasWritePermission()</code></h3>
 
 
@@ -109,7 +109,7 @@ Check if we have write permission
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="requestWritePermission" href="#requestWritePermission"></a><code>requestWritePermission()</code></h3>
 
 
@@ -118,7 +118,7 @@ Request write permission
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="requestReadPermission" href="#requestReadPermission"></a><code>requestReadPermission()</code></h3>
 
 
@@ -127,7 +127,7 @@ Request read permission
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="requestReadWritePermission" href="#requestReadWritePermission"></a><code>requestReadWritePermission()</code></h3>
 
 
@@ -136,7 +136,7 @@ Requests read/write permissions
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="createCalendar" href="#createCalendar"></a><code>createCalendar(nameOrOptions)</code></h3>
 
 
@@ -231,7 +231,7 @@ Silently create an event.
       <p>The event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       location</td>
@@ -242,7 +242,7 @@ Silently create an event.
       <p>The event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notes</td>
@@ -253,7 +253,7 @@ Silently create an event.
       <p>The event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       startDate</td>
@@ -264,7 +264,7 @@ Silently create an event.
       <p>The event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate</td>
@@ -305,7 +305,7 @@ Silently create an event with additional options.
       <p>The event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       location</td>
@@ -316,7 +316,7 @@ Silently create an event with additional options.
       <p>The event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notes</td>
@@ -327,7 +327,7 @@ Silently create an event with additional options.
       <p>The event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       startDate</td>
@@ -338,7 +338,7 @@ Silently create an event with additional options.
       <p>The event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate</td>
@@ -349,7 +349,7 @@ Silently create an event with additional options.
       <p>The event end date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -390,7 +390,7 @@ Interactively create an event.
       <p>The event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       location</td>
@@ -401,7 +401,7 @@ Interactively create an event.
       <p>The event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notes</td>
@@ -412,7 +412,7 @@ Interactively create an event.
       <p>The event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       startDate</td>
@@ -423,7 +423,7 @@ Interactively create an event.
       <p>The event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate</td>
@@ -464,7 +464,7 @@ Interactively create an event with additional options.
       <p>The event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       location</td>
@@ -475,7 +475,7 @@ Interactively create an event with additional options.
       <p>The event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notes</td>
@@ -486,7 +486,7 @@ Interactively create an event with additional options.
       <p>The event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       startDate</td>
@@ -497,7 +497,7 @@ Interactively create an event with additional options.
       <p>The event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate</td>
@@ -508,7 +508,7 @@ Interactively create an event with additional options.
       <p>The event end date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -524,7 +524,7 @@ Interactively create an event with additional options.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="findEvent" href="#findEvent"></a><code>findEvent(title,&nbsp;location,&nbsp;notes,&nbsp;startDate,&nbsp;endDate)</code></h3>
 
 
@@ -549,7 +549,7 @@ Find an event.
       <p>The event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       location</td>
@@ -560,7 +560,7 @@ Find an event.
       <p>The event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notes</td>
@@ -571,7 +571,7 @@ Find an event.
       <p>The event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       startDate</td>
@@ -582,7 +582,7 @@ Find an event.
       <p>The event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate</td>
@@ -598,7 +598,7 @@ Find an event.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="findEventWithOptions" href="#findEventWithOptions"></a><code>findEventWithOptions(title,&nbsp;location,&nbsp;notes,&nbsp;startDate,&nbsp;endDate,&nbsp;options)</code></h3>
 
 
@@ -622,7 +622,7 @@ Find an event with additional options.
       <p>The event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       location</td>
@@ -633,7 +633,7 @@ Find an event with additional options.
       <p>The event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notes</td>
@@ -644,7 +644,7 @@ Find an event with additional options.
       <p>The event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       startDate</td>
@@ -655,7 +655,7 @@ Find an event with additional options.
       <p>The event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate</td>
@@ -666,7 +666,7 @@ Find an event with additional options.
       <p>The event end date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -712,7 +712,7 @@ Find a list of events within the specified date range. (Android only)
       <p>The start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate</td>
@@ -781,7 +781,7 @@ Modify an event. (iOS only)
       <p>The event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       location</td>
@@ -792,7 +792,7 @@ Modify an event. (iOS only)
       <p>The event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notes</td>
@@ -803,7 +803,7 @@ Modify an event. (iOS only)
       <p>The event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       startDate</td>
@@ -814,7 +814,7 @@ Modify an event. (iOS only)
       <p>The event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate</td>
@@ -825,7 +825,7 @@ Modify an event. (iOS only)
       <p>The event end date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newTitle</td>
@@ -836,7 +836,7 @@ Modify an event. (iOS only)
       <p>The new event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newLocation</td>
@@ -847,7 +847,7 @@ Modify an event. (iOS only)
       <p>The new event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newNotes</td>
@@ -858,7 +858,7 @@ Modify an event. (iOS only)
       <p>The new event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newStartDate</td>
@@ -869,7 +869,7 @@ Modify an event. (iOS only)
       <p>The new event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newEndDate</td>
@@ -916,7 +916,7 @@ Modify an event with additional options. (iOS only)
       <p>The event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       location</td>
@@ -927,7 +927,7 @@ Modify an event with additional options. (iOS only)
       <p>The event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notes</td>
@@ -938,7 +938,7 @@ Modify an event with additional options. (iOS only)
       <p>The event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       startDate</td>
@@ -949,7 +949,7 @@ Modify an event with additional options. (iOS only)
       <p>The event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate</td>
@@ -960,7 +960,7 @@ Modify an event with additional options. (iOS only)
       <p>The event end date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newTitle</td>
@@ -971,7 +971,7 @@ Modify an event with additional options. (iOS only)
       <p>The new event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newLocation</td>
@@ -982,7 +982,7 @@ Modify an event with additional options. (iOS only)
       <p>The new event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newNotes</td>
@@ -993,7 +993,7 @@ Modify an event with additional options. (iOS only)
       <p>The new event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newStartDate</td>
@@ -1004,7 +1004,7 @@ Modify an event with additional options. (iOS only)
       <p>The new event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newEndDate</td>
@@ -1015,7 +1015,7 @@ Modify an event with additional options. (iOS only)
       <p>The new event end date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       filterOptions</td>
@@ -1026,7 +1026,7 @@ Modify an event with additional options. (iOS only)
       <p>Event Options, see <code>getCalendarOptions</code><strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newOptions</td>
@@ -1068,7 +1068,7 @@ Delete an event.
       <p>The event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       location</td>
@@ -1079,7 +1079,7 @@ Delete an event.
       <p>The event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notes</td>
@@ -1090,7 +1090,7 @@ Delete an event.
       <p>The event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       startDate</td>
@@ -1101,7 +1101,7 @@ Delete an event.
       <p>The event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate</td>
@@ -1148,7 +1148,7 @@ Delete an event from the specified Calendar. (iOS only)
       <p>The event title<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       location</td>
@@ -1159,7 +1159,7 @@ Delete an event from the specified Calendar. (iOS only)
       <p>The event location<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notes</td>
@@ -1170,7 +1170,7 @@ Delete an event from the specified Calendar. (iOS only)
       <p>The event notes<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       startDate</td>
@@ -1181,7 +1181,7 @@ Delete an event from the specified Calendar. (iOS only)
       <p>The event start date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate</td>
@@ -1192,7 +1192,7 @@ Delete an event from the specified Calendar. (iOS only)
       <p>The event end date<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       calendarName</td>
@@ -1255,7 +1255,7 @@ Open the calendar at the specified date.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       id
@@ -1269,7 +1269,7 @@ Open the calendar at the specified date.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       firstReminderMinutes
@@ -1278,11 +1278,11 @@ Open the calendar at the specified date.
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       secondReminderMinutes
@@ -1291,11 +1291,11 @@ Open the calendar at the specified date.
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       recurrence
@@ -1309,7 +1309,7 @@ Open the calendar at the specified date.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       recurrenceInterval
@@ -1323,7 +1323,7 @@ Open the calendar at the specified date.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       recurrenceEndDate
@@ -1337,7 +1337,7 @@ Open the calendar at the specified date.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       calendarName
@@ -1351,7 +1351,7 @@ Open the calendar at the specified date.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       calendarId
@@ -1365,7 +1365,7 @@ Open the calendar at the specified date.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       url
@@ -1379,7 +1379,7 @@ Open the calendar at the specified date.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">QR Scanner</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/qr-scanner/index.ts#L58">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -111,7 +111,7 @@ Request permission to use QR scanner.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="scan" href="#scan"></a><code>scan()</code></h3>
 
 
@@ -131,7 +131,7 @@ Configures the native webview to have a transparent background, then sets the ba
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="hide" href="#hide"></a><code>hide()</code></h3>
 
 
@@ -140,7 +140,7 @@ Configures the native webview to be opaque with a white background, covering the
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="enableLight" href="#enableLight"></a><code>enableLight()</code></h3>
 
 
@@ -151,7 +151,7 @@ Enable the device's light (for scanning in low-light environments).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="destroy" href="#destroy"></a><code>destroy()</code></h3>
 
 
@@ -160,7 +160,7 @@ Destroy the scanner instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="disableLight" href="#disableLight"></a><code>disableLight()</code></h3>
 
 
@@ -171,7 +171,7 @@ Disable the device's light.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="useFrontCamera" href="#useFrontCamera"></a><code>useFrontCamera()</code></h3>
 
 
@@ -182,7 +182,7 @@ Use front camera
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="useBackCamera" href="#useBackCamera"></a><code>useBackCamera()</code></h3>
 
 
@@ -193,7 +193,7 @@ Use back camera
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="useCamera" href="#useCamera"></a><code>useCamera(camera)</code></h3>
 
 
@@ -224,7 +224,7 @@ Set camera to be used.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="pausePreview" href="#pausePreview"></a><code>pausePreview()</code></h3>
 
 
@@ -233,7 +233,7 @@ Pauses the video preview on the current frame and pauses scanning.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="resumePreview" href="#resumePreview"></a><code>resumePreview()</code></h3>
 
 
@@ -242,7 +242,7 @@ Resumse the video preview and resumes scanning.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="getStatus" href="#getStatus"></a><code>getStatus()</code></h3>
 
 
@@ -251,7 +251,7 @@ Returns permission status
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;QRScannerStatus&gt;</code>
 </div><h3><a class="anchor" name="openSettings" href="#openSettings"></a><code>openSettings()</code></h3>
 
 
@@ -278,7 +278,7 @@ Opens settings to edit app permissions.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       authorized
@@ -291,10 +291,10 @@ Opens settings to edit app permissions.
 The authorized property is a boolean value which is true only when the user has allowed camera access to your app (AVAuthorizationStatus.Authorized).
 On platforms with permissions granted at install (Android pre-6.0, Windows Phone) this property is always true.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       denied
@@ -306,10 +306,10 @@ On platforms with permissions granted at install (Android pre-6.0, Windows Phone
       <p>A boolean value which is true if the user permanently denied camera access to the app (AVAuthorizationStatus.Denied).
 Once denied, camera access can only be gained by requesting the user change their decision (consider offering a link to the setting via openSettings()).</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       restricted
@@ -320,10 +320,10 @@ Once denied, camera access can only be gained by requesting the user change thei
     <td>
       <p>A boolean value which is true if the user is unable to grant permissions due to parental controls, organization security configuration profiles, or similar reasons.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       prepared
@@ -334,10 +334,10 @@ Once denied, camera access can only be gained by requesting the user change thei
     <td>
       <p>A boolean value which is true if QRScanner is prepared to capture video and render it to the view.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       showing
@@ -348,10 +348,10 @@ Once denied, camera access can only be gained by requesting the user change thei
     <td>
       <p>A boolean value which is true when the preview layer is visible (and on all platforms but browser, the native webview background is transparent).</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       scanning
@@ -362,10 +362,10 @@ Once denied, camera access can only be gained by requesting the user change thei
     <td>
       <p>A boolean value which is true if QRScanner is actively scanning for a QR code.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       previewing
@@ -376,10 +376,10 @@ Once denied, camera access can only be gained by requesting the user change thei
     <td>
       <p>A boolean value which is true if QRScanner is displaying a live preview from the device&#39;s camera. Set to false when the preview is paused.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       lightEnabled
@@ -390,10 +390,10 @@ Once denied, camera access can only be gained by requesting the user change thei
     <td>
       <p>A boolean value which is true if the light is enabled.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       canOpenSettings
@@ -404,10 +404,10 @@ Once denied, camera access can only be gained by requesting the user change thei
     <td>
       <p>A boolean value which is true only if the users&#39; operating system is able to QRScanner.openSettings().</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       canEnableLight
@@ -418,10 +418,10 @@ Once denied, camera access can only be gained by requesting the user change thei
     <td>
       <p>A boolean value which is true only if the users&#39; device can enable a light in the direction of the currentCamera.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       canChangeCamera
@@ -434,10 +434,10 @@ Once denied, camera access can only be gained by requesting the user change thei
 The camera may still not be capturable, which would emit error code 3, 4, or 5 when the switch is attempted.
 (On the browser platform, this value is false until the prepare method is called.)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       currentCamera
@@ -448,10 +448,10 @@ The camera may still not be capturable, which would emit error code 3, 4, or 5 w
     <td>
       <p>A number representing the index of the currentCamera. 0 is the back camera, 1 is the front.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

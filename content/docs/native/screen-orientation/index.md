@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Screen Orientation</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/screen-orientation/index.ts#L2">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -105,7 +105,7 @@ Listen to orientation change event
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;void&gt;</code>
 </div><h3><a class="anchor" name="lock" href="#lock"></a><code>lock(orientation)</code></h3>
 
 
@@ -137,7 +137,7 @@ See below for accepted values
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="unlock" href="#unlock"></a><code>unlock()</code></h3>
 
 

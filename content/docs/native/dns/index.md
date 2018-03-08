@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">DNS</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/dns/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -94,7 +94,7 @@ Resolve hostnames into an underlying network address.
     <td>
       hostname</td>
     <td>
-      
+
     </td>
     <td>
       </td>

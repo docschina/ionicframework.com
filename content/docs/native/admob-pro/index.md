@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">AdMob Pro<span class="paid" title="paid">Paid</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/admob-pro/index.ts#L89">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -188,7 +188,7 @@ Show banner at custom position
       <p>Offset from screen left.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       y</td>
@@ -335,7 +335,7 @@ Triggered when failed to receive Ad
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="onAdLoaded" href="#onAdLoaded"></a><code>onAdLoaded()</code></h3>
 
 
@@ -346,7 +346,7 @@ Triggered when Ad received
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="onAdPresent" href="#onAdPresent"></a><code>onAdPresent()</code></h3>
 
 
@@ -357,7 +357,7 @@ Triggered when Ad will be showed on screen
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="onAdLeaveApp" href="#onAdLeaveApp"></a><code>onAdLeaveApp()</code></h3>
 
 
@@ -368,7 +368,7 @@ Triggered when user click the Ad, and will jump out of your App
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="onAdDismiss" href="#onAdDismiss"></a><code>onAdDismiss()</code></h3>
 
 
@@ -379,7 +379,7 @@ Triggered when dismiss the Ad and back to your App
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div>
 
 
@@ -397,7 +397,7 @@ Triggered when dismiss the Ad and back to your App
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       adId
@@ -411,7 +411,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       adSize
@@ -425,7 +425,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       width
@@ -439,7 +439,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -453,7 +453,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       overlap
@@ -467,7 +467,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       position
@@ -481,7 +481,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       x
@@ -495,7 +495,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       y
@@ -509,7 +509,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isTesting
@@ -523,7 +523,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       autoShow
@@ -537,7 +537,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       orientationRenew
@@ -551,7 +551,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       adExtras
@@ -565,7 +565,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       license
@@ -579,7 +579,7 @@ Triggered when dismiss the Ad and back to your App
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -595,7 +595,7 @@ Triggered when dismiss the Ad and back to your App
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       color_bg
@@ -604,11 +604,11 @@ Triggered when dismiss the Ad and back to your App
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       color_bg_top
@@ -617,11 +617,11 @@ Triggered when dismiss the Ad and back to your App
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       color_border
@@ -630,11 +630,11 @@ Triggered when dismiss the Ad and back to your App
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       color_link
@@ -643,11 +643,11 @@ Triggered when dismiss the Ad and back to your App
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       color_text
@@ -656,11 +656,11 @@ Triggered when dismiss the Ad and back to your App
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       color_url
@@ -669,11 +669,11 @@ Triggered when dismiss the Ad and back to your App
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

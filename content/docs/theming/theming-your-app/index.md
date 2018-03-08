@@ -11,8 +11,8 @@ next_page_link: /docs/theming/sass-variables/
 ---
 
 <h1 class="title">Theming your Ionic App</h1>
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/theming/theming-your-app/index.md'>
-  Improve this doc
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/theming/theming-your-app/index.md'>
+  改进这篇文档
 </a>
 
 Theme support is baked right into Ionic apps. Changing the theme is as easy as updating the `$colors` [map](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#maps) in your `src/theme/variables.scss` file:

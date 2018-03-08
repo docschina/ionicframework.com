@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Photo Viewer</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/photo-viewer/index.ts#L8">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -100,7 +100,7 @@ Shows an image in full screen
       <p>URL or path to image</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       title</td>
@@ -110,7 +110,7 @@ Shows an image in full screen
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>

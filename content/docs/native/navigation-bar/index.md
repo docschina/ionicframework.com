@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Navigation Bar<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/navigation-bar/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -109,7 +109,7 @@ hide automatically (or not) the navigation bar.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="hideNavigationBar" href="#hideNavigationBar"></a><code>hideNavigationBar()</code></h3>
 
 
@@ -120,7 +120,7 @@ Hide the navigation bar. 
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

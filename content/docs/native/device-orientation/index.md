@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Device Orientation</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/device-orientation/index.ts#L40">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -94,7 +94,7 @@ Get the current compass heading.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;DeviceOrientationCompassHeading&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;DeviceOrientationCompassHeading&gt;</code>
 </div><h3><a class="anchor" name="watchHeading" href="#watchHeading"></a><code>watchHeading(options)</code></h3>
 
 
@@ -145,7 +145,7 @@ Stop the watch by unsubscribing from the observable
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       frequency
@@ -159,7 +159,7 @@ Stop the watch by unsubscribing from the observable
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       filter
@@ -173,7 +173,7 @@ Stop the watch by unsubscribing from the observable
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -189,7 +189,7 @@ Stop the watch by unsubscribing from the observable
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       magneticHeading
@@ -200,10 +200,10 @@ Stop the watch by unsubscribing from the observable
     <td>
       <p>The heading in degrees from 0-359.99 at a single moment in time. (Number)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       trueHeading
@@ -214,10 +214,10 @@ Stop the watch by unsubscribing from the observable
     <td>
       <p>The heading relative to the geographic North Pole in degrees 0-359.99 at a single moment in time. A negative value indicates that the true heading can&#39;t be determined. (Number)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       headingAccuracy
@@ -228,10 +228,10 @@ Stop the watch by unsubscribing from the observable
     <td>
       <p>The deviation in degrees between the reported heading and the true heading. (Number)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       timestamp
@@ -242,10 +242,10 @@ Stop the watch by unsubscribing from the observable
     <td>
       <p>The time at which this heading was determined. (DOMTimeStamp)</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

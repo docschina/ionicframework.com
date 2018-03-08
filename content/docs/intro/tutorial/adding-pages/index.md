@@ -13,8 +13,8 @@ next_page_link: /docs//intro/tutorial/navigation
 
 <h1 class="title">Adding Pages</h1>
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/intro/tutorial/adding-pages/index.md'>
-  Improve this doc
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/tutorial/adding-pages/index.md'>
+  改进这篇文档
 </a>
 
 Now that we have a basic understanding of the layout of an Ionic app, let's walk through the process of creating and navigating to pages in our app.

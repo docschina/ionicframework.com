@@ -14,7 +14,7 @@ next_page_link: /docs/intro/tutorial/project-structure/
 # Ionic 简易教程
 
 <a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/tutorial/index.md'>
-  改进这篇翻译
+  改进这篇文档
 </a>
 
 假定你现在已经安装好了 [Ionic 和它的依赖项](../installation)，那就可以构建你的第一个应用了。本章节将指导你通过一系列步骤来创建一个全新的应用程序，并在其中增加若干个页面，然后在这些页面之间进行跳转。让我们开始吧！
@@ -40,7 +40,7 @@ $ ionic start MyIonicProject tutorial
 * `tutorial` 则指定使用初学者模板来创建你的项目。
 
 
-在创建项目的过程中，这条命令还会为该应用程序安装 
+在创建项目的过程中，这条命令还会为该应用程序安装
 [node modules](../../resources/what-is/#npm)，并提示你是否要设置
 Cordova。
 

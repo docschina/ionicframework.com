@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Health Kit</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/health-kit/index.ts#L114">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -81,7 +81,7 @@ Check if HealthKit is supported (iOS8+, not on iPad)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="checkAuthStatus" href="#checkAuthStatus"></a><code>checkAuthStatus(options)</code></h3>
 
 
@@ -109,7 +109,7 @@ Pass in a type and get back on of undetermined | denied | authorized
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="requestAuthorization" href="#requestAuthorization"></a><code>requestAuthorization(options)</code></h3>
 
 
@@ -137,7 +137,7 @@ Ask some or all permissions up front
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="readDateOfBirth" href="#readDateOfBirth"></a><code>readDateOfBirth()</code></h3>
 
 
@@ -146,7 +146,7 @@ Formatted as yyyy-MM-dd
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="readGender" href="#readGender"></a><code>readGender()</code></h3>
 
 
@@ -155,7 +155,7 @@ Output = male|female|other|unknown
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="readBloodType" href="#readBloodType"></a><code>readBloodType()</code></h3>
 
 
@@ -164,7 +164,7 @@ Output = A+|A-|B+|B-|AB+|AB-|O+|O-|unknown
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="readFitzpatrickSkinType" href="#readFitzpatrickSkinType"></a><code>readFitzpatrickSkinType()</code></h3>
 
 
@@ -173,7 +173,7 @@ Output = I|II|III|IV|V|VI|unknown
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="saveWeight" href="#saveWeight"></a><code>saveWeight(options)</code></h3>
 
 
@@ -201,7 +201,7 @@ Pass in unit (g=gram, kg=kilogram, oz=ounce, lb=pound, st=stone) and amount
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="readWeight" href="#readWeight"></a><code>readWeight(options)</code></h3>
 
 
@@ -229,7 +229,7 @@ Pass in unit (g=gram, kg=kilogram, oz=ounce, lb=pound, st=stone)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="saveHeight" href="#saveHeight"></a><code>saveHeight(options)</code></h3>
 
 
@@ -257,7 +257,7 @@ Pass in unit (mm=millimeter, cm=centimeter, m=meter, in=inch, ft=foot) and amoun
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="readHeight" href="#readHeight"></a><code>readHeight(options)</code></h3>
 
 
@@ -285,7 +285,7 @@ Pass in unit (mm=millimeter, cm=centimeter, m=meter, in=inch, ft=foot)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="findWorkouts" href="#findWorkouts"></a><code>findWorkouts()</code></h3>
 
 
@@ -294,7 +294,7 @@ no params yet, so this will return all workouts ever of any type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="saveWorkout" href="#saveWorkout"></a><code>saveWorkout(options)</code></h3>
 
 
@@ -322,7 +322,7 @@ no params yet, so this will return all workouts ever of any type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="querySampleType" href="#querySampleType"></a><code>querySampleType(options)</code></h3>
 
 
@@ -350,7 +350,7 @@ no params yet, so this will return all workouts ever of any type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="querySampleTypeAggregated" href="#querySampleTypeAggregated"></a><code>querySampleTypeAggregated(options)</code></h3>
 
 
@@ -378,7 +378,7 @@ no params yet, so this will return all workouts ever of any type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="deleteSamples" href="#deleteSamples"></a><code>deleteSamples(options)</code></h3>
 
 
@@ -406,7 +406,7 @@ no params yet, so this will return all workouts ever of any type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="monitorSampleType" href="#monitorSampleType"></a><code>monitorSampleType(options)</code></h3>
 
 
@@ -434,7 +434,7 @@ no params yet, so this will return all workouts ever of any type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="sumQuantityType" href="#sumQuantityType"></a><code>sumQuantityType(options)</code></h3>
 
 
@@ -462,7 +462,7 @@ no params yet, so this will return all workouts ever of any type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="saveQuantitySample" href="#saveQuantitySample"></a><code>saveQuantitySample(options)</code></h3>
 
 
@@ -490,7 +490,7 @@ no params yet, so this will return all workouts ever of any type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="saveCorrelation" href="#saveCorrelation"></a><code>saveCorrelation(options)</code></h3>
 
 
@@ -518,7 +518,7 @@ no params yet, so this will return all workouts ever of any type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="queryCorrelationType" href="#queryCorrelationType"></a><code>queryCorrelationType(options)</code></h3>
 
 
@@ -546,7 +546,7 @@ no params yet, so this will return all workouts ever of any type
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -564,7 +564,7 @@ no params yet, so this will return all workouts ever of any type
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       activityType
@@ -579,7 +579,7 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       aggregation
@@ -593,7 +593,7 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       amount
@@ -602,11 +602,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       correlationType
@@ -615,11 +615,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       date
@@ -628,11 +628,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       distance
@@ -641,11 +641,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       distanceUnit
@@ -659,7 +659,7 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       duration
@@ -673,7 +673,7 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       endDate
@@ -682,11 +682,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       energy
@@ -695,11 +695,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       energyUnit
@@ -713,7 +713,7 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       extraData
@@ -722,11 +722,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       metadata
@@ -735,11 +735,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       quantityType
@@ -748,11 +748,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       readTypes
@@ -761,11 +761,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       requestWritePermission
@@ -774,11 +774,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       samples
@@ -787,11 +787,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sampleType
@@ -800,11 +800,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       startDate
@@ -813,11 +813,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       unit
@@ -831,7 +831,7 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       requestReadPermission
@@ -840,11 +840,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       writeTypes
@@ -853,11 +853,11 @@ Read more here: <a href="https://developer.apple.com/library/ios/documentation/H
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

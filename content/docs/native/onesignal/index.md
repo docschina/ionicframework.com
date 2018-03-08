@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">OneSignal</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/onesignal/index.ts#L295">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -171,7 +171,7 @@ Start the initialization process. Once you are done configuring OneSignal, call 
       <p>Your OneSignal app id</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       googleProjectNumber</td>
@@ -187,7 +187,7 @@ Start the initialization process. Once you are done configuring OneSignal, call 
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>any</code> 
+  <b>Returns:</b> <code>any</code>
 </div><h3><a class="anchor" name="handleNotificationReceived" href="#handleNotificationReceived"></a><code>handleNotificationReceived()</code></h3>
 
 
@@ -199,7 +199,7 @@ Callback to run when a notification is received, whether it was displayed or not
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;OneSignalReceivedNotification&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;OneSignalReceivedNotification&gt;</code>
 </div><h3><a class="anchor" name="handleNotificationOpened" href="#handleNotificationOpened"></a><code>handleNotificationOpened()</code></h3>
 
 
@@ -213,7 +213,7 @@ inFocusDisplaying).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;OneSignalOpenedNotification&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;OneSignalOpenedNotification&gt;</code>
 </div><h3><a class="anchor" name="iOSSettings" href="#iOSSettings"></a><code>iOSSettings(settings)</code></h3>
 
 
@@ -237,7 +237,7 @@ inFocusDisplaying).
     <td>
       settings</td>
     <td>
-      
+
     </td>
     <td>
       <p>kOSSettingsKeyAutoPrompt: boolean = true
@@ -251,7 +251,7 @@ inFocusDisplaying).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>any</code> 
+  <b>Returns:</b> <code>any</code>
 </div><h3><a class="anchor" name="endInit" href="#endInit"></a><code>endInit()</code></h3>
 
 
@@ -263,7 +263,7 @@ Must be called after `startInit` to complete initialization of OneSignal.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>any</code> 
+  <b>Returns:</b> <code>any</code>
 </div><h3><a class="anchor" name="promptForPushNotificationsWithUserResponse" href="#promptForPushNotificationsWithUserResponse"></a><code>promptForPushNotificationsWithUserResponse()</code></h3>
 
 
@@ -277,7 +277,7 @@ Prompt the user for notification permissions. Callback fires as soon as the user
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="getTags" href="#getTags"></a><code>getTags()</code></h3>
 
 
@@ -332,7 +332,7 @@ Recommend using sendTags over sendTag if you need to set more than one tag on a 
       <p>of your choosing to create or update.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       Value</td>
@@ -540,7 +540,7 @@ Setting to control how OneSignal notifications will be shown when one is receive
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>any</code> 
+  <b>Returns:</b> <code>any</code>
 </div><h3><a class="anchor" name="setSubscription" href="#setSubscription"></a><code>setSubscription(enable)</code></h3>
 
 
@@ -579,7 +579,7 @@ Get the current notification and permission state. Returns a OSPermissionSubscri
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;OSPermissionSubscriptionState&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;OSPermissionSubscriptionState&gt;</code>
 </div><h3><a class="anchor" name="postNotification" href="#postNotification"></a><code>postNotification(Parameters)</code></h3>
 
 
@@ -718,7 +718,7 @@ This includes the following events:
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="addSubscriptionObserver" href="#addSubscriptionObserver"></a><code>addSubscriptionObserver()</code></h3>
 
 
@@ -734,7 +734,7 @@ This includes the following events:
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div>
 
 
@@ -752,7 +752,7 @@ This includes the following events:
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       isAppInFocus
@@ -763,10 +763,10 @@ This includes the following events:
     <td>
       <p>Was app in focus.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       shown
@@ -777,10 +777,10 @@ This includes the following events:
     <td>
       <p>Was notification shown to the user. Will be false for silent notifications.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       androidNotificationId
@@ -794,7 +794,7 @@ This includes the following events:
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       payload
@@ -805,10 +805,10 @@ This includes the following events:
     <td>
       <p>Payload received from OneSignal.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       displayType
@@ -819,10 +819,10 @@ This includes the following events:
     <td>
       <p>How the notification was displayed to the user. Can be set to <code>Notification</code>, <code>InAppAlert</code>, or <code>None</code> if it was not displayed.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       groupedNotifications
@@ -836,7 +836,7 @@ This includes the following events:
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       app_id
@@ -845,11 +845,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       contents
@@ -858,11 +858,11 @@ This includes the following events:
       <code>any</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       headings
@@ -871,11 +871,11 @@ This includes the following events:
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isIos
@@ -884,11 +884,11 @@ This includes the following events:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isAndroid
@@ -897,11 +897,11 @@ This includes the following events:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isWP
@@ -910,11 +910,11 @@ This includes the following events:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isWP_WNS
@@ -923,11 +923,11 @@ This includes the following events:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isAdm
@@ -936,11 +936,11 @@ This includes the following events:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isChrome
@@ -949,11 +949,11 @@ This includes the following events:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isChromeWeb
@@ -962,11 +962,11 @@ This includes the following events:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isSafari
@@ -975,11 +975,11 @@ This includes the following events:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isAnyWeb
@@ -988,11 +988,11 @@ This includes the following events:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       included_segments
@@ -1001,11 +1001,11 @@ This includes the following events:
       <code>string[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       excluded_segments
@@ -1014,11 +1014,11 @@ This includes the following events:
       <code>string[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       include_player_ids
@@ -1027,11 +1027,11 @@ This includes the following events:
       <code>string[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       include_ios_tokens
@@ -1040,11 +1040,11 @@ This includes the following events:
       <code>string[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       include_android_reg_ids
@@ -1053,11 +1053,11 @@ This includes the following events:
       <code>string[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       include_wp_uris
@@ -1066,11 +1066,11 @@ This includes the following events:
       <code>string[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       include_wp_wns_uris
@@ -1079,11 +1079,11 @@ This includes the following events:
       <code>string[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       include_amazon_reg_ids
@@ -1092,11 +1092,11 @@ This includes the following events:
       <code>string[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       include_chrome_reg_ids
@@ -1105,11 +1105,11 @@ This includes the following events:
       <code>string[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       include_chrome_web_reg_ids
@@ -1118,11 +1118,11 @@ This includes the following events:
       <code>string[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       app_ids
@@ -1131,11 +1131,11 @@ This includes the following events:
       <code>string[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       tags
@@ -1144,11 +1144,11 @@ This includes the following events:
       <code>any[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       ios_badgeType
@@ -1157,11 +1157,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       ios_badgeCount
@@ -1170,11 +1170,11 @@ This includes the following events:
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       ios_sound
@@ -1183,11 +1183,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       android_sound
@@ -1196,11 +1196,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       adm_sound
@@ -1209,11 +1209,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       wp_sound
@@ -1222,11 +1222,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       wp_wns_sound
@@ -1235,11 +1235,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       data
@@ -1248,11 +1248,11 @@ This includes the following events:
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       buttons
@@ -1261,11 +1261,11 @@ This includes the following events:
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       small_icon
@@ -1274,11 +1274,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       large_icon
@@ -1287,11 +1287,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       big_picture
@@ -1300,11 +1300,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       adm_small_icon
@@ -1313,11 +1313,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       adm_large_icon
@@ -1326,11 +1326,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       adm_big_picture
@@ -1339,11 +1339,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       chrome_icon
@@ -1352,11 +1352,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       chrome_big_picture
@@ -1365,11 +1365,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       chrome_web_icon
@@ -1378,11 +1378,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       firefox_icon
@@ -1391,11 +1391,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       url
@@ -1404,11 +1404,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       send_after
@@ -1417,11 +1417,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       delayed_option
@@ -1430,11 +1430,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       delivery_time_of_day
@@ -1443,11 +1443,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       android_led_color
@@ -1456,11 +1456,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       android_accent_color
@@ -1469,11 +1469,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       android_visibility
@@ -1482,11 +1482,11 @@ This includes the following events:
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       content_available
@@ -1495,11 +1495,11 @@ This includes the following events:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       amazon_background_data
@@ -1508,11 +1508,11 @@ This includes the following events:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       template_id
@@ -1521,11 +1521,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       android_group
@@ -1534,11 +1534,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       android_group_message
@@ -1547,11 +1547,11 @@ This includes the following events:
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       adm_group
@@ -1560,11 +1560,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       adm_group_message
@@ -1573,11 +1573,11 @@ This includes the following events:
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       ttl
@@ -1586,11 +1586,11 @@ This includes the following events:
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       priority
@@ -1599,11 +1599,11 @@ This includes the following events:
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       ios_category
@@ -1612,11 +1612,11 @@ This includes the following events:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -1632,7 +1632,7 @@ This includes the following events:
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       Public
@@ -1643,10 +1643,10 @@ This includes the following events:
     <td>
       <p>Fully visible (default)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Private
@@ -1657,10 +1657,10 @@ This includes the following events:
     <td>
       <p>Contents are hidden</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Secret
@@ -1671,10 +1671,10 @@ This includes the following events:
     <td>
       <p>Not shown</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -1690,7 +1690,7 @@ This includes the following events:
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       None
@@ -1701,10 +1701,10 @@ This includes the following events:
     <td>
       <p>notification is silent, or inFocusDisplaying is disabled.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       InAppAlert
@@ -1715,10 +1715,10 @@ This includes the following events:
     <td>
       <p>(<strong>DEFAULT</strong>) - native alert dialog display.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Notification
@@ -1729,10 +1729,10 @@ This includes the following events:
     <td>
       <p>native notification display.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -1748,7 +1748,7 @@ This includes the following events:
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       notificationID
@@ -1759,10 +1759,10 @@ This includes the following events:
     <td>
       <p>OneSignal notification UUID.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       title
@@ -1773,10 +1773,10 @@ This includes the following events:
     <td>
       <p>Title of the notification.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       body
@@ -1787,10 +1787,10 @@ This includes the following events:
     <td>
       <p>Body of the notification.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       additionalData
@@ -1805,7 +1805,7 @@ or with the &#39;data&#39; field on the REST API.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       smallIcon
@@ -1819,7 +1819,7 @@ or with the &#39;data&#39; field on the REST API.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       largeIcon
@@ -1833,7 +1833,7 @@ or with the &#39;data&#39; field on the REST API.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bigPicture
@@ -1847,7 +1847,7 @@ or with the &#39;data&#39; field on the REST API.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       smallIconAccentColor
@@ -1861,7 +1861,7 @@ or with the &#39;data&#39; field on the REST API.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       launchURL
@@ -1875,7 +1875,7 @@ or with the &#39;data&#39; field on the REST API.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sound
@@ -1886,10 +1886,10 @@ or with the &#39;data&#39; field on the REST API.</p>
     <td>
       <p>Sound resource to play when the notification is shown.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       ledColor
@@ -1903,7 +1903,7 @@ or with the &#39;data&#39; field on the REST API.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       lockScreenVisibility
@@ -1912,11 +1912,11 @@ or with the &#39;data&#39; field on the REST API.</p>
       <code>OSLockScreenVisibility</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       groupKey
@@ -1930,7 +1930,7 @@ or with the &#39;data&#39; field on the REST API.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       groupMessage
@@ -1944,7 +1944,7 @@ or with the &#39;data&#39; field on the REST API.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       actionButtons
@@ -1955,10 +1955,10 @@ or with the &#39;data&#39; field on the REST API.</p>
     <td>
       <p>List of action buttons on the notification.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       fromProjectNumber
@@ -1972,7 +1972,7 @@ or with the &#39;data&#39; field on the REST API.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       backgroundImageLayout
@@ -1986,7 +1986,7 @@ or with the &#39;data&#39; field on the REST API.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       priority
@@ -1995,11 +1995,11 @@ or with the &#39;data&#39; field on the REST API.</p>
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       rawPayload
@@ -2010,10 +2010,10 @@ or with the &#39;data&#39; field on the REST API.</p>
     <td>
       <p>List of action buttons on the notification.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -2029,7 +2029,7 @@ or with the &#39;data&#39; field on the REST API.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       id
@@ -2040,10 +2040,10 @@ or with the &#39;data&#39; field on the REST API.</p>
     <td>
       <p>Id assigned to the button.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       text
@@ -2054,10 +2054,10 @@ or with the &#39;data&#39; field on the REST API.</p>
     <td>
       <p>Text show on the button to the user.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       icon
@@ -2068,10 +2068,10 @@ or with the &#39;data&#39; field on the REST API.</p>
     <td>
       <p><strong>ANDROID</strong> - Icon shown on the button.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -2087,7 +2087,7 @@ or with the &#39;data&#39; field on the REST API.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       image
@@ -2098,10 +2098,10 @@ or with the &#39;data&#39; field on the REST API.</p>
     <td>
       <p>Image URL or name used as the background image.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       titleTextColor
@@ -2112,10 +2112,10 @@ or with the &#39;data&#39; field on the REST API.</p>
     <td>
       <p>Text color of the title on the notification. ARGB Format.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bodyTextColor
@@ -2126,10 +2126,10 @@ or with the &#39;data&#39; field on the REST API.</p>
     <td>
       <p>Text color of the body on the notification. ARGB Format.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -2145,7 +2145,7 @@ or with the &#39;data&#39; field on the REST API.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       action
@@ -2156,11 +2156,11 @@ or with the &#39;data&#39; field on the REST API.</p>
   }</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       notification
@@ -2169,11 +2169,11 @@ or with the &#39;data&#39; field on the REST API.</p>
       <code>OSNotification</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -2189,7 +2189,7 @@ or with the &#39;data&#39; field on the REST API.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       Opened
@@ -2198,11 +2198,11 @@ or with the &#39;data&#39; field on the REST API.</p>
       <code>0</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       ActionTake
@@ -2211,11 +2211,11 @@ or with the &#39;data&#39; field on the REST API.</p>
       <code>1</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

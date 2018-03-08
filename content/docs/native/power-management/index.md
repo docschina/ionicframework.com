@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Power Management</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/power-management/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -84,7 +84,7 @@ Acquire a wakelock by calling this.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="dim" href="#dim"></a><code>dim()</code></h3>
 
 
@@ -93,7 +93,7 @@ This acquires a partial wakelock, allowing the screen to be dimmed.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="release" href="#release"></a><code>release()</code></h3>
 
 
@@ -102,7 +102,7 @@ Release the wakelock. It's important to do this when you're finished with the wa
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setReleaseOnPause" href="#setReleaseOnPause"></a><code>setReleaseOnPause(set)</code></h3>
 
 
@@ -131,7 +131,7 @@ It will reacquire the wakelock upon app resume. If you would prefer to disable t
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

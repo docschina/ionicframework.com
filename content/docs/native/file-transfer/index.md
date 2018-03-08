@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">File Transfer</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/file-transfer/index.ts#L106">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -129,7 +129,7 @@ Creates a new FileTransfer object
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>FileTransferObject</code> 
+  <b>Returns:</b> <code>FileTransferObject</code>
 </div>
 
 <h2><a class="anchor" name="FileTransferObject" href="#FileTransferObject"></a>FileTransferObject</h2>
@@ -164,7 +164,7 @@ Sends a file to a server.
       <p>Filesystem URL representing the file on the device or a data URI. For backwards compatibility, this can also be the full path of the file on the device.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       url</td>
@@ -175,7 +175,7 @@ Sends a file to a server.
       <p>URL of the server to receive the file, as encoded by encodeURI().</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -186,7 +186,7 @@ Sends a file to a server.
       <p>Optional parameters.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       trustAllHosts</td>
@@ -229,7 +229,7 @@ Downloads a file from server.
       <p>URL of the server to download the file, as encoded by encodeURI().</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       target</td>
@@ -240,7 +240,7 @@ Downloads a file from server.
       <p>Filesystem url representing the file on the device. For backwards compatibility, this can also be the full path of the file on the device.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       trustAllHosts</td>
@@ -251,7 +251,7 @@ Downloads a file from server.
       <p>Optional parameter, defaults to false. If set to true, it accepts all security certificates. This is useful because Android rejects self-signed security certificates. Not recommended for production use. Supported on Android and iOS.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       Optional</td>
@@ -321,7 +321,7 @@ object which has an error code of FileTransferError.ABORT_ERR.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       fileKey
@@ -336,7 +336,7 @@ Defaults to &#39;file&#39;.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       fileName
@@ -351,7 +351,7 @@ Defaults to &#39;image.jpg&#39;.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       httpMethod
@@ -366,7 +366,7 @@ Defaults to POST.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       mimeType
@@ -381,7 +381,7 @@ Defaults to image/jpeg.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       params
@@ -395,7 +395,7 @@ Defaults to image/jpeg.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       chunkedMode
@@ -410,7 +410,7 @@ Defaults to true.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       headers
@@ -426,7 +426,7 @@ Content-Type is present, multipart form data will NOT be used.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -442,7 +442,7 @@ Content-Type is present, multipart form data will NOT be used.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       bytesSent
@@ -453,10 +453,10 @@ Content-Type is present, multipart form data will NOT be used.</p>
     <td>
       <p>The number of bytes sent to the server as part of the upload.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       responseCode
@@ -467,10 +467,10 @@ Content-Type is present, multipart form data will NOT be used.</p>
     <td>
       <p>The HTTP response code returned by the server.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       response
@@ -481,10 +481,10 @@ Content-Type is present, multipart form data will NOT be used.</p>
     <td>
       <p>The HTTP response returned by the server.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       headers
@@ -495,10 +495,10 @@ Content-Type is present, multipart form data will NOT be used.</p>
     <td>
       <p>The HTTP response headers by the server.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -514,7 +514,7 @@ Content-Type is present, multipart form data will NOT be used.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       code
@@ -525,10 +525,10 @@ Content-Type is present, multipart form data will NOT be used.</p>
     <td>
       <p>One of the predefined error codes listed below.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       source
@@ -539,10 +539,10 @@ Content-Type is present, multipart form data will NOT be used.</p>
     <td>
       <p>URL to the source.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       target
@@ -553,10 +553,10 @@ Content-Type is present, multipart form data will NOT be used.</p>
     <td>
       <p>URL to the target.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       http_status
@@ -568,10 +568,10 @@ Content-Type is present, multipart form data will NOT be used.</p>
       <p>HTTP status code. This attribute is only available when a response
 code is received from the HTTP connection.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       body
@@ -582,10 +582,10 @@ code is received from the HTTP connection.</p>
     <td>
       <p>Response body. This attribute is only available when a response is received from the HTTP connection.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       exception
@@ -596,10 +596,10 @@ code is received from the HTTP connection.</p>
     <td>
       <p>Either e.getMessage or e.toString.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

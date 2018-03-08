@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Background Fetch</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/background-fetch/index.ts#L9">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -125,7 +125,7 @@ Configures the plugin's fetch callbackFn
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="start" href="#start"></a><code>start()</code></h3>
 
 
@@ -135,7 +135,7 @@ Your callbackFn provided to #configure will be executed each time a background-f
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="stop" href="#stop"></a><code>stop()</code></h3>
 
 
@@ -144,7 +144,7 @@ Stop the background-fetch API from firing fetch events. Your callbackFn provided
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="finish" href="#finish"></a><code>finish()</code></h3>
 
 
@@ -162,7 +162,7 @@ Return the status of the background-fetch
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -180,7 +180,7 @@ Return the status of the background-fetch
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       stopOnTerminate
@@ -194,7 +194,7 @@ Return the status of the background-fetch
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Call Number</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/call-number/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -102,7 +102,7 @@ Calls a phone number
       <p>The phone number to call as a string</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       bypassAppChooser</td>
@@ -118,7 +118,7 @@ Calls a phone number
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="isCallSupported" href="#isCallSupported"></a><code>isCallSupported()</code></h3>
 
 
@@ -129,7 +129,7 @@ Check if call feature is available
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

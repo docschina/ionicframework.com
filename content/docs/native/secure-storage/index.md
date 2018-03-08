@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Secure Storage</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/secure-storage/index.ts#L66">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -123,7 +123,7 @@ Creates a namespaced storage.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;SecureStorageObject&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;SecureStorageObject&gt;</code>
 </div>
 
 <h2><a class="anchor" name="SecureStorageObject" href="#SecureStorageObject"></a>SecureStorageObject</h2>
@@ -161,7 +161,7 @@ Gets a stored item
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;string&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;string&gt;</code>
 </div><h3><a class="anchor" name="set" href="#set"></a><code>set(key,&nbsp;value)</code></h3>
 
 
@@ -186,7 +186,7 @@ Stores a value
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -201,7 +201,7 @@ Stores a value
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="remove" href="#remove"></a><code>remove(key)</code></h3>
 
 
@@ -253,7 +253,7 @@ Clear all references from the storage.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="secureDevice" href="#secureDevice"></a><code>secureDevice()</code></h3>
 
 
@@ -262,7 +262,7 @@ Brings up the screen-lock settings
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

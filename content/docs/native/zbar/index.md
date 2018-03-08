@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">ZBar</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/zbar/index.ts#L35">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -131,7 +131,7 @@ Open the scanner
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       text_title
@@ -146,7 +146,7 @@ Default: &quot;Scan QR Code&quot;</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       text_instructions
@@ -161,7 +161,7 @@ Default: &quot;Please point your camera at the QR code.&quot;</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       camera
@@ -177,7 +177,7 @@ Default: &quot;back&quot;</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       flash
@@ -193,7 +193,7 @@ Default: &quot;auto&quot;</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       drawSight
@@ -208,7 +208,7 @@ Default: true</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

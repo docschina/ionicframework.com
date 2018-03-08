@@ -16,8 +16,8 @@ next_page_link: /docs/theming/responsive-grid/
 
 <h1 class="title">CSS Utilities</h1>
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/theming/css-utilities/index.md'>
-  Improve this doc
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/theming/css-utilities/index.md'>
+  改进这篇文档
 </a>
 
 Ionic provides a set of utility attributes that can be used on any element in order to modify the text or adjust the padding or margin.

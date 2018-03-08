@@ -32,7 +32,7 @@ IonicPageModule
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/module.ts#L452">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -77,7 +77,7 @@ export class HomePageModule { }
 <h2><a class="anchor" name="static-members" href="#static-members">静态成员</a></h2>
 <div id="forChild"></div>
 <h3><a class="anchor" name="forChild" href="#forChild"><code>forChild()</code>
-  
+
 </a></h3>
 
 

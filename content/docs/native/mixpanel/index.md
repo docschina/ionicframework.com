@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Mixpanel</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/mixpanel/index.ts#L3">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -97,7 +97,7 @@ this.mixpanel.init(token)
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       originalId</td>
@@ -112,7 +112,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="distinctId" href="#distinctId"></a><code>distinctId()</code></h3>
 
 
@@ -121,7 +121,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="flush" href="#flush"></a><code>flush()</code></h3>
 
 
@@ -130,7 +130,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="identify" href="#identify"></a><code>identify(distinctId)</code></h3>
 
 
@@ -158,7 +158,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="init" href="#init"></a><code>init(token)</code></h3>
 
 
@@ -186,7 +186,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="registerSuperProperties" href="#registerSuperProperties"></a><code>registerSuperProperties(superProperties)</code></h3>
 
 
@@ -214,7 +214,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="reset" href="#reset"></a><code>reset()</code></h3>
 
 
@@ -223,7 +223,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="timeEvent" href="#timeEvent"></a><code>timeEvent(eventName)</code></h3>
 
 
@@ -251,7 +251,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="track" href="#track"></a><code>track(eventName,&nbsp;eventProperties)</code></h3>
 
 
@@ -276,7 +276,7 @@ this.mixpanel.init(token)
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       eventProperties</td>
@@ -292,7 +292,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 <h2><a class="anchor" name="MixpanelPeople" href="#MixpanelPeople"></a>MixpanelPeople</h2>
@@ -328,7 +328,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="increment" href="#increment"></a><code>increment(peopleProperties)</code></h3>
 
 
@@ -356,7 +356,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setPushId" href="#setPushId"></a><code>setPushId(pushId)</code></h3>
 
 
@@ -374,7 +374,7 @@ this.mixpanel.init(token)
     <td>
       pushId</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -384,7 +384,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="set" href="#set"></a><code>set(peopleProperties)</code></h3>
 
 
@@ -402,7 +402,7 @@ this.mixpanel.init(token)
     <td>
       peopleProperties</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -412,7 +412,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setOnce" href="#setOnce"></a><code>setOnce(peopleProperties)</code></h3>
 
 
@@ -430,7 +430,7 @@ this.mixpanel.init(token)
     <td>
       peopleProperties</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -440,7 +440,7 @@ this.mixpanel.init(token)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
