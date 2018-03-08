@@ -2,93 +2,93 @@
 layout: fluid/docs_base
 category: intro
 id: concepts
-title: Concepts
+title: 概念
 header_sub_title: Getting Started with Ionic
 ---
 
-# Core Concepts
+# 核心概念
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/intro/concepts/index.md'>Improve
-this doc</a>
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/concepts/index.md'>改进这篇翻译</a>
 
-If you’re completely new to Ionic and/or hybrid mobile app development, it can
-be helpful to get a high-level understanding of the core philosophy, concepts,
-and tools behind Ionic. The information below can help you familiarize yourself
-with what Ionic is and how it works.
 
-### What is Ionic Framework?
+如果你对 Ionic 
+以及混合移动应用开发完全陌生，这篇文章可以帮助你理解 Ionic 
+背后的哲学、概念以及工具。下面的信息有助于使你熟悉 Ionic 
+以及它是如何工作的。
 
-Ionic Framework is an open source SDK that enables developers to build
-performant, high-quality mobile apps using familiar web technologies (HTML, CSS,
-and JavaScript).
+### 什么是 Ionic 框架？
 
-Ionic is focused mainly on the look and feel, or the UI interaction, of an app.
-This means that it’s not a replacement for Cordova or your favorite JavaScript
-framework. Instead, Ionic fits in well with these projects, in order to simplify
-one big part of your app development process: the front-end. Check out [“Where
+Ionic 框架是一套开源的 
+SDK，支持开发人员使用熟悉的网络技术（HTML, CSS
+及 JavaScript）构建高性能、高质量的移动应用程序。
+
+Ionic 主要专注于应用程序的视觉感知以及 UI 交互。这意味着它并不是 
+Cordova 或者你所喜欢的 JavaScript 框架的替代品。相反的是，Ionic 
+可以很好地适用于这些项目，以便简化应用程序开发流程中的一个大环节：前端开发。请阅读 
+[“Where
 does the Ionic Framework fit
-in?”](https://blog.ionicframework.com/where-does-the-ionic-framework-fit-in/) to
-get a good understanding of Ionic's core philosophy and goals.
+in?”](https://blog.ionicframework.com/where-does-the-ionic-framework-fit-in/) 
+这篇博文以便更好地理解 Ionic 的核心理念和目标。
 
-### How is Ionic Licensed?
+### Ionic 是如何授权的？
 
-Ionic is completely free and open source, released under the permissive
-[MIT](http://opensource.org/licenses/MIT) license, which means you can use Ionic
-in personal or commercial projects for free. For example, MIT is the same
-license used by such popular projects as jQuery and Ruby on Rails.
+Ionic 完全免费并开源，是基于较为宽松的
+[MIT](http://opensource.org/licenses/MIT) 许可证发布的，这意味着你可以免费地将
+Ionic 用于个人或商业用途。许多流行的项目，比如 jQuery 以及 Ruby on Rails 都是使用
+MIT 许可进行授权的。
 
-This website and documentation content (found in the
-[ionic-site](https://github.com/ionic-team/ionic-site) repo) is licensed under
-the Apache 2 license.
+本网站及文档内容（位于
+ [ionic-site](https://github.com/ionic-team/ionic-site) 仓库中）是基于
+Apache 2 许可证授权的。
 
-### What is the Ionic CLI?
+### 什么是 Ionic CLI？
 
-The [CLI](../../resources/what-is/#cli), or command line interface, is a tool
-that provides a number of helpful commands to Ionic developers. In addition to
-installing and updating Ionic, the CLI comes with a built-in development server,
-build and debugging tools, and much more. If you are using [Ionic Pro](/pro),
-the CLI can be used to export code and even interact with your account
-programmatically.
+[CLI](../../resources/what-is/#cli)（命令行界面）是一种用于为
+Ionic 开发者提供许多实用命令的工具。除了安装和更新 Ionic 
+之外，CLI 
+还配备了内置的开发服务器，构建及调试工具等。如果你正在使用
+[Ionic Pro](/pro)，CLI
+还可以用于导出代码，乃至在命令行中操作你的帐号。
 
-### What are components?
+### 什么是组件？
 
-Components in Ionic are reusable UI elements that serve as the building blocks
-for your mobile app. Components are made up of HTML, CSS, and sometimes
-JavaScript. Every Ionic component adapts to the platform on which your app is
-running. We call this **Platform Continuity** and go more in depth on how it
-works in Theming.
+Ionic 组件（Components）作为构建时的基础模块，是为移动应用所设计的可复用
+UI 元素。组件由 HTML、CSS 以及
+JavaScript 组成。每个
+Ionic 
+组件都和你的应用所在的平台兼容。我们将其称为**平台连续性（Platform Continuity）**，请向下阅读主题化（Theming）部分以便深入了解它的工作方式。
 
-### What is theming?
+### 什么是主题化？
 
-Themes are sets of styles that get applied to an app. Ionic uses a light theme
-by default, but it also comes with a dark theme. In addition to theming, Ionic’s
-**Platform Continuity** enables components to have platform-specific styles.
-This means the app’s styles will change based on the platform (iOS, Android,
-etc.) on which it’s being run, offering your users an experience with which
-they’re familiar.
+主题是一套或多套应用在应用程序上的样式集。Ionic
+默认使用浅色主题（同时随附一套深色主题）。除了主题外，Ionic
+的**平台连续性（Platform Continuity）**还使得组件具有特定于平台的样式。这意味着应用程序的样式将根据其所运行的平台（iOS、Android
+等）进行更改，从而为用户提供熟悉的体验。
 
-### How does navigation work?
 
-Navigation works like a stack &mdash; **push** a page to the stack to navigate
-to it, and **pop** to go back. Modals and alerts can also be displayed by
-pushing them onto the navigation stack.
 
-### Who is behind Ionic?
+### 导航（Navigation）是如何工作的？
 
-Ionic was originally built by [@benjsperry](https://twitter.com/benjsperry),
-[@adamdbradley](https://twitter.com/adamdbradley), and
-[@maxlynch](https://twitter.com/maxlynch). After releasing an alpha version of
-Ionic in November 2013, we released a 1.0 beta in March 2014 and a 1.0 final in
-May 2015.
+导航（Navigation）的工作原理类似于栈
+&mdash; 将需要显示的页面 **push** 进栈，然后使用
+**pop** 以便返回。模态框和警告框同样可以通过 push 进导航栈的方式来显示。
 
-Now, Ionic has a massive international community of developers and contributors
-propelling its growth and adoption. Companies small and large are using Ionic to
-build better apps, faster. In 2015 Ionic developers reportedly created over 1.3M
-apps with Ionic, a number that continues to grow each day.
+### Ionic 的背后都有谁？
 
-### What is Angular?
+Ionic 最开始是由 [@benjsperry](https://twitter.com/benjsperry)、[@adamdbradley](https://twitter.com/adamdbradley)
+以及 [@maxlynch](https://twitter.com/maxlynch)
+开发的。在 2013 年 11 月发布 Ionic 的第一个 alpha 版本之后，我们在
+2014 年 3 月发布了 1.0 beta 版，并在
+2015 年 5 月发布 1.0 正式版。
 
-[Angular](https://angular.io/) is the underlying framework that powers Ionic. It
-is responsible for the component API that is the building block of Ionic. For an
-overview on Angular, be sure to checkout the official [Angular
-Docs](https://angular.io/docs/ts/latest/).
+如今，Ionic 拥有一个由开发人员和开源贡献者所组成并驱动的庞大国际社区。大小公司都在使用
+Ionic 来更快更好地构建应用程序。据报道，在 2015
+年 Ionic 开发者创造了超过 130 万个
+Ionic 应用程序，而这个数字每天都在继续增长。
+
+### 什么是 Angular？
+
+[Angular](https://angular.io/) 是驱动 Ionic 的底层框架。它负责作为
+Ionic 构建模块时的组件 API。有关
+Angular 的概述，请查阅
+[Angular 官方文档](https://angular.io/docs/ts/latest/)。

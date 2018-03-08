@@ -2,27 +2,27 @@
 layout: fluid/docs_base
 category: intro
 id: browser-support
-title: Browser Support
+title: 浏览器支持
 header_sub_title: Getting Started with Ionic
 ---
 
-# Browser Support
+# 浏览器支持
 
-Ionic is focused on building both native/hybrid apps through Cordova, as well as
-adding the ability for [Progressive Web
-Apps](/docs/resources/progressive-web-apps/) and
-[Electron](http://electron.atom.io)
+Ionic 专注于通过 Cordova
+来构建原生/混合应用，并增加了对
+[Progressive Web Apps](/docs/resources/progressive-web-apps/) 以及 
+[Electron](http://electron.atom.io) 的适配
 
-The following OSs and browsers are supported:
+Ionic 支持以下操作系统和浏览器：
 
-Mobile OSs
+移动端操作系统
 
 * iOS 8+
 * Windows 10 Universal App
 * Android 4.4+
-  * Support can be pushed back to 4.1 if Crosswalk is used with Cordova
+  * 如果将 Crosswalk 与 Cordova 配合使用，则可以支持到 4.1 版本
 
-Broswer
+浏览器
 
 * Safari
 * Chrome

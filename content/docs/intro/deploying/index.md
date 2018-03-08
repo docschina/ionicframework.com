@@ -2,159 +2,159 @@
 layout: fluid/docs_base
 category: intro
 id: deploying
-title: Deploying
+title: 部署
 header_sub_title: Getting Started with Ionic
 ---
 
 
-# Deploying to a Device
+# 部署到设备
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/intro/migration/index.md'>Improve this doc</a>
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/migration/index.md'>改进这篇翻译</a>
 
-Testing your app in the browser with `ionic serve` or with an emulator is fast, easy and convenient when your app is in development, but eventually you're going to have to test on a device. Not only is it the only way to accurately test how your app will behave and perform, many [Ionic Native](https://ionicframework.com/docs//native/) plugins will only work when they are run on actual hardware.
+虽然使用浏览器（配合 `ionic serve`）或者手机模拟器来测试你的应用不失为一种方便快捷的方式，但是你最终还是需要在真机上测试的。这不仅是唯一可以精准地测试你的应用的行为表现的方式，许多 [Ionic Native](https://ionicframework.com/docs//native/) 插件也只有部署到真实设备上才能正常运行。
 
-## Android Devices
+## Android 设备
 
-Deploying to an Android device is a fairly straightforward process. If you have a working Android development environment, you're ready to go.
+部署到 Android 设备的过程相当简单。如果你已配置好 Android 开发环境，那就可以开始了。
 
-### Requirements
+### 需要安装的软件
 
 - [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
 - [Android Studio](https://developer.android.com/studio/index.html)
-- Updated Android SDK tools, platform and component dependencies. Available through Android Studio's [SDK Manager](https://developer.android.com/studio/intro/update.html)
+- 最新的 SDK 工具、平台和开发应用所需的其他组件。可以使用 Android Studio 自带的 [SDK 管理器](https://developer.android.com/studio/intro/update.html)来更新你的工具。
 
-### Running Your App
+### 运行你的应用
 
-To run your app, all you have to do is enable USB debugging and Developer Mode on your Android device, then run `ionic cordova run android --device` from the command line.
+若要运行应用，你首先要做的是在 Android 设备上启用 USB 调试以及开发者模式，然后在命令行里运行 `ionic cordova run android --device`。
 
-This will produce a debug build of your app, both in terms of Android and Ionic's code
+这将同时在 Android 及 Ionic 代码层面为你的应用生成一份调试版本
 
-Enabling USB debugging and Developer Mode can vary between devices, but is easy to look up with a Google search. You can also check out [Enabling On-device Developer Options](https://developer.android.com/studio/run/device.html#developer-device-options) in the Android docs.
+启用 USB 调试及开发者模式的方法在不同的设备上可能不太一样，但是用 Google 搜一下就能很快找到。你也可以在 Android 官方文档里获取[启用开发者模式的方法](https://developer.android.com/studio/run/device.html#developer-device-options)。
 
-### Production Builds
+### 生产模式构建
 
-To run or build your app for production, run
+若要在生产模式下构建你的应用，运行
 
 ```bash
 ionic cordova run android --prod --release
-# or
+# 或
 ionic cordova build android --prod --release
 ```
 
-This will minify your app's code as Ionic's source and also remove any debugging capabilities from the APK. This is generally used when deploying an app to the Google Play Store.
+这将会像 Ionic 源码一样来压缩你的应用的源代码，并移除 APK 中所有用于调试的功能。通常在将应用部署到 Google Play 商店时会用到该功能。
 
-### Sign Android APK
-If you want to release your app in the Google Play Store, you have to sign your APK file.
-To do this, you have to create a new certificate/keystore.
+### 对 Android APK 进行签名
+如果你想要在 Google Play 商店发布你的应用，那就必须对你的 APK 文件进行签名。为此，您必须创建一个新的证书/密钥库。
 
-Let’s generate your private key using the keytool command that comes with the JDK:
+
+让我们使用 JDK 自带的 teytool 命令来生成你的私钥：
 ```bash
 keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
 ```
-You’ll first be prompted to create a password for the keystore. Then, answer the rest of the nice tools’s questions and when it’s all done, you should have a file called my-release-key.jks created in the current directory.
+你首先会被提示为密钥库创建一个密码。然后回答该工具问你的其他问题，当一切都结束时，你的当前目录里应该会生成一个叫 my-release-key.jks 的文件。
 
-__Note__: Make sure to save this file somewhere safe, if you lose it you won’t be able to submit updates to your app!
+__注意__：确保将该文件保存到安全的地方，一旦丢失的话，你就不能为你的应用提交更新了！
 
-To sign the unsigned APK, run the jarsigner tool which is also included in the JDK:
+若要签署未签名的 APK，需要运行 JDK 自带的 jarsigner 工具：
 
 ```bash
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.jks android-release-unsigned.apk my-alias
 ```
 
-This signs the APK in place. Finally, we need to run the zip align tool to optimize the APK. The zipalign tool can be found in `/path/to/Android/sdk/build-tools/VERSION/zipalign`. For example, on OS X with Android Studio installed, zipalign is in `~/Library/Android/sdk/build-tools/VERSION/zipalign`:
+这样 APK 文件就签名完毕了。最后，我们还需要运行 zipalign 工具来优化 APK。zipalign 工具可以在 `/path/to/Android/sdk/build-tools/VERSION/zipalign` 路径下找到。举例来说，若是在已安装了 Android Studio 的 macOS 系统里，zipalign 就安装在 `~/Library/Android/sdk/build-tools/VERSION/zipalign`：
 
 ```bash
 zipalign -v 4 android-release-unsigned.apk HelloWorld.apk
 ```
 
-To verify that your apk is signed run apksigner. The apksigner can be also found in the same path as the zipalign tool:
+为了验证你的 apk 是否签名，运行 apksigner。apksigner 和 zipalign 工具在同一个路径下：
 
 ```bash
 apksigner verify HelloWorld.apk
 ```
 
-Now we have our final release binary called HelloWorld.apk and we can release this on the Google Play Store for all the world to enjoy!
+现在我们拥有了最终用来发布的名叫 HelloWorld.apk 的二进制包，接着就可以在 Google Play 商店里发布该应用，将其分享给全世界！
 
-All steps can also be found here: [Android SDK docs](https://developer.android.com/studio/publish/app-signing.html#signing-manually)
+所有的步骤也都可以在 [Android SDK 官方文档](https://developer.android.com/studio/publish/app-signing.html#signing-manually)里找到。
 
-## iOS Devices
+## iOS 设备
 
-Unlike Android, iOS developers need to generate a provisioning profile to code sign their apps for testing. The good news is that, as of iOS9, you can develop and test your apps on your iOS device without a paid Apple Developer account. This is particularly great for developers who want to try out mobile development with Ionic, since it saves the cost but still provides a lot of the features of having a full Apple Developer account. For a full breakdown of the features included, check out [Apple's docs](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html#//apple_ref/doc/uid/TP40012582-CH38-SW1).
+和 Android 不同，iOS 开发者需要为应用生成一份配置文件（Provisioning Profile）来进行代码签名。好消息是，从 iOS 9 开始，你不需要 Apple 开发者账户就可以在你自己的 iOS 设备上开发并测试你的应用。这对于想要尝试使用 Ionic 进行移动端开发的开发者而言着实是个好消息（节省了购买开发者账户的钱），但是拥有一个完整的 Apple 开发者账户还是能多享受很多功能的。若要完整了解开发者账户包含了哪些功能，请查阅 [Apple 官方文档](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html#//apple_ref/doc/uid/TP40012582-CH38-SW1)。
 
-### Requirements
+### 需要安装的软件
 
-- Xcode 7 or higher
+- Xcode 7 或更高版本
 - iOS 9
-- A free [Apple ID](https://appleid.apple.com/) or paid Apple Developer account
+- 一个免费的 [Apple ID](https://appleid.apple.com/) 或者购买 Apple 开发者账户
 
-### Creating a Provisioning Profile
+### 创建配置文件（Provisioning Profile）
 
-To start, you'll need to set up a provisioning profile to code sign your apps.
+首先，你需要设置一份配置文件（Provisioning Profile）来为你的应用进行代码签名。
 
-#### Using an Apple ID
+#### 使用 Apple ID
 
-1. Open Xcode preferences (Xcode > Preferences...)
-2. Click the 'Accounts' tab
-3. Login with your Apple ID (+ > Add Apple ID...)
+1. 打开 Xcode 设置（Xcode > Preferences...）
+2. 点击 'Accounts' 选项卡
+3. 登录你的 Apple ID (+ > Add Apple ID...)
 
-Once you've successfully logged in, a new 'Personal Team' with the role 'Free' will appear beneath your Apple ID.
+成功登录之后，你的 Apple ID 下面会出现 'Personal Team' 和 'Free' 两条规则。
 
 <img src="/img/docs/deploying/profiles.jpg" alt="profiles">
 
-#### Using an Apple Developer Account
+#### 使用 Apple 开发者账户
 
-Creating a provisioning profile with a paid Apple Developer account is a little bit more involved. For full instructions, check out [Launching Your App on Devices](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/LaunchingYourApponDevices/LaunchingYourApponDevices.html) in the Apple Developer docs.
+使用 Apple 开发者账户创建配置文件（Provisioning Profile）稍微有点小复杂。若要查看完整说明，请查看 Apple 开发者文档中的 [Launching Your App on Devices](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/LaunchingYourApponDevices/LaunchingYourApponDevices.html) 这一章。
 
-### Running Your App
+### 运行你的应用
 
-1. Run a production build of your app with `ionic cordova build ios --prod`
-2. Open the `.xcodeproj` file in `platforms/ios/` in Xcode
-3. Connect your phone via USB and select it as the run target
-4. Click the play button in Xcode to try to run your app
+1. 运行 `ionic cordova build ios --prod` 命令，进行生产环境构建
+2. 在 Xcode 中打开 `platforms/ios/` 目录里后缀为 `.xcodeproj` 的工程目录
+3. 使用 USB 线连接你的手机，并将其选为目标设备
+4. 在 Xcode 中点击播放按钮，尝试运行你的应用
 
-Oops, code signing error! No problem.
+不好啦！代码签名报错啦！没关系（都是套路）。
 
-### Code Signing Your App
+### 对你的应用进行代码签名
 
-Next, you'll need to code sign your app. How you do this will depend on if you are running Xcode 8 or an earlier version.
+下一步，你需要对你的应用进行代码签名。对于 Xcode 8 或更早的版本，你将要进行的操作会有些不同。
 
-#### Xcode 7 and Earlier ####
+#### Xcode 7 及更早的版本 ####
 
-If you are running Xcode 7 or earlier, you'll get a code signing error that looks like this when you try to run the app:
+如果你运行的是 Xcode 7 或更早的版本，那么当你尝试运行该应用程序时，会看到如下所示的代码签名错误：
 
 <img src="/img/docs/deploying/sign-fail-1.jpg">
 
-Click the 'Fix Issue' button, then select your 'Personal Team' profile.
+点击 'Fix Issue' 按钮，然后选择你的 'Personal Team' 配置。
 
 <img src="/img/docs/deploying/team-menu-1.jpg">
 
 #### Xcode 8 ####
 
-If you are running Xcode 8, the code signing error will appear as a buildtime error, rather than as a pop-up:
+如果你运行的是 Xcode 8，那么该代码签名错误会以生成时错误（buildtime error）的形式出现，而不是弹出框：
 
 <img src="/img/docs/deploying/code-sign-err-xcode8.png">
 
-To select the certificate to sign your app with, do the following:
+若要选择为你的应用签名的证书，请按下列步骤操作：
 
-1. Go to the 'Project Editor' by clicking the name or your project in the 'Project Navigator'
-2. Select the 'General' section
-3. Select the team associate with your signing certificate from the 'Team' dropdown in the 'Signing' section
+1. 选择 'Project Navigator' 选项卡，然后点击你的项目名（即根目录），来到 'Project Editor' 界面
+2. 选择 'General' 部分
+3. 在 'Signing' 部分的 'Team' 下拉菜单中选择与你的签名证书关联的团队
 
 <img src="/img/docs/deploying/code-sign-xcode8.png">
 
-### Trusting the Certificate ###
+### 信任该证书 ###
 
-Once you've code signed your app, you should get a launch error that looks like this. On Xcode 7 and below you'll see this automatically. On Xcode 8 it will appear the next time you try to run the app:
+当你对你的应用进行代码签名之后，你应该会得到一个如下图所示的启动报错。在 Xcode 7 及更低版本中你会自动地看到这条消息。在 Xcode 8 中会在你尝试运行应用时出现这个报错*（译者注：普通的 Apple ID 会有这个报错，但是 Apple 开发者账户则不会）*：
 
 <img src="/img/docs/deploying/launch-fail-1.jpg">
 
-To get past this, we have to tell our iOS device to trust the certificate we code signed our app with:
+为了搞定这个问题，我们需要告诉 iOS 设备去信任我们经过了代码签名的应用的证书：
 
-1. Open the 'Settings' app on your iOS device
-2. Go to 'General > Device Management'. You'll see the email address associated with the Apple ID or Apple Developer account you used to code sign your app.
-3. Tap the email address
-4. Tap 'Trust &lt;your_email&gt;':
+1. 在你的 iOS 设备中打开「设置」应用
+2. 进入「通用 > 设备管理」。你将会看到过去你所用来签名的与 Apple ID 所关联的电子邮箱地址。
+3. 点击这个电子邮箱地址
+4. 点击「信任“你的电子邮箱地址”」:
 
 <img src="/img/docs/deploying/verify.jpg">
 
-Now, go back to Xcode and hit that play button or run `ionic cordova run ios --device` from the command line to install and launch your app on your iOS device.
+现在，回到 Xcode 点击播放按钮，或者在命令行里运行 `ionic cordova run ios --device`，以便在你的 iOS 设备中安装并启动你的应用。
