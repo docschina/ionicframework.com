@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Image Picker</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/image-picker/index.ts#L28">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -138,7 +138,7 @@ Request permission to read images
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -156,7 +156,7 @@ Request permission to read images
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       maximumImagesCount
@@ -170,7 +170,7 @@ Request permission to read images
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       width
@@ -184,7 +184,7 @@ Request permission to read images
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -198,7 +198,7 @@ Request permission to read images
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       quality
@@ -212,7 +212,7 @@ Request permission to read images
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       outputType
@@ -226,7 +226,7 @@ Request permission to read images
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

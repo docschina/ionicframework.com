@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">SQLite</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/sqlite/index.ts#L112">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -127,7 +127,7 @@ Verify that both the Javascript and native part of this plugin are installed in 
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="deleteDatabase" href="#deleteDatabase"></a><code>deleteDatabase(config)</code></h3>
 
 
@@ -156,7 +156,7 @@ Deletes a database
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 <h2><a class="anchor" name="SQLiteObject" href="#SQLiteObject"></a>SQLiteObject</h2>
@@ -214,7 +214,7 @@ Deletes a database
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="readTransaction" href="#readTransaction"></a><code>readTransaction(fn)</code></h3>
 
 
@@ -242,7 +242,7 @@ Deletes a database
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="startNextTransaction" href="#startNextTransaction"></a><code>startNextTransaction()</code></h3>
 
 
@@ -259,7 +259,7 @@ Deletes a database
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="close" href="#close"></a><code>close()</code></h3>
 
 
@@ -268,7 +268,7 @@ Deletes a database
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="executeSql" href="#executeSql"></a><code>executeSql()</code></h3>
 
 
@@ -304,7 +304,7 @@ ensure it resolved and successfully opened the database.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="abortallPendingTransactions" href="#abortallPendingTransactions"></a><code>abortallPendingTransactions()</code></h3>
 
 
@@ -328,7 +328,7 @@ ensure it resolved and successfully opened the database.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       name
@@ -339,10 +339,10 @@ ensure it resolved and successfully opened the database.
     <td>
       <p>Name of the database. Example: &#39;my.db&#39;</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       location
@@ -356,7 +356,7 @@ ensure it resolved and successfully opened the database.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       iosDatabaseLocation
@@ -370,7 +370,7 @@ ensure it resolved and successfully opened the database.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       createFromLocation
@@ -384,7 +384,7 @@ ensure it resolved and successfully opened the database.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       key
@@ -398,7 +398,7 @@ ensure it resolved and successfully opened the database.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -414,7 +414,7 @@ ensure it resolved and successfully opened the database.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       start
@@ -423,11 +423,11 @@ ensure it resolved and successfully opened the database.
       <code>() =&gt; void</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       executeSql
@@ -436,11 +436,11 @@ ensure it resolved and successfully opened the database.
       <code>(sql: any, values: any, success: Function, error: Function) =&gt; void</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       addStatement
@@ -449,11 +449,11 @@ ensure it resolved and successfully opened the database.
       <code>(sql: any, values: any, success: Function, error: Function) =&gt; void</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       handleStatementSuccess
@@ -462,11 +462,11 @@ ensure it resolved and successfully opened the database.
       <code>(handler: Function, response: any) =&gt; void</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       handleStatementFailure
@@ -475,11 +475,11 @@ ensure it resolved and successfully opened the database.
       <code>(handler: Function, response: any) =&gt; void</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       run
@@ -488,11 +488,11 @@ ensure it resolved and successfully opened the database.
       <code>() =&gt; void</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       abort
@@ -501,11 +501,11 @@ ensure it resolved and successfully opened the database.
       <code>(txFailure: any) =&gt; void</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       finish
@@ -514,11 +514,11 @@ ensure it resolved and successfully opened the database.
       <code>() =&gt; void</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       abortFromQ
@@ -527,11 +527,11 @@ ensure it resolved and successfully opened the database.
       <code>(sqlerror: any) =&gt; void</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

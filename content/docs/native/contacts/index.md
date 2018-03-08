@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Contacts</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/contacts/index.ts#L256">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -109,7 +109,7 @@ Search for contacts in the Contacts list.
       <p>Contact fields to be used as a search qualifier</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -260,7 +260,7 @@ Select a single Contact.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       id
@@ -274,7 +274,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       displayName
@@ -288,7 +288,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       name
@@ -302,7 +302,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       nickname
@@ -316,7 +316,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       phoneNumbers
@@ -330,7 +330,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       emails
@@ -344,7 +344,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       addresses
@@ -358,7 +358,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       ims
@@ -372,7 +372,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       organizations
@@ -386,7 +386,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       birthday
@@ -400,7 +400,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       note
@@ -414,7 +414,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       photos
@@ -428,7 +428,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       categories
@@ -442,7 +442,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       urls
@@ -456,7 +456,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -472,7 +472,7 @@ Select a single Contact.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       code
@@ -483,10 +483,10 @@ Select a single Contact.
     <td>
       <p>Error code</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       message
@@ -497,10 +497,10 @@ Select a single Contact.
     <td>
       <p>Error message</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -516,7 +516,7 @@ Select a single Contact.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       formatted
@@ -530,7 +530,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       familyName
@@ -544,7 +544,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       givenName
@@ -558,7 +558,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       middleName
@@ -572,7 +572,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       honorificPrefix
@@ -586,7 +586,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       honorificSuffix
@@ -600,7 +600,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -616,7 +616,7 @@ Select a single Contact.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       type
@@ -630,7 +630,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       value
@@ -644,7 +644,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       pref
@@ -658,7 +658,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -674,7 +674,7 @@ Select a single Contact.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       pref
@@ -688,7 +688,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       type
@@ -702,7 +702,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       formatted
@@ -716,7 +716,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       streetAddress
@@ -730,7 +730,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       locality
@@ -744,7 +744,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       region
@@ -758,7 +758,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       postalCode
@@ -772,7 +772,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       country
@@ -786,7 +786,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -802,7 +802,7 @@ Select a single Contact.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       pref
@@ -816,7 +816,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       type
@@ -830,7 +830,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       name
@@ -844,7 +844,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       department
@@ -858,7 +858,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       title
@@ -872,7 +872,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -888,7 +888,7 @@ Select a single Contact.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       filter
@@ -902,7 +902,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       multiple
@@ -916,7 +916,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       desiredFields
@@ -930,7 +930,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hasPhoneNumber
@@ -944,7 +944,7 @@ Select a single Contact.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

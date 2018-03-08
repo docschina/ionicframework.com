@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Google Maps</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/google-maps/index.ts#L886">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -148,7 +148,7 @@ Creates a new GoogleMap instance
       <p>Element ID or reference to attach the map to</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -164,7 +164,7 @@ Creates a new GoogleMap instance
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>GoogleMap</code> 
+  <b>Returns:</b> <code>GoogleMap</code>
 </div>
 
 
@@ -212,7 +212,7 @@ Returns the map HTML element
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>HTMLElement</code> 
+  <b>Returns:</b> <code>HTMLElement</code>
 </div><h3><a class="anchor" name="setMapTypeId" href="#setMapTypeId"></a><code>setMapTypeId(mapTypeId)</code></h3>
 
 
@@ -248,7 +248,7 @@ Moves the camera with animation
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="animateCameraZoomIn" href="#animateCameraZoomIn"></a><code>animateCameraZoomIn()</code></h3>
 
 
@@ -257,7 +257,7 @@ Zooming in the camera with animation
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="animateCameraZoomOut" href="#animateCameraZoomOut"></a><code>animateCameraZoomOut()</code></h3>
 
 
@@ -266,7 +266,7 @@ Zooming out the camera with animation
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="moveCamera" href="#moveCamera"></a><code>moveCamera()</code></h3>
 
 
@@ -275,7 +275,7 @@ Moves the camera without animation
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="moveCameraZoomIn" href="#moveCameraZoomIn"></a><code>moveCameraZoomIn()</code></h3>
 
 
@@ -284,7 +284,7 @@ Zooming in the camera without animation
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="moveCameraZoomOut" href="#moveCameraZoomOut"></a><code>moveCameraZoomOut()</code></h3>
 
 
@@ -293,7 +293,7 @@ Zooming out the camera without animation
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getCameraPosition" href="#getCameraPosition"></a><code>getCameraPosition()</code></h3>
 
 
@@ -304,7 +304,7 @@ Get the position of the camera.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>CameraPosition</code> 
+  <b>Returns:</b> <code>CameraPosition</code>
 </div><h3><a class="anchor" name="getCameraTarget" href="#getCameraTarget"></a><code>getCameraTarget()</code></h3>
 
 
@@ -315,7 +315,7 @@ Get the current camera target position
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;CameraPosition&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;CameraPosition&gt;</code>
 </div><h3><a class="anchor" name="getCameraZoom" href="#getCameraZoom"></a><code>getCameraZoom()</code></h3>
 
 
@@ -326,7 +326,7 @@ Get the current camera zoom level
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="getCameraBearing" href="#getCameraBearing"></a><code>getCameraBearing()</code></h3>
 
 
@@ -337,7 +337,7 @@ Get the current camera bearing
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="getCameraTilt" href="#getCameraTilt"></a><code>getCameraTilt()</code></h3>
 
 
@@ -348,7 +348,7 @@ Get the current camera tilt (view angle)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="setCameraTarget" href="#setCameraTarget"></a><code>setCameraTarget(latLng)</code></h3>
 
 
@@ -483,7 +483,7 @@ Change the center of the map by the given distance in pixels
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       y</td>
@@ -506,7 +506,7 @@ Get the current visible region (southWest and northEast)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>VisibleRegion</code> 
+  <b>Returns:</b> <code>VisibleRegion</code>
 </div><h3><a class="anchor" name="getMyLocation" href="#getMyLocation"></a><code>getMyLocation()</code></h3>
 
 
@@ -515,7 +515,7 @@ Get the current device location
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;MyLocation&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;MyLocation&gt;</code>
 </div><h3><a class="anchor" name="setClickable" href="#setClickable"></a><code>setClickable(isClickable)</code></h3>
 
 
@@ -551,7 +551,7 @@ Destroy a map completely
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="clear" href="#clear"></a><code>clear()</code></h3>
 
 
@@ -560,7 +560,7 @@ Remove all overlays, such as marker
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="fromLatLngToPoint" href="#fromLatLngToPoint"></a><code>fromLatLngToPoint()</code></h3>
 
 
@@ -569,7 +569,7 @@ Convert the unit from LatLng to the pixels from the left/top of the map div
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="fromPointToLatLng" href="#fromPointToLatLng"></a><code>fromPointToLatLng()</code></h3>
 
 
@@ -578,7 +578,7 @@ Convert the unit from the pixels from the left/top to the LatLng
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;LatLng&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;LatLng&gt;</code>
 </div><h3><a class="anchor" name="setMyLocationEnabled" href="#setMyLocationEnabled"></a><code>setMyLocationEnabled(enabled)</code></h3>
 
 
@@ -641,7 +641,7 @@ Get the currently focused building
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setIndoorEnabled" href="#setIndoorEnabled"></a><code>setIndoorEnabled(enabled)</code></h3>
 
 
@@ -801,7 +801,7 @@ Adjust the map padding (same as CSS padding rule)
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       right</td>
@@ -811,7 +811,7 @@ Adjust the map padding (same as CSS padding rule)
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       left</td>
@@ -821,7 +821,7 @@ Adjust the map padding (same as CSS padding rule)
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       bottom</td>
@@ -853,7 +853,7 @@ Set options
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -889,7 +889,7 @@ Adds a marker
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Marker | any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Marker | any&gt;</code>
 </div><h3><a class="anchor" name="addMarkerCluster" href="#addMarkerCluster"></a><code>addMarkerCluster(options)</code></h3>
 
 
@@ -918,7 +918,7 @@ Adds a marker cluster
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;MarkerCluster | any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;MarkerCluster | any&gt;</code>
 </div><h3><a class="anchor" name="addCircle" href="#addCircle"></a><code>addCircle(options)</code></h3>
 
 
@@ -947,7 +947,7 @@ Adds a circle
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Circle | any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Circle | any&gt;</code>
 </div><h3><a class="anchor" name="addPolygon" href="#addPolygon"></a><code>addPolygon(options)</code></h3>
 
 
@@ -976,7 +976,7 @@ Adds a polygon
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Polygon | any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Polygon | any&gt;</code>
 </div><h3><a class="anchor" name="addPolyline" href="#addPolyline"></a><code>addPolyline(options)</code></h3>
 
 
@@ -1005,7 +1005,7 @@ Adds a polyline
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Polyline | any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Polyline | any&gt;</code>
 </div><h3><a class="anchor" name="addTileOverlay" href="#addTileOverlay"></a><code>addTileOverlay(options)</code></h3>
 
 
@@ -1034,7 +1034,7 @@ Adds a tile overlay
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;TileOverlay | any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;TileOverlay | any&gt;</code>
 </div><h3><a class="anchor" name="addGroundOverlay" href="#addGroundOverlay"></a><code>addGroundOverlay(options)</code></h3>
 
 
@@ -1063,7 +1063,7 @@ Adds a ground overlay
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;GroundOverlay | any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;GroundOverlay | any&gt;</code>
 </div><h3><a class="anchor" name="addKmlOverlay" href="#addKmlOverlay"></a><code>addKmlOverlay(options)</code></h3>
 
 
@@ -1092,7 +1092,7 @@ Adds a kml overlay
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;KmlOverlay | any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;KmlOverlay | any&gt;</code>
 </div><h3><a class="anchor" name="toDataURL" href="#toDataURL"></a><code>toDataURL(options)</code></h3>
 
 
@@ -1121,7 +1121,7 @@ Returns the base64 encoded screen capture of the map.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;string&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;string&gt;</code>
 </div><h2><a class="anchor" name="Circle" href="#Circle"></a>Circle</h2>
 
 
@@ -1138,7 +1138,7 @@ Return the ID of instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="getMap" href="#getMap"></a><code>getMap()</code></h3>
 
 Return the map instance.
@@ -1146,7 +1146,7 @@ Return the map instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>GoogleMap</code> 
+  <b>Returns:</b> <code>GoogleMap</code>
 </div><h3><a class="anchor" name="setCenter" href="#setCenter"></a><code>setCenter(latLng)</code></h3>
 
 
@@ -1184,7 +1184,7 @@ Return the current center position
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>ILatLng</code> 
+  <b>Returns:</b> <code>ILatLng</code>
 </div><h3><a class="anchor" name="getRadius" href="#getRadius"></a><code>getRadius()</code></h3>
 
 
@@ -1195,7 +1195,7 @@ Return the current circle radius.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="setRadius" href="#setRadius"></a><code>setRadius(radius)</code></h3>
 
 
@@ -1260,7 +1260,7 @@ Return the current circle filling color (inner color).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="setStrokeWidth" href="#setStrokeWidth"></a><code>setStrokeWidth(strokeWidth)</code></h3>
 
 
@@ -1298,7 +1298,7 @@ Return the current circle stroke width (unit: pixel).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="setStrokeColor" href="#setStrokeColor"></a><code>setStrokeColor(strokeColor)</code></h3>
 
 
@@ -1336,7 +1336,7 @@ Return the current circle stroke color (outer color).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="setClickable" href="#setClickable"></a><code>setClickable(clickable)</code></h3>
 
 
@@ -1374,7 +1374,7 @@ Return true if the circle is clickable.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="setZIndex" href="#setZIndex"></a><code>setZIndex(zIndex)</code></h3>
 
 
@@ -1412,7 +1412,7 @@ Return the current circle zIndex.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="remove" href="#remove"></a><code>remove()</code></h3>
 
 
@@ -1432,7 +1432,7 @@ Return the latLngBounds (rectangle) that contains the circle.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>LatLngBounds</code> 
+  <b>Returns:</b> <code>LatLngBounds</code>
 </div><h3><a class="anchor" name="setVisible" href="#setVisible"></a><code>setVisible(visible)</code></h3>
 
 
@@ -1470,7 +1470,7 @@ Returns a boolean that indicates whether the circle is visible
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h2><a class="anchor" name="Encoding" href="#Encoding"></a>Encoding</h2>
 <h2><a class="anchor" name="static-members" href="#static-members"></a>Static Members</h2>
 <h3><a class="anchor" name="decodePath" href="#decodePath"></a><code>decodePath(encoded,&nbsp;precision?)</code></h3>
@@ -1495,7 +1495,7 @@ Decodes an encoded path string into a sequence of LatLngs.
       <p>an encoded path string</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       precision?</td>
@@ -1511,7 +1511,7 @@ Decodes an encoded path string into a sequence of LatLngs.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>ILatLng[]</code> 
+  <b>Returns:</b> <code>ILatLng[]</code>
 </div>
 <h3><a class="anchor" name="encodePath" href="#encodePath"></a><code>encodePath(path)</code></h3>
 
@@ -1540,7 +1540,7 @@ Encodes a sequence of LatLngs into an encoded path string.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div>
 
 
@@ -1553,7 +1553,7 @@ Get the open source software license information for Google Maps SDK for iOS.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 <h3><a class="anchor" name="setBackgroundColor" href="#setBackgroundColor"></a><code>setBackgroundColor(color)</code></h3>
 
@@ -1571,7 +1571,7 @@ Specifies the background color of the app.
     <td>
       color</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -1611,7 +1611,7 @@ Converts position to address and vice versa
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;GeocoderResult[] | BaseArrayClass&lt;GeocoderResult&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;GeocoderResult[] | BaseArrayClass&lt;GeocoderResult&gt;&gt;</code>
 </div>
 
 
@@ -1631,7 +1631,7 @@ Return the ID of instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="getMap" href="#getMap"></a><code>getMap()</code></h3>
 
 Return the map instance.
@@ -1639,7 +1639,7 @@ Return the map instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>GoogleMap</code> 
+  <b>Returns:</b> <code>GoogleMap</code>
 </div><h3><a class="anchor" name="setBounds" href="#setBounds"></a><code>setBounds(bounds)</code></h3>
 
 
@@ -1768,7 +1768,7 @@ Return the current opacity
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="setClickable" href="#setClickable"></a><code>setClickable(clickable)</code></h3>
 
 
@@ -1806,7 +1806,7 @@ Return true if the ground overlay is clickable
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="setVisible" href="#setVisible"></a><code>setVisible(visible)</code></h3>
 
 
@@ -1844,7 +1844,7 @@ Return true if the ground overlay is visible
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="setZIndex" href="#setZIndex"></a><code>setZIndex(index)</code></h3>
 
 
@@ -1882,7 +1882,7 @@ Return the current ground overlay zIndex
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="remove" href="#remove"></a><code>remove()</code></h3>
 
 
@@ -1944,7 +1944,7 @@ Set your HTML contents.
       <p>String containing text or HTML element</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       cssOptions?</td>
@@ -2019,7 +2019,7 @@ Converts position to address and vice versa
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;GeocoderResult[] | BaseArrayClass&lt;GeocoderResult&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;GeocoderResult[] | BaseArrayClass&lt;GeocoderResult&gt;&gt;</code>
 </div>
 
 
@@ -2088,7 +2088,7 @@ Converts to string
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="toUrlValue" href="#toUrlValue"></a><code>toUrlValue(precision)</code></h3>
 
 
@@ -2118,7 +2118,7 @@ Returns a string of the form "lat_sw,lng_sw,lat_ne,lng_ne" for this bounds, wher
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="extend" href="#extend"></a><code>extend(LatLng)</code></h3>
 
 
@@ -2183,7 +2183,7 @@ Computes the center of this LatLngBounds
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>LatLng</code> 
+  <b>Returns:</b> <code>LatLng</code>
 </div><h2><a class="anchor" name="Marker" href="#Marker"></a>Marker</h2>
 
 
@@ -2200,7 +2200,7 @@ Return the ID of instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="getMap" href="#getMap"></a><code>getMap()</code></h3>
 
 Return the map instance.
@@ -2208,7 +2208,7 @@ Return the map instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>GoogleMap</code> 
+  <b>Returns:</b> <code>GoogleMap</code>
 </div><h3><a class="anchor" name="setPosition" href="#setPosition"></a><code>setPosition(latLng)</code></h3>
 
 
@@ -2246,7 +2246,7 @@ Return the marker position.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>ILatLng</code> 
+  <b>Returns:</b> <code>ILatLng</code>
 </div><h3><a class="anchor" name="showInfoWindow" href="#showInfoWindow"></a><code>showInfoWindow()</code></h3>
 
 
@@ -2338,7 +2338,7 @@ Set false if you want to hide the marker.
     <td>
       visible</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -2392,7 +2392,7 @@ Return the title strings.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="setSnippet" href="#setSnippet"></a><code>setSnippet(snippet)</code></h3>
 
 
@@ -2430,7 +2430,7 @@ Return the snippet strings.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="setOpacity" href="#setOpacity"></a><code>setOpacity(alpha)</code></h3>
 
 
@@ -2502,7 +2502,7 @@ Change the info window anchor. This defaults to 50% from the left of the image a
       <p>Distance from left of the icon image in pixels.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       y</td>
@@ -2541,7 +2541,7 @@ Change the info window anchor. This defaults to 50% from the left of the image a
       <p>Distance from left of the icon image in pixels.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       y</td>
@@ -2565,7 +2565,7 @@ Return true if the infoWindow is shown on the marker
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="getHashCode" href="#getHashCode"></a><code>getHashCode()</code></h3>
 
 
@@ -2615,7 +2615,7 @@ Get z-index
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="setDraggable" href="#setDraggable"></a><code>setDraggable(draggable)</code></h3>
 
 
@@ -2653,7 +2653,7 @@ Return true if the marker drag is enabled.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="setFlat" href="#setFlat"></a><code>setFlat(flat)</code></h3>
 
 
@@ -2700,7 +2700,7 @@ Change icon url and/or size
     <td>
       icon</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -2745,7 +2745,7 @@ Return the marker rotation angle.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h2><a class="anchor" name="MarkerCluster" href="#MarkerCluster"></a>MarkerCluster</h2>
 
 
@@ -2762,7 +2762,7 @@ Return the ID of instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="addMarker" href="#addMarker"></a><code>addMarker(marker,&nbsp;skipRedraw?)</code></h3>
 
 
@@ -2788,7 +2788,7 @@ Add one marker location
       <p>one location</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       skipRedraw?</td>
@@ -2844,7 +2844,7 @@ Return the map instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>GoogleMap</code> 
+  <b>Returns:</b> <code>GoogleMap</code>
 </div><h2><a class="anchor" name="Polygon" href="#Polygon"></a>Polygon</h2>
 
 
@@ -2861,7 +2861,7 @@ Return the ID of instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="getMap" href="#getMap"></a><code>getMap()</code></h3>
 
 Return the map instance.
@@ -2869,7 +2869,7 @@ Return the map instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>GoogleMap</code> 
+  <b>Returns:</b> <code>GoogleMap</code>
 </div><h3><a class="anchor" name="setPoints" href="#setPoints"></a><code>setPoints(points)</code></h3>
 
 
@@ -2906,7 +2906,7 @@ You can modify the points.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>BaseArrayClass&lt;ILatLng&gt;</code> 
+  <b>Returns:</b> <code>BaseArrayClass&lt;ILatLng&gt;</code>
 </div><h3><a class="anchor" name="setHoles" href="#setHoles"></a><code>setHoles(holes)</code></h3>
 
 
@@ -2943,7 +2943,7 @@ You can modify the holes.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>BaseArrayClass&lt;ILatLng[]&gt;</code> 
+  <b>Returns:</b> <code>BaseArrayClass&lt;ILatLng[]&gt;</code>
 </div><h3><a class="anchor" name="setFillColor" href="#setFillColor"></a><code>setFillColor(fillColor)</code></h3>
 
 
@@ -2981,7 +2981,7 @@ Return the current polygon filling color (inner color).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="setStrokeColor" href="#setStrokeColor"></a><code>setStrokeColor(strokeColor)</code></h3>
 
 
@@ -3019,7 +3019,7 @@ Return the current polygon stroke color (outer color)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="setClickable" href="#setClickable"></a><code>setClickable(clickable)</code></h3>
 
 
@@ -3093,7 +3093,7 @@ Return true if the polygon is visible
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="setZIndex" href="#setZIndex"></a><code>setZIndex(zIndex)</code></h3>
 
 
@@ -3131,7 +3131,7 @@ Return the current polygon zIndex
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="remove" href="#remove"></a><code>remove()</code></h3>
 
 
@@ -3194,7 +3194,7 @@ Return true if the polygon is geodesic.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h2><a class="anchor" name="Polyline" href="#Polyline"></a>Polyline</h2>
 
 
@@ -3211,7 +3211,7 @@ Return the ID of instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="getMap" href="#getMap"></a><code>getMap()</code></h3>
 
 Return the map instance.
@@ -3219,7 +3219,7 @@ Return the map instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>GoogleMap</code> 
+  <b>Returns:</b> <code>GoogleMap</code>
 </div><h3><a class="anchor" name="setPoints" href="#setPoints"></a><code>setPoints(points)</code></h3>
 
 
@@ -3256,7 +3256,7 @@ You can modify the points.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>BaseArrayClass&lt;ILatLng&gt;</code> 
+  <b>Returns:</b> <code>BaseArrayClass&lt;ILatLng&gt;</code>
 </div><h3><a class="anchor" name="setGeoDesic" href="#setGeoDesic"></a><code>setGeoDesic(geoDesic)</code></h3>
 
 
@@ -3330,7 +3330,7 @@ Return true if the polyline is visible
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="setClickable" href="#setClickable"></a><code>setClickable(clickable)</code></h3>
 
 
@@ -3368,7 +3368,7 @@ Return true if the polyline is clickable
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="setStrokeColor" href="#setStrokeColor"></a><code>setStrokeColor(strokeColor)</code></h3>
 
 
@@ -3406,7 +3406,7 @@ Return the current polyline color
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="setStrokeWidth" href="#setStrokeWidth"></a><code>setStrokeWidth(strokeWidth)</code></h3>
 
 
@@ -3444,7 +3444,7 @@ Return the current stroke width (unit: pixel).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="setZIndex" href="#setZIndex"></a><code>setZIndex(index)</code></h3>
 
 
@@ -3482,7 +3482,7 @@ Return the current polyline zIndex
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="remove" href="#remove"></a><code>remove()</code></h3>
 
 
@@ -3513,7 +3513,7 @@ Returns the distance, in meters, between two LatLngs.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       locationB</td>
@@ -3528,7 +3528,7 @@ Returns the distance, in meters, between two LatLngs.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div>
 <h3><a class="anchor" name="computeOffset" href="#computeOffset"></a><code>computeOffset(from,&nbsp;distance,&nbsp;heading)</code></h3>
 
@@ -3551,7 +3551,7 @@ Returns the LatLng resulting from moving a distance from an origin in the specif
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       distance</td>
@@ -3561,7 +3561,7 @@ Returns the LatLng resulting from moving a distance from an origin in the specif
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       heading</td>
@@ -3576,7 +3576,7 @@ Returns the LatLng resulting from moving a distance from an origin in the specif
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>LatLng</code> 
+  <b>Returns:</b> <code>LatLng</code>
 </div>
 <h3><a class="anchor" name="computeOffsetOrigin" href="#computeOffsetOrigin"></a><code>computeOffsetOrigin(to,&nbsp;distance,&nbsp;heading)</code></h3>
 
@@ -3600,7 +3600,7 @@ Returns the location of origin when provided with a LatLng destination, meters t
       <p>The destination LatLng.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       distance</td>
@@ -3611,7 +3611,7 @@ Returns the location of origin when provided with a LatLng destination, meters t
       <p>The distance travelled, in meters.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       heading</td>
@@ -3627,7 +3627,7 @@ Returns the location of origin when provided with a LatLng destination, meters t
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>LatLng</code> 
+  <b>Returns:</b> <code>LatLng</code>
 </div>
 <h3><a class="anchor" name="computeLength" href="#computeLength"></a><code>computeLength(path)</code></h3>
 
@@ -3655,7 +3655,7 @@ Returns the length of the given path.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div>
 <h3><a class="anchor" name="computeArea" href="#computeArea"></a><code>computeArea(path)</code></h3>
 
@@ -3684,7 +3684,7 @@ Returns the area of a closed path. The computed area uses the same units as the 
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div>
 <h3><a class="anchor" name="computeSignedArea" href="#computeSignedArea"></a><code>computeSignedArea(path)</code></h3>
 
@@ -3713,7 +3713,7 @@ Returns the signed area of a closed path. The signed area may be used to determi
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div>
 <h3><a class="anchor" name="computeHeading" href="#computeHeading"></a><code>computeHeading(from,&nbsp;to)</code></h3>
 
@@ -3736,7 +3736,7 @@ Returns the heading from one LatLng to another LatLng. Headings are expressed in
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       to</td>
@@ -3751,7 +3751,7 @@ Returns the heading from one LatLng to another LatLng. Headings are expressed in
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div>
 <h3><a class="anchor" name="interpolate" href="#interpolate"></a><code>interpolate(from,&nbsp;to,&nbsp;fraction)</code></h3>
 
@@ -3775,7 +3775,7 @@ Returns the LatLng which lies the given fraction of the way between the origin L
       <p>The LatLng from which to start.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       to</td>
@@ -3786,7 +3786,7 @@ Returns the LatLng which lies the given fraction of the way between the origin L
       <p>The LatLng toward which to travel.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       fraction</td>
@@ -3802,7 +3802,7 @@ Returns the LatLng which lies the given fraction of the way between the origin L
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>LatLng</code> 
+  <b>Returns:</b> <code>LatLng</code>
 </div>
 
 
@@ -3831,7 +3831,7 @@ Return the ID of instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="getMap" href="#getMap"></a><code>getMap()</code></h3>
 
 Return the map instance.
@@ -3839,7 +3839,7 @@ Return the map instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>GoogleMap</code> 
+  <b>Returns:</b> <code>GoogleMap</code>
 </div><h3><a class="anchor" name="setVisible" href="#setVisible"></a><code>setVisible(visible)</code></h3>
 
 
@@ -3877,7 +3877,7 @@ Return true if the polyline is visible
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="setClickable" href="#setClickable"></a><code>setClickable(clickable)</code></h3>
 
 
@@ -3915,7 +3915,7 @@ Return true if the KmlOverlay is clickable
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="remove" href="#remove"></a><code>remove()</code></h3>
 
 
@@ -3946,7 +3946,7 @@ Returns true if the speicified location is in the polygon path
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       path</td>
@@ -3961,7 +3961,7 @@ Returns true if the speicified location is in the polygon path
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div>
 <h3><a class="anchor" name="isLocationOnEdge" href="#isLocationOnEdge"></a><code>isLocationOnEdge(location,&nbsp;path)</code></h3>
 
@@ -3984,7 +3984,7 @@ Returns true if the speicified location is on the polyline path
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       path</td>
@@ -3999,7 +3999,7 @@ Returns true if the speicified location is on the polyline path
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div>
 
 
@@ -4019,7 +4019,7 @@ Return the ID of instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>string</code> 
+  <b>Returns:</b> <code>string</code>
 </div><h3><a class="anchor" name="getMap" href="#getMap"></a><code>getMap()</code></h3>
 
 Return the map instance.
@@ -4027,7 +4027,7 @@ Return the map instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>GoogleMap</code> 
+  <b>Returns:</b> <code>GoogleMap</code>
 </div><h3><a class="anchor" name="setFadeIn" href="#setFadeIn"></a><code>setFadeIn(fadeIn)</code></h3>
 
 
@@ -4065,7 +4065,7 @@ Get whether the tiles should fade in
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="setZIndex" href="#setZIndex"></a><code>setZIndex(zIndex)</code></h3>
 
 
@@ -4103,7 +4103,7 @@ Return the zIndex of the tile overlay
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="setOpacity" href="#setOpacity"></a><code>setOpacity(opacity)</code></h3>
 
 
@@ -4141,7 +4141,7 @@ Return the opacity of the tile overlay
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="setVisible" href="#setVisible"></a><code>setVisible(visible)</code></h3>
 
 
@@ -4179,7 +4179,7 @@ Return true if the tile overlay is visible
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div><h3><a class="anchor" name="getTileSize" href="#getTileSize"></a><code>getTileSize()</code></h3>
 
 
@@ -4232,7 +4232,7 @@ Adds an event listener.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="addListenerOnce" href="#addListenerOnce"></a><code>addListenerOnce(eventName)</code></h3>
 
 
@@ -4261,7 +4261,7 @@ Adds an event listener that works once.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="get" href="#get"></a><code>get(key)</code></h3>
 
 
@@ -4314,7 +4314,7 @@ Sets a value
       <p>The key name for the value. <code>(key)_changed</code> will be fired when you set value through this method.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -4324,7 +4324,7 @@ Sets a value
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       noNotify</td>
@@ -4363,7 +4363,7 @@ Bind a key to another object
       <p>The property name you want to observe.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       target</td>
@@ -4374,7 +4374,7 @@ Bind a key to another object
       <p>The target object you want to observe.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       targetKey?</td>
@@ -4385,7 +4385,7 @@ Bind a key to another object
       <p>[options]  The property name you want to observe. If you omit this, the <code>key</code> argument is used.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       noNotify?</td>
@@ -4429,7 +4429,7 @@ Alias of `addEventListener`
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="one" href="#one"></a><code>one(key)</code></h3>
 
 
@@ -4458,7 +4458,7 @@ Alias of `addEventListenerOnce`
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="empty" href="#empty"></a><code>empty()</code></h3>
 
 
@@ -4493,7 +4493,7 @@ Dispatch event.
       <p>Event name</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       parameters</td>
@@ -4549,7 +4549,7 @@ The `removeEventListener()` has three usages:
       <p>[options] Event name</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       listener</td>
@@ -4589,7 +4589,7 @@ Alias of `removeEventListener`
       <p>[options] Event name</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       listener</td>
@@ -4691,7 +4691,7 @@ Iterate over each element, calling the provided callback.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="map" href="#map"></a><code>map(fn)</code></h3>
 
 
@@ -4746,7 +4746,7 @@ Then you can get the results of each callback.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       callback</td>
@@ -4784,7 +4784,7 @@ Same as `mapAsync`, but keep the execution order
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       callback</td>
@@ -4852,7 +4852,7 @@ The filterAsync() method creates a new array with all elements that pass the tes
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       callback</td>
@@ -4878,7 +4878,7 @@ Returns a reference to the underlying Array.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Array&lt;Object&gt;</code> 
+  <b>Returns:</b> <code>Array&lt;Object&gt;</code>
 </div><h3><a class="anchor" name="getAt" href="#getAt"></a><code>getAt(index)</code></h3>
 
 
@@ -4908,7 +4908,7 @@ Returns the element at the specified index.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Object</code> 
+  <b>Returns:</b> <code>Object</code>
 </div><h3><a class="anchor" name="getLength" href="#getLength"></a><code>getLength()</code></h3>
 
 
@@ -4919,7 +4919,7 @@ Returns the number of the elements.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="indexOf" href="#indexOf"></a><code>indexOf(element)</code></h3>
 
 
@@ -4949,7 +4949,7 @@ The indexOf() method returns the first index at which a given element can be fou
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>number</code> 
+  <b>Returns:</b> <code>number</code>
 </div><h3><a class="anchor" name="reverse" href="#reverse"></a><code>reverse()</code></h3>
 
 
@@ -4992,7 +4992,7 @@ Inserts an element at the specified index.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       element</td>
@@ -5002,7 +5002,7 @@ Inserts an element at the specified index.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       noNotify?</td>
@@ -5018,7 +5018,7 @@ Inserts an element at the specified index.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Object</code> 
+  <b>Returns:</b> <code>Object</code>
 </div><h3><a class="anchor" name="pop" href="#pop"></a><code>pop(noNotify?)</code></h3>
 
 
@@ -5049,7 +5049,7 @@ Removes the last element of the array and returns that element.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Object</code> 
+  <b>Returns:</b> <code>Object</code>
 </div><h3><a class="anchor" name="push" href="#push"></a><code>push(element,&nbsp;noNotify?)</code></h3>
 
 
@@ -5074,7 +5074,7 @@ Adds one element to the end of the array and returns the new length of the array
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       noNotify?</td>
@@ -5112,7 +5112,7 @@ Removes an element from the specified index.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       noNotify?</td>
@@ -5150,7 +5150,7 @@ Sets an element at the specified index.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       element</td>
@@ -5160,7 +5160,7 @@ Sets an element at the specified index.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       noNotify?</td>
@@ -5189,7 +5189,7 @@ Sets an element at the specified index.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       mapType
@@ -5203,7 +5203,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       controls
@@ -5217,7 +5217,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       gestures
@@ -5231,7 +5231,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       styles
@@ -5245,7 +5245,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       camera
@@ -5259,7 +5259,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       preferences
@@ -5273,7 +5273,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -5289,7 +5289,7 @@ Sets an element at the specified index.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       target
@@ -5316,7 +5316,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       tilt
@@ -5330,7 +5330,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       zoom
@@ -5344,7 +5344,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bearing
@@ -5358,7 +5358,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       duration
@@ -5372,7 +5372,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       padding
@@ -5386,7 +5386,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -5402,7 +5402,7 @@ Sets an element at the specified index.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       center
@@ -5413,10 +5413,10 @@ Sets an element at the specified index.
     <td>
       <p>Center position of circle</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       radius
@@ -5427,10 +5427,10 @@ Sets an element at the specified index.
     <td>
       <p>Radius of circle in meter</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       strokeColor
@@ -5445,7 +5445,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       strokeWidth
@@ -5459,7 +5459,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       fillColor
@@ -5474,7 +5474,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clickable
@@ -5489,7 +5489,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       visible
@@ -5503,7 +5503,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       zIndex
@@ -5517,7 +5517,7 @@ Sets an element at the specified index.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -5533,7 +5533,7 @@ Sets an element at the specified index.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       address
@@ -5559,7 +5559,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       position
@@ -5583,7 +5583,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -5599,7 +5599,7 @@ let request: GeocoderRequest = {
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       adminArea
@@ -5608,11 +5608,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       country
@@ -5621,11 +5621,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       countryCode
@@ -5634,11 +5634,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       extra
@@ -5653,11 +5653,11 @@ let request: GeocoderRequest = {
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       locale
@@ -5666,11 +5666,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       locality
@@ -5679,11 +5679,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       position
@@ -5692,11 +5692,11 @@ let request: GeocoderRequest = {
       <code>ILatLng</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       postalCode
@@ -5705,11 +5705,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       subAdminArea
@@ -5718,11 +5718,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       subLocality
@@ -5731,11 +5731,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       subThoroughfare
@@ -5744,11 +5744,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       thoroughfare
@@ -5757,11 +5757,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -5777,7 +5777,7 @@ let request: GeocoderRequest = {
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       url
@@ -5788,10 +5788,10 @@ let request: GeocoderRequest = {
     <td>
       <p>URL of overlay</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bounds
@@ -5802,10 +5802,10 @@ let request: GeocoderRequest = {
     <td>
       <p>Bounds, array of ILatLng</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clickable
@@ -5820,7 +5820,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       visible
@@ -5834,7 +5834,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       opacity
@@ -5848,7 +5848,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bearing
@@ -5862,7 +5862,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       zIndex
@@ -5876,7 +5876,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -5892,7 +5892,7 @@ let request: GeocoderRequest = {
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       lat
@@ -5901,11 +5901,11 @@ let request: GeocoderRequest = {
       <code>number</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       lng
@@ -5914,11 +5914,11 @@ let request: GeocoderRequest = {
       <code>number</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -5934,7 +5934,7 @@ let request: GeocoderRequest = {
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       url
@@ -5943,11 +5943,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       size
@@ -5959,11 +5959,11 @@ let request: GeocoderRequest = {
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -5979,7 +5979,7 @@ let request: GeocoderRequest = {
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       icon
@@ -5993,7 +5993,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       title
@@ -6007,7 +6007,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       snippet
@@ -6021,7 +6021,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       position
@@ -6035,7 +6035,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       infoWindowAnchor
@@ -6049,7 +6049,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       draggable
@@ -6063,7 +6063,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       flat
@@ -6077,7 +6077,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       rotation
@@ -6091,7 +6091,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       visible
@@ -6105,7 +6105,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       styles
@@ -6119,7 +6119,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       animation
@@ -6133,7 +6133,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       zIndex
@@ -6147,7 +6147,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       disableAutoPan
@@ -6161,7 +6161,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -6180,7 +6180,7 @@ let request: GeocoderRequest = {
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       maxZoomLevel
@@ -6195,7 +6195,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       boundsDraw
@@ -6210,7 +6210,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       markers
@@ -6226,10 +6226,10 @@ let request: GeocoderRequest = {
   {title: &quot;store C&quot;, position: {lat: ..., lng: ...}}
 ]</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       icons
@@ -6245,10 +6245,10 @@ let request: GeocoderRequest = {
   {icon: &quot;assets/large.png&quot;, min: 31},
 ]</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -6264,7 +6264,7 @@ let request: GeocoderRequest = {
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       latLng
@@ -6273,11 +6273,11 @@ let request: GeocoderRequest = {
       <code>LatLng</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       elapsedRealtimeNanos
@@ -6286,11 +6286,11 @@ let request: GeocoderRequest = {
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       time
@@ -6299,11 +6299,11 @@ let request: GeocoderRequest = {
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       accuracy
@@ -6312,11 +6312,11 @@ let request: GeocoderRequest = {
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bearing
@@ -6325,11 +6325,11 @@ let request: GeocoderRequest = {
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       altitude
@@ -6338,11 +6338,11 @@ let request: GeocoderRequest = {
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       speed
@@ -6351,11 +6351,11 @@ let request: GeocoderRequest = {
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       provider
@@ -6364,11 +6364,11 @@ let request: GeocoderRequest = {
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hashCode
@@ -6377,11 +6377,11 @@ let request: GeocoderRequest = {
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -6397,7 +6397,7 @@ let request: GeocoderRequest = {
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       enableHighAccuracy
@@ -6413,7 +6413,7 @@ let request: GeocoderRequest = {
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -6429,7 +6429,7 @@ let request: GeocoderRequest = {
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       points
@@ -6441,10 +6441,10 @@ let request: GeocoderRequest = {
       <p>Pass ILatLng[] to specify the vertixes.
 You need to contain two points at least.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       geodesic
@@ -6459,7 +6459,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       strokeColor
@@ -6474,7 +6474,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       strokeWidth
@@ -6488,7 +6488,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       fillColor
@@ -6503,7 +6503,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       visible
@@ -6518,7 +6518,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       zIndex
@@ -6532,7 +6532,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       addHole
@@ -6546,7 +6546,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clickable
@@ -6561,7 +6561,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -6577,7 +6577,7 @@ You need to contain two points at least.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       points
@@ -6589,10 +6589,10 @@ You need to contain two points at least.</p>
       <p>Pass ILatLng[] to specify the vertixes.
 You need to contain two points at least.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       visible
@@ -6607,7 +6607,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       geodesic
@@ -6622,7 +6622,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       color
@@ -6637,7 +6637,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       width
@@ -6651,7 +6651,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       zIndex
@@ -6665,7 +6665,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clickable
@@ -6680,7 +6680,7 @@ You need to contain two points at least.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -6696,7 +6696,7 @@ You need to contain two points at least.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       getTile
@@ -6708,10 +6708,10 @@ You need to contain two points at least.</p>
       <p>This callback must return string of image URL.
 If no tile, you need to return null.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       visible
@@ -6726,7 +6726,7 @@ If no tile, you need to return null.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       zIndex
@@ -6740,7 +6740,7 @@ If no tile, you need to return null.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       tileSize
@@ -6754,7 +6754,7 @@ If no tile, you need to return null.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       opacity
@@ -6768,7 +6768,7 @@ If no tile, you need to return null.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       debug
@@ -6782,7 +6782,7 @@ If no tile, you need to return null.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -6798,7 +6798,7 @@ If no tile, you need to return null.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       url
@@ -6807,11 +6807,11 @@ If no tile, you need to return null.</p>
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clickable
@@ -6820,11 +6820,11 @@ If no tile, you need to return null.</p>
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       suppressInfoWindows
@@ -6833,11 +6833,11 @@ If no tile, you need to return null.</p>
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -6853,7 +6853,7 @@ If no tile, you need to return null.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       northeast
@@ -6865,10 +6865,10 @@ If no tile, you need to return null.</p>
       <p>The northeast of the bounds that contains the farLeft, farRight, nearLeft and nearRight.
 Since the map view is able to rotate, the farRight is not the same as the northeast.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       southwest
@@ -6880,10 +6880,10 @@ Since the map view is able to rotate, the farRight is not the same as the northe
       <p>The southwest of the bounds that contains the farLeft, farRight, nearLeft and nearRight.
 Since the map view is able to rotate, the nearLeft is not the same as the southwest.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       farLeft
@@ -6894,10 +6894,10 @@ Since the map view is able to rotate, the nearLeft is not the same as the southw
     <td>
       <p>The nearRight indicates the lat/lng of the top-left of the map view.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       farRight
@@ -6908,10 +6908,10 @@ Since the map view is able to rotate, the nearLeft is not the same as the southw
     <td>
       <p>The nearRight indicates the lat/lng of the top-right of the map view.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       nearLeft
@@ -6922,10 +6922,10 @@ Since the map view is able to rotate, the nearLeft is not the same as the southw
     <td>
       <p>The nearRight indicates the lat/lng of the bottom-left of the map view.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       nearRight
@@ -6936,10 +6936,10 @@ Since the map view is able to rotate, the nearLeft is not the same as the southw
     <td>
       <p>The nearRight indicates the lat/lng of the bottom-right of the map view.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       type
@@ -6950,10 +6950,10 @@ Since the map view is able to rotate, the nearLeft is not the same as the southw
     <td>
       <p>constant value : <code>VisibleRegion</code></p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       toString
@@ -6964,10 +6964,10 @@ Since the map view is able to rotate, the nearLeft is not the same as the southw
     <td>
       <p>Converts to string</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       toUrlValue
@@ -6978,10 +6978,10 @@ Since the map view is able to rotate, the nearLeft is not the same as the southw
     <td>
       <p>Returns a string of the form &quot;lat_sw,lng_sw,lat_ne,lng_ne&quot; for this bounds, where &quot;sw&quot; corresponds to the southwest corner of the bounding box, while &quot;ne&quot; corresponds to the northeast corner of that box.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       contains
@@ -6992,10 +6992,10 @@ Since the map view is able to rotate, the nearLeft is not the same as the southw
     <td>
       <p>Returns true if the given lat/lng is in this bounds.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

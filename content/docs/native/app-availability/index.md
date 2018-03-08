@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">App Availability</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/app-availability/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -115,7 +115,7 @@ Checks if an app is available on device
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div>
 
 

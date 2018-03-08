@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">WheelSelector Plugin<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/wheel-selector/index.ts#L62">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -148,7 +148,7 @@ let jsonData = {
      ],
      displayKey: &#39;name&#39;,
      defaultItems: [
-       {index:0, value: this.jsonData.firstNames[2].name}, 
+       {index:0, value: this.jsonData.firstNames[2].name},
        {index: 0, value: this.jsonData.lastNames[3].name}
      ]
    }).then(
@@ -211,7 +211,7 @@ Hide the selector
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div>
 
 
@@ -229,7 +229,7 @@ Hide the selector
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       title
@@ -240,10 +240,10 @@ Hide the selector
     <td>
       <p>The title of the selector&#39;s input box</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       items
@@ -254,10 +254,10 @@ Hide the selector
     <td>
       <p>The items to display (array of items).</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       defaultItems
@@ -271,7 +271,7 @@ Hide the selector
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       positiveButtonText
@@ -286,7 +286,7 @@ Default: Done</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       negativeButtonText
@@ -301,7 +301,7 @@ Default: Cancel</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       theme
@@ -316,7 +316,7 @@ Default: light</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       wrapWheelText
@@ -331,7 +331,7 @@ Default: false</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       displayKey
@@ -347,7 +347,7 @@ Default: description</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

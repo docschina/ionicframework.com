@@ -9,8 +9,8 @@ footer_includes: <script src="app.js?1"></script>
 ---
 
 <h1 class="title">Overriding Ionic Sass Variables</h1>
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/theming/overriding-ionic-variables/index.md'>
-  Improve this doc
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/theming/overriding-ionic-variables/index.md'>
+  改进这篇文档
 </a>
 
 There are many variables you can override with Ionic. Any of the following variables can be overridden from your `src/theme/variables.scss` file, just add a new value to the file:

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Spinner Dialog</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/spinner-dialog/index.ts#L8">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -99,7 +99,7 @@ Shows the spinner dialog
       <p>Spinner title (shows on Android only)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       message</td>
@@ -110,7 +110,7 @@ Shows the spinner dialog
       <p>Spinner message</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       cancelCallback</td>
@@ -121,7 +121,7 @@ Shows the spinner dialog
       <p>Set to true to set spinner not cancelable. Or provide a function to call when the user cancels the spinner.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       iOSOptions</td>
@@ -161,7 +161,7 @@ Hides the spinner dialog if visible
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       overlayOpacity
@@ -170,11 +170,11 @@ Hides the spinner dialog if visible
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       textColorRed
@@ -183,11 +183,11 @@ Hides the spinner dialog if visible
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       textColorGreen
@@ -196,11 +196,11 @@ Hides the spinner dialog if visible
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       textColorBlue
@@ -209,11 +209,11 @@ Hides the spinner dialog if visible
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

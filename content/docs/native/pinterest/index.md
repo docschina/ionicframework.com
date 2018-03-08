@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Pinterest<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/pinterest/index.ts#L126">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -190,7 +190,7 @@ Gets the authenticated user's profile
       <p>Optional fields separated by comma</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       limit</td>
@@ -206,7 +206,7 @@ Gets the authenticated user's profile
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestPin&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestPin&gt;&gt;</code>
 </div><h3><a class="anchor" name="getMyBoards" href="#getMyBoards"></a><code>getMyBoards(fields,&nbsp;limit)</code></h3>
 
 
@@ -232,7 +232,7 @@ Gets the authenticated user's profile
       <p>Optional fields separated by comma</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       limit</td>
@@ -248,7 +248,7 @@ Gets the authenticated user's profile
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestBoard&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestBoard&gt;&gt;</code>
 </div><h3><a class="anchor" name="getMyLikes" href="#getMyLikes"></a><code>getMyLikes(fields,&nbsp;limit)</code></h3>
 
 
@@ -274,7 +274,7 @@ Get the authenticated user's likes.
       <p>Optional fields separated by comma</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       limit</td>
@@ -290,7 +290,7 @@ Get the authenticated user's likes.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestPin&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestPin&gt;&gt;</code>
 </div><h3><a class="anchor" name="getMyFollowers" href="#getMyFollowers"></a><code>getMyFollowers(fields,&nbsp;limit)</code></h3>
 
 
@@ -316,7 +316,7 @@ Get the authenticated user's followers.
       <p>Optional fields separated by comma</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       limit</td>
@@ -332,7 +332,7 @@ Get the authenticated user's followers.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestUser&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestUser&gt;&gt;</code>
 </div><h3><a class="anchor" name="getMyFollowedBoards" href="#getMyFollowedBoards"></a><code>getMyFollowedBoards(fields,&nbsp;limit)</code></h3>
 
 
@@ -358,7 +358,7 @@ Get the authenticated user's followed boards.
       <p>Optional fields separated by comma</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       limit</td>
@@ -374,7 +374,7 @@ Get the authenticated user's followed boards.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestBoard&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestBoard&gt;&gt;</code>
 </div><h3><a class="anchor" name="getMyFollowedInterests" href="#getMyFollowedInterests"></a><code>getMyFollowedInterests(fields,&nbsp;limit)</code></h3>
 
 
@@ -400,7 +400,7 @@ Get the authenticated user's followed interests.
       <p>Optional fields separated by comma</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       limit</td>
@@ -416,7 +416,7 @@ Get the authenticated user's followed interests.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getUser" href="#getUser"></a><code>getUser(username,&nbsp;fields)</code></h3>
 
 
@@ -436,17 +436,17 @@ Get a user's profile.
     <td>
       username</td>
     <td>
-      
+
     </td>
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       fields</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -456,7 +456,7 @@ Get a user's profile.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;PinterestUser&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;PinterestUser&gt;</code>
 </div><h3><a class="anchor" name="getBoard" href="#getBoard"></a><code>getBoard(boardId,&nbsp;fields)</code></h3>
 
 
@@ -476,17 +476,17 @@ Get a board's data.
     <td>
       boardId</td>
     <td>
-      
+
     </td>
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       fields</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -496,7 +496,7 @@ Get a board's data.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;PinterestBoard&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;PinterestBoard&gt;</code>
 </div><h3><a class="anchor" name="getBoardPins" href="#getBoardPins"></a><code>getBoardPins(boardId,&nbsp;fields,&nbsp;limit)</code></h3>
 
 
@@ -522,7 +522,7 @@ Get Pins of a specific board.
       <p>The ID of the board</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       fields</td>
@@ -533,7 +533,7 @@ Get Pins of a specific board.
       <p>Optional fields separated by comma</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       limit</td>
@@ -549,7 +549,7 @@ Get Pins of a specific board.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestPin&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;PinterestPin&gt;&gt;</code>
 </div><h3><a class="anchor" name="deleteBoard" href="#deleteBoard"></a><code>deleteBoard(boardId)</code></h3>
 
 
@@ -578,7 +578,7 @@ Delete a board.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;PinterestUser&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;PinterestUser&gt;</code>
 </div><h3><a class="anchor" name="createBoard" href="#createBoard"></a><code>createBoard(name,&nbsp;desc)</code></h3>
 
 
@@ -604,7 +604,7 @@ Create a new board for the authenticated user.
       <p>Name of the board</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       desc</td>
@@ -620,7 +620,7 @@ Create a new board for the authenticated user.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;PinterestBoard&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;PinterestBoard&gt;</code>
 </div><h3><a class="anchor" name="getPin" href="#getPin"></a><code>getPin(pinId,&nbsp;fields)</code></h3>
 
 
@@ -646,7 +646,7 @@ Get a Pin by ID.
       <p>The ID of the Pin</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       fields</td>
@@ -662,7 +662,7 @@ Get a Pin by ID.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;PinterestPin&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;PinterestPin&gt;</code>
 </div><h3><a class="anchor" name="deletePin" href="#deletePin"></a><code>deletePin(pinId)</code></h3>
 
 
@@ -691,7 +691,7 @@ Deletes a pin
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="createPin" href="#createPin"></a><code>createPin(note,&nbsp;boardId,&nbsp;imageUrl,&nbsp;link)</code></h3>
 
 
@@ -717,7 +717,7 @@ Creates a Pin
       <p>Note/Description of the pin</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       boardId</td>
@@ -728,7 +728,7 @@ Creates a Pin
       <p>Board ID to put the Pin under</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       imageUrl</td>
@@ -739,7 +739,7 @@ Creates a Pin
       <p>URL of the image to share</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       link</td>
@@ -755,7 +755,7 @@ Creates a Pin
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;PinterestPin&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;PinterestPin&gt;</code>
 </div>
 
 
@@ -773,7 +773,7 @@ Creates a Pin
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       id
@@ -787,7 +787,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       username
@@ -801,7 +801,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       first_name
@@ -815,7 +815,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       last_name
@@ -829,7 +829,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bio
@@ -843,7 +843,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       created_at
@@ -857,7 +857,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       counts
@@ -871,7 +871,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       image
@@ -885,7 +885,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -901,7 +901,7 @@ Creates a Pin
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       id
@@ -915,7 +915,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       name
@@ -929,7 +929,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       url
@@ -943,7 +943,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       description
@@ -957,7 +957,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       creator
@@ -971,7 +971,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       created_at
@@ -985,7 +985,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       counts
@@ -999,7 +999,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       image
@@ -1013,7 +1013,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -1029,7 +1029,7 @@ Creates a Pin
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       id
@@ -1043,7 +1043,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       link
@@ -1057,7 +1057,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       url
@@ -1071,7 +1071,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       creator
@@ -1085,7 +1085,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       board
@@ -1099,7 +1099,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       created_at
@@ -1113,7 +1113,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       note
@@ -1127,7 +1127,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       color
@@ -1141,7 +1141,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       counts
@@ -1155,7 +1155,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       media
@@ -1169,7 +1169,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       attribution
@@ -1183,7 +1183,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       image
@@ -1197,7 +1197,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       metadata
@@ -1211,7 +1211,7 @@ Creates a Pin
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

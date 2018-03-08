@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Android ExoPlayer</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/android-exoplayer/index.ts#L149">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -104,7 +104,7 @@ Show the player.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;AndroidExoplayerState&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;AndroidExoplayerState&gt;</code>
 </div><h3><a class="anchor" name="setStream" href="#setStream"></a><code>setStream(url,&nbsp;controller)</code></h3>
 
 
@@ -128,7 +128,7 @@ Switch stream without disposing of the player.
       <p>The url of the new stream.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       controller</td>
@@ -144,7 +144,7 @@ Switch stream without disposing of the player.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="playPause" href="#playPause"></a><code>playPause()</code></h3>
 
 
@@ -153,7 +153,7 @@ Will pause if playing and play if paused
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="stop" href="#stop"></a><code>stop()</code></h3>
 
 
@@ -162,7 +162,7 @@ Stop playing.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="seekTo" href="#seekTo"></a><code>seekTo(milliseconds)</code></h3>
 
 
@@ -191,7 +191,7 @@ Jump to a particular position.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="seekBy" href="#seekBy"></a><code>seekBy(milliseconds)</code></h3>
 
 
@@ -220,7 +220,7 @@ Jump to a particular time relative to the current position.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="getState" href="#getState"></a><code>getState()</code></h3>
 
 
@@ -229,7 +229,7 @@ Get the current player state.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;AndroidExoplayerState&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;AndroidExoplayerState&gt;</code>
 </div><h3><a class="anchor" name="showController" href="#showController"></a><code>showController()</code></h3>
 
 
@@ -238,7 +238,7 @@ Show the controller.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="hideController" href="#hideController"></a><code>hideController()</code></h3>
 
 
@@ -247,7 +247,7 @@ Hide the controller.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="setController" href="#setController"></a><code>setController(controller)</code></h3>
 
 
@@ -276,7 +276,7 @@ Update the controller configuration.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="close" href="#close"></a><code>close()</code></h3>
 
 
@@ -285,7 +285,7 @@ Close and dispose of player, call before destroy.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div>
 
 
@@ -303,7 +303,7 @@ Close and dispose of player, call before destroy.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       url
@@ -314,10 +314,10 @@ Close and dispose of player, call before destroy.
     <td>
       <p>Url of the video to play.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       userAgent
@@ -331,7 +331,7 @@ Close and dispose of player, call before destroy.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       aspectRatio
@@ -345,7 +345,7 @@ Close and dispose of player, call before destroy.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hideTimeout
@@ -359,7 +359,7 @@ Close and dispose of player, call before destroy.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       autoPlay
@@ -373,7 +373,7 @@ Close and dispose of player, call before destroy.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       seekTo
@@ -387,7 +387,7 @@ Close and dispose of player, call before destroy.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       forwardTime
@@ -401,7 +401,7 @@ Close and dispose of player, call before destroy.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       rewindTime
@@ -415,7 +415,7 @@ Close and dispose of player, call before destroy.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       audioOnly
@@ -430,7 +430,7 @@ If you pass in <code>audioOnly: true</code>, make sure to manually close the pla
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       true
@@ -439,11 +439,11 @@ If you pass in <code>audioOnly: true</code>, make sure to manually close the pla
       <code></code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       subtitleUrl
@@ -458,7 +458,7 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       connectTimeout
@@ -472,7 +472,7 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       readTimeout
@@ -486,7 +486,7 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       writeTimeout
@@ -500,7 +500,7 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       pingInterval
@@ -514,7 +514,7 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       retryCount
@@ -528,7 +528,7 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       controller
@@ -542,7 +542,7 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -558,7 +558,7 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
   </tr>
   </thead>
   <tbody>
-  
+
   </tbody>
 </table>
 
@@ -574,7 +574,7 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       streamImage
@@ -585,10 +585,10 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
     <td>
       <p>Image in the controller.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       streamTitle
@@ -597,11 +597,11 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       streamDescription
@@ -610,11 +610,11 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hideProgress
@@ -628,7 +628,7 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       true
@@ -637,11 +637,11 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <code></code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hidePosition
@@ -652,10 +652,10 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
     <td>
       <p>If progress bar is visible hide current position from it</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       false
@@ -664,11 +664,11 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <code></code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hideDuration
@@ -679,10 +679,10 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
     <td>
       <p>If progress bar is visible Hide stream duration from it</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       controlIcons
@@ -698,7 +698,7 @@ We currently support .srt and .vtt subtitle formats. Subtitles are not supported
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

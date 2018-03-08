@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">HTTP</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/http/index.ts#L20">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -117,7 +117,7 @@ This returns an object representing a basic HTTP Authorization header of the for
       <p>Username</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       password</td>
@@ -159,7 +159,7 @@ This sets up all future requests to use Basic HTTP authentication with the given
       <p>Username</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       password</td>
@@ -198,7 +198,7 @@ Set a header for all future requests. Takes a header and a value.
       <p>The name of the header</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -273,12 +273,12 @@ Remove cookies
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       cb</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -427,7 +427,7 @@ Make a POST request
       <p>The url to send the request to</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       body</td>
@@ -438,7 +438,7 @@ Make a POST request
       <p>The body of the request</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       headers</td>
@@ -478,7 +478,7 @@ Make a GET request
       <p>The url to send the request to</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       parameters</td>
@@ -489,7 +489,7 @@ Make a GET request
       <p>Parameters to send with the request</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       headers</td>
@@ -529,7 +529,7 @@ Make a PUT request
       <p>The url to send the request to</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       body</td>
@@ -540,7 +540,7 @@ Make a PUT request
       <p>The body of the request</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       headers</td>
@@ -580,7 +580,7 @@ Make a PATCH request
       <p>The url to send the request to</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       body</td>
@@ -591,7 +591,7 @@ Make a PATCH request
       <p>The body of the request</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       headers</td>
@@ -631,7 +631,7 @@ Make a DELETE request
       <p>The url to send the request to</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       parameters</td>
@@ -642,7 +642,7 @@ Make a DELETE request
       <p>Parameters to send with the request</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       headers</td>
@@ -682,7 +682,7 @@ Make a HEAD request
       <p>The url to send the request to</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       parameters</td>
@@ -693,7 +693,7 @@ Make a HEAD request
       <p>Parameters to send with the request</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       headers</td>
@@ -733,7 +733,7 @@ Make a HEAD request
       <p>The url to send the request to</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       body</td>
@@ -744,7 +744,7 @@ Make a HEAD request
       <p>The body of the request</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       headers</td>
@@ -755,7 +755,7 @@ Make a HEAD request
       <p>The headers to set for this request</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       filePath</td>
@@ -766,7 +766,7 @@ Make a HEAD request
       <p>The local path of the file to upload</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       name</td>
@@ -806,7 +806,7 @@ Make a HEAD request
       <p>The url to send the request to</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       body</td>
@@ -817,7 +817,7 @@ Make a HEAD request
       <p>The body of the request</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       headers</td>
@@ -828,7 +828,7 @@ Make a HEAD request
       <p>The headers to set for this request</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       filePath</td>
@@ -862,7 +862,7 @@ Make a HEAD request
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       status
@@ -873,10 +873,10 @@ Make a HEAD request
     <td>
       <p>The status number of the response</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       data
@@ -890,7 +890,7 @@ Make a HEAD request
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       headers
@@ -901,10 +901,10 @@ Make a HEAD request
     <td>
       <p>The headers of the response</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       error
@@ -918,7 +918,7 @@ Make a HEAD request
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

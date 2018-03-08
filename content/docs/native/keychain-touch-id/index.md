@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Keychain Touch Id</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/keychain-touch-id/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -111,7 +111,7 @@ successful authentication using fingerprint
       <p>the key you want to store</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       password</td>
@@ -152,7 +152,7 @@ with the password stored in keychain or will resolve an error code, where -1 ind
       <p>the key you want to retrieve from keychain</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       message</td>

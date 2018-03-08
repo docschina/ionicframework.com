@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Globalization</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/globalization/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -85,7 +85,7 @@ Returns the BCP-47 compliant language identifier tag to the successCallback with
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;{value: string}&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;{value: string}&gt;</code>
 </div><h3><a class="anchor" name="getLocaleName" href="#getLocaleName"></a><code>getLocaleName()</code></h3>
 
 
@@ -94,7 +94,7 @@ Returns the BCP 47 compliant locale identifier string to the successCallback wit
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;{value: string}&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;{value: string}&gt;</code>
 </div><h3><a class="anchor" name="dateToString" href="#dateToString"></a><code>dateToString(date,&nbsp;options)</code></h3>
 
 
@@ -120,12 +120,12 @@ Converts date to string
       <p>Date you wish to convert</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       <p>Options for the converted date. Length, selector.</p>
@@ -162,12 +162,12 @@ Parses a date formatted as a string, according to the client's user preferences 
       <p>Date as a string to be converted</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       <p>Options for the converted date. Length, selector.</p>
@@ -198,7 +198,7 @@ Returns a pattern string to format and parse dates according to the client's use
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       <p>Object with the format length and selector</p>
@@ -229,7 +229,7 @@ Returns an array of the names of the months or days of the week, depending on th
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       <p>Object with type (narrow or wide) and item (month or days).</p>
@@ -304,7 +304,7 @@ Returns a number formatted as a string according to the client's user preference
       <p>The number to convert</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -343,12 +343,12 @@ Returns a number formatted as a string according to the client's user preference
       <p>String you want to conver to a number</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       <p>The type of number you want to return. Can be decimal, percent, or currency.</p>
@@ -379,7 +379,7 @@ Returns a pattern string to format and parse numbers according to the client's u
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       <p>Can be decimal, percent, or currency.</p>
@@ -390,7 +390,7 @@ Returns a pattern string to format and parse numbers according to the client's u
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;{ pattern: string, symbol: string, fraction: number, rounding: number, positive: string, negative: string, decimal: string, grouping: string }&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;{ pattern: string, symbol: string, fraction: number, rounding: number, positive: string, negative: string, decimal: string, grouping: string }&gt;</code>
 </div><h3><a class="anchor" name="getCurrencyPattern" href="#getCurrencyPattern"></a><code>getCurrencyPattern(currencyCode)</code></h3>
 
 
@@ -419,7 +419,7 @@ Returns a pattern string to format and parse currency values according to the cl
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;{ pattern: string, code: string, fraction: number, rounding: number, decimal: number, grouping: string }&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;{ pattern: string, code: string, fraction: number, rounding: number, decimal: number, grouping: string }&gt;</code>
 </div>
 
 

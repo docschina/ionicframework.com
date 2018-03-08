@@ -9,7 +9,7 @@ next_page_link: /docs/theming/css-utilities/
 
 <h1 class="title">Theming Ionic Apps</h1>
 <a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/blob/master/content/docs/theming/index.md'>
-  Improve this doc
+  改进这篇文档
 </a>
 
 <img class="section-header" src="/img/docs/theming-header.png" />

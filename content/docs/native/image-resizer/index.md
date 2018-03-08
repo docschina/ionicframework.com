@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Image Resizer</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/image-resizer/index.ts#L37">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -92,7 +92,7 @@ this.imageResizer
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -110,7 +110,7 @@ this.imageResizer
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       uri
@@ -121,10 +121,10 @@ this.imageResizer
     <td>
       <p>The URI for the image on the device to get scaled</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       width
@@ -135,10 +135,10 @@ this.imageResizer
     <td>
       <p>The width of the new image</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -149,10 +149,10 @@ this.imageResizer
     <td>
       <p>The height of the new image</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       folderName
@@ -167,7 +167,7 @@ this.imageResizer
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       quality
@@ -182,7 +182,7 @@ this.imageResizer
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       fileName
@@ -197,7 +197,7 @@ this.imageResizer
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

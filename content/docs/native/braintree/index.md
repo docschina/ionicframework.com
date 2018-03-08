@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Braintree</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/braintree/index.ts#L135">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -238,7 +238,7 @@ Shows Braintree's Drop-In Payments UI.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       merchantId
@@ -249,10 +249,10 @@ Shows Braintree's Drop-In Payments UI.
     <td>
       <p>Apple Merchant ID - can be obtained from the Apple Developer Portal.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       currency
@@ -264,10 +264,10 @@ Shows Braintree's Drop-In Payments UI.
       <p>The currency in which to receive payment.
 This is a 3 letter currency code (ISO-4217) - e.g. &quot;GBP&quot;, &quot;USD&quot;, &quot;MXN&quot;, etc.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       country
@@ -279,10 +279,10 @@ This is a 3 letter currency code (ISO-4217) - e.g. &quot;GBP&quot;, &quot;USD&qu
       <p>The locale in which payment is accepted.
 This is a 2 letter country code (ISO-3166-1) - e.g. &quot;GB&quot;, &quot;US&quot;, &quot;MX&quot;</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -298,7 +298,7 @@ This is a 2 letter country code (ISO-3166-1) - e.g. &quot;GB&quot;, &quot;US&quo
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       amount
@@ -316,7 +316,7 @@ want to fill this value in!</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       primaryDescription
@@ -331,7 +331,7 @@ Defaults to empty string.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -347,7 +347,7 @@ Defaults to empty string.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       userCancelled
@@ -359,10 +359,10 @@ Defaults to empty string.</p>
       <p>Indicates if the user used the cancel button to close the dialog without
 completing the payment.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       nonce
@@ -373,10 +373,10 @@ completing the payment.</p>
     <td>
       <p>The nonce returned for the payment transaction (if a payment was completed).</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       type
@@ -387,10 +387,10 @@ completing the payment.</p>
     <td>
       <p>The payment type (if a payment was completed) (credit card, check, paypal, etc).</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       localizedDescription
@@ -401,10 +401,10 @@ completing the payment.</p>
     <td>
       <p>A description of the payment method (if a payment was completed).</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       card
@@ -433,10 +433,10 @@ completing the payment.</p>
     <td>
       <p>Information about the credit card used to complete a payment (if a credit card was used).</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       payPalAccount
@@ -456,10 +456,10 @@ completing the payment.</p>
     <td>
       <p>Information about the PayPal account used to complete a payment (if a PayPal account was used).</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       applePaycard
@@ -471,10 +471,10 @@ completing the payment.</p>
     <td>
       <p>Information about the Apple Pay card used to complete a payment (if Apple Pay was used).</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       threeDSecureCard
@@ -488,10 +488,10 @@ completing the payment.</p>
     <td>
       <p>Information about 3D Secure card used to complete a payment (if 3D Secure was used).</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       venmoAccount
@@ -504,10 +504,10 @@ completing the payment.</p>
     <td>
       <p>Information about Venmo account used to complete a payment (if a Venmo account was used).</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

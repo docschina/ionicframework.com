@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Local Notifications</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/local-notifications/index.ts#L96">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -267,7 +267,7 @@ Checks presence of a notification
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="isScheduled" href="#isScheduled"></a><code>isScheduled(notificationId)</code></h3>
 
 
@@ -295,7 +295,7 @@ Checks is a notification is scheduled
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="isTriggered" href="#isTriggered"></a><code>isTriggered(notificationId)</code></h3>
 
 
@@ -323,7 +323,7 @@ Checks if a notification is triggered
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="getAllIds" href="#getAllIds"></a><code>getAllIds()</code></h3>
 
 
@@ -332,7 +332,7 @@ Get all the notification ids
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;number&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;number&gt;&gt;</code>
 </div><h3><a class="anchor" name="getTriggeredIds" href="#getTriggeredIds"></a><code>getTriggeredIds()</code></h3>
 
 
@@ -341,7 +341,7 @@ Get the ids of triggered notifications
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;number&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;number&gt;&gt;</code>
 </div><h3><a class="anchor" name="getScheduledIds" href="#getScheduledIds"></a><code>getScheduledIds()</code></h3>
 
 
@@ -379,7 +379,7 @@ Get a notification object
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;ILocalNotification&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;ILocalNotification&gt;</code>
 </div><h3><a class="anchor" name="getScheduled" href="#getScheduled"></a><code>getScheduled(notificationId)</code></h3>
 
 
@@ -408,7 +408,7 @@ Get a scheduled notification object
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;ILocalNotification&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;ILocalNotification&gt;</code>
 </div><h3><a class="anchor" name="getTriggered" href="#getTriggered"></a><code>getTriggered(notificationId)</code></h3>
 
 
@@ -426,7 +426,7 @@ Get a triggered notification object
     <td>
       notificationId</td>
     <td>
-      
+
     </td>
     <td>
       <p>The id of the notification to get</p>
@@ -437,7 +437,7 @@ Get a triggered notification object
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;ILocalNotification&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;ILocalNotification&gt;</code>
 </div><h3><a class="anchor" name="getAll" href="#getAll"></a><code>getAll()</code></h3>
 
 
@@ -446,7 +446,7 @@ Get all notification objects
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;ILocalNotification&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;ILocalNotification&gt;&gt;</code>
 </div><h3><a class="anchor" name="getAllScheduled" href="#getAllScheduled"></a><code>getAllScheduled()</code></h3>
 
 
@@ -455,7 +455,7 @@ Get all scheduled notification objects
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;ILocalNotification&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;ILocalNotification&gt;&gt;</code>
 </div><h3><a class="anchor" name="getAllTriggered" href="#getAllTriggered"></a><code>getAllTriggered()</code></h3>
 
 
@@ -464,7 +464,7 @@ Get all triggered notification objects
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;ILocalNotification&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;ILocalNotification&gt;&gt;</code>
 </div><h3><a class="anchor" name="registerPermission" href="#registerPermission"></a><code>registerPermission()</code></h3>
 
 
@@ -473,7 +473,7 @@ Register permission to show notifications if not already granted.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="hasPermission" href="#hasPermission"></a><code>hasPermission()</code></h3>
 
 
@@ -482,7 +482,7 @@ Informs if the app has the permission to show notifications.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="on" href="#on"></a><code>on(eventName,&nbsp;callback)</code></h3>
 
 
@@ -502,18 +502,18 @@ Sets a callback for a specific event
     <td>
       eventName</td>
     <td>
-      
+
     </td>
     <td>
       <p>The name of the event. Available events: schedule, trigger, click, update, clear, clearall, cancel, cancelall</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       callback</td>
     <td>
-      
+
     </td>
     <td>
       <p>Call back function. All events return notification and state parameter. clear and clearall return state parameter only.</p>
@@ -541,18 +541,18 @@ Removes a callback of a specific event
     <td>
       eventName</td>
     <td>
-      
+
     </td>
     <td>
       <p>The name of the event. Available events: schedule, trigger, click, update, clear, clearall, cancel, cancelall</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       callback</td>
     <td>
-      
+
     </td>
     <td>
       <p>Call back function. All events return notification and state parameter. clear and clearall return state parameter only.</p>
@@ -578,7 +578,7 @@ Removes a callback of a specific event
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       id
@@ -593,7 +593,7 @@ Default: 0</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       title
@@ -608,7 +608,7 @@ Default: Empty string (iOS) or the app name (Android)</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       text
@@ -623,7 +623,7 @@ Default: Empty string</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       every
@@ -638,7 +638,7 @@ Default: 0 (which means that the system triggers the local notification once)</p
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       at
@@ -653,7 +653,7 @@ Default: now ~ new Date()</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       firstAt
@@ -662,11 +662,11 @@ Default: now ~ new Date()</p>
       <code>any</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       badge
@@ -681,7 +681,7 @@ Default: 0 (which means don&#39;t show a number)</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sound
@@ -696,7 +696,7 @@ Default: res://platform_default</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       data
@@ -711,7 +711,7 @@ Default: null</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       icon
@@ -727,7 +727,7 @@ Default: res://icon</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       smallIcon
@@ -743,7 +743,7 @@ Default: res://ic_popup_reminder</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       color
@@ -759,7 +759,7 @@ Default: Androids COLOR_DEFAULT, which will vary based on Android version.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       ongoing
@@ -779,7 +779,7 @@ Default: false</li>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       led
@@ -795,7 +795,7 @@ Default: FFFFFF</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       priority
@@ -809,7 +809,7 @@ Default: FFFFFF</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

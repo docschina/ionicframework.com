@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Httpd</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/httpd/index.ts#L20">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -147,7 +147,7 @@ Get the local path of the running webserver
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       www_root
@@ -162,7 +162,7 @@ Default is current directory.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       port
@@ -177,7 +177,7 @@ Default is 8888</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       localhost_only
@@ -192,7 +192,7 @@ Default is false.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

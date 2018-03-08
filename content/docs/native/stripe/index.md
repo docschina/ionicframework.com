@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Stripe</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/stripe/index.ts#L104">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -112,7 +112,7 @@ Set publishable key
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="createCardToken" href="#createCardToken"></a><code>createCardToken(params)</code></h3>
 
 
@@ -252,7 +252,7 @@ Validates an expiry date
       <p>expiry month</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       expYear</td>
@@ -315,7 +315,7 @@ Get a card type from card number
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       number
@@ -326,10 +326,10 @@ Get a card type from card number
     <td>
       <p>Card number</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       expMonth
@@ -340,10 +340,10 @@ Get a card type from card number
     <td>
       <p>Expiry month</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       expYear
@@ -354,10 +354,10 @@ Get a card type from card number
     <td>
       <p>Expiry year</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cvc
@@ -371,7 +371,7 @@ Get a card type from card number
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       name
@@ -385,7 +385,7 @@ Get a card type from card number
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       address_line1
@@ -399,7 +399,7 @@ Get a card type from card number
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       address_line2
@@ -413,7 +413,7 @@ Get a card type from card number
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       address_city
@@ -427,7 +427,7 @@ Get a card type from card number
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       address_state
@@ -441,7 +441,7 @@ Get a card type from card number
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       address_country
@@ -455,7 +455,7 @@ Get a card type from card number
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       postal_code
@@ -469,7 +469,7 @@ Get a card type from card number
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       currency
@@ -483,7 +483,7 @@ Get a card type from card number
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

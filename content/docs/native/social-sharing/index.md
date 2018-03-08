@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Social Sharing</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/social-sharing/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -111,7 +111,7 @@ Shares using the share sheet
       <p>The message you would like to share.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       subject</td>
@@ -122,7 +122,7 @@ Shares using the share sheet
       <p>The subject</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       file</td>
@@ -133,7 +133,7 @@ Shares using the share sheet
       <p>URL(s) to file(s) or image(s), local path(s) to file(s) or image(s), or base64 data of an image. Only the first file/image will be used on Windows Phone.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       url</td>
@@ -149,7 +149,7 @@ Shares using the share sheet
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="shareWithOptions" href="#shareWithOptions"></a><code>shareWithOptions(options)</code></h3>
 
 
@@ -183,7 +183,7 @@ Shares using the share sheet with additional options and returns a result object
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="canShareVia" href="#canShareVia"></a><code>canShareVia(appName,&nbsp;message,&nbsp;subject,&nbsp;image,&nbsp;url)</code></h3>
 
 
@@ -212,7 +212,7 @@ Checks if you can share via a specific app.
       <p>App name or package name. Examples: instagram or com.apple.social.facebook</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       message</td>
@@ -222,7 +222,7 @@ Checks if you can share via a specific app.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       subject</td>
@@ -232,7 +232,7 @@ Checks if you can share via a specific app.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       image</td>
@@ -242,7 +242,7 @@ Checks if you can share via a specific app.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       url</td>
@@ -257,7 +257,7 @@ Checks if you can share via a specific app.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="shareViaTwitter" href="#shareViaTwitter"></a><code>shareViaTwitter(message,&nbsp;image,&nbsp;url)</code></h3>
 
 
@@ -285,7 +285,7 @@ Shares directly to Twitter
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       image</td>
@@ -295,7 +295,7 @@ Shares directly to Twitter
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       url</td>
@@ -310,7 +310,7 @@ Shares directly to Twitter
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="shareViaFacebook" href="#shareViaFacebook"></a><code>shareViaFacebook(message,&nbsp;image,&nbsp;url)</code></h3>
 
 
@@ -338,7 +338,7 @@ Shares directly to Facebook
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       image</td>
@@ -348,7 +348,7 @@ Shares directly to Facebook
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       url</td>
@@ -363,7 +363,7 @@ Shares directly to Facebook
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="shareViaFacebookWithPasteMessageHint" href="#shareViaFacebookWithPasteMessageHint"></a><code>shareViaFacebookWithPasteMessageHint(message,&nbsp;image,&nbsp;url,&nbsp;pasteMessageHint)</code></h3>
 
 
@@ -391,7 +391,7 @@ Shares directly to Facebook with a paste message hint
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       image</td>
@@ -401,7 +401,7 @@ Shares directly to Facebook with a paste message hint
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       url</td>
@@ -411,7 +411,7 @@ Shares directly to Facebook with a paste message hint
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       pasteMessageHint</td>
@@ -426,7 +426,7 @@ Shares directly to Facebook with a paste message hint
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="shareViaInstagram" href="#shareViaInstagram"></a><code>shareViaInstagram(message,&nbsp;image)</code></h3>
 
 
@@ -454,7 +454,7 @@ Shares directly to Instagram
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       image</td>
@@ -469,7 +469,7 @@ Shares directly to Instagram
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="shareViaWhatsApp" href="#shareViaWhatsApp"></a><code>shareViaWhatsApp(message,&nbsp;image,&nbsp;url)</code></h3>
 
 
@@ -497,7 +497,7 @@ Shares directly to WhatsApp
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       image</td>
@@ -507,7 +507,7 @@ Shares directly to WhatsApp
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       url</td>
@@ -522,7 +522,7 @@ Shares directly to WhatsApp
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="shareViaWhatsAppToReceiver" href="#shareViaWhatsAppToReceiver"></a><code>shareViaWhatsAppToReceiver(receiver,&nbsp;message,&nbsp;image,&nbsp;url)</code></h3>
 
 
@@ -551,7 +551,7 @@ Shares directly to a WhatsApp Contact
       <p>Pass phone number on Android, and Addressbook ID (abid) on iOS</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       message</td>
@@ -562,7 +562,7 @@ Shares directly to a WhatsApp Contact
       <p>Message to send</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       image</td>
@@ -573,7 +573,7 @@ Shares directly to a WhatsApp Contact
       <p>Image to send (does not work on iOS</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       url</td>
@@ -589,7 +589,7 @@ Shares directly to a WhatsApp Contact
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="shareViaSMS" href="#shareViaSMS"></a><code>shareViaSMS(messge,&nbsp;phoneNumber)</code></h3>
 
 
@@ -618,7 +618,7 @@ Share via SMS
       <p>message to send</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       phoneNumber</td>
@@ -634,7 +634,7 @@ Share via SMS
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="canShareViaEmail" href="#canShareViaEmail"></a><code>canShareViaEmail()</code></h3>
 
 
@@ -648,7 +648,7 @@ Checks if you can share via email
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="shareViaEmail" href="#shareViaEmail"></a><code>shareViaEmail(message,&nbsp;subject,&nbsp;to,&nbsp;cc,&nbsp;bcc,&nbsp;files)</code></h3>
 
 
@@ -676,7 +676,7 @@ Share via Email
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       subject</td>
@@ -686,7 +686,7 @@ Share via Email
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       to</td>
@@ -696,7 +696,7 @@ Share via Email
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       cc</td>
@@ -707,7 +707,7 @@ Share via Email
       <p>Optional</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       bcc</td>
@@ -718,7 +718,7 @@ Share via Email
       <p>Optional</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       files</td>
@@ -734,7 +734,7 @@ Share via Email
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="shareVia" href="#shareVia"></a><code>shareVia(appName,&nbsp;message,&nbsp;subject,&nbsp;image,&nbsp;url)</code></h3>
 
 
@@ -763,7 +763,7 @@ Share via AppName
       <p>App name or package name. Examples: instagram or com.apple.social.facebook</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       message</td>
@@ -773,7 +773,7 @@ Share via AppName
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       subject</td>
@@ -783,7 +783,7 @@ Share via AppName
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       image</td>
@@ -793,7 +793,7 @@ Share via AppName
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       url</td>
@@ -808,7 +808,7 @@ Share via AppName
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setIPadPopupCoordinates" href="#setIPadPopupCoordinates"></a><code>setIPadPopupCoordinates(targetBounds)</code></h3>
 
 

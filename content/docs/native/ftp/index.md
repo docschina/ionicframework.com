@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">FTP</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/ftp/index.ts#L2">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -102,7 +102,7 @@ Just need to init the connection once. If success, you can do any ftp actions la
       <p>The ftp server url. Like ip without protocol prefix, e.g. &quot;192.168.1.1&quot;.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       username</td>
@@ -113,7 +113,7 @@ Just need to init the connection once. If success, you can do any ftp actions la
       <p>The ftp login username. If it and <code>password</code> are all blank/undefined, the default username &quot;anonymous&quot; is used.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       password</td>
@@ -286,7 +286,7 @@ Upload one local file to the ftp server.
       <p>The file (with full path) you want to upload. e.g. &quot;/local/path/to/localFile&quot;.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       remoteFile</td>
@@ -331,7 +331,7 @@ Download one remote file on the ftp server to local path.
       <p>The file (with full path) you want to upload. e.g. &quot;/local/path/to/localFile&quot;.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       remoteFile</td>

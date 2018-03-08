@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">App Rate</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/app-rate/index.ts#L102">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -150,7 +150,7 @@ Immediately send the user to the app store rating page
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       useLanguage
@@ -164,7 +164,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       displayAppName
@@ -178,7 +178,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       promptAgainForEachNewVersion
@@ -192,7 +192,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       usesUntilPrompt
@@ -206,7 +206,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       simpleMode
@@ -220,7 +220,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       inAppReview
@@ -234,7 +234,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       useCustomRateDialog
@@ -248,7 +248,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       customLocale
@@ -262,7 +262,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       callbacks
@@ -276,7 +276,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       storeAppURL
@@ -290,7 +290,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -306,7 +306,7 @@ Immediately send the user to the app store rating page
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       ios
@@ -320,7 +320,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       android
@@ -334,7 +334,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       windows
@@ -348,7 +348,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       blackberry
@@ -362,7 +362,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       windows8
@@ -376,7 +376,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -392,7 +392,7 @@ Immediately send the user to the app store rating page
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       onButtonClicked
@@ -406,7 +406,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       onRateDialogShow
@@ -420,7 +420,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       handleNegativeFeedback
@@ -434,7 +434,7 @@ Immediately send the user to the app store rating page
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

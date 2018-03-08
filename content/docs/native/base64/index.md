@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Base64<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/base64/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 

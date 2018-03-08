@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">IBeacon</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/ibeacon/index.ts#L222">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -143,7 +143,7 @@ Creates a new BeaconRegion
       <p>@see {CLRegion}</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       uuid</td>
@@ -155,7 +155,7 @@ Creates a new BeaconRegion
 This value must not be blank nor invalid as a UUID.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       major</td>
@@ -166,7 +166,7 @@ This value must not be blank nor invalid as a UUID.</p>
       <p>The major value that you use to identify one or more beacons.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       minor</td>
@@ -177,7 +177,7 @@ This value must not be blank nor invalid as a UUID.</p>
       <p>The minor value that you use to identify a specific beacon.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notifyEntryStateOnDisplay</td>
@@ -638,7 +638,7 @@ and will start when BlueTooth is powered on. See {IBeaconDelegate.}
 by the operating system.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       measuredPower:</td>
@@ -805,7 +805,7 @@ is expected to be equivalent to the one provided in the original call.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       uuid
@@ -816,10 +816,10 @@ is expected to be equivalent to the one provided in the original call.
     <td>
       <p>The physical device&#39;s identifier.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       major
@@ -830,10 +830,10 @@ is expected to be equivalent to the one provided in the original call.
     <td>
       <p>The beacon&#39;s major identifier number.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       minor
@@ -844,10 +844,10 @@ is expected to be equivalent to the one provided in the original call.
     <td>
       <p>The beacon&#39;s minor identifier number.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       proximity
@@ -863,10 +863,10 @@ ProximityNear
 ProximityFar
 ProximityUnknown</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       tx
@@ -877,10 +877,10 @@ ProximityUnknown</p>
     <td>
       <p>Transmission Power of the beacon. A constant emitted by the beacon which indicates what&#39;s the expected RSSI at a distance of 1 meter to the beacon.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       rssi
@@ -892,10 +892,10 @@ ProximityUnknown</p>
       <p>Received Signal Strength Indicator. The strength of the beacon&#39;s signal when it reaches the device.
  RSSI ranges from aprox -26 (a few inches) to -100 (40-50 m distance).</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       accuracy
@@ -906,10 +906,10 @@ ProximityUnknown</p>
     <td>
       <p>The accuracy of the ranging.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -925,7 +925,7 @@ ProximityUnknown</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       identifier
@@ -936,10 +936,10 @@ ProximityUnknown</p>
     <td>
       <p>A unique identifier for this region.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       uuid
@@ -950,10 +950,10 @@ ProximityUnknown</p>
     <td>
       <p>The the beacon identifier the device will &quot;watch&quot; for. Many beacons can share the same uuid.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       major
@@ -968,7 +968,7 @@ the plugin will treat it as a wildcard.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       minor
@@ -983,7 +983,7 @@ the plugin will treat it as a wildcard.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       notifyEntryStateOnDisplay
@@ -998,7 +998,7 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -1014,7 +1014,7 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       identifier
@@ -1025,10 +1025,10 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
     <td>
       <p>A unique identifier for this region.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       latitude
@@ -1039,10 +1039,10 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
     <td>
       <p>The latitude of this region.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       longitude
@@ -1053,10 +1053,10 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
     <td>
       <p>The longitude of this region.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       radius
@@ -1067,10 +1067,10 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
     <td>
       <p>The radius of the geofence for this region.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -1086,7 +1086,7 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       eventType
@@ -1097,10 +1097,10 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
     <td>
       <p>The name of the delegate function that produced the PluginResult object.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       region
@@ -1111,10 +1111,10 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
     <td>
       <p>The region that triggered the event.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       beacons
@@ -1125,10 +1125,10 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
     <td>
       <p>An array of beacon objects</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       authorizationStatus
@@ -1139,10 +1139,10 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
     <td>
       <p>The status of the location permission for iOS.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       state
@@ -1153,10 +1153,10 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
     <td>
       <p>The state of the phone in relation to the region. Inside/outside for example.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       error
@@ -1167,10 +1167,10 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
     <td>
       <p>Error message, used only with monitoringDidFailForRegionWithError delegate.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -1186,7 +1186,7 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       didChangeAuthorizationStatus
@@ -1197,10 +1197,10 @@ the device&#39;s screen is turned on or off. Useful for debugging.</p>
     <td>
       <p>An observable that publishes information about the location permission authorization status.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       didDetermineStateForRegion
@@ -1214,10 +1214,10 @@ when the native layer is able to determine the device&#39;s state.</p>
 <p>This event is called when the phone begins starts monitoring,
 when requestStateForRegion is called, etc.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       didEnterRegion
@@ -1232,10 +1232,10 @@ when the phone enters a region that it was asked to monitor.</p>
  will be called even when the app is not running on iOS.
 The app will run silently in the background for a small amount of time.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       didExitRegion
@@ -1250,10 +1250,10 @@ when the phone exits a region that it was asked to monitor.</p>
  will be called even when the app is not running on iOS.
 The app will run silently in the background for a small amount of time.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       didRangeBeaconsInRegion
@@ -1266,10 +1266,10 @@ The app will run silently in the background for a small amount of time.</p>
  each time that the device ranges beacons. Modern Android and iOS devices range
 aproximately once per second.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       didStartMonitoringForRegion
@@ -1281,10 +1281,10 @@ aproximately once per second.</p>
       <p>An Observable that publishes event data to it&#39;s subscribers
  when the device begins monitoring a region.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       monitoringDidFailForRegionWithError
@@ -1296,10 +1296,10 @@ aproximately once per second.</p>
       <p>An Observable that publishes event data to it&#39;s subscribers
  when the device fails to monitor a region.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       peripheralManagerDidStartAdvertising
@@ -1311,10 +1311,10 @@ aproximately once per second.</p>
       <p>An Observable that publishes event data to it&#39;s subscribers
  when the device begins advertising as an iBeacon.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       peripheralManagerDidUpdateState
@@ -1326,10 +1326,10 @@ aproximately once per second.</p>
       <p>An Observable that publishes event data to it&#39;s subscribers
 when the state of the peripheral manager&#39;s state updates.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

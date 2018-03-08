@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Video Editor</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/video-editor/index.ts#L119">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -233,7 +233,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       fileUri
@@ -244,10 +244,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>The path to the video on the device.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       outputFileName
@@ -258,10 +258,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>The file name for the transcoded video</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       outputFileType
@@ -275,7 +275,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       optimizeForNetworkUse
@@ -289,7 +289,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       saveToLibrary
@@ -303,7 +303,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       deleteInputFile
@@ -317,7 +317,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       maintainAspectRatio
@@ -331,7 +331,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       width
@@ -345,7 +345,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -359,7 +359,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       videoBitrate
@@ -373,7 +373,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       fps
@@ -387,7 +387,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       audioChannels
@@ -401,7 +401,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       audioSampleRate
@@ -415,7 +415,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       audioBitrate
@@ -429,7 +429,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       progress
@@ -443,7 +443,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -459,7 +459,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       fileUri
@@ -470,10 +470,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>Path to input video.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       trimStart
@@ -484,10 +484,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>Time to start trimming in seconds</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       trimEnd
@@ -498,10 +498,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>Time to end trimming in seconds</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       outputFileName
@@ -512,10 +512,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>Output file name</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       progress
@@ -529,7 +529,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -545,7 +545,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       fileUri
@@ -556,10 +556,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>The path to the video on the device</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       outputFileName
@@ -570,10 +570,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>The file name for the JPEG image</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       atTime
@@ -587,7 +587,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       width
@@ -601,7 +601,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -615,7 +615,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       quality
@@ -629,7 +629,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -645,7 +645,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       fileUri
@@ -656,10 +656,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>The path to the video on the device.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -675,7 +675,7 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       width
@@ -686,10 +686,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>Width of the video in pixels.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -700,10 +700,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>Height of the video in pixels.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       orientation
@@ -714,10 +714,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>Orientation of the video. Will be either portrait or landscape.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       duration
@@ -728,10 +728,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>Duration of the video in seconds.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       size
@@ -742,10 +742,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>Size of the video in bytes.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bitrate
@@ -756,10 +756,10 @@ Get info on a video (width, height, orientation, duration, size, & bitrate)
     <td>
       <p>Bitrate of the video in bits per second.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

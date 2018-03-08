@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Geolocation</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/geolocation/index.ts#L110">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -178,7 +178,7 @@ subscription.unsubscribe();
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       latitude
@@ -189,10 +189,10 @@ subscription.unsubscribe();
     <td>
       <p>a double representing the position&#39;s latitude in decimal degrees.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       longitude
@@ -203,10 +203,10 @@ subscription.unsubscribe();
     <td>
       <p>A double representing the position&#39;s longitude in decimal degrees.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       accuracy
@@ -218,10 +218,10 @@ subscription.unsubscribe();
       <p>A double representing the accuracy of the latitude and longitude properties,
 expressed in meters.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       altitude
@@ -233,10 +233,10 @@ expressed in meters.</p>
       <p>A double representing the position&#39;s altitude in metres, relative to sea
 level. This value can be null if the implementation cannot provide the data.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       altitudeAccuracy
@@ -248,10 +248,10 @@ level. This value can be null if the implementation cannot provide the data.</p>
       <p>A double representing the accuracy of the altitude expressed in meters.
 This value can be null.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       heading
@@ -267,10 +267,10 @@ determined clockwise (which means that east is 90 degrees and west is 270
 degrees). If speed is 0, heading is NaN. If the device is unable to provide
 heading information, this value is null.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       speed
@@ -282,10 +282,10 @@ heading information, this value is null.</p>
       <p>A double representing the velocity of the device in meters per second.
 This value can be null.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -301,7 +301,7 @@ This value can be null.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       coords
@@ -312,10 +312,10 @@ This value can be null.</p>
     <td>
       <p>A Coordinates object defining the current location</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       timestamp
@@ -326,10 +326,10 @@ This value can be null.</p>
     <td>
       <p>A timestamp representing the time at which the location was retrieved.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -345,7 +345,7 @@ This value can be null.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       code
@@ -356,10 +356,10 @@ This value can be null.</p>
     <td>
       <p>A code that indicates the error that occurred</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       message
@@ -370,10 +370,10 @@ This value can be null.</p>
     <td>
       <p>A message that can describe the error that occurred</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -389,7 +389,7 @@ This value can be null.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       maximumAge
@@ -407,7 +407,7 @@ return a cached position regardless of its age. Default: 0.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       timeout
@@ -424,7 +424,7 @@ won&#39;t return until the position is available.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       enableHighAccuracy
@@ -443,7 +443,7 @@ responding more quickly and/or using less power. Default: false.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

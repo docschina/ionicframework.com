@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Dialogs</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/dialogs/index.ts#L16">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -101,7 +101,7 @@ Shows a custom alert or dialog box.
       <p>Dialog message.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       title</td>
@@ -112,7 +112,7 @@ Shows a custom alert or dialog box.
       <p>Dialog title. (Optional, defaults to Alert)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       buttonName</td>
@@ -154,7 +154,7 @@ Displays a customizable confirmation dialog box.
       <p>Dialog message.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       title</td>
@@ -165,7 +165,7 @@ Displays a customizable confirmation dialog box.
       <p>Dialog title. (Optional, defaults to Confirm)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       buttonLabels</td>
@@ -207,7 +207,7 @@ Displays a native dialog box that is more customizable than the browser's prompt
       <p>Dialog message.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       title</td>
@@ -218,7 +218,7 @@ Displays a native dialog box that is more customizable than the browser's prompt
       <p>Dialog title. (Optional, defaults to Prompt)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       buttonLabels</td>
@@ -229,7 +229,7 @@ Displays a native dialog box that is more customizable than the browser's prompt
       <p>Array of strings specifying button labels. (Optional, defaults to [&quot;OK&quot;,&quot;Cancel&quot;])</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       defaultText</td>
@@ -291,7 +291,7 @@ The device plays a beep sound.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       buttonIndex
@@ -302,10 +302,10 @@ The device plays a beep sound.
     <td>
       <p>The index of the pressed button. (Number) Note that the index uses one-based indexing, so the value is 1, 2, 3, etc.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       input1
@@ -316,10 +316,10 @@ The device plays a beep sound.
     <td>
       <p>The text entered in the prompt dialog box. (String)</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

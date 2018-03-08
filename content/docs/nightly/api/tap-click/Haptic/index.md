@@ -32,7 +32,7 @@ Haptic
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/tap-click/haptic.ts#L2">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -76,7 +76,7 @@ welcome to get a bit crazy with it if you fancy.</p>
 <h3>
 <a class="anchor" name="available" href="#available">
 <code>available()</code>
-  
+
 
 </a>
 </h3>
@@ -90,7 +90,7 @@ Check to see if the Haptic Plugin is available
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>boolean</code> <p>Returns true or false if the plugin is available</p>
 
 
@@ -104,7 +104,7 @@ Check to see if the Haptic Plugin is available
 <h3>
 <a class="anchor" name="gestureSelectionChanged" href="#gestureSelectionChanged">
 <code>gestureSelectionChanged()</code>
-  
+
 
 </a>
 </h3>
@@ -125,7 +125,7 @@ Tell the haptic engine that a selection changed during a gesture.
 <h3>
 <a class="anchor" name="gestureSelectionEnd" href="#gestureSelectionEnd">
 <code>gestureSelectionEnd()</code>
-  
+
 
 </a>
 </h3>
@@ -147,7 +147,7 @@ called lest resources are not properly recycled.
 <h3>
 <a class="anchor" name="gestureSelectionStart" href="#gestureSelectionStart">
 <code>gestureSelectionStart()</code>
-  
+
 
 </a>
 </h3>
@@ -168,7 +168,7 @@ Tell the haptic engine that a gesture for a selection change is starting.
 <h3>
 <a class="anchor" name="impact" href="#impact">
 <code>impact()</code>
-  
+
 
 </a>
 </h3>
@@ -190,7 +190,7 @@ options should be of the type `{ style: 'light' }` (or `medium`/`heavy`)
 <h3>
 <a class="anchor" name="notification" href="#notification">
 <code>notification()</code>
-  
+
 
 </a>
 </h3>
@@ -212,7 +212,7 @@ options should be of the type `{ type: 'success' }` (or `warning`/`error`)
 <h3>
 <a class="anchor" name="selection" href="#selection">
 <code>selection()</code>
-  
+
 
 </a>
 </h3>

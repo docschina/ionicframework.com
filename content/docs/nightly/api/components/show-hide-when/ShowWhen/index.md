@@ -11,7 +11,7 @@ doc: "ShowWhen"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/show-when/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -36,7 +36,7 @@ ShowWhen
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/show-hide-when/show-when.ts#L4">
-Improve this doc
+改进这篇文档
 </a>
 
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Facebook</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/facebook/index.ts#L23">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -141,7 +141,7 @@ Browser wrapper
       <p>Your Facebook AppID from their dashboard</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       version</td>
@@ -157,7 +157,7 @@ Browser wrapper
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="login" href="#login"></a><code>login(permissions)</code></h3>
 
 
@@ -326,7 +326,7 @@ For more information see:
       <p>Graph API endpoint you want to call</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       permissions</td>
@@ -369,7 +369,7 @@ Log an event.  For more information see the Events section above.
       <p>Name of the event</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       params</td>
@@ -380,7 +380,7 @@ Log an event.  For more information see the Events section above.
       <p>An object containing extra data to log with the event<strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       valueToSum</td>
@@ -396,7 +396,7 @@ Log an event.  For more information see the Events section above.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="logPurchase" href="#logPurchase"></a><code>logPurchase(value,&nbsp;currency)</code></h3>
 
 
@@ -421,7 +421,7 @@ Log a purchase. For more information see the Events section above.
       <p>Value of the purchase.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       currency</td>
@@ -437,7 +437,7 @@ Log a purchase. For more information see the Events section above.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="appInvite" href="#appInvite"></a><code>appInvite(options,&nbsp;options.url,&nbsp;options.picture)</code></h3>
 
 
@@ -468,7 +468,7 @@ For more information see:
       <p>An object containing an <a href="https://developers.facebook.com/docs/applinks">App Link</a> URL to your app and an optional image URL.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options.url</td>
@@ -479,7 +479,7 @@ For more information see:
       <p><a href="https://developers.facebook.com/docs/applinks">App Link</a> to your app</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options.picture</td>

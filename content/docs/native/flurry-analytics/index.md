@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Flurry Analytics</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/flurry-analytics/index.ts#L175">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -110,7 +110,7 @@ Creates a new instance of FlurryAnalyticsObject
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>FlurryAnalyticsObject</code> 
+  <b>Returns:</b> <code>FlurryAnalyticsObject</code>
 </div>
 
 <h2><a class="anchor" name="FlurryAnalyticsObject" href="#FlurryAnalyticsObject"></a>FlurryAnalyticsObject</h2>
@@ -144,7 +144,7 @@ This function set the Event
       <p>Name of the event</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       params</td>
@@ -186,7 +186,7 @@ Start a timed event
       <p>Name of the event</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       params</td>
@@ -228,7 +228,7 @@ Complete a timed event
       <p>Name of the event</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       params</td>
@@ -262,17 +262,17 @@ This function log an error
     <td>
       code</td>
     <td>
-      
+
     </td>
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       message</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -282,7 +282,7 @@ This function log an error
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="logPageView" href="#logPageView"></a><code>logPageView()</code></h3>
 
 
@@ -291,7 +291,7 @@ This function log a page view
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setLocation" href="#setLocation"></a><code>setLocation(location,&nbsp;message)</code></h3>
 
 
@@ -315,7 +315,7 @@ This function set the location for the event
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       message</td>
@@ -330,7 +330,7 @@ This function set the location for the event
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="startSession" href="#startSession"></a><code>startSession()</code></h3>
 
 
@@ -340,7 +340,7 @@ Only needed for older versions of Android
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="endSession" href="#endSession"></a><code>endSession()</code></h3>
 
 
@@ -350,7 +350,7 @@ Only needed for older versions of Android
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -366,7 +366,7 @@ Only needed for older versions of Android
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       appKey
@@ -377,10 +377,10 @@ Only needed for older versions of Android
     <td>
       <p>Flurry API key is required</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       version
@@ -394,7 +394,7 @@ Only needed for older versions of Android
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       continueSessionSeconds
@@ -409,7 +409,7 @@ must be less than or equal to five for Android devices</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       userId
@@ -423,7 +423,7 @@ must be less than or equal to five for Android devices</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       gender
@@ -438,7 +438,7 @@ Valid values are &quot;m&quot;, &quot;M&quot;, &quot;f&quot; and &quot;F&quot;</
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       age
@@ -452,7 +452,7 @@ Valid values are &quot;m&quot;, &quot;M&quot;, &quot;f&quot; and &quot;F&quot;</
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       logLevel
@@ -467,7 +467,7 @@ Values: VERBOSE, DEBUG, INFO, WARN, ERROR</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       enableLogging
@@ -481,7 +481,7 @@ Values: VERBOSE, DEBUG, INFO, WARN, ERROR</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       enableEventLogging
@@ -495,7 +495,7 @@ Values: VERBOSE, DEBUG, INFO, WARN, ERROR</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       enableCrashReporting
@@ -509,7 +509,7 @@ Values: VERBOSE, DEBUG, INFO, WARN, ERROR</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       enableBackgroundSessions
@@ -523,7 +523,7 @@ Values: VERBOSE, DEBUG, INFO, WARN, ERROR</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       reportSessionsOnClose
@@ -537,7 +537,7 @@ Values: VERBOSE, DEBUG, INFO, WARN, ERROR</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       reportSessionsOnPause
@@ -551,7 +551,7 @@ Values: VERBOSE, DEBUG, INFO, WARN, ERROR</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -567,7 +567,7 @@ Values: VERBOSE, DEBUG, INFO, WARN, ERROR</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       latitude
@@ -576,11 +576,11 @@ Values: VERBOSE, DEBUG, INFO, WARN, ERROR</p>
       <code>number</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       longitude
@@ -589,11 +589,11 @@ Values: VERBOSE, DEBUG, INFO, WARN, ERROR</p>
       <code>number</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       verticalAccuracy
@@ -608,7 +608,7 @@ It is optional and use only for iOS</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       horizontalAccuracy
@@ -623,7 +623,7 @@ It is optional and use only for iOS</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

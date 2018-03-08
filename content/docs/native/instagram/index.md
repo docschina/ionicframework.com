@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Instagram</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/instagram/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -108,18 +108,18 @@ Note: Instagram app stopped accepting pre-filled captions on both iOS and Androi
     <td>
       canvasIdOrDataUrl</td>
     <td>
-      
+
     </td>
     <td>
       <p>The canvas element id or the dataURL of the image to share</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       caption</td>
     <td>
-      
+
     </td>
     <td>
       <p>The caption of the image</p>
@@ -150,7 +150,7 @@ Share a library asset or video
     <td>
       assetLocalIdentifier</td>
     <td>
-      
+
     </td>
     <td>
       <p>A local fileURI</p>

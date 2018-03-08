@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Gyroscope</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/gyroscope/index.ts#L39">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -165,7 +165,7 @@ Get current data from gyroscope sensor
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       x
@@ -176,10 +176,10 @@ Get current data from gyroscope sensor
     <td>
       <p>Represent x-axis</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       y
@@ -190,10 +190,10 @@ Get current data from gyroscope sensor
     <td>
       <p>Represent y-axis</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       z
@@ -204,10 +204,10 @@ Get current data from gyroscope sensor
     <td>
       <p>Represent z-axis</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       timestamp
@@ -218,10 +218,10 @@ Get current data from gyroscope sensor
     <td>
       <p>Represent timestamp of sensor read. Default is 10000ms</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -237,7 +237,7 @@ Get current data from gyroscope sensor
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       frequency
@@ -248,10 +248,10 @@ Get current data from gyroscope sensor
     <td>
       <p>Represent how often (in milliseconds) sensor should be read.  Default is 10000 ms</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

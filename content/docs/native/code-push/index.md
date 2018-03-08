@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Code Push</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/code-push/index.ts#L395">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -97,18 +97,18 @@ Get the current package information.
     <td>
       packageSuccess</td>
     <td>
-      
+
     </td>
     <td>
       <p>Callback invoked with the currently deployed package information.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       packageError</td>
     <td>
-      
+
     </td>
     <td>
       <p>Optional callback invoked in case of an error.</p>
@@ -119,7 +119,7 @@ Get the current package information.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;ILocalPackage&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;ILocalPackage&gt;</code>
 </div><h3><a class="anchor" name="getPendingPackage" href="#getPendingPackage"></a><code>getPendingPackage()</code></h3>
 
 
@@ -129,7 +129,7 @@ This happends only after a package has been installed using ON_NEXT_RESTART or O
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;ILocalPackage&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;ILocalPackage&gt;</code>
 </div><h3><a class="anchor" name="checkForUpdate" href="#checkForUpdate"></a><code>checkForUpdate(querySuccess,&nbsp;queryError,&nbsp;deploymentKey)</code></h3>
 
 
@@ -150,7 +150,7 @@ Checks with the CodePush server if an update package is available for download.
     <td>
       querySuccess</td>
     <td>
-      
+
     </td>
     <td>
       <p>Callback invoked in case of a successful response from the server.
@@ -158,23 +158,23 @@ Checks with the CodePush server if an update package is available for download.
                     A null package means the application is up to date for the current native application version.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       queryError</td>
     <td>
-      
+
     </td>
     <td>
       <p>Optional callback invoked in case of an error.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       deploymentKey</td>
     <td>
-      
+
     </td>
     <td>
       <p>Optional deployment key that overrides the config.xml setting.</p>
@@ -185,7 +185,7 @@ Checks with the CodePush server if an update package is available for download.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;IRemotePackage&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;IRemotePackage&gt;</code>
 </div><h3><a class="anchor" name="notifyApplicationReady" href="#notifyApplicationReady"></a><code>notifyApplicationReady(notifySucceeded,&nbsp;notifyFailed)</code></h3>
 
 
@@ -206,18 +206,18 @@ If using sync API, calling this function is not required since sync calls it int
     <td>
       notifySucceeded</td>
     <td>
-      
+
     </td>
     <td>
       <p>Optional callback invoked if the plugin was successfully notified.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       notifyFailed</td>
     <td>
-      
+
     </td>
     <td>
       <p>Optional callback invoked in case of an error during notifying the plugin.</p>
@@ -228,7 +228,7 @@ If using sync API, calling this function is not required since sync calls it int
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="restartApplication" href="#restartApplication"></a><code>restartApplication()</code></h3>
 
 
@@ -238,7 +238,7 @@ will be immediately visible to the user. Otherwise, calling this function will s
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="sync" href="#sync"></a><code>sync(syncCallback,&nbsp;syncOptions,&nbsp;downloadProgress)</code></h3>
 
 
@@ -271,29 +271,29 @@ The algorithm of this method is the following:
     <td>
       syncCallback</td>
     <td>
-      
+
     </td>
     <td>
       <p>Optional callback to be called with the status of the sync operation.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       syncOptions</td>
     <td>
-      
+
     </td>
     <td>
       <p>Optional SyncOptions parameter configuring the behavior of the sync operation.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       downloadProgress</td>
     <td>
-      
+
     </td>
     <td>
       <p>Optional callback invoked during the download process. It is called several times with one DownloadProgress parameter.</p>
@@ -304,7 +304,7 @@ The algorithm of this method is the following:
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;SyncStatus&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;SyncStatus&gt;</code>
 </div>
 
 

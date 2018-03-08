@@ -11,7 +11,7 @@ doc: "MenuController"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/menu/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -34,7 +34,7 @@ MenuController
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/app/menu-controller.ts#L2">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -143,7 +143,7 @@ toggleRightMenu() {
 <h3>
 <a class="anchor" name="close" href="#close">
 <code>close(menuId)</code>
-  
+
 
 </a>
 </h3>
@@ -162,24 +162,24 @@ toggleRightMenu() {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         menuId
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -189,7 +189,7 @@ toggleRightMenu() {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>Promise</code> <p>当菜单完全关闭时返回一个 promise。</p>
 
 
@@ -203,7 +203,7 @@ toggleRightMenu() {
 <h3>
 <a class="anchor" name="enable" href="#enable">
 <code>enable(menuId)</code>
-  
+
 
 </a>
 </h3>
@@ -223,24 +223,24 @@ toggleRightMenu() {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         menuId
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
-    
-        
+
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -250,7 +250,7 @@ toggleRightMenu() {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>Menu</code> <p>返回菜单实例，这对链式调用很有帮助。</p>
 
 
@@ -264,7 +264,7 @@ toggleRightMenu() {
 <h3>
 <a class="anchor" name="get" href="#get">
 <code>get(menuId)</code>
-  
+
 
 </a>
 </h3>
@@ -285,24 +285,24 @@ toggleRightMenu() {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         menuId
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -312,7 +312,7 @@ toggleRightMenu() {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>Menu</code> <p>如果找到的话返回菜单的实例，否则返回 <code>null</code>。</p>
 
 
@@ -326,7 +326,7 @@ toggleRightMenu() {
 <h3>
 <a class="anchor" name="getMenus" href="#getMenus">
 <code>getMenus()</code>
-  
+
 
 </a>
 </h3>
@@ -340,7 +340,7 @@ toggleRightMenu() {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>Array&lt;Menu&gt;</code> <p>返回一个由所有菜单实例的数组。</p>
 
 
@@ -354,7 +354,7 @@ toggleRightMenu() {
 <h3>
 <a class="anchor" name="getOpen" href="#getOpen">
 <code>getOpen()</code>
-  
+
 
 </a>
 </h3>
@@ -368,7 +368,7 @@ toggleRightMenu() {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>Menu</code> <p>如果菜单已经打开返回菜单实例，否则返回 <code>null</code>。</p>
 
 
@@ -382,7 +382,7 @@ toggleRightMenu() {
 <h3>
 <a class="anchor" name="isEnabled" href="#isEnabled">
 <code>isEnabled(menuId)</code>
-  
+
 
 </a>
 </h3>
@@ -399,24 +399,24 @@ toggleRightMenu() {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         menuId
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -426,7 +426,7 @@ toggleRightMenu() {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>boolean</code> <p>如果菜单当前是启用的，返回 true，否则返回 false</p>
 
 
@@ -440,7 +440,7 @@ toggleRightMenu() {
 <h3>
 <a class="anchor" name="isOpen" href="#isOpen">
 <code>isOpen(menuId)</code>
-  
+
 
 </a>
 </h3>
@@ -457,24 +457,24 @@ toggleRightMenu() {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         menuId
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -484,7 +484,7 @@ toggleRightMenu() {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>boolean</code> <p>如果指定的菜单当前是打开的返回 true，否则返回false。
 如果 menuId 没有被指定，返回当前是否有任意菜单被打开的布尔值。</p>
 
@@ -499,7 +499,7 @@ toggleRightMenu() {
 <h3>
 <a class="anchor" name="open" href="#open">
 <code>open(menuId)</code>
-  
+
 
 </a>
 </h3>
@@ -516,24 +516,24 @@ toggleRightMenu() {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         menuId
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -543,7 +543,7 @@ toggleRightMenu() {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>Promise</code> <p>在菜单完全打开时返回一个 promise 。</p>
 
 
@@ -557,7 +557,7 @@ toggleRightMenu() {
 <h3>
 <a class="anchor" name="swipeEnable" href="#swipeEnable">
 <code>swipeEnable(shouldEnable,&nbsp;menuId)</code>
-  
+
 
 </a>
 </h3>
@@ -574,41 +574,41 @@ toggleRightMenu() {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         shouldEnable
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>boolean</code>
       </td>
       <td>
         <p>如果想让菜单滑动则为 true，否则为 false。</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         menuId
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -618,7 +618,7 @@ toggleRightMenu() {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>Menu</code> <p>返回菜单实例，这对链式调用非常有帮助。</p>
 
 
@@ -632,7 +632,7 @@ toggleRightMenu() {
 <h3>
 <a class="anchor" name="toggle" href="#toggle">
 <code>toggle(menuId)</code>
-  
+
 
 </a>
 </h3>
@@ -650,24 +650,24 @@ toggleRightMenu() {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         menuId
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>可选地通过它的 id 或 side 来获取菜单。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -677,7 +677,7 @@ toggleRightMenu() {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>Promise</code> <p>在菜单被切换后返回一个 promise </p>
 
 
@@ -690,13 +690,13 @@ toggleRightMenu() {
   <h2 id="sass-variable-header"><a class="anchor" name="sass-variables" href="#sass-variables">Sass Variables</a></h2>
   <div id="sass-variables" ng-controller="SassToggleCtrl">
   <div class="sass-platform-toggle">
-    
+
     <h3 ng-init="setSassPlatform('base')">All</h3>
-    
+
   </div>
 
 
-  
+
   <table ng-show="active === 'base'" id="sass-base" class="table param-table" style="margin:0;">
     <thead>
       <tr>
@@ -706,137 +706,137 @@ toggleRightMenu() {
       </tr>
     </thead>
     <tbody>
-      
+
       <tr>
         <td><code>$font-size-root</code></td>
-        
+
           <td><code>62.5%</code></td>
-        
+
         <td><p>Font size of the root html</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$headings-font-weight</code></td>
-        
+
           <td><code>500</code></td>
-        
+
         <td><p>Font weight of all headings</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$headings-line-height</code></td>
-        
+
           <td><code>1.2</code></td>
-        
+
         <td><p>Line height of all headings</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$h1-font-size</code></td>
-        
+
           <td><code>2.6rem</code></td>
-        
+
         <td><p>Font size of heading level 1</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$h2-font-size</code></td>
-        
+
           <td><code>2.4rem</code></td>
-        
+
         <td><p>Font size of heading level 2</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$h3-font-size</code></td>
-        
+
           <td><code>2.2rem</code></td>
-        
+
         <td><p>Font size of heading level 3</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$h4-font-size</code></td>
-        
+
           <td><code>2rem</code></td>
-        
+
         <td><p>Font size of heading level 4</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$h5-font-size</code></td>
-        
+
           <td><code>1.8rem</code></td>
-        
+
         <td><p>Font size of heading level 5</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$h6-font-size</code></td>
-        
+
           <td><code>1.6rem</code></td>
-        
+
         <td><p>Font size of heading level 6</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$include-responsive-utilities</code></td>
-        
+
           <td><code>true</code></td>
-        
+
         <td><p>Whether to include all of the responsive utility attributes</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$include-text-alignment-utilities</code></td>
-        
+
           <td><code>$include-responsive-utilities</code></td>
-        
+
         <td><p>Whether to include all of the responsive text alignment attributes</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$include-text-transform-utilities</code></td>
-        
+
           <td><code>$include-responsive-utilities</code></td>
-        
+
         <td><p>Whether to include all of the responsive text transform attributes</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$include-float-element-utilities</code></td>
-        
+
           <td><code>$include-responsive-utilities</code></td>
-        
+
         <td><p>Whether to include all of the responsive float attributes</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$screen-breakpoints</code></td>
-        
+
           <td><code>(&#10;  xs: 0,&#10;  sm: 576px,&#10;  md: 768px,&#10;  lg: 992px,&#10;  xl: 1200px&#10;)</code></td>
-        
+
         <td><p>The minimum dimensions at which your layout will change,
 adapting to different screen sizes, for use in media queries</p>
 </td>
       </tr>
-      
+
     </tbody>
   </table>
-  
+
 </div>
 
 

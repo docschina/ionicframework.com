@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">App Preferences</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/app-preferences/index.ts#L2">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -99,7 +99,7 @@ Get a preference value
       <p>Dictionary for key (OPTIONAL)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       key</td>
@@ -142,7 +142,7 @@ Set a preference value
       <p>Dictionary for key (OPTIONAL)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       key</td>
@@ -153,7 +153,7 @@ Set a preference value
       <p>Key</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -196,7 +196,7 @@ Remove value from preferences
       <p>Dictionary for key (OPTIONAL)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       key</td>

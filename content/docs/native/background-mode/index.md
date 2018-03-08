@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Background Mode</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/background-mode/index.ts#L46">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -208,7 +208,7 @@ Listen for events that the plugin fires. Available events are `enable`, `disable
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="moveToBackground" href="#moveToBackground"></a><code>moveToBackground()</code></h3>
 
 
@@ -322,7 +322,7 @@ Turn screen on and show app even locked
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       title
@@ -336,7 +336,7 @@ Turn screen on and show app even locked
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       text
@@ -350,7 +350,7 @@ Turn screen on and show app even locked
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       icon
@@ -364,7 +364,7 @@ Turn screen on and show app even locked
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       color
@@ -373,11 +373,11 @@ Turn screen on and show app even locked
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       resume
@@ -391,7 +391,7 @@ Turn screen on and show app even locked
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hidden
@@ -400,11 +400,11 @@ Turn screen on and show app even locked
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bigText
@@ -413,11 +413,11 @@ Turn screen on and show app even locked
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       ticker
@@ -431,7 +431,7 @@ Turn screen on and show app even locked
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       silent
@@ -445,7 +445,7 @@ Turn screen on and show app even locked
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

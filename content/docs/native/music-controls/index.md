@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Music Controls</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/music-controls/index.ts#L22">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -189,7 +189,7 @@ Create the media controls
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="destroy" href="#destroy"></a><code>destroy()</code></h3>
 
 
@@ -198,7 +198,7 @@ Destroy the media controller
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="subscribe" href="#subscribe"></a><code>subscribe()</code></h3>
 
 
@@ -209,7 +209,7 @@ Subscribe to the events of the media controller
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="listen" href="#listen"></a><code>listen()</code></h3>
 
 
@@ -316,7 +316,7 @@ Toggle dismissable:
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       track
@@ -325,11 +325,11 @@ Toggle dismissable:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       artist
@@ -338,11 +338,11 @@ Toggle dismissable:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cover
@@ -351,11 +351,11 @@ Toggle dismissable:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isPlaying
@@ -364,11 +364,11 @@ Toggle dismissable:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       dismissable
@@ -377,11 +377,11 @@ Toggle dismissable:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hasPrev
@@ -390,11 +390,11 @@ Toggle dismissable:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hasNext
@@ -403,11 +403,11 @@ Toggle dismissable:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hasSkipForward
@@ -416,11 +416,11 @@ Toggle dismissable:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hasSkipBackward
@@ -429,11 +429,11 @@ Toggle dismissable:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       skipForwardInterval
@@ -442,11 +442,11 @@ Toggle dismissable:
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       skipBackwardInterval
@@ -455,11 +455,11 @@ Toggle dismissable:
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hasScrubbing
@@ -468,11 +468,11 @@ Toggle dismissable:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hasClose
@@ -481,11 +481,11 @@ Toggle dismissable:
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       album
@@ -494,11 +494,11 @@ Toggle dismissable:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       duration
@@ -507,11 +507,11 @@ Toggle dismissable:
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       elapsed
@@ -520,11 +520,11 @@ Toggle dismissable:
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       ticker
@@ -533,11 +533,11 @@ Toggle dismissable:
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

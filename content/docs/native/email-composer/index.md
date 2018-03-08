@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Email Composer</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/email-composer/index.ts#L45">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -182,7 +182,7 @@ Adds a new mail app alias.
       <p>The alias name</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       packageName</td>
@@ -222,7 +222,7 @@ Displays the email composer pre-filled with data.
       <p>Email</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       scope</td>
@@ -256,7 +256,7 @@ Displays the email composer pre-filled with data.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       app
@@ -270,7 +270,7 @@ Displays the email composer pre-filled with data.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       to
@@ -284,7 +284,7 @@ Displays the email composer pre-filled with data.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cc
@@ -298,7 +298,7 @@ Displays the email composer pre-filled with data.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bcc
@@ -312,7 +312,7 @@ Displays the email composer pre-filled with data.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       attachments
@@ -326,7 +326,7 @@ Displays the email composer pre-filled with data.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       subject
@@ -340,7 +340,7 @@ Displays the email composer pre-filled with data.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       body
@@ -354,7 +354,7 @@ Displays the email composer pre-filled with data.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isHtml
@@ -368,7 +368,7 @@ Displays the email composer pre-filled with data.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

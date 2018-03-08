@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Pin Check</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/pin-check/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -82,12 +82,12 @@ this.pinCheck.isPinSetup()
 <h3><a class="anchor" name="isPinSetup" href="#isPinSetup"></a><code>isPinSetup()</code></h3>
 
 
-check whether pin/keyguard or passcode is setup    
+check whether pin/keyguard or passcode is setup
 
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div>
 
 

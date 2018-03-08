@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Shake</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/shake/index.ts#L2">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -107,7 +107,7 @@ Watch for shake gesture
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div>
 
 

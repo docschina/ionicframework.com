@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Flashlight</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/flashlight/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -91,7 +91,7 @@ Switches the flashlight on
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="switchOff" href="#switchOff"></a><code>switchOff()</code></h3>
 
 
@@ -100,7 +100,7 @@ Switches the flashlight off
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="toggle" href="#toggle"></a><code>toggle()</code></h3>
 
 
@@ -109,7 +109,7 @@ Toggles the flashlight
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="isSwitchedOn" href="#isSwitchedOn"></a><code>isSwitchedOn()</code></h3>
 
 
@@ -120,7 +120,7 @@ Checks if the flashlight is turned on.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div>
 
 

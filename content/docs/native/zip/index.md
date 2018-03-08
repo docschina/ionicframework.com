@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Zip</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/zip/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -102,7 +102,7 @@ Extracts files from a ZIP archive
       <p>Source ZIP file</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       destUrl</td>
@@ -113,7 +113,7 @@ Extracts files from a ZIP archive
       <p>Destination folder</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       onProgress</td>

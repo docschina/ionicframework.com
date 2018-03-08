@@ -32,7 +32,7 @@ IonicErrorHandler
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/util/ionic-error-handler.ts#L0">
-Improve this doc
+改进这篇文档
 </a>
 
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">PayPal</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/paypal/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -120,7 +120,7 @@ Retrieve the version of the PayPal iOS SDK library. Useful when contacting suppo
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;string&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;string&gt;</code>
 </div><h3><a class="anchor" name="init" href="#init"></a><code>init(clientIdsForEnvironments:)</code></h3>
 
 
@@ -153,7 +153,7 @@ the recommended time to preconnect is on page load.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="prepareToRender" href="#prepareToRender"></a><code>prepareToRender(environment:,&nbsp;configuration:)</code></h3>
 
 
@@ -180,7 +180,7 @@ The preconnect is valid for a limited time, so the recommended time to preconnec
       <p>available options are &quot;PayPalEnvironmentNoNetwork&quot;, &quot;PayPalEnvironmentProduction&quot; and &quot;PayPalEnvironmentSandbox&quot;</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       configuration:</td>
@@ -196,7 +196,7 @@ The preconnect is valid for a limited time, so the recommended time to preconnec
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="renderSinglePaymentUI" href="#renderSinglePaymentUI"></a><code>renderSinglePaymentUI(payment)</code></h3>
 
 
@@ -228,7 +228,7 @@ for more documentation of the params.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="clientMetadataID" href="#clientMetadataID"></a><code>clientMetadataID()</code></h3>
 
 
@@ -243,7 +243,7 @@ Do not otherwise cache or store this value.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="renderFuturePaymentUI" href="#renderFuturePaymentUI"></a><code>renderFuturePaymentUI()</code></h3>
 
 
@@ -252,7 +252,7 @@ Please Read Docs on Future Payments at https://github.com/paypal/PayPal-iOS-SDK#
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="renderProfileSharingUI" href="#renderProfileSharingUI"></a><code>renderProfileSharingUI(scopes)</code></h3>
 
 
@@ -283,7 +283,7 @@ See <a href="https://developer.paypal.com/docs/integration/direct/identity/attri
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 <h2><a class="anchor" name="PayPalPayment" href="#PayPalPayment"></a>PayPalPayment</h2>
@@ -489,7 +489,7 @@ ZIP code or equivalent is usually required for countries that have them. 20 char
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       PayPalEnvironmentProduction
@@ -498,11 +498,11 @@ ZIP code or equivalent is usually required for countries that have them. 20 char
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       PayPalEnvironmentSandbox
@@ -511,11 +511,11 @@ ZIP code or equivalent is usually required for countries that have them. 20 char
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -531,7 +531,7 @@ ZIP code or equivalent is usually required for countries that have them. 20 char
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       defaultUserEmail
@@ -545,7 +545,7 @@ ZIP code or equivalent is usually required for countries that have them. 20 char
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       defaultUserPhoneCountryCode
@@ -559,7 +559,7 @@ ZIP code or equivalent is usually required for countries that have them. 20 char
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       defaultUserPhoneNumber
@@ -573,7 +573,7 @@ ZIP code or equivalent is usually required for countries that have them. 20 char
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       merchantName
@@ -587,7 +587,7 @@ ZIP code or equivalent is usually required for countries that have them. 20 char
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       merchantPrivacyPolicyURL
@@ -601,7 +601,7 @@ ZIP code or equivalent is usually required for countries that have them. 20 char
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       merchantUserAgreementURL
@@ -615,7 +615,7 @@ ZIP code or equivalent is usually required for countries that have them. 20 char
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       acceptCreditCards
@@ -632,7 +632,7 @@ Defaults to true</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       payPalShippingAddressOption
@@ -656,7 +656,7 @@ Defaults to 0 (PayPalShippingAddressOptionNone).</li>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       rememberUser
@@ -677,7 +677,7 @@ not be remembered.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       languageOrLocale
@@ -697,7 +697,7 @@ E.g., specifying &quot;en&quot; on a device set to &quot;English&quot; and &quot
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       disableBlurWhenBackgrounding
@@ -714,7 +714,7 @@ Defaults to NO.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       presentingInPopover
@@ -729,7 +729,7 @@ Defaults to NO. (iOS only)</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       forceDefaultsInSandbox
@@ -744,7 +744,7 @@ cause the sandboxUserPassword and sandboxUserPin to always be pre-populated into
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sandboxUserPassword
@@ -758,7 +758,7 @@ cause the sandboxUserPassword and sandboxUserPin to always be pre-populated into
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sandboxUserPin
@@ -772,7 +772,7 @@ cause the sandboxUserPassword and sandboxUserPin to always be pre-populated into
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

@@ -34,7 +34,7 @@ Content
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/content/content.ts#L25">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -91,7 +91,7 @@ export class MyPage{
 <h3>
 <a class="anchor" name="addImg" href="#addImg">
 <code>addImg()</code>
-  
+
 
 </a>
 </h3>
@@ -111,7 +111,7 @@ export class MyPage{
 <h3>
 <a class="anchor" name="contentBottom" href="#contentBottom">
 <code>contentBottom</code>
-  
+
 
 </a>
 </h3>
@@ -128,8 +128,8 @@ export class MyPage{
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>number</code> 
+<b>返回：</b>
+  <code>number</code>
 
 </div>
 
@@ -141,7 +141,7 @@ export class MyPage{
 <h3>
 <a class="anchor" name="contentHeight" href="#contentHeight">
 <code>contentHeight</code>
-  
+
 
 </a>
 </h3>
@@ -158,8 +158,8 @@ export class MyPage{
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>number</code> 
+<b>返回：</b>
+  <code>number</code>
 
 </div>
 
@@ -171,7 +171,7 @@ export class MyPage{
 <h3>
 <a class="anchor" name="contentTop" href="#contentTop">
 <code>contentTop</code>
-  
+
 
 </a>
 </h3>
@@ -188,8 +188,8 @@ export class MyPage{
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>number</code> 
+<b>返回：</b>
+  <code>number</code>
 
 </div>
 
@@ -201,7 +201,7 @@ export class MyPage{
 <h3>
 <a class="anchor" name="contentWidth" href="#contentWidth">
 <code>contentWidth</code>
-  
+
 
 </a>
 </h3>
@@ -217,8 +217,8 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>number</code> 
+<b>返回：</b>
+  <code>number</code>
 
 </div>
 
@@ -230,7 +230,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 <h3>
 <a class="anchor" name="directionX" href="#directionX">
 <code>directionX</code>
-  
+
 
 </a>
 </h3>
@@ -246,8 +246,8 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>string</code> 
+<b>返回：</b>
+  <code>string</code>
 
 </div>
 
@@ -259,7 +259,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 <h3>
 <a class="anchor" name="directionY" href="#directionY">
 <code>directionY</code>
-  
+
 
 </a>
 </h3>
@@ -275,8 +275,8 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>string</code> 
+<b>返回：</b>
+  <code>string</code>
 
 </div>
 
@@ -288,7 +288,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 <h3>
 <a class="anchor" name="getContentDimensions" href="#getContentDimensions">
 <code>getContentDimensions()</code>
-  
+
 
 </a>
 </h3>
@@ -302,8 +302,8 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>object</code> 
+<b>返回：</b>
+  <code>object</code>
 
 
 <table class="table returns-object-table param-table">
@@ -315,7 +315,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
         </tr>
       </thead>
       <tbody>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.contentHeight
@@ -328,7 +328,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.contentTop
@@ -341,7 +341,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.contentBottom
@@ -354,7 +354,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.contentWidth
@@ -367,7 +367,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.contentLeft
@@ -380,7 +380,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.contentRight
@@ -393,7 +393,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.scrollHeight
@@ -406,7 +406,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.scrollTop
@@ -419,7 +419,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.scrollBottom
@@ -432,7 +432,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.scrollWidth
@@ -445,7 +445,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.scrollLeft
@@ -458,7 +458,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
         <tr>
           <td class="fixed-width">
             dimensions.scrollRight
@@ -471,7 +471,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 
           </td>
         </tr>
-        
+
       </tbody>
     </table>
 
@@ -485,7 +485,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 <h3>
 <a class="anchor" name="getFixedElement" href="#getFixedElement">
 <code>getFixedElement()</code>
-  
+
 
 </a>
 </h3>
@@ -505,7 +505,7 @@ Content 宽度，包括因为溢出而在屏幕上不可见的内容。只读。
 <h3>
 <a class="anchor" name="isScrolling" href="#isScrolling">
 <code>isScrolling</code>
-  
+
 
 </a>
 </h3>
@@ -520,8 +520,8 @@ content 是否正在滚动。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>boolean</code> 
+<b>返回：</b>
+  <code>boolean</code>
 
 </div>
 
@@ -533,7 +533,7 @@ content 是否正在滚动。
 <h3>
 <a class="anchor" name="resize" href="#resize">
 <code>resize()</code>
-  
+
 
 </a>
 </h3>
@@ -555,7 +555,7 @@ content 是否正在滚动。
 <h3>
 <a class="anchor" name="scrollHeight" href="#scrollHeight">
 <code>scrollHeight</code>
-  
+
 
 </a>
 </h3>
@@ -571,8 +571,8 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>number</code> 
+<b>返回：</b>
+  <code>number</code>
 
 </div>
 
@@ -584,7 +584,7 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
 <h3>
 <a class="anchor" name="scrollLeft" href="#scrollLeft">
 <code>scrollLeft</code>
-  
+
 
 </a>
 </h3>
@@ -599,8 +599,8 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>number</code> 
+<b>返回：</b>
+  <code>number</code>
 
 </div>
 
@@ -612,7 +612,7 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
 <h3>
 <a class="anchor" name="scrollTo" href="#scrollTo">
 <code>scrollTo(x,&nbsp;y,&nbsp;duration)</code>
-  
+
 
 </a>
 </h3>
@@ -630,58 +630,58 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         x
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>需要滚动的 x 值。</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         y
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>需要滚动的 y 值。</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         duration
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>滚动动画的持续时间（以毫秒为单位）。默认为<code>300</code>。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -691,7 +691,7 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>Promise</code> <p>返回滚动完成后的一个确定的（resolved） promise。</p>
 
 
@@ -705,7 +705,7 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
 <h3>
 <a class="anchor" name="scrollToBottom" href="#scrollToBottom">
 <code>scrollToBottom(duration)</code>
-  
+
 
 </a>
 </h3>
@@ -723,24 +723,24 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         duration
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>滚动动画的持续时间（以毫秒为单位）。默认为<code>300</code>。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -750,7 +750,7 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>Promise</code> <p>返回滚动完成后的一个确定的（resolved） promise。</p>
 
 
@@ -764,7 +764,7 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
 <h3>
 <a class="anchor" name="scrollToTop" href="#scrollToTop">
 <code>scrollToTop(duration)</code>
-  
+
 
 </a>
 </h3>
@@ -782,24 +782,24 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         duration
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>滚动动画的持续时间（以毫秒为单位）。默认为<code>300</code>。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -809,7 +809,7 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
   <code>Promise</code> <p>返回滚动完成后的一个确定的（resolved） promise。</p>
 
 
@@ -823,7 +823,7 @@ Content 高度，包括因为溢出而在屏幕上不可见的内容。只读。
 <h3>
 <a class="anchor" name="scrollTop" href="#scrollTop">
 <code>scrollTop</code>
-  
+
 
 </a>
 </h3>
@@ -838,8 +838,8 @@ content 的顶部到最顶部的可见内容距离。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>number</code> 
+<b>返回：</b>
+  <code>number</code>
 
 </div>
 
@@ -851,7 +851,7 @@ content 的顶部到最顶部的可见内容距离。
 <h3>
 <a class="anchor" name="scrollWidth" href="#scrollWidth">
 <code>scrollWidth</code>
-  
+
 
 </a>
 </h3>
@@ -867,8 +867,8 @@ Content 宽度，包括因为溢出而不可见的内容。只读。
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
-  <code>number</code> 
+<b>返回：</b>
+  <code>number</code>
 
 </div>
 
@@ -885,7 +885,7 @@ Content 宽度，包括因为溢出而不可见的内容。只读。
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>fullscreen</td>
       <td><code>boolean</code></td>
@@ -894,14 +894,14 @@ and footers. This effect can easily be seen by setting the toolbar
 to transparent.</p>
 </td>
     </tr>
-    
+
     <tr>
       <td>scrollDownOnLoad</td>
       <td><code>boolean</code></td>
       <td><p> If true, the content will scroll down on load.</p>
 </td>
     </tr>
-    
+
   </tbody>
 </table>
 <!-- output events on the class -->
@@ -914,25 +914,25 @@ to transparent.</p>
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>ionScroll</td>
       <td><p>在每个滚动事件中都会触发。</p>
 </td>
     </tr>
-    
+
     <tr>
       <td>ionScrollEnd</td>
       <td><p>当滚动完成后触发。</p>
 </td>
     </tr>
-    
+
     <tr>
       <td>ionScrollStart</td>
       <td><p>当滚动首次开始时触发。</p>
 </td>
     </tr>
-    
+
   </tbody>
 </table><h2><a class="anchor" name="advanced" href="#advanced">进阶</a></h2>
 <h3 id="scroll-events">Scroll 事件</h3>
@@ -1019,13 +1019,13 @@ export class MyPage{
   <h2 id="sass-variable-header"><a class="anchor" name="sass-variables" href="#sass-variables">Sass Variables</a></h2>
   <div id="sass-variables" ng-controller="SassToggleCtrl">
   <div class="sass-platform-toggle">
-    
+
     <h3 ng-init="setSassPlatform('ios')">iOS</h3>
-    
+
   </div>
 
 
-  
+
   <table ng-show="active === 'ios'" id="sass-ios" class="table param-table" style="margin:0;">
     <thead>
       <tr>
@@ -1035,28 +1035,28 @@ export class MyPage{
       </tr>
     </thead>
     <tbody>
-      
+
       <tr>
         <td><code>$content-ios-outer-background</code></td>
-        
+
           <td><code>#efeff4</code></td>
-        
+
         <td><p>Background color of the outer content</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$content-ios-transition-background</code></td>
-        
+
           <td><code>#000</code></td>
-        
+
         <td><p>Background color of the content when making transition</p>
 </td>
       </tr>
-      
+
     </tbody>
   </table>
-  
+
 </div>
 
 

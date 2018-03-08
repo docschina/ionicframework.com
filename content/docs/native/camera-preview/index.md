@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Camera Preview<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/camera-preview/index.ts#L50">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -186,7 +186,7 @@ Starts the camera preview instance.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="stopCamera" href="#stopCamera"></a><code>stopCamera()</code></h3>
 
 
@@ -195,7 +195,7 @@ Stops the camera preview instance. (iOS & Android)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="switchCamera" href="#switchCamera"></a><code>switchCamera()</code></h3>
 
 
@@ -204,7 +204,7 @@ Switch from the rear camera and front camera, if available.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="hide" href="#hide"></a><code>hide()</code></h3>
 
 
@@ -213,7 +213,7 @@ Hide the camera preview box.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="show" href="#show"></a><code>show()</code></h3>
 
 
@@ -222,7 +222,7 @@ Show the camera preview box.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="takePicture" href="#takePicture"></a><code>takePicture(options)</code></h3>
 
 
@@ -253,7 +253,7 @@ Take the picture (base64)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setColorEffect" href="#setColorEffect"></a><code>setColorEffect(effect)</code></h3>
 
 
@@ -284,7 +284,7 @@ Set camera color effect.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setZoom" href="#setZoom"></a><code>setZoom(zoom)</code></h3>
 
 
@@ -315,7 +315,7 @@ Set the zoom (Android)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getMaxZoom" href="#getMaxZoom"></a><code>getMaxZoom()</code></h3>
 
 
@@ -324,7 +324,7 @@ Get the maximum zoom (Android)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getZoom" href="#getZoom"></a><code>getZoom()</code></h3>
 
 
@@ -333,7 +333,7 @@ Get current zoom (Android)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setPreviewSize" href="#setPreviewSize"></a><code>setPreviewSize(dimensions)</code></h3>
 
 
@@ -364,7 +364,7 @@ Set the preview Size
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getFocusMode" href="#getFocusMode"></a><code>getFocusMode()</code></h3>
 
 
@@ -373,7 +373,7 @@ Get focus mode
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setFocusMode" href="#setFocusMode"></a><code>setFocusMode(focusMode)</code></h3>
 
 
@@ -404,7 +404,7 @@ Set the focus mode
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getSupportedFocusModes" href="#getSupportedFocusModes"></a><code>getSupportedFocusModes()</code></h3>
 
 
@@ -413,7 +413,7 @@ Get supported focus modes
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getFlashMode" href="#getFlashMode"></a><code>getFlashMode()</code></h3>
 
 
@@ -422,7 +422,7 @@ Get the current flash mode
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setFlashMode" href="#setFlashMode"></a><code>setFlashMode(flashMode)</code></h3>
 
 
@@ -453,7 +453,7 @@ Set the flashmode
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getSupportedFlashModes" href="#getSupportedFlashModes"></a><code>getSupportedFlashModes()</code></h3>
 
 
@@ -462,7 +462,7 @@ Get supported flash modes
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getSupportedPictureSizes" href="#getSupportedPictureSizes"></a><code>getSupportedPictureSizes()</code></h3>
 
 
@@ -471,7 +471,7 @@ Get supported picture sizes
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getExposureMode" href="#getExposureMode"></a><code>getExposureMode()</code></h3>
 
 
@@ -480,7 +480,7 @@ Get exposure mode
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getExposureModes" href="#getExposureModes"></a><code>getExposureModes()</code></h3>
 
 
@@ -489,7 +489,7 @@ Get exposure modes
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setExposureMode" href="#setExposureMode"></a><code>setExposureMode(lock)</code></h3>
 
 
@@ -520,7 +520,7 @@ Set exposure mode
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getExposureCompensation" href="#getExposureCompensation"></a><code>getExposureCompensation()</code></h3>
 
 
@@ -529,7 +529,7 @@ Get exposure compensation (Android)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setExposureCompensation" href="#setExposureCompensation"></a><code>setExposureCompensation(exposureCompensation)</code></h3>
 
 
@@ -560,7 +560,7 @@ Set exposure compensation (Android)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getExposureCompensationRange" href="#getExposureCompensationRange"></a><code>getExposureCompensationRange()</code></h3>
 
 
@@ -569,7 +569,7 @@ Get exposure compensation range (Android)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="tapToFocus" href="#tapToFocus"></a><code>tapToFocus(xPoint,&nbsp;yPoint)</code></h3>
 
 
@@ -592,7 +592,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       yPoint</td>
@@ -607,7 +607,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -625,7 +625,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       x
@@ -639,7 +639,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       y
@@ -653,7 +653,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       width
@@ -667,7 +667,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -681,7 +681,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       camera
@@ -695,7 +695,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       tapPhoto
@@ -709,7 +709,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       previewDrag
@@ -723,7 +723,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       toBack
@@ -737,7 +737,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       alpha
@@ -751,7 +751,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       tapToFocus
@@ -765,7 +765,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -781,7 +781,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       width
@@ -795,7 +795,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -809,7 +809,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       quality
@@ -823,7 +823,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -839,7 +839,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       width
@@ -853,7 +853,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -867,7 +867,7 @@ Set specific focus point. Note, this assumes the camera is full-screen.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

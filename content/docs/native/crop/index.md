@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Crop</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/crop/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -96,17 +96,17 @@ Crops an image
     <td>
       pathToImage</td>
     <td>
-      
+
     </td>
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>

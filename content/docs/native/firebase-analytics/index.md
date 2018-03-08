@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Firebase Analytics<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/firebase-analytics/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -108,7 +108,7 @@ Be aware of automatically collected events.
       <p>The name of the event</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       params</td>
@@ -179,7 +179,7 @@ Be aware of automatically collected user properties.
       <p>The property name</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>

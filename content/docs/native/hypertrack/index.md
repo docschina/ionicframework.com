@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">HyperTrack<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/hyper-track/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -173,7 +173,7 @@ Create a new user to identify the current device or get a user from a lookup id.
       <p>User&#39;s name</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       phone</td>
@@ -184,7 +184,7 @@ Create a new user to identify the current device or get a user from a lookup id.
       <p>User&#39;s phone</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       photo</td>
@@ -195,7 +195,7 @@ Create a new user to identify the current device or get a user from a lookup id.
       <p>User&#39;s photo as URL or a Base64 converted string</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       lookupId</td>
@@ -273,7 +273,7 @@ Create and assign an action to the current user using specified parameters
       <p>The action type. Can be one from &quot;pickup&quot;, &quot;delivery&quot;, &quot;dropoff&quot;, &quot;visit&quot;, &quot;stopover&quot; or &quot;task&quot;</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       lookupId</td>
@@ -284,7 +284,7 @@ Create and assign an action to the current user using specified parameters
       <p>The Action&#39;s desired lookupId</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       expectedPlaceAddress</td>
@@ -295,7 +295,7 @@ Create and assign an action to the current user using specified parameters
       <p>The address of the Action</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       expectedPlaceLatitude</td>
@@ -306,7 +306,7 @@ Create and assign an action to the current user using specified parameters
       <p>The latitude of the Action</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       expectedPlaceLongitude</td>

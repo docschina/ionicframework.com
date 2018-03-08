@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Phonegap Local Notification</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/phonegap-local-notification/index.ts#L50">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -110,7 +110,7 @@ A global object that lets you interact with the Notification API.
       <p>Title of the local notification.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       Options</td>
@@ -126,7 +126,7 @@ A global object that lets you interact with the Notification API.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>PLNObject</code> 
+  <b>Returns:</b> <code>PLNObject</code>
 </div><h3><a class="anchor" name="requestPermission" href="#requestPermission"></a><code>requestPermission()</code></h3>
 
 
@@ -135,7 +135,7 @@ requests permission from the user to show a local notification.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -153,7 +153,7 @@ requests permission from the user to show a local notification.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       dir
@@ -167,7 +167,7 @@ requests permission from the user to show a local notification.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       lang
@@ -181,7 +181,7 @@ requests permission from the user to show a local notification.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       body
@@ -195,7 +195,7 @@ requests permission from the user to show a local notification.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       tag
@@ -209,7 +209,7 @@ requests permission from the user to show a local notification.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       icon
@@ -223,7 +223,7 @@ requests permission from the user to show a local notification.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

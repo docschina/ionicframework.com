@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">3D Touch</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/three-dee-touch/index.ts#L55">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -164,7 +164,7 @@ setup the 3D-touch actions, takes an array of objects with the following
       <p>(optional) A type that can be used <code>onHomeIconPressed</code> callback</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       title</td>
@@ -175,7 +175,7 @@ setup the 3D-touch actions, takes an array of objects with the following
       <p>Title for your action</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       subtitle</td>
@@ -186,7 +186,7 @@ setup the 3D-touch actions, takes an array of objects with the following
       <p>(optional) A short description for your action</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       iconType</td>
@@ -197,7 +197,7 @@ setup the 3D-touch actions, takes an array of objects with the following
       <p>(optional) Choose between Prohibit, Contact, Home, MarkLocation, Favorite, Love, Cloud, Invitation, Confirmation, Mail, Message, Date, Time, CapturePhoto, CaptureVideo, Task, TaskCompleted, Alarm, Bookmark, Shuffle, Audio, Update</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       iconTemplate</td>
@@ -256,7 +256,7 @@ Disabled the link preview feature, if enabled.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       type
@@ -270,7 +270,7 @@ Disabled the link preview feature, if enabled.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       title
@@ -281,10 +281,10 @@ Disabled the link preview feature, if enabled.
     <td>
       <p>Title</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       subtitle
@@ -298,7 +298,7 @@ Disabled the link preview feature, if enabled.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       iconType
@@ -312,7 +312,7 @@ Disabled the link preview feature, if enabled.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       iconTemplate
@@ -326,7 +326,7 @@ Disabled the link preview feature, if enabled.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -342,7 +342,7 @@ Disabled the link preview feature, if enabled.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       force
@@ -353,10 +353,10 @@ Disabled the link preview feature, if enabled.
     <td>
       <p>Touch force</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       timestamp
@@ -367,10 +367,10 @@ Disabled the link preview feature, if enabled.
     <td>
       <p>Timestamp of action</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       x
@@ -381,10 +381,10 @@ Disabled the link preview feature, if enabled.
     <td>
       <p>X coordinate of action</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       y
@@ -395,10 +395,10 @@ Disabled the link preview feature, if enabled.
     <td>
       <p>Y coordinate of action</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

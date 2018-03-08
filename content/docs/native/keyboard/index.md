@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Keyboard</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/keyboard/index.ts#L2">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -168,7 +168,7 @@ Creates an observable that notifies you when the keyboard is shown. Unsubscribe 
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="onKeyboardHide" href="#onKeyboardHide"></a><code>onKeyboardHide()</code></h3>
 
 
@@ -182,7 +182,7 @@ Creates an observable that notifies you when the keyboard is hidden. Unsubscribe
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div>
 
 

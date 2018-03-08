@@ -8,8 +8,8 @@ header_sub_title: Ionic Resources
 
 ### Ionic and Forms
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/resources/forms/index.md'>
-  Improve this doc
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/developer-resources/forms/index.md'>
+  改进这篇文档
 </a>
 
 Forms have gone through quite a bit of a change in Angular 2, but all for the best. Apps can have much more complicated and in depth forms than were allowed in Angular 1, and the new Forms module allows for this. Let's look at three distinct examples of forms and when you would want to use each one.

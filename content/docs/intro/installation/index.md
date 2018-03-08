@@ -10,7 +10,7 @@ next_page_link: /docs//intro/tutorial
 
 # 安装 Ionic
 
-<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/installation/index.md'>改进这篇翻译</a>
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/installation/index.md'>改进这篇文档</a>
 
 
 Ionic 应用主要通过 Ionic 命令行工具（即 "CLI"）创建和开发，并使用 Cordova 构建/部署为一个原生应用。这意味着我们需要安装几个命令行工具来进行开发。

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Touch ID</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/touch-id/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -189,7 +189,7 @@ Show TouchID dialog with custom 'Enter Password' message and wait for a fingerpr
       <p>The message to display</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       enterPasswordLabel</td>

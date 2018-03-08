@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Firebase<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/firebase/index.ts#L2">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -92,7 +92,7 @@ Get the device token
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="onTokenRefresh" href="#onTokenRefresh"></a><code>onTokenRefresh()</code></h3>
 
 
@@ -103,7 +103,7 @@ Get notified when a token is refreshed
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="onNotificationOpen" href="#onNotificationOpen"></a><code>onNotificationOpen()</code></h3>
 
 
@@ -114,7 +114,7 @@ Get notified when the user opens a notification
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="grantPermission" href="#grantPermission"></a><code>grantPermission()</code></h3>
 
 
@@ -128,7 +128,7 @@ Grant permission to receive push notifications
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="hasPermission" href="#hasPermission"></a><code>hasPermission()</code></h3>
 
 
@@ -137,7 +137,7 @@ Check permission to receive push notifications
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;{isEnabled: boolean}&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;{isEnabled: boolean}&gt;</code>
 </div><h3><a class="anchor" name="setBadgeNumber" href="#setBadgeNumber"></a><code>setBadgeNumber(badgeNumber)</code></h3>
 
 
@@ -165,7 +165,7 @@ Set icon badge number. Set to 0 to clear the badge.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getBadgeNumber" href="#getBadgeNumber"></a><code>getBadgeNumber()</code></h3>
 
 
@@ -174,7 +174,7 @@ Get icon badge number
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="subscribe" href="#subscribe"></a><code>subscribe(topic)</code></h3>
 
 
@@ -202,7 +202,7 @@ Subscribe to a topic
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="unsubscribe" href="#unsubscribe"></a><code>unsubscribe(topic)</code></h3>
 
 
@@ -230,7 +230,7 @@ Unsubscribe from a topic
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="unregister" href="#unregister"></a><code>unregister()</code></h3>
 
 
@@ -261,7 +261,7 @@ Log an event using Analytics
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       data</td>
@@ -276,7 +276,7 @@ Log an event using Analytics
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="logError" href="#logError"></a><code>logError(message)</code></h3>
 
 
@@ -304,7 +304,7 @@ Log an Error using FirebaseCrash
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setScreenName" href="#setScreenName"></a><code>setScreenName(name)</code></h3>
 
 
@@ -333,7 +333,7 @@ Set the name of the current screen in Analytics
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setUserId" href="#setUserId"></a><code>setUserId(userId)</code></h3>
 
 
@@ -361,7 +361,7 @@ Set a user id for use in Analytics
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setUserProperty" href="#setUserProperty"></a><code>setUserProperty(name,&nbsp;value)</code></h3>
 
 
@@ -384,7 +384,7 @@ Set a user property for use in Analytics
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -399,7 +399,7 @@ Set a user property for use in Analytics
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="fetch" href="#fetch"></a><code>fetch(cacheExpirationSeconds)</code></h3>
 
 
@@ -419,7 +419,7 @@ Fetch Remote Config parameter values for your app
     <td>
       cacheExpirationSeconds</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -429,7 +429,7 @@ Fetch Remote Config parameter values for your app
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="activateFetched" href="#activateFetched"></a><code>activateFetched()</code></h3>
 
 
@@ -438,7 +438,7 @@ Activate the Remote Config fetched config
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getValue" href="#getValue"></a><code>getValue(key,&nbsp;namespace)</code></h3>
 
 
@@ -463,7 +463,7 @@ Retrieve a Remote Config value
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       namespace</td>
@@ -478,7 +478,7 @@ Retrieve a Remote Config value
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getByteArray" href="#getByteArray"></a><code>getByteArray(key,&nbsp;namespace)</code></h3>
 
 
@@ -506,7 +506,7 @@ Retrieve a Remote Config byte array
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       namespace</td>
@@ -521,7 +521,7 @@ Retrieve a Remote Config byte array
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getInfo" href="#getInfo"></a><code>getInfo()</code></h3>
 
 
@@ -535,7 +535,7 @@ Get the current state of the FirebaseRemoteConfig singleton object
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setConfigSettings" href="#setConfigSettings"></a><code>setConfigSettings(settings)</code></h3>
 
 
@@ -568,7 +568,7 @@ Change the settings for the FirebaseRemoteConfig object's operations
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setDefaults" href="#setDefaults"></a><code>setDefaults(defaults,&nbsp;namespace)</code></h3>
 
 
@@ -596,7 +596,7 @@ Set defaults in the Remote Config
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       namespace</td>
@@ -611,7 +611,7 @@ Set defaults in the Remote Config
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getVerificationID" href="#getVerificationID"></a><code>getVerificationID(phoneNumber)</code></h3>
 
 
@@ -644,7 +644,7 @@ Sends an SMS to the user with the SMS verification code and returns the Verifica
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="verifyPhoneNumber" href="#verifyPhoneNumber"></a><code>verifyPhoneNumber(phoneNumber,&nbsp;timeoutDuration)</code></h3>
 
 
@@ -673,7 +673,7 @@ Sends an SMS to the user with the SMS verification code and returns the Verifica
       <p>the phone number, including &#39;+&#39; and country code</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       timeoutDuration</td>
@@ -689,7 +689,7 @@ Sends an SMS to the user with the SMS verification code and returns the Verifica
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
