@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Device Motion</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/device-motion/index.ts#L35">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -142,7 +142,7 @@ Watch the device acceleration. Clear the watch by unsubscribing from the observa
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       x
@@ -153,10 +153,10 @@ Watch the device acceleration. Clear the watch by unsubscribing from the observa
     <td>
       <p>Amount of acceleration on the x-axis. (in m/s^2)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       y
@@ -167,10 +167,10 @@ Watch the device acceleration. Clear the watch by unsubscribing from the observa
     <td>
       <p>Amount of acceleration on the y-axis. (in m/s^2)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       z
@@ -181,10 +181,10 @@ Watch the device acceleration. Clear the watch by unsubscribing from the observa
     <td>
       <p>Amount of acceleration on the z-axis. (in m/s^2)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       timestamp
@@ -195,10 +195,10 @@ Watch the device acceleration. Clear the watch by unsubscribing from the observa
     <td>
       <p>Creation timestamp in milliseconds.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -214,7 +214,7 @@ Watch the device acceleration. Clear the watch by unsubscribing from the observa
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       frequency
@@ -228,7 +228,7 @@ Watch the device acceleration. Clear the watch by unsubscribing from the observa
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

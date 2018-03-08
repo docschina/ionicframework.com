@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Keychain</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/keychain/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -106,7 +106,7 @@ Retrieves a value for a key
       <p>the key to retrieve</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       touchIDMessage</td>
@@ -146,7 +146,7 @@ Sets a value for a key
       <p>the key to set</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -157,7 +157,7 @@ Sets a value for a key
       <p>the value to set</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       useTouchID</td>
@@ -197,7 +197,7 @@ Gets a JSON value for a key
       <p>the key to retrieve</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       touchIDMessage</td>
@@ -237,7 +237,7 @@ Sets a JSON value for a key
       <p>the key to set</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       obj</td>
@@ -248,7 +248,7 @@ Sets a JSON value for a key
       <p>value the value to set</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       useTouchId</td>

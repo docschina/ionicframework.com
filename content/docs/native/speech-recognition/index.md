@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Speech Recognition</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/speech-recognition/index.ts#L43">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -113,7 +113,7 @@ Check feature available
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="startListening" href="#startListening"></a><code>startListening()</code></h3>
 
 
@@ -163,7 +163,7 @@ Request permissions
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div>
 
 

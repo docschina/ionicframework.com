@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Launch Review</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/launch-review/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -119,7 +119,7 @@ On iOS this is the Apple ID of the app. For example, for Google Maps: <code>5850
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="rating" href="#rating"></a><code>rating()</code></h3>
 
 
@@ -138,7 +138,7 @@ Success callback will be called up to 3 times:
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;string&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;string&gt;</code>
 </div><h3><a class="anchor" name="isRatingSupported" href="#isRatingSupported"></a><code>isRatingSupported()</code></h3>
 
 
@@ -153,7 +153,7 @@ Will return true if current platform is iOS 10.3 or above.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>boolean</code> 
+  <b>Returns:</b> <code>boolean</code>
 </div>
 
 

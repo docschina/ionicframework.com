@@ -11,7 +11,7 @@ doc: "NavParams"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/nav-params/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -34,7 +34,7 @@ NavParams
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/navigation/nav-params.ts#L0">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -77,7 +77,7 @@ option with a simple <code>get</code> method.</p>
 <h3>
 <a class="anchor" name="data" href="#data">
 <code>data</code>
-  
+
 
 </a>
 </h3>
@@ -97,7 +97,7 @@ option with a simple <code>get</code> method.</p>
 <h3>
 <a class="anchor" name="get" href="#get">
 <code>get(param)</code>
-  
+
 
 </a>
 </h3>
@@ -125,24 +125,24 @@ export class MyClass{
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         param
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>Which param you want to look up</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 

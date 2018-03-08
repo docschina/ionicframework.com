@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">SMS</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/sms/index.ts#L25">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -101,7 +101,7 @@ Sends sms to a number
       <p>Phone number</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       message</td>
@@ -112,7 +112,7 @@ Sends sms to a number
       <p>Message</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -160,7 +160,7 @@ This function lets you know if the app has permission to send SMS
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       replaceLineBreaks
@@ -174,7 +174,7 @@ This function lets you know if the app has permission to send SMS
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       android
@@ -183,11 +183,11 @@ This function lets you know if the app has permission to send SMS
       <code>SmsOptionsAndroid</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -203,7 +203,7 @@ This function lets you know if the app has permission to send SMS
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       intent
@@ -217,7 +217,7 @@ This function lets you know if the app has permission to send SMS
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

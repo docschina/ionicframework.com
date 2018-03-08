@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Google Play Games Services</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/google-play-games-services/index.ts#L83">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -167,7 +167,7 @@ Show the currently authenticated player.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Player&gt;</code> Returns a promise that resolves when Play 
+  <b>Returns:</b> <code>Promise&lt;Player&gt;</code> Returns a promise that resolves when Play
 Games Services returns the authenticated player.
 </div><h3><a class="anchor" name="submitScore" href="#submitScore"></a><code>submitScore(data)</code></h3>
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Background Geolocation</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/background-geolocation/index.ts#L287">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -166,7 +166,7 @@ Configure the plugin.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;BackgroundGeolocationResponse&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;BackgroundGeolocationResponse&gt;</code>
 </div><h3><a class="anchor" name="start" href="#start"></a><code>start()</code></h3>
 
 
@@ -176,7 +176,7 @@ The user will be tracked whenever they suspend the app.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="stop" href="#stop"></a><code>stop()</code></h3>
 
 
@@ -185,7 +185,7 @@ Turn OFF background-tracking
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="finish" href="#finish"></a><code>finish()</code></h3>
 
 
@@ -199,7 +199,7 @@ Inform the native plugin that you're finished, the background-task may be comple
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="changePace" href="#changePace"></a><code>changePace(isMoving)</code></h3>
 
 
@@ -232,7 +232,7 @@ Force the plugin to enter "moving" or "stationary" state
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setConfig" href="#setConfig"></a><code>setConfig(options)</code></h3>
 
 
@@ -262,7 +262,7 @@ Setup configuration
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getStationaryLocation" href="#getStationaryLocation"></a><code>getStationaryLocation()</code></h3>
 
 
@@ -276,7 +276,7 @@ Returns current stationaryLocation if available. null if not
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Location&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Location&gt;</code>
 </div><h3><a class="anchor" name="onStationary" href="#onStationary"></a><code>onStationary()</code></h3>
 
 
@@ -291,7 +291,7 @@ your #success callback will be executed with #location param containing #radius 
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="isLocationEnabled" href="#isLocationEnabled"></a><code>isLocationEnabled()</code></h3>
 
 
@@ -339,7 +339,7 @@ In case or error (SettingNotFoundException) fail callback will be executed.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="stopWatchingLocationMode" href="#stopWatchingLocationMode"></a><code>stopWatchingLocationMode()</code></h3>
 
 
@@ -353,7 +353,7 @@ Stop watching for location mode changes.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getLocations" href="#getLocations"></a><code>getLocations()</code></h3>
 
 
@@ -372,7 +372,7 @@ Locations are stored when:
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getValidLocations" href="#getValidLocations"></a><code>getValidLocations()</code></h3>
 
 
@@ -381,7 +381,7 @@ Method will return locations, which has not been yet posted to server. NOTE: Loc
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="deleteLocation" href="#deleteLocation"></a><code>deleteLocation(locationId)</code></h3>
 
 
@@ -414,7 +414,7 @@ Delete stored location by given locationId.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="deleteAllLocations" href="#deleteAllLocations"></a><code>deleteAllLocations()</code></h3>
 
 
@@ -428,7 +428,7 @@ Delete all stored locations.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="switchMode" href="#switchMode"></a><code>switchMode(modeId)</code></h3>
 
 
@@ -469,7 +469,7 @@ BackgroundGeolocation.Mode.BACKGROUND 
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getLogEntries" href="#getLogEntries"></a><code>getLogEntries()</code></h3>
 
 
@@ -481,7 +481,7 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -499,7 +499,7 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       locationId
@@ -510,10 +510,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>ID of location as stored in DB (or null)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       serviceProvider
@@ -524,10 +524,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>Service provider</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       debug
@@ -538,10 +538,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>true if location recorded as part of debug</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       time
@@ -552,10 +552,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>UTC time of this fix, in milliseconds since January 1, 1970.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       latitude
@@ -566,10 +566,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>latitude, in degrees.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       longitude
@@ -580,10 +580,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>longitude, in degrees.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       accuracy
@@ -594,10 +594,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>estimated accuracy of this location, in meters.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       speed
@@ -608,10 +608,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>speed if it is available, in meters/second over ground.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       altitude
@@ -622,10 +622,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>altitude if available, in meters above the WGS 84 reference ellipsoid.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       altitudeAccuracy
@@ -636,10 +636,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>accuracy of the altitude if available.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bearing
@@ -650,10 +650,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>bearing, in degrees.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       coords
@@ -664,10 +664,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>A Coordinates object defining the current location</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       timestamp
@@ -678,10 +678,10 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
     <td>
       <p>A timestamp representing the time at which the location was retrieved.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -697,7 +697,7 @@ Return all logged events. Useful for plugin debugging. Parameter limit limits nu
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       desiredAccuracy
@@ -711,10 +711,10 @@ the number, the more power devoted to GeoLocation resulting in higher
 accuracy readings. 1000 results in lowest power drain and least accurate
 readings. @see Apple docs (<a href="https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocationManager_Class/index.html#//apple_ref/occ/instp/CLLocationManager/desiredAccuracy">https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocationManager_Class/index.html#//apple_ref/occ/instp/CLLocationManager/desiredAccuracy</a>)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       stationaryRadius
@@ -727,10 +727,10 @@ readings. @see Apple docs (<a href="https://developer.apple.com/library/ios/docu
 must move beyond the stationary location for aggressive background-tracking
 to engage.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       debug
@@ -745,7 +745,7 @@ background-geolocation! See debugging sounds table.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       distanceFilter
@@ -757,10 +757,10 @@ background-geolocation! See debugging sounds table.</p>
       <p>The minimum distance (measured in meters) a device must move horizontally
 before an update event is generated. @see Apple docs. (<a href="https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocationManager_Class/CLLocationManager/CLLocationManager.html#//apple_ref/occ/instp/CLLocationManager/distanceFilter">https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocationManager_Class/CLLocationManager/CLLocationManager.html#//apple_ref/occ/instp/CLLocationManager/distanceFilter</a>)</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       stopOnTerminate
@@ -777,7 +777,7 @@ Enable this in order to force a stop() when the application terminated
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       startOnBoot
@@ -793,7 +793,7 @@ Start background service on device boot. </p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       startForeground
@@ -809,7 +809,7 @@ If false location service will not be started in foreground and no notification 
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       interval
@@ -825,7 +825,7 @@ The minimum time interval between location updates in milliseconds.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       notificationTitle
@@ -840,7 +840,7 @@ Custom notification title in the drawer.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       notificationText
@@ -855,7 +855,7 @@ Custom notification text in the drawer.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       notificationIconColor
@@ -870,7 +870,7 @@ The accent color to use for notification. Eg. #4CAF50.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       notificationIconLarge
@@ -886,7 +886,7 @@ NOTE: Only available for API Level &gt;=21.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       notificationIconSmall
@@ -902,7 +902,7 @@ NOTE: Only available for API Level &gt;=21.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       locationProvider
@@ -917,7 +917,7 @@ Set location service provider @see wiki (<a href="https://github.com/mauron85/co
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       activityType
@@ -934,7 +934,7 @@ this affects iOS GPS algorithm. @see Apple docs for more information
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       pauseLocationUpdates
@@ -950,7 +950,7 @@ Pauses location updates when app is paused </p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       url
@@ -964,7 +964,7 @@ Pauses location updates when app is paused </p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       syncUrl
@@ -978,7 +978,7 @@ Pauses location updates when app is paused </p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       syncThreshold
@@ -993,7 +993,7 @@ Pauses location updates when app is paused </p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       httpHeaders
@@ -1007,7 +1007,7 @@ Pauses location updates when app is paused </p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       saveBatteryOnBackground
@@ -1023,7 +1023,7 @@ Switch to less accurate significant changes and region monitory when in backgrou
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       maxLocations
@@ -1038,7 +1038,7 @@ Switch to less accurate significant changes and region monitory when in backgrou
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       fastestInterval
@@ -1053,7 +1053,7 @@ Switch to less accurate significant changes and region monitory when in backgrou
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       activitiesInterval
@@ -1068,7 +1068,7 @@ Switch to less accurate significant changes and region monitory when in backgrou
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       stopOnStillActivity
@@ -1083,7 +1083,7 @@ Switch to less accurate significant changes and region monitory when in backgrou
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

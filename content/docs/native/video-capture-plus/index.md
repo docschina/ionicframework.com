@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Video Capture Plus<span class="beta" title="beta">&beta;</span></h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/video-capture-plus/index.ts#L96">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -122,7 +122,7 @@ Starts recordings
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;MediaFile[]&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;MediaFile[]&gt;</code>
 </div>
 
 
@@ -140,7 +140,7 @@ Starts recordings
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       name
@@ -151,10 +151,10 @@ Starts recordings
     <td>
       <p>The name of the file, without path information.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       fullPath
@@ -165,10 +165,10 @@ Starts recordings
     <td>
       <p>The full path of the file, including the name.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       type
@@ -179,10 +179,10 @@ Starts recordings
     <td>
       <p>The file&#39;s mime type</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       lastModifiedDate
@@ -193,10 +193,10 @@ Starts recordings
     <td>
       <p>The date and time when the file was last modified.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       size
@@ -207,10 +207,10 @@ Starts recordings
     <td>
       <p>The size of the file, in bytes.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       getFormatData
@@ -221,10 +221,10 @@ Starts recordings
     <td>
       <p>Retrieves the format information of the media file.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -240,7 +240,7 @@ Starts recordings
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       codecs
@@ -251,10 +251,10 @@ Starts recordings
     <td>
       <p>The actual format of the audio and video content.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bitrate
@@ -265,10 +265,10 @@ Starts recordings
     <td>
       <p>The average bitrate of the content. The value is zero for images.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -279,10 +279,10 @@ Starts recordings
     <td>
       <p>The height of the image or video in pixels. The value is zero for audio clips.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       width
@@ -293,10 +293,10 @@ Starts recordings
     <td>
       <p>The width of the image or video in pixels. The value is zero for audio clips.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       duration
@@ -307,10 +307,10 @@ Starts recordings
     <td>
       <p>The length of the video or sound clip in seconds. The value is zero for images.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -326,7 +326,7 @@ Starts recordings
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       limit
@@ -340,7 +340,7 @@ Starts recordings
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       duration
@@ -354,7 +354,7 @@ Starts recordings
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       highquality
@@ -368,7 +368,7 @@ Starts recordings
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       frontcamera
@@ -383,7 +383,7 @@ You&#39;ll want to sniff the useragent/device and pass the best overlay based on
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       portraitOverlay
@@ -397,7 +397,7 @@ You&#39;ll want to sniff the useragent/device and pass the best overlay based on
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       landscapeOverlay
@@ -411,7 +411,7 @@ You&#39;ll want to sniff the useragent/device and pass the best overlay based on
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       overlayText
@@ -425,7 +425,7 @@ You&#39;ll want to sniff the useragent/device and pass the best overlay based on
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

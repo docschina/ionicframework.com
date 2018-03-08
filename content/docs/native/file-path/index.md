@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">File Path</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/file-path/index.ts#L3">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -103,7 +103,7 @@ Resolve native path for given content URL/path.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;string&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;string&gt;</code>
 </div>
 
 

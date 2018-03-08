@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Battery Status</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/battery-status/index.ts#L16">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -132,7 +132,7 @@ Watch when the battery level goes to critial
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       level
@@ -143,10 +143,10 @@ Watch when the battery level goes to critial
     <td>
       <p>The battery charge percentage</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isPlugged
@@ -157,10 +157,10 @@ Watch when the battery level goes to critial
     <td>
       <p>A boolean that indicates whether the device is plugged in</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Deeplinks</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/deeplinks/index.ts#L30">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -172,7 +172,7 @@ matches the path, the resulting path-data pair will be returned in the
 promise result which you can then use to navigate in the app as you see fit.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       paths</td>
@@ -182,7 +182,7 @@ promise result which you can then use to navigate in the app as you see fit.</p>
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -216,7 +216,7 @@ errors if a deeplink comes through that does not match a given path.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       $route
@@ -227,10 +227,10 @@ errors if a deeplink comes through that does not match a given path.
     <td>
       <p>The route info for the matched route</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       $args
@@ -241,10 +241,10 @@ errors if a deeplink comes through that does not match a given path.
     <td>
       <p>Any arguments passed either through route parameters or GET parameters</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       $link
@@ -257,10 +257,10 @@ errors if a deeplink comes through that does not match a given path.
 any internal native data available as &quot;extras&quot; at the time
 the route was matched (for example, Facebook sometimes adds extra data)</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

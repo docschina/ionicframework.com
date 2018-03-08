@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Twitter Connect</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/twitter-connect/index.ts#L20">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -129,7 +129,7 @@ Returns user's profile information
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       userName
@@ -140,10 +140,10 @@ Returns user's profile information
     <td>
       <p>Twitter Username</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       userId
@@ -154,10 +154,10 @@ Returns user's profile information
     <td>
       <p>Twitter User ID</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       secret
@@ -168,10 +168,10 @@ Returns user's profile information
     <td>
       <p>Twitter OAuth Secret</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       token
@@ -182,10 +182,10 @@ Returns user's profile information
     <td>
       <p>Twitter OAuth Token</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

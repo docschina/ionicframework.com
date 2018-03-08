@@ -9,7 +9,7 @@ header_sub_title: Getting Started with Ionic
 
 # 部署到设备
 
-<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/migration/index.md'>改进这篇翻译</a>
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/migration/index.md'>改进这篇文档</a>
 
 虽然使用浏览器（配合 `ionic serve`）或者手机模拟器来测试你的应用不失为一种方便快捷的方式，但是你最终还是需要在真机上测试的。这不仅是唯一可以精准地测试你的应用的行为表现的方式，许多 [Ionic Native](https://ionicframework.com/docs//native/) 插件也只有部署到真实设备上才能正常运行。
 

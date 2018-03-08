@@ -11,7 +11,7 @@ doc: "Config"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/config/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -34,7 +34,7 @@ Config
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/config/config.ts#L10">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -290,7 +290,7 @@ chart displays each property with a description of what it controls.</p>
 <h3>
 <a class="anchor" name="get" href="#get">
 <code>get(key,&nbsp;fallbackValue)</code>
-  
+
 
 </a>
 </h3>
@@ -307,32 +307,32 @@ Returns a single config value, given a key.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         key
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>the key for the config value<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         fallbackValue
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>any</code>
       </td>
       <td>
@@ -340,10 +340,10 @@ Returns a single config value, given a key.
 value was not found, or is config value is <code>null</code>. Fallback value
  defaults to <code>null</code>.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -359,7 +359,7 @@ value was not found, or is config value is <code>null</code>. Fallback value
 <h3>
 <a class="anchor" name="getBoolean" href="#getBoolean">
 <code>getBoolean(key,&nbsp;fallbackValue)</code>
-  
+
 
 </a>
 </h3>
@@ -380,42 +380,42 @@ the config value was the string value `"true"`.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         key
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>the key for the config value<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         fallbackValue
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>boolean</code>
       </td>
       <td>
         <p>a fallback value to use when the config
 value was <code>null</code>. Fallback value defaults to <code>false</code>.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -431,7 +431,7 @@ value was <code>null</code>. Fallback value defaults to <code>false</code>.<stro
 <h3>
 <a class="anchor" name="getNumber" href="#getNumber">
 <code>getNumber(key,&nbsp;fallbackValue)</code>
-  
+
 
 </a>
 </h3>
@@ -452,42 +452,42 @@ is not a valid number.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         key
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>the key for the config value<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         fallbackValue
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>a fallback value to use when the config
 value turned out to be <code>NaN</code>. Fallback value defaults to <code>NaN</code>.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -503,7 +503,7 @@ value turned out to be <code>NaN</code>. Fallback value defaults to <code>NaN</c
 <h3>
 <a class="anchor" name="set" href="#set">
 <code>set(platform,&nbsp;key,&nbsp;value)</code>
-  
+
 
 </a>
 </h3>
@@ -520,58 +520,58 @@ Sets a single config value.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         platform
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>The platform (either &#39;ios&#39; or &#39;android&#39;) that the config value should apply to. Leaving this blank will apply the config value to all platforms.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         key
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>The key used to look up the value at a later point in time.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         value
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>The config value being stored.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Printer</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/printer/index.ts#L39">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -90,7 +90,7 @@ Checks whether the device is capable of printing (uses `check()` internally)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="check" href="#check"></a><code>check()</code></h3>
 
 
@@ -108,7 +108,7 @@ Displays a system interface allowing the user to select an available printer. To
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="print" href="#print"></a><code>print(content,&nbsp;options)</code></h3>
 
 
@@ -134,7 +134,7 @@ Sends content to the printer.
       <p>The content to print. Can be a URL or an HTML string. If a HTML DOM Object is provided, its innerHtml property value will be used.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -150,7 +150,7 @@ Sends content to the printer.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -168,7 +168,7 @@ Sends content to the printer.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       name
@@ -182,7 +182,7 @@ Sends content to the printer.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       printerId
@@ -197,7 +197,7 @@ Only supported on iOS.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       duplex
@@ -214,7 +214,7 @@ Only supported on iOS</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       landscape
@@ -229,7 +229,7 @@ Portrait by default.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       grayscale
@@ -244,7 +244,7 @@ False by default.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bounds
@@ -258,7 +258,7 @@ False by default.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

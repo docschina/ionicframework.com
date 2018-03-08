@@ -32,7 +32,7 @@ NavController
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/navigation/nav-controller.ts#L6">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -418,7 +418,7 @@ To do this, we can pass an object with the modified properites.</p>
 <h3>
 <a class="anchor" name="canGoBack" href="#canGoBack">
 <code>canGoBack()</code>
-  
+
 
 </a>
 </h3>
@@ -433,8 +433,8 @@ back to. Otherwise returns `false`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>boolean</code> 
+<b>Returns:</b>
+  <code>boolean</code>
 
 </div>
 
@@ -446,7 +446,7 @@ back to. Otherwise returns `false`.
 <h3>
 <a class="anchor" name="canSwipeBack" href="#canSwipeBack">
 <code>canSwipeBack()</code>
-  
+
 
 </a>
 </h3>
@@ -463,8 +463,8 @@ will return `true`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>boolean</code> 
+<b>Returns:</b>
+  <code>boolean</code>
 
 </div>
 
@@ -476,7 +476,7 @@ will return `true`.
 <h3>
 <a class="anchor" name="first" href="#first">
 <code>first()</code>
-  
+
 
 </a>
 </h3>
@@ -490,8 +490,8 @@ Returns the first view controller in this nav controller's stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>ViewController</code> 
+<b>Returns:</b>
+  <code>ViewController</code>
 
 </div>
 
@@ -503,7 +503,7 @@ Returns the first view controller in this nav controller's stack.
 <h3>
 <a class="anchor" name="getActive" href="#getActive">
 <code>getActive()</code>
-  
+
 
 </a>
 </h3>
@@ -517,7 +517,7 @@ Returns the first view controller in this nav controller's stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>ViewController</code> <p>Returns the active page&#39;s view controller.</p>
 
 
@@ -531,7 +531,7 @@ Returns the first view controller in this nav controller's stack.
 <h3>
 <a class="anchor" name="getActiveChildNav" href="#getActiveChildNav">
 <code>getActiveChildNav()</code>
-  
+
 
 </a>
 </h3>
@@ -552,7 +552,7 @@ Returns the active child navigation.
 <h3>
 <a class="anchor" name="getActiveChildNavs" href="#getActiveChildNavs">
 <code>getActiveChildNavs()</code>
-  
+
 
 </a>
 </h3>
@@ -573,7 +573,7 @@ Returns a list of the active child navigation.
 <h3>
 <a class="anchor" name="getAllChildNavs" href="#getAllChildNavs">
 <code>getAllChildNavs()</code>
-  
+
 
 </a>
 </h3>
@@ -594,7 +594,7 @@ Returns a list of all child navigation containers
 <h3>
 <a class="anchor" name="getByIndex" href="#getByIndex">
 <code>getByIndex(index)</code>
-  
+
 
 </a>
 </h3>
@@ -611,24 +611,24 @@ Returns a list of all child navigation containers
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         index
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>The index of the page to get.</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -638,7 +638,7 @@ Returns a list of all child navigation containers
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>ViewController</code> <p>Returns the view controller that matches the given index.</p>
 
 
@@ -652,7 +652,7 @@ Returns a list of all child navigation containers
 <h3>
 <a class="anchor" name="getPrevious" href="#getPrevious">
 <code>getPrevious(view)</code>
-  
+
 
 </a>
 </h3>
@@ -670,23 +670,23 @@ If no view controller is passed in, then it'll default to the active view.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         view
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>ViewController</code>
       </td>
       <td>
-        
-        
+
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -696,8 +696,8 @@ If no view controller is passed in, then it'll default to the active view.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>viewController</code> 
+<b>Returns:</b>
+  <code>viewController</code>
 
 </div>
 
@@ -709,7 +709,7 @@ If no view controller is passed in, then it'll default to the active view.
 <h3>
 <a class="anchor" name="getSecondaryIdentifier" href="#getSecondaryIdentifier">
 <code>getSecondaryIdentifier()</code>
-  
+
 
 </a>
 </h3>
@@ -729,7 +729,7 @@ If no view controller is passed in, then it'll default to the active view.
 <h3>
 <a class="anchor" name="getType" href="#getType">
 <code>getType()</code>
-  
+
 
 </a>
 </h3>
@@ -749,7 +749,7 @@ If no view controller is passed in, then it'll default to the active view.
 <h3>
 <a class="anchor" name="getViews" href="#getViews">
 <code>getViews()</code>
-  
+
 
 </a>
 </h3>
@@ -763,7 +763,7 @@ Returns the current stack of views in this nav controller.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Array&lt;ViewController&gt;</code> <p>the stack of view controllers in this nav controller.</p>
 
 
@@ -777,7 +777,7 @@ Returns the current stack of views in this nav controller.
 <h3>
 <a class="anchor" name="goToRoot" href="#goToRoot">
 <code>goToRoot()</code>
-  
+
 
 </a>
 </h3>
@@ -797,7 +797,7 @@ Returns the current stack of views in this nav controller.
 <h3>
 <a class="anchor" name="indexOf" href="#indexOf">
 <code>indexOf(view)</code>
-  
+
 
 </a>
 </h3>
@@ -814,23 +814,23 @@ Returns the index number of the given view controller.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         view
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>ViewController</code>
       </td>
       <td>
-        
-        
+
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -840,8 +840,8 @@ Returns the index number of the given view controller.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>number</code> 
+<b>Returns:</b>
+  <code>number</code>
 
 </div>
 
@@ -853,7 +853,7 @@ Returns the index number of the given view controller.
 <h3>
 <a class="anchor" name="insert" href="#insert">
 <code>insert(insertIndex,&nbsp;page,&nbsp;params,&nbsp;opts)</code>
-  
+
 
 </a>
 </h3>
@@ -873,75 +873,75 @@ you need to add a component at any point in your navigation stack.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         insertIndex
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>The index where to insert the page.</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         page
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>Page</code>|<code>string</code>
       </td>
       <td>
         <p>The component class or deeplink name you want to push onto the navigation stack.</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         params
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>object</code>
       </td>
       <td>
         <p>Any NavParams you want to pass along to the next view.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         opts
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>object</code>
       </td>
       <td>
         <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -951,7 +951,7 @@ you need to add a component at any point in your navigation stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
 
 
@@ -965,7 +965,7 @@ you need to add a component at any point in your navigation stack.
 <h3>
 <a class="anchor" name="insertPages" href="#insertPages">
 <code>insertPages(insertIndex,&nbsp;insertPages,&nbsp;opts)</code>
-  
+
 
 </a>
 </h3>
@@ -985,58 +985,58 @@ and animate in to become the active view.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         insertIndex
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>The index where you want to insert the page.</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         insertPages
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>array</code>
       </td>
       <td>
         <p>An array of objects, each with a <code>page</code> and optionally <code>params</code> property.</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         opts
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>object</code>
       </td>
       <td>
         <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -1046,7 +1046,7 @@ and animate in to become the active view.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
 
 
@@ -1060,7 +1060,7 @@ and animate in to become the active view.
 <h3>
 <a class="anchor" name="isActive" href="#isActive">
 <code>isActive(view)</code>
-  
+
 
 </a>
 </h3>
@@ -1077,23 +1077,23 @@ Returns if the given view is the active view or not.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         view
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>ViewController</code>
       </td>
       <td>
-        
-        
+
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -1103,8 +1103,8 @@ Returns if the given view is the active view or not.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>boolean</code> 
+<b>Returns:</b>
+  <code>boolean</code>
 
 </div>
 
@@ -1116,7 +1116,7 @@ Returns if the given view is the active view or not.
 <h3>
 <a class="anchor" name="isTransitioning" href="#isTransitioning">
 <code>isTransitioning()</code>
-  
+
 
 </a>
 </h3>
@@ -1130,8 +1130,8 @@ Returns if the nav controller is actively transitioning or not.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>boolean</code> 
+<b>Returns:</b>
+  <code>boolean</code>
 
 </div>
 
@@ -1143,7 +1143,7 @@ Returns if the nav controller is actively transitioning or not.
 <h3>
 <a class="anchor" name="last" href="#last">
 <code>last()</code>
-  
+
 
 </a>
 </h3>
@@ -1157,8 +1157,8 @@ Returns the last page in this nav controller's stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>ViewController</code> 
+<b>Returns:</b>
+  <code>ViewController</code>
 
 </div>
 
@@ -1170,7 +1170,7 @@ Returns the last page in this nav controller's stack.
 <h3>
 <a class="anchor" name="length" href="#length">
 <code>length()</code>
-  
+
 
 </a>
 </h3>
@@ -1184,7 +1184,7 @@ Returns the number of views in this nav controller.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>number</code> <p>The number of views in this stack, including the current view.</p>
 
 
@@ -1198,7 +1198,7 @@ Returns the number of views in this nav controller.
 <h3>
 <a class="anchor" name="parent" href="#parent">
 <code>parent</code>
-  
+
 
 </a>
 </h3>
@@ -1221,7 +1221,7 @@ the parent would be another nav, if it's not already the root nav.
 <h3>
 <a class="anchor" name="pop" href="#pop">
 <code>pop(opts)</code>
-  
+
 
 </a>
 </h3>
@@ -1240,24 +1240,24 @@ can also pass navigation options.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         opts
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>object</code>
       </td>
       <td>
         <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -1267,7 +1267,7 @@ can also pass navigation options.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
 
 
@@ -1281,7 +1281,7 @@ can also pass navigation options.
 <h3>
 <a class="anchor" name="popToRoot" href="#popToRoot">
 <code>popToRoot(opts)</code>
-  
+
 
 </a>
 </h3>
@@ -1299,24 +1299,24 @@ Navigate back to the root of the stack, no matter how far back that is.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         opts
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>object</code>
       </td>
       <td>
         <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -1326,7 +1326,7 @@ Navigate back to the root of the stack, no matter how far back that is.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
 
 
@@ -1340,7 +1340,7 @@ Navigate back to the root of the stack, no matter how far back that is.
 <h3>
 <a class="anchor" name="push" href="#push">
 <code>push(page,&nbsp;params,&nbsp;opts)</code>
-  
+
 
 </a>
 </h3>
@@ -1359,58 +1359,58 @@ along as an object. This additional information is accessible through NavParams
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         page
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>Page</code>|<code>string</code>
       </td>
       <td>
         <p>The component class or deeplink name you want to push onto the navigation stack.</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         params
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>object</code>
       </td>
       <td>
         <p>Any NavParams you want to pass along to the next view.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         opts
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>object</code>
       </td>
       <td>
         <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -1420,7 +1420,7 @@ along as an object. This additional information is accessible through NavParams
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
 
 
@@ -1434,7 +1434,7 @@ along as an object. This additional information is accessible through NavParams
 <h3>
 <a class="anchor" name="remove" href="#remove">
 <code>remove(startIndex,&nbsp;removeCount,&nbsp;opts)</code>
-  
+
 
 </a>
 </h3>
@@ -1452,58 +1452,58 @@ Removes a page from the nav stack at the specified index.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         startIndex
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>The starting index to remove pages from the stack. Default is the index of the last page.</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         removeCount
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>The number of pages to remove, defaults to remove <code>1</code>.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         opts
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>object</code>
       </td>
       <td>
         <p>Any options you want to use pass to transtion.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -1513,7 +1513,7 @@ Removes a page from the nav stack at the specified index.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
 
 
@@ -1527,7 +1527,7 @@ Removes a page from the nav stack at the specified index.
 <h3>
 <a class="anchor" name="removeView" href="#removeView">
 <code>removeView(viewController,&nbsp;opts)</code>
-  
+
 
 </a>
 </h3>
@@ -1545,41 +1545,41 @@ Removes the specified view controller from the nav stack.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         viewController
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>ViewController</code>
       </td>
       <td>
         <p>The viewcontroller to remove.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         opts
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>object</code>
       </td>
       <td>
         <p>Any options you want to use pass to transtion.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -1589,7 +1589,7 @@ Removes the specified view controller from the nav stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
 
 
@@ -1603,7 +1603,7 @@ Removes the specified view controller from the nav stack.
 <h3>
 <a class="anchor" name="setPages" href="#setPages">
 <code>setPages(pages,&nbsp;opts)</code>
-  
+
 
 </a>
 </h3>
@@ -1624,41 +1624,41 @@ navigation params to the individual pages in the array.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         pages
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>Array&lt;{page:any, params: any}&gt;</code>
       </td>
       <td>
         <p>An array of objects, each with a <code>page</code> and optionally <code>params</code> property to load in the stack.</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         opts
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>Object</code>
       </td>
       <td>
         <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -1668,7 +1668,7 @@ navigation params to the individual pages in the array.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
 
 
@@ -1682,7 +1682,7 @@ navigation params to the individual pages in the array.
 <h3>
 <a class="anchor" name="setRoot" href="#setRoot">
 <code>setRoot(pageOrViewCtrl,&nbsp;params,&nbsp;opts,&nbsp;done)</code>
-  
+
 
 </a>
 </h3>
@@ -1699,75 +1699,75 @@ Set the root for the current navigation stack.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         pageOrViewCtrl
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>Page</code>|<code>string</code>|<code>ViewController</code>
       </td>
       <td>
         <p>The name of the component you want to push on the navigation stack.</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         params
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>object</code>
       </td>
       <td>
         <p>Any NavParams you want to pass along to the next view.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         opts
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>object</code>
       </td>
       <td>
         <p>Any options you want to use pass to transtion.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         done
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>Function</code>
       </td>
       <td>
         <p>Callback function on done.</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -1777,7 +1777,7 @@ Set the root for the current navigation stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
 
 
@@ -1791,7 +1791,7 @@ Set the root for the current navigation stack.
 <h3>
 <a class="anchor" name="swipeBackEnabled" href="#swipeBackEnabled">
 <code>swipeBackEnabled</code>
-  
+
 
 </a>
 </h3>
@@ -1811,7 +1811,7 @@ Set the root for the current navigation stack.
 <h3>
 <a class="anchor" name="viewDidEnter" href="#viewDidEnter">
 <code>viewDidEnter</code>
-  
+
 
 </a>
 </h3>
@@ -1825,7 +1825,7 @@ Observable to be subscribed to when a component has fully become the active comp
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Observable</code> <p>Returns an observable</p>
 
 
@@ -1839,7 +1839,7 @@ Observable to be subscribed to when a component has fully become the active comp
 <h3>
 <a class="anchor" name="viewDidLeave" href="#viewDidLeave">
 <code>viewDidLeave</code>
-  
+
 
 </a>
 </h3>
@@ -1853,7 +1853,7 @@ Observable to be subscribed to when a component has fully left and is no longer 
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Observable</code> <p>Returns an observable</p>
 
 
@@ -1867,7 +1867,7 @@ Observable to be subscribed to when a component has fully left and is no longer 
 <h3>
 <a class="anchor" name="viewDidLoad" href="#viewDidLoad">
 <code>viewDidLoad</code>
-  
+
 
 </a>
 </h3>
@@ -1881,7 +1881,7 @@ Observable to be subscribed to when a component is loaded.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Observable</code> <p>Returns an observable</p>
 
 
@@ -1895,7 +1895,7 @@ Observable to be subscribed to when a component is loaded.
 <h3>
 <a class="anchor" name="viewWillEnter" href="#viewWillEnter">
 <code>viewWillEnter</code>
-  
+
 
 </a>
 </h3>
@@ -1909,7 +1909,7 @@ Observable to be subscribed to when a component is about to be loaded.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Observable</code> <p>Returns an observable</p>
 
 
@@ -1923,7 +1923,7 @@ Observable to be subscribed to when a component is about to be loaded.
 <h3>
 <a class="anchor" name="viewWillLeave" href="#viewWillLeave">
 <code>viewWillLeave</code>
-  
+
 
 </a>
 </h3>
@@ -1937,7 +1937,7 @@ Observable to be subscribed to when a component is about to leave, and no longer
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Observable</code> <p>Returns an observable</p>
 
 
@@ -1951,7 +1951,7 @@ Observable to be subscribed to when a component is about to leave, and no longer
 <h3>
 <a class="anchor" name="viewWillUnload" href="#viewWillUnload">
 <code>viewWillUnload</code>
-  
+
 
 </a>
 </h3>
@@ -1965,7 +1965,7 @@ Observable to be subscribed to when a component is about to be unloaded and dest
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Observable</code> <p>Returns an observable</p>
 
 

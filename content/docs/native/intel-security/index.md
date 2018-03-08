@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Intel Security</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/intel-security/index.ts#L28">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -163,7 +163,7 @@ This creates a new instance of secure data (using sealed data)
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       options.sealedData</td>
@@ -421,7 +421,7 @@ This changes the extra key of a secure data instance. To successfully replace th
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       options.instanceID</td>
@@ -432,7 +432,7 @@ This changes the extra key of a secure data instance. To successfully replace th
       <p>Secure data instance ID.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options.extraKey</td>
@@ -510,7 +510,7 @@ This deletes a secure storage resource (indicated by id).
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       options.id</td>
@@ -521,7 +521,7 @@ This deletes a secure storage resource (indicated by id).
       <p>Storage resource identifier.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options.storageType</td>
@@ -562,7 +562,7 @@ This reads the data from secure storage (indicated by id) and creates a new secu
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       options.id</td>
@@ -573,7 +573,7 @@ This reads the data from secure storage (indicated by id) and creates a new secu
       <p>Storage resource identifier.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options.storageType</td>
@@ -584,7 +584,7 @@ This reads the data from secure storage (indicated by id) and creates a new secu
       <p>Storage type.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options.extraKey</td>
@@ -625,7 +625,7 @@ This writes the data contained in a secure data instance into secure storage.
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       options.id</td>
@@ -636,7 +636,7 @@ This writes the data contained in a secure data instance into secure storage.
       <p>Storage resource identifier.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options.instanceID</td>
@@ -647,7 +647,7 @@ This writes the data contained in a secure data instance into secure storage.
       <p>Valid secure data instance ID</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options.storageType</td>
@@ -679,7 +679,7 @@ This writes the data contained in a secure data instance into secure storage.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       data
@@ -690,10 +690,10 @@ This writes the data contained in a secure data instance into secure storage.
     <td>
       <p>Non-empty string. *</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       tag
@@ -707,7 +707,7 @@ This writes the data contained in a secure data instance into secure storage.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       extraKey
@@ -721,7 +721,7 @@ This writes the data contained in a secure data instance into secure storage.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       appAccessControl
@@ -735,7 +735,7 @@ This writes the data contained in a secure data instance into secure storage.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       deviceLocality
@@ -749,7 +749,7 @@ This writes the data contained in a secure data instance into secure storage.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sensitivityLevel
@@ -763,7 +763,7 @@ This writes the data contained in a secure data instance into secure storage.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       noStore
@@ -777,7 +777,7 @@ This writes the data contained in a secure data instance into secure storage.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       noRead
@@ -791,7 +791,7 @@ This writes the data contained in a secure data instance into secure storage.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       creator
@@ -805,7 +805,7 @@ This writes the data contained in a secure data instance into secure storage.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       owners
@@ -819,7 +819,7 @@ This writes the data contained in a secure data instance into secure storage.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       webOwners
@@ -833,7 +833,7 @@ This writes the data contained in a secure data instance into secure storage.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

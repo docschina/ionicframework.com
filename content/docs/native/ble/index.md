@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">BLE</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/ble/index.ts#L2">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -220,7 +220,7 @@ Scan and discover BLE peripherals for the specified amount of time.
       <p>List of service UUIDs to discover, or <code>[]</code> to find all devices</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       seconds</td>
@@ -294,7 +294,7 @@ Scans for BLE devices. This function operates similarly to the `startScan` funct
       <p>List of service UUIDs to discover, or <code>[]</code> to find all devices</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -407,7 +407,7 @@ Read the value of a characteristic.
       <p>UUID or MAC address of the peripheral</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       serviceUUID</td>
@@ -418,7 +418,7 @@ Read the value of a characteristic.
       <p>UUID of the BLE service</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       characteristicUUID</td>
@@ -459,7 +459,7 @@ Write the value of a characteristic.
       <p>UUID or MAC address of the peripheral</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       serviceUUID</td>
@@ -470,7 +470,7 @@ Write the value of a characteristic.
       <p>UUID of the BLE service</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       characteristicUUID</td>
@@ -481,7 +481,7 @@ Write the value of a characteristic.
       <p>UUID of the BLE characteristic</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -523,7 +523,7 @@ Write the value of a characteristic without waiting for confirmation from the pe
       <p>UUID or MAC address of the peripheral</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       serviceUUID</td>
@@ -534,7 +534,7 @@ Write the value of a characteristic without waiting for confirmation from the pe
       <p>UUID of the BLE service</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       characteristicUUID</td>
@@ -545,7 +545,7 @@ Write the value of a characteristic without waiting for confirmation from the pe
       <p>UUID of the BLE characteristic</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       value</td>
@@ -589,7 +589,7 @@ Register to be notified when the value of a characteristic changes.
       <p>UUID or MAC address of the peripheral</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       serviceUUID</td>
@@ -600,7 +600,7 @@ Register to be notified when the value of a characteristic changes.
       <p>UUID of the BLE service</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       characteristicUUID</td>
@@ -642,7 +642,7 @@ Stop being notified when the value of a characteristic changes.
       <p>UUID or MAC address of the peripheral</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       serviceUUID</td>
@@ -653,7 +653,7 @@ Stop being notified when the value of a characteristic changes.
       <p>UUID of the BLE service</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       characteristicUUID</td>
@@ -669,7 +669,7 @@ Stop being notified when the value of a characteristic changes.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="isConnected" href="#isConnected"></a><code>isConnected(deviceId)</code></h3>
 
 
@@ -699,7 +699,7 @@ Report the connection status.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="isEnabled" href="#isEnabled"></a><code>isEnabled()</code></h3>
 
 
@@ -732,7 +732,7 @@ Stop state notifications.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="showBluetoothSettings" href="#showBluetoothSettings"></a><code>showBluetoothSettings()</code></h3>
 
 
@@ -742,7 +742,7 @@ Open System Bluetooth settings (Android only).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="enable" href="#enable"></a><code>enable()</code></h3>
 
 
@@ -752,7 +752,7 @@ Enable Bluetooth on the device (Android only).
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="readRSSI" href="#readRSSI"></a><code>readRSSI(deviceId)</code></h3>
 
 
@@ -782,7 +782,7 @@ Read the RSSI value on the device connection.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

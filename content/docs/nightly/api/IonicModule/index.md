@@ -32,7 +32,7 @@ IonicModule
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/module.ts#L139">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -88,7 +88,7 @@ export class AppModule {}
 <h2><a class="anchor" name="static-members" href="#static-members">Static Members</a></h2>
 <div id="forRoot"></div>
 <h3><a class="anchor" name="forRoot" href="#forRoot"><code>forRoot(appRoot,&nbsp;config,&nbsp;deepLinkConfig)</code>
-  
+
 </a></h3>
 
 Set the root app component for you IonicModule
@@ -103,58 +103,58 @@ Set the root app component for you IonicModule
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         appRoot
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>any</code>
       </td>
       <td>
         <p>The root AppComponent for this app.</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         config
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>any</code>
       </td>
       <td>
         <p>Config Options for the app. Accepts any config property.</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         deepLinkConfig
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>any</code>
       </td>
       <td>
         <p>Any configuration needed for the Ionic Deeplinker.</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 

@@ -9,7 +9,7 @@ header_sub_title: Getting Started with Ionic
 
 # 迁移：核心概念
 
-<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/migration/index.md'>改进这篇翻译</a>
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/migration/index.md'>改进这篇文档</a>
 
 Ionic 建立在 Angular 之上，而 Angular 的原始框架已经被完全重写了一遍。老 Angular 原有的所有部分仍然存在，但是开发人员需要注意的语法和结构有了新的改变。有关 Angular 中的更改的概述，请参阅 [Learn Angular](http://learnangular2.com/)。
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">QQSDK</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/qqsdk/index.ts#L50">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -185,7 +185,7 @@ open QQ or TIM client perform ssoLogin
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -235,7 +235,7 @@ shareText
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -265,7 +265,7 @@ shareImage
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -295,7 +295,7 @@ shareNews
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -325,7 +325,7 @@ shareAudio
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -353,7 +353,7 @@ shareAudio
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       client
@@ -368,7 +368,7 @@ Default is QQ</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       scene
@@ -383,7 +383,7 @@ Default is QQ</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       text
@@ -397,7 +397,7 @@ Default is QQ</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       url
@@ -411,7 +411,7 @@ Default is QQ</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       title
@@ -425,7 +425,7 @@ Default is QQ</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       description
@@ -439,7 +439,7 @@ Default is QQ</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       image
@@ -459,7 +459,7 @@ Image supports three types:</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       flashUrl
@@ -473,7 +473,7 @@ Image supports three types:</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

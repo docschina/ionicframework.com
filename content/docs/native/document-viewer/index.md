@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Document Viewer</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/document-viewer/index.ts#L29">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -113,7 +113,7 @@ Check if the document can be shown
       <p>Url to the file</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       contentType</td>
@@ -124,7 +124,7 @@ Check if the document can be shown
       <p>Content type of the file</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -135,7 +135,7 @@ Check if the document can be shown
       <p>options</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       onPossible</td>
@@ -146,7 +146,7 @@ Check if the document can be shown
       <p><strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       onMissingApp</td>
@@ -157,7 +157,7 @@ Check if the document can be shown
       <p><strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       onImpossible</td>
@@ -168,7 +168,7 @@ Check if the document can be shown
       <p><strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       onError</td>
@@ -208,7 +208,7 @@ Opens the file
       <p>Url to the file</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       contentType</td>
@@ -219,7 +219,7 @@ Opens the file
       <p>Content type of the file</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -230,7 +230,7 @@ Opens the file
       <p>options</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       onShow</td>
@@ -241,7 +241,7 @@ Opens the file
       <p><strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       onClose</td>
@@ -252,7 +252,7 @@ Opens the file
       <p><strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       onMissingApp</td>
@@ -263,7 +263,7 @@ Opens the file
       <p><strong class="tag">Optional</strong></p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       onError</td>
@@ -294,7 +294,7 @@ Opens the file
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       title
@@ -303,11 +303,11 @@ Opens the file
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       documentView
@@ -318,11 +318,11 @@ Opens the file
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       navigationView
@@ -333,11 +333,11 @@ Opens the file
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       email
@@ -348,11 +348,11 @@ Opens the file
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       print
@@ -363,11 +363,11 @@ Opens the file
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       openWith
@@ -378,11 +378,11 @@ Opens the file
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bookmarks
@@ -393,11 +393,11 @@ Opens the file
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       search
@@ -408,11 +408,11 @@ Opens the file
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       autoClose
@@ -423,11 +423,11 @@ Opens the file
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

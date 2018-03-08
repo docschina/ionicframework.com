@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Taptic Engine</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/taptic-engine/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -111,7 +111,7 @@ Use this to indicate success/failure/warning to the user.
       <p>should be of the type { type: &#39;success&#39; } (or &#39;warning&#39;/&#39;error&#39;)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options.type</td>
@@ -150,7 +150,7 @@ Use this to indicate success/failure/warning to the user.
       <p>should be of the type { style: &#39;light&#39; } (or &#39;medium&#39;/&#39;heavy&#39;)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options.type</td>

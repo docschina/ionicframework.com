@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Themeable Browser</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/themeable-browser/index.ts#L134">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -158,7 +158,7 @@ Creates a browser instance
       <p>URL to open</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       target</td>
@@ -169,7 +169,7 @@ Creates a browser instance
       <p>Target</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       styleOptions</td>
@@ -185,7 +185,7 @@ Creates a browser instance
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>ThemeableBrowserObject</code> 
+  <b>Returns:</b> <code>ThemeableBrowserObject</code>
 </div>
 
 <h2><a class="anchor" name="ThemeableBrowserObject" href="#ThemeableBrowserObject"></a>ThemeableBrowserObject</h2>
@@ -239,7 +239,7 @@ Injects JavaScript code into the browser window.
     <td>
       script</td>
     <td>
-      
+
     </td>
     <td>
       <p>Details of the script to run, specifying either a file or code key.</p>
@@ -250,7 +250,7 @@ Injects JavaScript code into the browser window.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="insertCss" href="#insertCss"></a><code>insertCss(css)</code></h3>
 
 
@@ -268,7 +268,7 @@ Injects CSS into the browser window.
     <td>
       css</td>
     <td>
-      
+
     </td>
     <td>
       <p>Details of the script to run, specifying either a file or code key.</p>
@@ -279,7 +279,7 @@ Injects CSS into the browser window.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="on" href="#on"></a><code>on(event)</code></h3>
 
 
@@ -300,7 +300,7 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
     <td>
       event</td>
     <td>
-      
+
     </td>
     <td>
       <p>Event name</p>
@@ -327,7 +327,7 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       wwwImage
@@ -336,11 +336,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       image
@@ -349,11 +349,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       wwwImagePressed
@@ -362,11 +362,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       imagePressed
@@ -375,11 +375,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       wwwImageDensity
@@ -388,11 +388,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>number</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       align
@@ -401,11 +401,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       event
@@ -414,11 +414,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -434,7 +434,7 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       statusbar
@@ -445,11 +445,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       toolbar
@@ -462,11 +462,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       title
@@ -479,11 +479,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       backButton
@@ -492,11 +492,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>ThemeableBrowserButton</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       forwardButton
@@ -505,11 +505,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>ThemeableBrowserButton</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       closeButton
@@ -518,11 +518,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>ThemeableBrowserButton</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       customButtons
@@ -531,11 +531,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>ThemeableBrowserButton[]</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       menu
@@ -554,11 +554,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
   }</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       backButtonCanClose
@@ -567,11 +567,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       disableAnimation
@@ -580,11 +580,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>boolean</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       location
@@ -593,11 +593,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hidden
@@ -606,11 +606,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clearcache
@@ -619,11 +619,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clearsessioncache
@@ -632,11 +632,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       zoom
@@ -645,11 +645,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hardwareback
@@ -658,11 +658,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       mediaPlaybackRequiresUserAction
@@ -671,11 +671,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       shouldPauseOnSuspsend
@@ -684,11 +684,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       closebuttoncaption
@@ -697,11 +697,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       disallowoverscroll
@@ -710,11 +710,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       enableViewportScale
@@ -723,11 +723,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       allowInlineMediaPlayback
@@ -736,11 +736,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       keyboardDisplayRequiresUserAction
@@ -749,11 +749,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       suppressesIncrementalRendering
@@ -762,11 +762,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       presentationstyle
@@ -775,11 +775,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       transitionstyle
@@ -788,11 +788,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       toolbarposition
@@ -801,11 +801,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       fullscreen
@@ -814,11 +814,11 @@ Available events are: `ThemeableBrowserError`, `ThemeableBrowserWarning`, `criti
       <code>string</code>
     </td>
     <td>
-      
+
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

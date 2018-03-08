@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Google Plus</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/google-plus/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -93,7 +93,7 @@ The login function walks the user through the Google Auth process.
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -103,7 +103,7 @@ The login function walks the user through the Google Auth process.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="trySilentLogin" href="#trySilentLogin"></a><code>trySilentLogin(options)</code></h3>
 
 
@@ -121,7 +121,7 @@ You can call trySilentLogin to check if they're already signed in to the app and
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -131,7 +131,7 @@ You can call trySilentLogin to check if they're already signed in to the app and
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="logout" href="#logout"></a><code>logout()</code></h3>
 
 
@@ -140,7 +140,7 @@ This will clear the OAuth2 token.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="disconnect" href="#disconnect"></a><code>disconnect()</code></h3>
 
 
@@ -149,7 +149,7 @@ This will clear the OAuth2 token, forget which account was used to login, and di
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="getSigningCertificateFingerprint" href="#getSigningCertificateFingerprint"></a><code>getSigningCertificateFingerprint()</code></h3>
 
 
@@ -158,7 +158,7 @@ This will retrieve the Android signing certificate fingerprint which is required
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

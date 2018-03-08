@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Geofence</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/geofence/index.ts#L4">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -145,7 +145,7 @@ Subscribe to get notified when a transition is received
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="initialize" href="#initialize"></a><code>initialize()</code></h3>
 
 
@@ -155,7 +155,7 @@ Initializes the plugin. User will be prompted to allow the app to use location a
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="addOrUpdate" href="#addOrUpdate"></a><code>addOrUpdate()</code></h3>
 
 
@@ -165,7 +165,7 @@ Adds a new geofence or array of geofences. For geofence object, see above.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="remove" href="#remove"></a><code>remove()</code></h3>
 
 
@@ -176,7 +176,7 @@ geofence was created.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="removeAll" href="#removeAll"></a><code>removeAll()</code></h3>
 
 
@@ -186,7 +186,7 @@ Removes all geofences.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;void&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;void&gt;</code>
 </div><h3><a class="anchor" name="getWatched" href="#getWatched"></a><code>getWatched()</code></h3>
 
 
@@ -196,7 +196,7 @@ Returns an array of geofences currently being monitored.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Array&lt;string&gt;&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Array&lt;string&gt;&gt;</code>
 </div><h3><a class="anchor" name="onNotificationClicked" href="#onNotificationClicked"></a><code>onNotificationClicked()</code></h3>
 
 Called when the user clicks a geofence notification. iOS and Android only.
@@ -205,7 +205,7 @@ Called when the user clicks a geofence notification. iOS and Android only.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div>
 
 

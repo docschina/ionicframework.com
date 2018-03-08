@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Native Page Transitions</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/native-page-transitions/index.ts#L16">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -129,7 +129,7 @@ Perform a slide animation
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="flip" href="#flip"></a><code>flip(options)</code></h3>
 
 
@@ -158,7 +158,7 @@ Perform a flip animation
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="fade" href="#fade"></a><code>fade(options)</code></h3>
 
 
@@ -192,7 +192,7 @@ Perform a fade animation
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="drawer" href="#drawer"></a><code>drawer(options)</code></h3>
 
 
@@ -226,7 +226,7 @@ Perform a slide animation
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="curl" href="#curl"></a><code>curl(options)</code></h3>
 
 
@@ -260,7 +260,7 @@ Perform a slide animation
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="executePendingTransition" href="#executePendingTransition"></a><code>executePendingTransition()</code></h3>
 
 
@@ -269,7 +269,7 @@ Execute pending transition
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="cancelPendingTransition" href="#cancelPendingTransition"></a><code>cancelPendingTransition()</code></h3>
 
 
@@ -278,7 +278,7 @@ Cancel pending transition
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

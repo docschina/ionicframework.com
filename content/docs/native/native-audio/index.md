@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Native Audio</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/native-audio/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -110,7 +110,7 @@ Loads an audio file into memory. Optimized for short clips / single shots (up to
       <p>unique ID for the audio file</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       assetPath</td>
@@ -126,7 +126,7 @@ Loads an audio file into memory. Optimized for short clips / single shots (up to
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="preloadComplex" href="#preloadComplex"></a><code>preloadComplex(id,&nbsp;assetPath,&nbsp;volume,&nbsp;voices,&nbsp;delay)</code></h3>
 
 
@@ -150,7 +150,7 @@ Loads an audio file into memory. Optimized for background music / ambient sound.
       <p>unique ID for the audio file</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       assetPath</td>
@@ -161,7 +161,7 @@ Loads an audio file into memory. Optimized for background music / ambient sound.
       <p>the relative path or absolute URL (inluding http://) to the audio asset.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       volume</td>
@@ -172,7 +172,7 @@ Loads an audio file into memory. Optimized for background music / ambient sound.
       <p>the volume of the preloaded sound (0.1 to 1.0)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       voices</td>
@@ -183,7 +183,7 @@ Loads an audio file into memory. Optimized for background music / ambient sound.
       <p>the number of multichannel voices available</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       delay</td>
@@ -198,7 +198,7 @@ Loads an audio file into memory. Optimized for background music / ambient sound.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="play" href="#play"></a><code>play(id,&nbsp;completeCallback)</code></h3>
 
 
@@ -224,7 +224,7 @@ Plays an audio asset
       <p>unique ID for the audio file</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       completeCallback</td>
@@ -240,7 +240,7 @@ Plays an audio asset
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="stop" href="#stop"></a><code>stop(id)</code></h3>
 
 
@@ -269,7 +269,7 @@ Stops playing an audio
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="loop" href="#loop"></a><code>loop(id)</code></h3>
 
 
@@ -298,7 +298,7 @@ Loops an audio asset infinitely, this only works for complex assets
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="unload" href="#unload"></a><code>unload(id)</code></h3>
 
 
@@ -327,7 +327,7 @@ Unloads an audio file from memory
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="setVolumeForComplexAsset" href="#setVolumeForComplexAsset"></a><code>setVolumeForComplexAsset(id,&nbsp;volume)</code></h3>
 
 
@@ -351,7 +351,7 @@ Changes the volume for preloaded complex assets.
       <p>unique ID for the audio file</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       volume</td>
@@ -367,7 +367,7 @@ Changes the volume for preloaded complex assets.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

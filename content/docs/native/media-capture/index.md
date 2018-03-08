@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Media Capture</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/media-capture/index.ts#L112">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -87,7 +87,7 @@ The recording image sizes and formats supported by the device.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>ConfigurationData[]</code> 
+  <b>Returns:</b> <code>ConfigurationData[]</code>
 </div><h3><a class="anchor" name="supportedAudioModes" href="#supportedAudioModes"></a><code>supportedAudioModes</code></h3>
 
 
@@ -96,7 +96,7 @@ The audio recording formats supported by the device.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>ConfigurationData[]</code> 
+  <b>Returns:</b> <code>ConfigurationData[]</code>
 </div><h3><a class="anchor" name="supportedVideoModes" href="#supportedVideoModes"></a><code>supportedVideoModes</code></h3>
 
 
@@ -105,7 +105,7 @@ The recording video resolutions and formats supported by the device.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>ConfigurationData[]</code> 
+  <b>Returns:</b> <code>ConfigurationData[]</code>
 </div><h3><a class="anchor" name="captureAudio" href="#captureAudio"></a><code>captureAudio(options)</code></h3>
 
 
@@ -125,7 +125,7 @@ Start the audio recorder application and return information about captured audio
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -135,7 +135,7 @@ Start the audio recorder application and return information about captured audio
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;MediaFile[]&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;MediaFile[]&gt;</code>
 </div><h3><a class="anchor" name="captureImage" href="#captureImage"></a><code>captureImage(options)</code></h3>
 
 
@@ -155,7 +155,7 @@ Start the camera application and return information about captured image files.
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -165,7 +165,7 @@ Start the camera application and return information about captured image files.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;MediaFile[]&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;MediaFile[]&gt;</code>
 </div><h3><a class="anchor" name="captureVideo" href="#captureVideo"></a><code>captureVideo(options)</code></h3>
 
 
@@ -185,7 +185,7 @@ Start the video recorder application and return information about captured video
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -195,7 +195,7 @@ Start the video recorder application and return information about captured video
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;MediaFile[]&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;MediaFile[]&gt;</code>
 </div><h3><a class="anchor" name="onPendingCaptureResult" href="#onPendingCaptureResult"></a><code>onPendingCaptureResult()</code></h3>
 
 
@@ -206,7 +206,7 @@ is fired if the capture call is successful
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;MediaFile[]&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;MediaFile[]&gt;</code>
 </div><h3><a class="anchor" name="onPendingCaptureError" href="#onPendingCaptureError"></a><code>onPendingCaptureError()</code></h3>
 
 
@@ -217,7 +217,7 @@ is fired if the capture call is unsuccessful
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;CaptureError&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;CaptureError&gt;</code>
 </div>
 
 
@@ -235,7 +235,7 @@ is fired if the capture call is unsuccessful
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       name
@@ -246,10 +246,10 @@ is fired if the capture call is unsuccessful
     <td>
       <p>The name of the file, without path information.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       fullPath
@@ -260,10 +260,10 @@ is fired if the capture call is unsuccessful
     <td>
       <p>The full path of the file, including the name.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       type
@@ -274,10 +274,10 @@ is fired if the capture call is unsuccessful
     <td>
       <p>The file&#39;s mime type</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       lastModifiedDate
@@ -288,10 +288,10 @@ is fired if the capture call is unsuccessful
     <td>
       <p>The date and time when the file was last modified.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       size
@@ -302,10 +302,10 @@ is fired if the capture call is unsuccessful
     <td>
       <p>The size of the file, in bytes.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       getFormatData
@@ -316,10 +316,10 @@ is fired if the capture call is unsuccessful
     <td>
       <p>Retrieves the format information of the media file.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -335,7 +335,7 @@ is fired if the capture call is unsuccessful
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       codecs
@@ -346,10 +346,10 @@ is fired if the capture call is unsuccessful
     <td>
       <p>The actual format of the audio and video content.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bitrate
@@ -360,10 +360,10 @@ is fired if the capture call is unsuccessful
     <td>
       <p>The average bitrate of the content. The value is zero for images.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -374,10 +374,10 @@ is fired if the capture call is unsuccessful
     <td>
       <p>The height of the image or video in pixels. The value is zero for audio clips.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       width
@@ -388,10 +388,10 @@ is fired if the capture call is unsuccessful
     <td>
       <p>The width of the image or video in pixels. The value is zero for audio clips.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       duration
@@ -402,10 +402,10 @@ is fired if the capture call is unsuccessful
     <td>
       <p>The length of the video or sound clip in seconds. The value is zero for images.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -421,7 +421,7 @@ is fired if the capture call is unsuccessful
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       code
@@ -430,11 +430,11 @@ is fired if the capture call is unsuccessful
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -450,7 +450,7 @@ is fired if the capture call is unsuccessful
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       limit
@@ -465,7 +465,7 @@ On iOS you can only record one file.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       duration
@@ -479,7 +479,7 @@ On iOS you can only record one file.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -495,7 +495,7 @@ On iOS you can only record one file.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       limit
@@ -509,7 +509,7 @@ On iOS you can only record one file.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -525,7 +525,7 @@ On iOS you can only record one file.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       limit
@@ -539,7 +539,7 @@ On iOS you can only record one file.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       duration
@@ -553,7 +553,7 @@ On iOS you can only record one file.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       quality
@@ -567,7 +567,7 @@ On iOS you can only record one file.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -583,7 +583,7 @@ On iOS you can only record one file.</p>
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       type
@@ -594,10 +594,10 @@ On iOS you can only record one file.</p>
     <td>
       <p>The ASCII-encoded lowercase string representing the media type.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -608,10 +608,10 @@ On iOS you can only record one file.</p>
     <td>
       <p>The height of the image or video in pixels. The value is zero for sound clips.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       width
@@ -622,10 +622,10 @@ On iOS you can only record one file.</p>
     <td>
       <p>The width of the image or video in pixels. The value is zero for sound clips.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

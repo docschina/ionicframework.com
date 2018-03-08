@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">File</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/file/index.ts#L585">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -199,7 +199,7 @@ Check if a directory exists in a certain path, directory.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       dir</td>
@@ -242,7 +242,7 @@ If an existing directory exists and the replace value is false, the promise will
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       dirName</td>
@@ -253,7 +253,7 @@ If an existing directory exists and the replace value is false, the promise will
       <p>Name of directory to create</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       replace</td>
@@ -294,7 +294,7 @@ Remove a directory at a given path.
       <p>The path to the directory</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       dirName</td>
@@ -335,7 +335,7 @@ Move a directory to a given path.
       <p>The source path to the directory</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       dirName</td>
@@ -346,7 +346,7 @@ Move a directory to a given path.
       <p>The source directory name</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newPath</td>
@@ -357,7 +357,7 @@ Move a directory to a given path.
       <p>The destionation path to the directory</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newDirName</td>
@@ -398,7 +398,7 @@ Copy a directory in various methods. If destination directory exists, will fail 
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       dirName</td>
@@ -409,7 +409,7 @@ Copy a directory in various methods. If destination directory exists, will fail 
       <p>Name of directory to copy</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newPath</td>
@@ -420,7 +420,7 @@ Copy a directory in various methods. If destination directory exists, will fail 
       <p>Base FileSystem of new location</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newDirName</td>
@@ -461,7 +461,7 @@ List files and directory from a given path.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       dirName</td>
@@ -502,7 +502,7 @@ Removes all files and the directory from a desired location.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       dirName</td>
@@ -543,7 +543,7 @@ Check if a file exists in a certain path, directory.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       file</td>
@@ -586,7 +586,7 @@ If an existing file exists and the replace value is false, the promise will fail
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       fileName</td>
@@ -597,7 +597,7 @@ If an existing file exists and the replace value is false, the promise will fail
       <p>Name of file to create</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       replace</td>
@@ -638,7 +638,7 @@ Removes a file from a desired location.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       fileName</td>
@@ -679,7 +679,7 @@ Write a new file to the desired location.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       fileName</td>
@@ -690,7 +690,7 @@ Write a new file to the desired location.
       <p>path relative to base path</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       text</td>
@@ -701,7 +701,7 @@ Write a new file to the desired location.
       <p>content or blob to write</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -742,7 +742,7 @@ Write to an existing file.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       fileName</td>
@@ -753,7 +753,7 @@ Write to an existing file.
       <p>path relative to base path</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       text</td>
@@ -794,7 +794,7 @@ Read the contents of a file as text.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       file</td>
@@ -837,7 +837,7 @@ A data url is of the form:
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       file</td>
@@ -877,7 +877,7 @@ Read file and return data as a binary data.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       file</td>
@@ -917,7 +917,7 @@ Read file and return data as an ArrayBuffer.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       file</td>
@@ -958,7 +958,7 @@ Move a file to a given path.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       fileName</td>
@@ -969,7 +969,7 @@ Move a file to a given path.
       <p>Name of file to move</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newPath</td>
@@ -980,7 +980,7 @@ Move a file to a given path.
       <p>Base FileSystem of new location</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newFileName</td>
@@ -1021,7 +1021,7 @@ Copy a file in various methods. If file exists, will fail to copy.
       <p>Base FileSystem. Please refer to the iOS and Android filesystems above</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       fileName</td>
@@ -1032,7 +1032,7 @@ Copy a file in various methods. If file exists, will fail to copy.
       <p>Name of file to copy</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newPath</td>
@@ -1043,7 +1043,7 @@ Copy a file in various methods. If file exists, will fail to copy.
       <p>Base FileSystem of new location</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       newFileName</td>
@@ -1088,7 +1088,7 @@ Resolves a local file system URL
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;Entry&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;Entry&gt;</code>
 </div><h3><a class="anchor" name="resolveDirectoryUrl" href="#resolveDirectoryUrl"></a><code>resolveDirectoryUrl(directoryUrl)</code></h3>
 
 
@@ -1117,7 +1117,7 @@ Resolves a local directory url
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;DirectoryEntry&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;DirectoryEntry&gt;</code>
 </div><h3><a class="anchor" name="getDirectory" href="#getDirectory"></a><code>getDirectory(directoryEntry,&nbsp;directoryName,&nbsp;flags)</code></h3>
 
 
@@ -1141,7 +1141,7 @@ Get a directory
       <p>Directory entry, obtained by resolveDirectoryUrl method</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       directoryName</td>
@@ -1152,7 +1152,7 @@ Get a directory
       <p>Directory name</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       flags</td>
@@ -1168,7 +1168,7 @@ Get a directory
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;DirectoryEntry&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;DirectoryEntry&gt;</code>
 </div><h3><a class="anchor" name="getFile" href="#getFile"></a><code>getFile(directoryEntry,&nbsp;fileName,&nbsp;flags)</code></h3>
 
 
@@ -1192,7 +1192,7 @@ Get a file
       <p>Directory entry, obtained by resolveDirectoryUrl method</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       fileName</td>
@@ -1203,7 +1203,7 @@ Get a file
       <p>File name</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       flags</td>
@@ -1219,7 +1219,7 @@ Get a file
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;FileEntry&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;FileEntry&gt;</code>
 </div>
 
 

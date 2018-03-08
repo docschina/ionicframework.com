@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Card IO</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/card-io/index.ts#L129">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -99,7 +99,7 @@ device, OS version, network connectivity, etc.)
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;boolean&gt;</code>
 </div><h3><a class="anchor" name="scan" href="#scan"></a><code>scan(options)</code></h3>
 
 
@@ -128,7 +128,7 @@ Scan a credit card with card.io.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="version" href="#version"></a><code>version()</code></h3>
 
 
@@ -137,7 +137,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;string&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;string&gt;</code>
 </div>
 
 
@@ -155,7 +155,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       requireExpiry
@@ -169,7 +169,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       requireCVV
@@ -183,7 +183,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       requirePostalCode
@@ -197,7 +197,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       supressManual
@@ -211,7 +211,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       restrictPostalCodeToNumericOnly
@@ -225,7 +225,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       keepApplicationTheme
@@ -239,7 +239,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       requireCardholderName
@@ -253,7 +253,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       scanInstructions
@@ -267,7 +267,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       noCamera
@@ -281,7 +281,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       scanExpiry
@@ -295,7 +295,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       languageOrLocale
@@ -309,7 +309,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       guideColor
@@ -323,7 +323,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       supressConfirmation
@@ -337,7 +337,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       hideCardIOLogo
@@ -351,7 +351,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       useCardIOLogo
@@ -365,7 +365,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       supressScan
@@ -379,7 +379,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -395,7 +395,7 @@ Retrieve the version of the card.io library. Useful when contacting support.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       cardType
@@ -406,10 +406,10 @@ Retrieve the version of the card.io library. Useful when contacting support.
     <td>
       <p>Card type</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       redactedCardNumber
@@ -420,10 +420,10 @@ Retrieve the version of the card.io library. Useful when contacting support.
     <td>
       <p>Masked card number, showing only last 4 digits</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cardNumber
@@ -434,10 +434,10 @@ Retrieve the version of the card.io library. Useful when contacting support.
     <td>
       <p>Full card number</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       expiryMonth
@@ -448,10 +448,10 @@ Retrieve the version of the card.io library. Useful when contacting support.
     <td>
       <p>Expiry month</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       expiryYear
@@ -462,10 +462,10 @@ Retrieve the version of the card.io library. Useful when contacting support.
     <td>
       <p>Expiry year</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cvv
@@ -476,10 +476,10 @@ Retrieve the version of the card.io library. Useful when contacting support.
     <td>
       <p>CVV</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       postalCode
@@ -490,10 +490,10 @@ Retrieve the version of the card.io library. Useful when contacting support.
     <td>
       <p>Postal code</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cardholderName
@@ -504,10 +504,10 @@ Retrieve the version of the card.io library. Useful when contacting support.
     <td>
       <p>Cardholder name</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

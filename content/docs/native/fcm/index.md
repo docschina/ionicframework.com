@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">FCM</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/fcm/index.ts#L18">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -202,7 +202,7 @@ Watch for incoming notifications
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       wasTapped
@@ -213,10 +213,10 @@ Watch for incoming notifications
     <td>
       <p>Determines whether the notification was pressed or not</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Alipay</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/alipay/index.ts#L61">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -132,7 +132,7 @@ Open Alipay to perform App pay
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       app_id
@@ -143,10 +143,10 @@ Open Alipay to perform App pay
     <td>
       <p>appId assigned by Alipay</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       method
@@ -158,10 +158,10 @@ Open Alipay to perform App pay
       <p>Api name.
 Should be: alipay.trade.app.pay</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       format
@@ -176,7 +176,7 @@ Default: &quot;JSON&quot;</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       charset
@@ -189,10 +189,10 @@ Default: &quot;JSON&quot;</p>
 Possible values: &quot;UTF-8&quot;, &quot;GBK&quot;
 Default: &quot;UTF-8&quot;</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sign_type
@@ -204,10 +204,10 @@ Default: &quot;UTF-8&quot;</p>
       <p>Sign method
 Default: &#39;RSA&#39;</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sign
@@ -219,10 +219,10 @@ Default: &#39;RSA&#39;</p>
       <p>Sign value. Should be got from server side.
 Default: &#39;RSA&#39;</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       timestamp
@@ -233,10 +233,10 @@ Default: &#39;RSA&#39;</p>
     <td>
       <p>Timestamp, formated like &quot;yyyy-MM-dd HH:mm:ss&quot;, e.g. 2014-07-24 03:07:50</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       version
@@ -247,10 +247,10 @@ Default: &#39;RSA&#39;</p>
     <td>
       <p>Api version. Fixed value &#39;1.0&#39;</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       notify_url
@@ -261,10 +261,10 @@ Default: &#39;RSA&#39;</p>
     <td>
       <p>Notify url.</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       biz_content
@@ -275,10 +275,10 @@ Default: &#39;RSA&#39;</p>
     <td>
       <p>biz content. formated in json. see alipay doc for detail.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

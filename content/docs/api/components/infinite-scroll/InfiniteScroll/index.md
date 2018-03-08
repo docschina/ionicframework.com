@@ -11,7 +11,7 @@ doc: "InfiniteScroll"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/infinite-scroll/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -36,7 +36,7 @@ InfiniteScroll
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/infinite-scroll/infinite-scroll.ts#L4">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -177,7 +177,7 @@ export class NewsFeedPage {
 <h3>
 <a class="anchor" name="complete" href="#complete">
 <code>complete()</code>
-  
+
 
 </a>
 </h3>
@@ -185,7 +185,7 @@ export class NewsFeedPage {
 当异步操作完成时，在 `infinite` 事件处理函数中调用 `complete()`。
 例如， `loading` 状态是应用程序执行异步操作时，比如从 AJAX 请求接收更多数据，将更多项添加到数据列表。
 一旦接收到这些数据并更新 UI，就调用此方法来表示加载已完成。
-这种方法会将 infinite scroll 状态从 `loading` 更改为 `enabled`。 
+这种方法会将 infinite scroll 状态从 `loading` 更改为 `enabled`。
 
 
 
@@ -205,7 +205,7 @@ export class NewsFeedPage {
 <h3>
 <a class="anchor" name="enable" href="#enable">
 <code>enable(shouldEnable)</code>
-  
+
 
 </a>
 </h3>
@@ -225,15 +225,15 @@ export class NewsFeedPage {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         shouldEnable
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>boolean</code>
       </td>
       <td>
@@ -241,10 +241,10 @@ export class NewsFeedPage {
 
 
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -260,7 +260,7 @@ export class NewsFeedPage {
 <h3>
 <a class="anchor" name="waitFor" href="#waitFor">
 <code>waitFor()</code>
-  
+
 
 </a>
 </h3>
@@ -287,7 +287,7 @@ change state of infiniteScroll to "complete"
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>enabled</td>
       <td><code>boolean</code></td>
@@ -296,7 +296,7 @@ change state of infiniteScroll to "complete"
 
 </td>
     </tr>
-    
+
     <tr>
       <td>position</td>
       <td><code>string</code></td>
@@ -305,7 +305,7 @@ change state of infiniteScroll to "complete"
 
 </td>
     </tr>
-    
+
     <tr>
       <td>threshold</td>
       <td><code>string</code></td>
@@ -319,7 +319,7 @@ change state of infiniteScroll to "complete"
 
 </td>
     </tr>
-    
+
   </tbody>
 </table>
 <!-- output events on the class -->
@@ -332,7 +332,7 @@ change state of infiniteScroll to "complete"
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>ionInfinite</td>
       <td><p>当滚动达到阈值距离时触发。在你的 infinite 处理函数中，当异步操作完成时，你必须调用无限滚动的 <code>complete()</code> 方法。</p>
@@ -341,7 +341,7 @@ change state of infiniteScroll to "complete"
 
 </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -349,13 +349,13 @@ change state of infiniteScroll to "complete"
   <h2 id="sass-variable-header"><a class="anchor" name="sass-variables" href="#sass-variables">Sass Variables</a></h2>
   <div id="sass-variables" ng-controller="SassToggleCtrl">
   <div class="sass-platform-toggle">
-    
+
     <h3 ng-init="setSassPlatform('base')">All</h3>
-    
+
   </div>
 
 
-  
+
   <table ng-show="active === 'base'" id="sass-base" class="table param-table" style="margin:0;">
     <thead>
       <tr>
@@ -365,100 +365,100 @@ change state of infiniteScroll to "complete"
       </tr>
     </thead>
     <tbody>
-      
+
       <tr>
         <td><code>$infinite-scroll-loading-margin-top</code></td>
-        
+
           <td><code>0</code></td>
-        
+
         <td><p>Margin top of the infinite scroll loading icon</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$infinite-scroll-loading-margin-end</code></td>
-        
+
           <td><code>0</code></td>
-        
+
         <td><p>Margin end of the infinite scroll loading icon</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$infinite-scroll-loading-margin-bottom</code></td>
-        
+
           <td><code>32px</code></td>
-        
+
         <td><p>Margin bottom of the infinite scroll loading icon</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$infinite-scroll-loading-margin-start</code></td>
-        
+
           <td><code>0</code></td>
-        
+
         <td><p>Margin start of the infinite scroll loading icon</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$infinite-scroll-loading-color</code></td>
-        
+
           <td><code>#666</code></td>
-        
+
         <td><p>Color of the infinite scroll loading indicator</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$infinite-scroll-loading-text-color</code></td>
-        
+
           <td><code>$infinite-scroll-loading-color</code></td>
-        
+
         <td><p>Text color of the infinite scroll loading indicator</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$infinite-scroll-loading-text-margin-top</code></td>
-        
+
           <td><code>4px</code></td>
-        
+
         <td><p>Margin top of the infinite scroll loading text</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$infinite-scroll-loading-text-margin-end</code></td>
-        
+
           <td><code>32px</code></td>
-        
+
         <td><p>Margin end of the infinite scroll loading text</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$infinite-scroll-loading-text-margin-bottom</code></td>
-        
+
           <td><code>0</code></td>
-        
+
         <td><p>Margin bottom of the infinite scroll loading text</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$infinite-scroll-loading-text-margin-start</code></td>
-        
+
           <td><code>32px</code></td>
-        
+
         <td><p>Margin start of the infinite scroll loading text</p>
 </td>
       </tr>
-      
+
     </tbody>
   </table>
-  
+
 </div>
 
 

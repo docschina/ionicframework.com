@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">MS ADAL</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/ms-adal/index.ts#L50">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -141,7 +141,7 @@ Acquires token using interactive flow. It always shows UI and skips token from c
       <p>Resource identifier</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       clientId</td>
@@ -152,7 +152,7 @@ Acquires token using interactive flow. It always shows UI and skips token from c
       <p>Client (application) identifier</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       redirectUrl</td>
@@ -163,7 +163,7 @@ Acquires token using interactive flow. It always shows UI and skips token from c
       <p>Redirect url for this application</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       userId</td>
@@ -174,7 +174,7 @@ Acquires token using interactive flow. It always shows UI and skips token from c
       <p>User identifier (optional)</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       extraQueryParameters</td>
@@ -220,7 +220,7 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <p>Resource identifier</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       clientId</td>
@@ -231,7 +231,7 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <p>Client (application) identifier</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       userId</td>
@@ -263,7 +263,7 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       accessToken
@@ -272,11 +272,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       accesSTokenType
@@ -285,11 +285,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       expiresOn
@@ -298,11 +298,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>Date</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       idToken
@@ -311,11 +311,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isMultipleResourceRefreshToken
@@ -324,11 +324,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>boolean</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       status
@@ -337,11 +337,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       statusCode
@@ -350,11 +350,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>number</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       tenantId
@@ -363,11 +363,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       userInfo
@@ -376,11 +376,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>UserInfo</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       createAuthorizationHeader
@@ -391,10 +391,10 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
     <td>
       <p>Creates authorization header for web requests.</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -410,7 +410,7 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       clear
@@ -419,11 +419,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>void</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       readItems
@@ -432,11 +432,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>Promise&lt;TokenCacheItem[]&gt;</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       deleteItem
@@ -445,11 +445,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>void</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -465,7 +465,7 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       accessToken
@@ -474,11 +474,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       authority
@@ -487,11 +487,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clientId
@@ -500,11 +500,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       displayableId
@@ -513,11 +513,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       expiresOn
@@ -526,11 +526,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>Date</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isMultipleResourceRefreshToken
@@ -539,11 +539,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>boolean</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       resource
@@ -552,11 +552,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       tenantId
@@ -565,11 +565,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       userInfo
@@ -578,11 +578,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>UserInfo</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -598,7 +598,7 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       displayableId
@@ -607,11 +607,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       userId
@@ -620,11 +620,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       familyName
@@ -633,11 +633,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       givenName
@@ -646,11 +646,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       identityProvider
@@ -659,11 +659,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       passwordChangeUrl
@@ -672,11 +672,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       passwordExpiresOn
@@ -685,11 +685,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>Date</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       uniqueId
@@ -698,11 +698,11 @@ displaying UI it will fail. This method guarantees that no UI will be shown to u
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

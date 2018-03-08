@@ -34,7 +34,7 @@ Img
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/img/img.ts#L6">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -135,7 +135,7 @@ Improve this doc
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>alt</td>
       <td><code>string</code></td>
@@ -143,7 +143,7 @@ Improve this doc
 
 </td>
     </tr>
-    
+
     <tr>
       <td>bounds</td>
       <td><code>any</code></td>
@@ -152,7 +152,7 @@ Improve this doc
 
 </td>
     </tr>
-    
+
     <tr>
       <td>cache</td>
       <td><code>boolean</code></td>
@@ -162,7 +162,7 @@ Improve this doc
 
 </td>
     </tr>
-    
+
     <tr>
       <td>height</td>
       <td><code>string</code></td>
@@ -171,14 +171,14 @@ Improve this doc
 
 </td>
     </tr>
-    
+
     <tr>
       <td>src</td>
       <td><code>string</code></td>
       <td><p>图像的来源。</p>
 </td>
     </tr>
-    
+
     <tr>
       <td>width</td>
       <td><code>string</code></td>
@@ -187,7 +187,7 @@ Improve this doc
 
 </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -195,13 +195,13 @@ Improve this doc
   <h2 id="sass-variable-header"><a class="anchor" name="sass-variables" href="#sass-variables">Sass Variables</a></h2>
   <div id="sass-variables" ng-controller="SassToggleCtrl">
   <div class="sass-platform-toggle">
-    
+
     <h3 ng-init="setSassPlatform('base')">All</h3>
-    
+
   </div>
 
 
-  
+
   <table ng-show="active === 'base'" id="sass-base" class="table param-table" style="margin:0;">
     <thead>
       <tr>
@@ -211,19 +211,19 @@ Improve this doc
       </tr>
     </thead>
     <tbody>
-      
+
       <tr>
         <td><code>$img-placeholder-background</code></td>
-        
+
           <td><code>#eee</code></td>
-        
+
         <td><p>Color of the image when it hasn&#39;t fully loaded yet</p>
 </td>
       </tr>
-      
+
     </tbody>
   </table>
-  
+
 </div>
 
 

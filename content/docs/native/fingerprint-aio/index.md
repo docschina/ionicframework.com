@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Fingerprint AIO</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/fingerprint-aio/index.ts#L29">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -137,7 +137,7 @@ Show authentication dialogue
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       clientId
@@ -148,10 +148,10 @@ Show authentication dialogue
     <td>
       <p>Key for platform keychain</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       clientSecret
@@ -165,7 +165,7 @@ Show authentication dialogue
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       disableBackup
@@ -179,7 +179,7 @@ Show authentication dialogue
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       localizedFallbackTitle
@@ -193,7 +193,7 @@ Show authentication dialogue
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       localizedReason
@@ -207,7 +207,7 @@ Show authentication dialogue
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

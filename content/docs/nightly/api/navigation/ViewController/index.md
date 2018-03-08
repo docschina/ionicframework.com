@@ -32,7 +32,7 @@ ViewController
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/navigation/view-controller.ts#L6">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -76,7 +76,7 @@ export class MyPage{
 <h3>
 <a class="anchor" name="component" href="#component">
 <code>component</code>
-  
+
 
 </a>
 </h3>
@@ -96,7 +96,7 @@ export class MyPage{
 <h3>
 <a class="anchor" name="contentRef" href="#contentRef">
 <code>contentRef()</code>
-  
+
 
 </a>
 </h3>
@@ -110,7 +110,7 @@ export class MyPage{
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>ElementRef</code> <p>Returns the Content&#39;s ElementRef.</p>
 
 
@@ -124,7 +124,7 @@ export class MyPage{
 <h3>
 <a class="anchor" name="didEnter" href="#didEnter">
 <code>didEnter</code>
-  
+
 
 </a>
 </h3>
@@ -138,7 +138,7 @@ Observable to be subscribed to when the current component has become active
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Observable</code> <p>Returns an observable</p>
 
 
@@ -152,7 +152,7 @@ Observable to be subscribed to when the current component has become active
 <h3>
 <a class="anchor" name="didLeave" href="#didLeave">
 <code>didLeave</code>
-  
+
 
 </a>
 </h3>
@@ -166,7 +166,7 @@ Observable to be subscribed to when the current component is no long active
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Observable</code> <p>Returns an observable</p>
 
 
@@ -180,7 +180,7 @@ Observable to be subscribed to when the current component is no long active
 <h3>
 <a class="anchor" name="dismiss" href="#dismiss">
 <code>dismiss(data,&nbsp;role ,&nbsp;navOptions)</code>
-  
+
 
 </a>
 </h3>
@@ -197,58 +197,58 @@ Dismiss the current viewController
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         data
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>any</code>
       </td>
       <td>
         <p>Data that you want to return when the viewController is dismissed.<strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
-        role 
-        
-        
+        role
+
+
       </td>
       <td>
-        
+
   <code>any</code>
       </td>
       <td>
         <p><strong class="tag">Optional</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         navOptions
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>NavOptions</code>
       </td>
       <td>
         <p>Options for the dismiss navigation.</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -258,7 +258,7 @@ Dismiss the current viewController
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>any</code> <p>data Returns the data passed in, if any.</p>
 
 
@@ -272,7 +272,7 @@ Dismiss the current viewController
 <h3>
 <a class="anchor" name="enableBack" href="#enableBack">
 <code>enableBack()</code>
-  
+
 
 </a>
 </h3>
@@ -286,7 +286,7 @@ Check to see if you can go back in the navigation stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>boolean</code> <p>Returns if it&#39;s possible to go back from this Page.</p>
 
 
@@ -300,7 +300,7 @@ Check to see if you can go back in the navigation stack.
 <h3>
 <a class="anchor" name="getContent" href="#getContent">
 <code>getContent()</code>
-  
+
 
 </a>
 </h3>
@@ -314,7 +314,7 @@ Check to see if you can go back in the navigation stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>component</code> <p>Returns the Page&#39;s Content component reference.</p>
 
 
@@ -328,7 +328,7 @@ Check to see if you can go back in the navigation stack.
 <h3>
 <a class="anchor" name="handleOrientationChange" href="#handleOrientationChange">
 <code>handleOrientationChange()</code>
-  
+
 
 </a>
 </h3>
@@ -348,7 +348,7 @@ Check to see if you can go back in the navigation stack.
 <h3>
 <a class="anchor" name="hasNavbar" href="#hasNavbar">
 <code>hasNavbar()</code>
-  
+
 
 </a>
 </h3>
@@ -364,7 +364,7 @@ the view has rendered fully.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>boolean</code> <p>Returns a boolean if this Page has a navbar or not.</p>
 
 
@@ -378,7 +378,7 @@ the view has rendered fully.
 <h3>
 <a class="anchor" name="index" href="#index">
 <code>index</code>
-  
+
 
 </a>
 </h3>
@@ -392,7 +392,7 @@ Get the index of the current component in the current navigation stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>number</code> <p>Returns the index of this page within its <code>NavController</code>.</p>
 
 
@@ -406,7 +406,7 @@ Get the index of the current component in the current navigation stack.
 <h3>
 <a class="anchor" name="isFirst" href="#isFirst">
 <code>isFirst()</code>
-  
+
 
 </a>
 </h3>
@@ -420,7 +420,7 @@ Get the index of the current component in the current navigation stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>boolean</code> <p>Returns if this Page is the first in the stack of pages within its NavController.</p>
 
 
@@ -434,7 +434,7 @@ Get the index of the current component in the current navigation stack.
 <h3>
 <a class="anchor" name="isLast" href="#isLast">
 <code>isLast()</code>
-  
+
 
 </a>
 </h3>
@@ -448,7 +448,7 @@ Get the index of the current component in the current navigation stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>boolean</code> <p>Returns if this Page is the last in the stack of pages within its NavController.</p>
 
 
@@ -462,7 +462,7 @@ Get the index of the current component in the current navigation stack.
 <h3>
 <a class="anchor" name="onDidDismiss" href="#onDidDismiss">
 <code>onDidDismiss()</code>
-  
+
 
 </a>
 </h3>
@@ -483,7 +483,7 @@ Called when the current viewController has be successfully dismissed
 <h3>
 <a class="anchor" name="onWillDismiss" href="#onWillDismiss">
 <code>onWillDismiss()</code>
-  
+
 
 </a>
 </h3>
@@ -504,7 +504,7 @@ Called when the current viewController will be dismissed
 <h3>
 <a class="anchor" name="pageRef" href="#pageRef">
 <code>pageRef()</code>
-  
+
 
 </a>
 </h3>
@@ -518,7 +518,7 @@ Called when the current viewController will be dismissed
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>ElementRef</code> <p>Returns the Page&#39;s ElementRef.</p>
 
 
@@ -532,7 +532,7 @@ Called when the current viewController will be dismissed
 <h3>
 <a class="anchor" name="setBackButtonText" href="#setBackButtonText">
 <code>setBackButtonText(val)</code>
-  
+
 
 </a>
 </h3>
@@ -550,24 +550,24 @@ after `ionViewWillEnter` to make sure the  DOM has been rendered.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         val
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>Set the back button text.</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -583,7 +583,7 @@ after `ionViewWillEnter` to make sure the  DOM has been rendered.
 <h3>
 <a class="anchor" name="showBackButton" href="#showBackButton">
 <code>showBackButton(Set)</code>
-  
+
 
 </a>
 </h3>
@@ -601,24 +601,24 @@ after `ionViewWillEnter` to make sure the  DOM has been rendered.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         Set
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>boolean</code>
       </td>
       <td>
         <p>if this Page&#39;s back button should show or not.</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -634,7 +634,7 @@ after `ionViewWillEnter` to make sure the  DOM has been rendered.
 <h3>
 <a class="anchor" name="willEnter" href="#willEnter">
 <code>willEnter</code>
-  
+
 
 </a>
 </h3>
@@ -648,7 +648,7 @@ Observable to be subscribed to when the current component will become active
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Observable</code> <p>Returns an observable</p>
 
 
@@ -662,7 +662,7 @@ Observable to be subscribed to when the current component will become active
 <h3>
 <a class="anchor" name="willLeave" href="#willLeave">
 <code>willLeave</code>
-  
+
 
 </a>
 </h3>
@@ -676,7 +676,7 @@ Observable to be subscribed to when the current component will no longer be acti
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Observable</code> <p>Returns an observable</p>
 
 
@@ -690,7 +690,7 @@ Observable to be subscribed to when the current component will no longer be acti
 <h3>
 <a class="anchor" name="willUnload" href="#willUnload">
 <code>willUnload</code>
-  
+
 
 </a>
 </h3>
@@ -704,7 +704,7 @@ Observable to be subscribed to when the current component has been destroyed
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Observable</code> <p>Returns an observable</p>
 
 

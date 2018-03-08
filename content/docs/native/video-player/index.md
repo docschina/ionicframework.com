@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Video Player</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/video-player/index.ts#L17">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -102,7 +102,7 @@ Plays the video from the passed url.
       <p>File url to the video.</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       options</td>
@@ -145,7 +145,7 @@ Stops the video playback immediatly.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       volume
@@ -160,7 +160,7 @@ For example: for a volume of 30% set the value to 0.3.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       scalingMode
@@ -175,7 +175,7 @@ These strings are the only ones which can be passed as option.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Pin Dialog</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/pin-dialog/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -104,7 +104,7 @@ Show pin dialog
       <p>Message to show the user</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       title</td>
@@ -115,7 +115,7 @@ Show pin dialog
       <p>Title of the dialog</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       buttons</td>
@@ -131,7 +131,7 @@ Show pin dialog
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;{ buttonIndex: number, input1: string }&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;{ buttonIndex: number, input1: string }&gt;</code>
 </div>
 
 

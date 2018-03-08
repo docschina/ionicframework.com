@@ -11,7 +11,7 @@ doc: "Config"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/config/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -34,7 +34,7 @@ Config
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/config/config.ts#L10">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -275,7 +275,7 @@ config.get(&#39;favoriteColor&#39;); // &#39;green&#39; 当平台是 iOS 时
 <h3>
 <a class="anchor" name="get" href="#get">
 <code>get(key,&nbsp;fallbackValue)</code>
-  
+
 
 </a>
 </h3>
@@ -292,32 +292,32 @@ config.get(&#39;favoriteColor&#39;); // &#39;green&#39; 当平台是 iOS 时
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         key
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>配置值的键 <strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         fallbackValue
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>any</code>
       </td>
       <td>
@@ -325,10 +325,10 @@ config.get(&#39;favoriteColor&#39;); // &#39;green&#39; 当平台是 iOS 时
 
 
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -344,7 +344,7 @@ config.get(&#39;favoriteColor&#39;); // &#39;green&#39; 当平台是 iOS 时
 <h3>
 <a class="anchor" name="getBoolean" href="#getBoolean">
 <code>getBoolean(key,&nbsp;fallbackValue)</code>
-  
+
 
 </a>
 </h3>
@@ -365,42 +365,42 @@ config.get(&#39;favoriteColor&#39;); // &#39;green&#39; 当平台是 iOS 时
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         key
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>配置值的键 <strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         fallbackValue
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>boolean</code>
       </td>
       <td>
         <p>未找到配置值或者配置值为 <code>null</code> 时使用的回退值。回退值默认为 <code>false</code>。<strong class="tag">可选的</strong></p>
 
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -416,7 +416,7 @@ config.get(&#39;favoriteColor&#39;); // &#39;green&#39; 当平台是 iOS 时
 <h3>
 <a class="anchor" name="getNumber" href="#getNumber">
 <code>getNumber(key,&nbsp;fallbackValue)</code>
-  
+
 
 </a>
 </h3>
@@ -437,42 +437,42 @@ config.get(&#39;favoriteColor&#39;); // &#39;green&#39; 当平台是 iOS 时
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         key
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>配置值的键 <strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         fallbackValue
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>配置值转成 <code>NaN</code>使用的回退值。 回退值默认为 <code>NaN</code>。<strong class="tag">可选的</strong></p>
 
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -488,7 +488,7 @@ config.get(&#39;favoriteColor&#39;); // &#39;green&#39; 当平台是 iOS 时
 <h3>
 <a class="anchor" name="set" href="#set">
 <code>set(platform,&nbsp;key,&nbsp;value)</code>
-  
+
 
 </a>
 </h3>
@@ -505,58 +505,58 @@ config.get(&#39;favoriteColor&#39;); // &#39;green&#39; 当平台是 iOS 时
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         platform
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>该配置值应适配的平台（&#39;ios&#39; 或 &#39;android&#39;）。如果留空，则会将配置值应用于所有平台。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         key
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>用于在稍后的时间点查找该值的键。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         value
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>被存储的配置值。<strong class="tag">可选的</strong></p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 

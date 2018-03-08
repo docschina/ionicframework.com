@@ -8,8 +8,8 @@ header_sub_title: Ionic Resources
 
 # Using NPM
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/resources/using-npm/index.md'>
-  Improve this doc
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/developer-resources/using-npm/index.md'>
+  改进这篇文档
 </a>
 
 There is a lot of new terminology in Ionic, much of it having to do with Node and NPM. Let's take a look at some key concepts with Node/NPM, and how they relate to Ionic.

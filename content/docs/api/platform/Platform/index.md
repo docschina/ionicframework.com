@@ -11,7 +11,7 @@ doc: "Platform"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/platform/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -34,7 +34,7 @@ Platform
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/platform/platform.ts#L6">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -83,7 +83,7 @@ export MyPage {
 <h3>
 <a class="anchor" name="dir" href="#dir">
 <code>dir()</code>
-  
+
 
 </a>
 </h3>
@@ -100,8 +100,8 @@ attribute value set, such as `<html dir="ltr">` or `<html dir="rtl">`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>DocumentDirection</code> 
+<b>Returns:</b>
+  <code>DocumentDirection</code>
 
 </div>
 
@@ -113,7 +113,7 @@ attribute value set, such as `<html dir="ltr">` or `<html dir="rtl">`.
 <h3>
 <a class="anchor" name="getQueryParam" href="#getQueryParam">
 <code>getQueryParam()</code>
-  
+
 
 </a>
 </h3>
@@ -134,7 +134,7 @@ Get the query string parameter
 <h3>
 <a class="anchor" name="height" href="#height">
 <code>height()</code>
-  
+
 
 </a>
 </h3>
@@ -157,7 +157,7 @@ which reduces the chance of multiple and expensive DOM reads.
 <h3>
 <a class="anchor" name="is" href="#is">
 <code>is(platformName)</code>
-  
+
 
 </a>
 </h3>
@@ -208,23 +208,23 @@ export MyPage {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         platformName
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
-        
-        
+
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -234,7 +234,7 @@ export MyPage {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>boolean</code> <p>returns true/false based on platform.</p>
 
 
@@ -248,7 +248,7 @@ export MyPage {
 <h3>
 <a class="anchor" name="isLandscape" href="#isLandscape">
 <code>isLandscape()</code>
-  
+
 
 </a>
 </h3>
@@ -269,7 +269,7 @@ Returns `true` if the app is in landscape mode.
 <h3>
 <a class="anchor" name="isPortrait" href="#isPortrait">
 <code>isPortrait()</code>
-  
+
 
 </a>
 </h3>
@@ -290,7 +290,7 @@ Returns `true` if the app is in portait mode.
 <h3>
 <a class="anchor" name="isRTL" href="#isRTL">
 <code>isRTL</code>
-  
+
 
 </a>
 </h3>
@@ -307,8 +307,8 @@ attribute value set, such as `<html dir="ltr">` or `<html dir="rtl">`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>boolean</code> 
+<b>Returns:</b>
+  <code>boolean</code>
 
 </div>
 
@@ -320,7 +320,7 @@ attribute value set, such as `<html dir="ltr">` or `<html dir="rtl">`.
 <h3>
 <a class="anchor" name="lang" href="#lang">
 <code>lang()</code>
-  
+
 
 </a>
 </h3>
@@ -337,8 +337,8 @@ attribute value set, such as `<html lang="en">`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>string</code> 
+<b>Returns:</b>
+  <code>string</code>
 
 </div>
 
@@ -350,7 +350,7 @@ attribute value set, such as `<html lang="en">`.
 <h3>
 <a class="anchor" name="pause" href="#pause">
 <code>pause</code>
-  
+
 
 </a>
 </h3>
@@ -374,7 +374,7 @@ the background, however, it would not fire on a standard web browser.
 <h3>
 <a class="anchor" name="platforms" href="#platforms">
 <code>platforms()</code>
-  
+
 
 </a>
 </h3>
@@ -402,7 +402,7 @@ export MyPage {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>array</code> <p>the array of platforms</p>
 
 
@@ -416,7 +416,7 @@ export MyPage {
 <h3>
 <a class="anchor" name="ready" href="#ready">
 <code>ready()</code>
-  
+
 
 </a>
 </h3>
@@ -456,8 +456,8 @@ export MyApp {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
-  <code>promise</code> 
+<b>Returns:</b>
+  <code>promise</code>
 
 </div>
 
@@ -469,7 +469,7 @@ export MyApp {
 <h3>
 <a class="anchor" name="registerBackButtonAction" href="#registerBackButtonAction">
 <code>registerBackButtonAction(fn,&nbsp;priority)</code>
-  
+
 
 </a>
 </h3>
@@ -497,42 +497,42 @@ actions has the highest priority and should be called.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         fn
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>Function</code>
       </td>
       <td>
         <p>Called when the back button is pressed,
 if this registered action has the highest priority.</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         priority
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>number</code>
       </td>
       <td>
         <p>Set the priority for this action. Only the highest priority will execute. Defaults to <code>0</code>.</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -542,7 +542,7 @@ if this registered action has the highest priority.</p>
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>Function</code> <p>A function that, when called, will unregister
 the back button action.</p>
 
@@ -557,7 +557,7 @@ the back button action.</p>
 <h3>
 <a class="anchor" name="resize" href="#resize">
 <code>resize</code>
-  
+
 
 </a>
 </h3>
@@ -580,7 +580,7 @@ out from the background, however, it would not fire on a standard web browser.
 <h3>
 <a class="anchor" name="resume" href="#resume">
 <code>resume</code>
-  
+
 
 </a>
 </h3>
@@ -603,7 +603,7 @@ out from the background, however, it would not fire on a standard web browser.
 <h3>
 <a class="anchor" name="setDir" href="#setDir">
 <code>setDir(dir,&nbsp;updateDocument)</code>
-  
+
 
 </a>
 </h3>
@@ -625,40 +625,40 @@ direction needs to be dynamically changed per user/session.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         dir
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>DocumentDirection</code>
       </td>
       <td>
         <p>Examples: <code>rtl</code>, <code>ltr</code></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         updateDocument
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>boolean</code>
       </td>
       <td>
-        
-        
+
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -674,7 +674,7 @@ direction needs to be dynamically changed per user/session.
 <h3>
 <a class="anchor" name="setLang" href="#setLang">
 <code>setLang(language,&nbsp;updateDocument)</code>
-  
+
 
 </a>
 </h3>
@@ -696,41 +696,41 @@ the language needs to be dynamically changed per user/session.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         language
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>Examples: <code>en-US</code>, <code>en-GB</code>, <code>ar</code>, <code>de</code>, <code>zh</code>, <code>es-MX</code></p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         updateDocument
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>boolean</code>
       </td>
       <td>
         <p>Specifies whether the <code>lang</code> attribute of <code>&lt;html&gt;</code> should be updated</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -746,7 +746,7 @@ the language needs to be dynamically changed per user/session.
 <h3>
 <a class="anchor" name="testUserAgent" href="#testUserAgent">
 <code>testUserAgent()</code>
-  
+
 
 </a>
 </h3>
@@ -766,7 +766,7 @@ the language needs to be dynamically changed per user/session.
 <h3>
 <a class="anchor" name="url" href="#url">
 <code>url()</code>
-  
+
 
 </a>
 </h3>
@@ -787,7 +787,7 @@ Get the current url.
 <h3>
 <a class="anchor" name="versions" href="#versions">
 <code>versions()</code>
-  
+
 
 </a>
 </h3>
@@ -815,7 +815,7 @@ export MyPage {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
   <code>object</code> <p>An object containing all of the platforms and their versions.</p>
 
 
@@ -829,7 +829,7 @@ export MyPage {
 <h3>
 <a class="anchor" name="width" href="#width">
 <code>width()</code>
-  
+
 
 </a>
 </h3>
@@ -851,29 +851,29 @@ which reduces the chance of multiple and expensive DOM reads.
   <h2 id="sass-variable-header"><a class="anchor" name="sass-variables" href="#sass-variables">Sass Variables</a></h2>
   <div id="sass-variables" ng-controller="SassToggleCtrl">
   <div class="sass-platform-toggle">
-    
-      
-      
+
+
+
       <a ng-init="setSassPlatform('base')" ng-class="{ active: active === 'base' }" ng-click="setSassPlatform('base')" >All</a>
-      
-      
-      
+
+
+
       <a ng-class="{ active: active === 'ios' }" ng-click="setSassPlatform('ios')">iOS</a>
-      
-      
-      
+
+
+
       <a ng-class="{ active: active === 'md' }" ng-click="setSassPlatform('md')">Material Design</a>
-      
-      
-      
+
+
+
       <a ng-class="{ active: active === 'wp' }" ng-click="setSassPlatform('wp')">Windows Platform</a>
-      
-      
-    
+
+
+
   </div>
 
 
-  
+
   <table ng-show="active === 'base'" id="sass-base" class="table param-table" style="margin:0;">
     <thead>
       <tr>
@@ -883,19 +883,19 @@ which reduces the chance of multiple and expensive DOM reads.
       </tr>
     </thead>
     <tbody>
-      
+
       <tr>
         <td><code>$cordova-statusbar-padding-modal-max-width</code></td>
-        
+
           <td><code>767px</code></td>
-        
+
         <td><p>The breakpoint when a modal becomes inset</p>
 </td>
       </tr>
-      
+
     </tbody>
   </table>
-  
+
   <table ng-show="active === 'ios'" id="sass-ios" class="table param-table" style="margin:0;">
     <thead>
       <tr>
@@ -905,28 +905,28 @@ which reduces the chance of multiple and expensive DOM reads.
       </tr>
     </thead>
     <tbody>
-      
+
       <tr>
         <td><code>$cordova-ios-statusbar-padding</code></td>
-        
+
           <td><code>20px</code></td>
-        
+
         <td><p>Height of the Statusbar</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$cordova-ios-statusbar-padding-modal-max-width</code></td>
-        
+
           <td><code>$cordova-statusbar-padding-modal-max-width</code></td>
-        
+
         <td><p>The breakpoint when a modal becomes inset</p>
 </td>
       </tr>
-      
+
     </tbody>
   </table>
-  
+
   <table ng-show="active === 'md'" id="sass-md" class="table param-table" style="margin:0;">
     <thead>
       <tr>
@@ -936,28 +936,28 @@ which reduces the chance of multiple and expensive DOM reads.
       </tr>
     </thead>
     <tbody>
-      
+
       <tr>
         <td><code>$cordova-md-statusbar-padding</code></td>
-        
+
           <td><code>20px</code></td>
-        
+
         <td><p>Height of the Statusbar</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$cordova-md-statusbar-padding-modal-max-width</code></td>
-        
+
           <td><code>$cordova-statusbar-padding-modal-max-width</code></td>
-        
+
         <td><p>The breakpoint when a modal becomes inset</p>
 </td>
       </tr>
-      
+
     </tbody>
   </table>
-  
+
   <table ng-show="active === 'wp'" id="sass-wp" class="table param-table" style="margin:0;">
     <thead>
       <tr>
@@ -967,28 +967,28 @@ which reduces the chance of multiple and expensive DOM reads.
       </tr>
     </thead>
     <tbody>
-      
+
       <tr>
         <td><code>$cordova-wp-statusbar-padding</code></td>
-        
+
           <td><code>20px</code></td>
-        
+
         <td><p>Height of the Statusbar</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$cordova-wp-statusbar-padding-modal-max-width</code></td>
-        
+
           <td><code>$cordova-statusbar-padding-modal-max-width</code></td>
-        
+
         <td><p>The breakpoint when a modal becomes inset</p>
 </td>
       </tr>
-      
+
     </tbody>
   </table>
-  
+
 </div>
 
 

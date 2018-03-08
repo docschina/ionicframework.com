@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Insomnia</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/insomnia/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -91,7 +91,7 @@ Keeps awake the application
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="allowSleepAgain" href="#allowSleepAgain"></a><code>allowSleepAgain()</code></h3>
 
 
@@ -100,7 +100,7 @@ Allows the application to sleep again
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

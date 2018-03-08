@@ -11,7 +11,7 @@ doc: "Events"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/events/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -34,7 +34,7 @@ Events
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/util/events.ts#L2">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -87,7 +87,7 @@ constructor(public events: Events) {
 <h3>
 <a class="anchor" name="publish" href="#publish">
 <code>publish(topic,&nbsp;eventData)</code>
-  
+
 
 </a>
 </h3>
@@ -105,41 +105,41 @@ constructor(public events: Events) {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         topic
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>发布的主题</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         eventData
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>any</code>
       </td>
       <td>
         <p>作为事件发送的数据</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -155,7 +155,7 @@ constructor(public events: Events) {
 <h3>
 <a class="anchor" name="subscribe" href="#subscribe">
 <code>subscribe(topic,&nbsp;handler)</code>
-  
+
 
 </a>
 </h3>
@@ -173,41 +173,41 @@ constructor(public events: Events) {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         topic
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>要订阅的主题</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         handler
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>function</code>
       </td>
       <td>
         <p>事件处理函数</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -223,7 +223,7 @@ constructor(public events: Events) {
 <h3>
 <a class="anchor" name="unsubscribe" href="#unsubscribe">
 <code>unsubscribe(topic,&nbsp;handler)</code>
-  
+
 
 </a>
 </h3>
@@ -241,41 +241,41 @@ constructor(public events: Events) {
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         topic
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>需要取消订阅的主题</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         handler
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>function</code>
       </td>
       <td>
         <p>事件处理函数</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -285,7 +285,7 @@ constructor(public events: Events) {
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>返回：</b> 
+<b>返回：</b>
    <p>如果处理函数被移除，则为 true</p>
 
 

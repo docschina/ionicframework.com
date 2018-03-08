@@ -11,7 +11,7 @@ doc: "Events"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/events/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -34,7 +34,7 @@ Events
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/util/events.ts#L2">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -88,7 +88,7 @@ constructor(public events: Events) {
 <h3>
 <a class="anchor" name="publish" href="#publish">
 <code>publish(topic,&nbsp;eventData)</code>
-  
+
 
 </a>
 </h3>
@@ -106,41 +106,41 @@ Publish an event to the given topic.
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         topic
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>the topic to publish to</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         eventData
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>any</code>
       </td>
       <td>
         <p>the data to send as the event</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -156,7 +156,7 @@ Publish an event to the given topic.
 <h3>
 <a class="anchor" name="subscribe" href="#subscribe">
 <code>subscribe(topic,&nbsp;handler)</code>
-  
+
 
 </a>
 </h3>
@@ -174,41 +174,41 @@ Subscribe to an event topic. Events that get posted to that topic will trigger t
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         topic
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>the topic to subscribe to</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         handler
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>function</code>
       </td>
       <td>
         <p>the event handler</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -224,7 +224,7 @@ Subscribe to an event topic. Events that get posted to that topic will trigger t
 <h3>
 <a class="anchor" name="unsubscribe" href="#unsubscribe">
 <code>unsubscribe(topic,&nbsp;handler)</code>
-  
+
 
 </a>
 </h3>
@@ -242,41 +242,41 @@ Unsubscribe from the given topic. Your handler will no longer receive events pub
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>
         topic
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>string</code>
       </td>
       <td>
         <p>the topic to unsubscribe from</p>
 
-        
+
       </td>
     </tr>
-    
+
     <tr>
       <td>
         handler
-        
-        
+
+
       </td>
       <td>
-        
+
   <code>function</code>
       </td>
       <td>
         <p>the event handler</p>
 
-        
+
       </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -286,7 +286,7 @@ Unsubscribe from the given topic. Your handler will no longer receive events pub
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b> 
+<b>Returns:</b>
    <p>true if a handler was removed</p>
 
 

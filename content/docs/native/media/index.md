@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Media</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/media/index.ts#L182">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -172,7 +172,7 @@ Open a media file
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>MediaObject</code> 
+  <b>Returns:</b> <code>MediaObject</code>
 </div>
 
 <h2><a class="anchor" name="MediaObject" href="#MediaObject"></a>MediaObject</h2>
@@ -379,7 +379,7 @@ Stops playing an audio file.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       message
@@ -390,10 +390,10 @@ Stops playing an audio file.
     <td>
       <p>Error message</p>
 
-      
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       code
@@ -404,10 +404,10 @@ Stops playing an audio file.
     <td>
       <p>Error code</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

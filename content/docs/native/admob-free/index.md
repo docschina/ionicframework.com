@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">AdMob Free</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/admob-free/index.ts#L64">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -120,7 +120,7 @@ Watch an event
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Observable&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Observable&lt;any&gt;</code>
 </div><h3><a class="anchor" name="banner" href="#banner"></a><code>banner</code></h3>
 
 Returns the AdMobFreeBanner object
@@ -163,7 +163,7 @@ Update config.
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -173,7 +173,7 @@ Update config.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>AdMobFreeBannerConfig</code> 
+  <b>Returns:</b> <code>AdMobFreeBannerConfig</code>
 </div><h3><a class="anchor" name="hide" href="#hide"></a><code>hide()</code></h3>
 
 
@@ -184,7 +184,7 @@ Hide the banner.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="prepare" href="#prepare"></a><code>prepare()</code></h3>
 
 
@@ -195,7 +195,7 @@ Create banner.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="remove" href="#remove"></a><code>remove()</code></h3>
 
 
@@ -206,7 +206,7 @@ Remove the banner.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="show" href="#show"></a><code>show()</code></h3>
 
 
@@ -217,7 +217,7 @@ Show the banner.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h2><a class="anchor" name="AdMobFreeInterstitial" href="#AdMobFreeInterstitial"></a>AdMobFreeInterstitial</h2>
 
 
@@ -243,7 +243,7 @@ Update config.
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -253,7 +253,7 @@ Update config.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>AdMobFreeInterstitialConfig</code> 
+  <b>Returns:</b> <code>AdMobFreeInterstitialConfig</code>
 </div><h3><a class="anchor" name="isReady" href="#isReady"></a><code>isReady()</code></h3>
 
 
@@ -264,7 +264,7 @@ Check if interstitial is ready
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="prepare" href="#prepare"></a><code>prepare()</code></h3>
 
 
@@ -275,7 +275,7 @@ Prepare interstitial
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="show" href="#show"></a><code>show()</code></h3>
 
 
@@ -286,7 +286,7 @@ Show the interstitial
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h2><a class="anchor" name="AdMobFreeRewardVideo" href="#AdMobFreeRewardVideo"></a>AdMobFreeRewardVideo</h2>
 
 
@@ -312,7 +312,7 @@ Update config.
     <td>
       options</td>
     <td>
-      
+
     </td>
     <td>
       </td>
@@ -322,7 +322,7 @@ Update config.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>AdMobFreeRewardVideoConfig</code> 
+  <b>Returns:</b> <code>AdMobFreeRewardVideoConfig</code>
 </div><h3><a class="anchor" name="isReady" href="#isReady"></a><code>isReady()</code></h3>
 
 
@@ -333,7 +333,7 @@ Check if reward video is ready
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="prepare" href="#prepare"></a><code>prepare()</code></h3>
 
 
@@ -344,7 +344,7 @@ Prepare reward video
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="show" href="#show"></a><code>show()</code></h3>
 
 
@@ -355,7 +355,7 @@ Show the reward video
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -371,7 +371,7 @@ Show the reward video
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       id
@@ -385,7 +385,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isTesting
@@ -399,7 +399,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       autoShow
@@ -413,7 +413,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       bannerAtTop
@@ -427,7 +427,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       overlap
@@ -441,7 +441,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       offsetTopBar
@@ -455,7 +455,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       size
@@ -469,7 +469,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -485,7 +485,7 @@ Show the reward video
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       id
@@ -499,7 +499,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isTesting
@@ -513,7 +513,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       autoShow
@@ -527,7 +527,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -543,7 +543,7 @@ Show the reward video
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       id
@@ -557,7 +557,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       isTesting
@@ -571,7 +571,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       autoShow
@@ -585,7 +585,7 @@ Show the reward video
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

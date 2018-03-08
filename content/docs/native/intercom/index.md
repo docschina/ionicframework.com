@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Intercom</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/intercom/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -166,7 +166,7 @@ This resets the Intercom integration's cache of your user's identity and wipes t
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       secureData</td>
@@ -260,7 +260,7 @@ This resets the Intercom integration's cache of your user's identity and wipes t
     <td>
       </td>
   </tr>
-  
+
   <tr>
     <td>
       metaData</td>

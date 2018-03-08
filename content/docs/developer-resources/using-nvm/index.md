@@ -8,8 +8,8 @@ header_sub_title: Ionic Resources
 
 # Using NVM
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/developer-resources/using-nvm/index.md'>
-  Improve this doc
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/developer-resources/using-nvm/index.md'>
+  改进这篇文档
 </a>
 
 `nvm` is a Node Version Manager that allows you to manage multiple active node.js installations with different versions.
@@ -45,7 +45,7 @@ Eg: `curl ... | NVM_DIR=/usr/local/nvm bash` for a global install.
 
 <sub>*NB. The installer can use `git`, `curl`, or `wget` to download `nvm`, whatever is available.*</sub>
 
-**Note:** On OS X, if you get `nvm: command not found` after running the install script, one of the following might be the reason:-  
+**Note:** On OS X, if you get `nvm: command not found` after running the install script, one of the following might be the reason:-
  - your system may not have a [`.bash_profile file`] where the command is set up. Simply create one with `touch ~/.bash_profile` and run the install script again
  - you might need to restart your terminal instance. Try opening a new tab/window in your terminal and retry.
 

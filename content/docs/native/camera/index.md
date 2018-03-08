@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Camera</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/camera/index.ts#L121">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -169,7 +169,7 @@ Applies only when the value of Camera.sourceType equals Camera.PictureSourceType
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -187,7 +187,7 @@ Applies only when the value of Camera.sourceType equals Camera.PictureSourceType
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       quality
@@ -201,7 +201,7 @@ Applies only when the value of Camera.sourceType equals Camera.PictureSourceType
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       destinationType
@@ -220,7 +220,7 @@ Defined in Camera.DestinationType. Default is FILE_URI.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       sourceType
@@ -238,7 +238,7 @@ Defined in Camera.PictureSourceType. Default is CAMERA.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       allowEdit
@@ -252,7 +252,7 @@ Defined in Camera.PictureSourceType. Default is CAMERA.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       encodingType
@@ -269,7 +269,7 @@ Defined in Camera.EncodingType. Default is JPEG
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       targetWidth
@@ -284,7 +284,7 @@ Aspect ratio remains constant.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       targetHeight
@@ -299,7 +299,7 @@ Aspect ratio remains constant.</p>
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       mediaType
@@ -318,7 +318,7 @@ is PHOTOLIBRARY or SAVEDPHOTOALBUM. Defined in Camera.MediaType
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       correctOrientation
@@ -332,7 +332,7 @@ is PHOTOLIBRARY or SAVEDPHOTOALBUM. Defined in Camera.MediaType
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       saveToPhotoAlbum
@@ -346,7 +346,7 @@ is PHOTOLIBRARY or SAVEDPHOTOALBUM. Defined in Camera.MediaType
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cameraDirection
@@ -363,7 +363,7 @@ Defined in Camera.Direction. Default is BACK.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       popoverOptions
@@ -377,7 +377,7 @@ Defined in Camera.Direction. Default is BACK.
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -393,7 +393,7 @@ Defined in Camera.Direction. Default is BACK.
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       x
@@ -402,11 +402,11 @@ Defined in Camera.Direction. Default is BACK.
       <code>number</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       y
@@ -415,11 +415,11 @@ Defined in Camera.Direction. Default is BACK.
       <code>number</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       width
@@ -428,11 +428,11 @@ Defined in Camera.Direction. Default is BACK.
       <code>number</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       height
@@ -441,11 +441,11 @@ Defined in Camera.Direction. Default is BACK.
       <code>number</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       arrowDir
@@ -462,10 +462,10 @@ Matches iOS UIPopoverArrowDirection constants.
      ARROW_RIGHT : 8,
      ARROW_ANY : 15</p>
 
-      
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">Barcode Scanner</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/barcode-scanner/index.ts#L61">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -139,7 +139,7 @@ NOTE: not well supported on Android
       <p>Type of encoding</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       data</td>
@@ -155,7 +155,7 @@ NOTE: not well supported on Android
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 
@@ -173,7 +173,7 @@ NOTE: not well supported on Android
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       preferFrontCamera
@@ -187,7 +187,7 @@ NOTE: not well supported on Android
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       showFlipCameraButton
@@ -201,7 +201,7 @@ NOTE: not well supported on Android
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       showTorchButton
@@ -215,7 +215,7 @@ NOTE: not well supported on Android
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       disableAnimations
@@ -229,7 +229,7 @@ NOTE: not well supported on Android
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       disableSuccessBeep
@@ -243,7 +243,7 @@ NOTE: not well supported on Android
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       prompt
@@ -257,7 +257,7 @@ NOTE: not well supported on Android
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       formats
@@ -271,7 +271,7 @@ NOTE: not well supported on Android
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       orientation
@@ -285,7 +285,7 @@ NOTE: not well supported on Android
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       torchOn
@@ -299,7 +299,7 @@ NOTE: not well supported on Android
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       resultDisplayDuration
@@ -313,7 +313,7 @@ NOTE: not well supported on Android
       <em>(optional)</em>
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 
@@ -329,7 +329,7 @@ NOTE: not well supported on Android
   </tr>
   </thead>
   <tbody>
-  
+
   <tr>
     <td>
       format
@@ -338,11 +338,11 @@ NOTE: not well supported on Android
       <code>&#39;QR_CODE&#39; | &#39;DATA_MATRIX&#39; | &#39;UPC_E&#39; | &#39;UPC_A&#39; | &#39;EAN_8&#39; | &#39;EAN_13&#39; | &#39;CODE_128&#39; | &#39;CODE_39&#39; | &#39;CODE_93&#39; | &#39;CODABAR&#39; | &#39;ITF&#39; | &#39;RSS14&#39; | &#39;RSS_EXPANDED&#39; | &#39;PDF417&#39; | &#39;AZTEC&#39; | &#39;MSI&#39;</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       cancelled
@@ -351,11 +351,11 @@ NOTE: not well supported on Android
       <code>boolean</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   <tr>
     <td>
       text
@@ -364,11 +364,11 @@ NOTE: not well supported on Android
       <code>string</code>
     </td>
     <td>
-      
-      
+
+
     </td>
   </tr>
-  
+
   </tbody>
 </table>
 

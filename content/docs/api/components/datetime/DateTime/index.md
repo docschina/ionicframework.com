@@ -11,7 +11,7 @@ doc: "DateTime"
 docType: "class"
 show_preview_device: true
 preview_device_url: "/docs/demos/src/datetime/www/"
-angular_controller: APIDemoCtrl 
+angular_controller: APIDemoCtrl
 ---
 
 
@@ -36,7 +36,7 @@ DateTime
 </h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/datetime/datetime.ts#L26">
-Improve this doc
+改进这篇文档
 </a>
 
 
@@ -212,7 +212,7 @@ Improve this doc
 
 
 <p>从历史上看，处理 JavaScript 的 datetime 值，
-甚至 HTML 的输入，一直是一个挑战。特别是， 
+甚至 HTML 的输入，一直是一个挑战。特别是，
 JavaScript 的 <code>Date</code> 对象非常难以正确地解析 datetime 字符串或格式化日期时间值。
 更糟糕的是，不同的浏览器和 JavaScript 版本以不同的方式解析各种 datetime 字符串，
 尤其是在每个不同的语言环境（locale）中。</p>
@@ -398,7 +398,7 @@ imports: [
 <h3>
 <a class="anchor" name="validate" href="#validate">
 <code>validate()</code>
-  
+
 
 </a>
 </h3>
@@ -423,14 +423,14 @@ imports: [
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>cancelText</td>
       <td><code>string</code></td>
       <td><p>要在选取器（picker）的取消按钮上显示的文本。默认： <code>Cancel</code>。 </p>
 </td>
     </tr>
-    
+
     <tr>
       <td>dayNames</td>
       <td><code>array</code></td>
@@ -438,7 +438,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>dayShortNames</td>
       <td><code>array</code></td>
@@ -446,7 +446,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>dayValues</td>
       <td><code>array | string</code></td>
@@ -458,7 +458,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>displayFormat</td>
       <td><code>string</code></td>
@@ -469,14 +469,14 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>doneText</td>
       <td><code>string</code></td>
       <td><p>显示在选取器（picker）的“完成”按钮上的文本。默认：完成。 The text to display on the picker&#39;s &quot;Done&quot; button. Default: <code>Done</code>.</p>
 </td>
     </tr>
-    
+
     <tr>
       <td>hourValues</td>
       <td><code>array | string</code></td>
@@ -486,7 +486,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>max</td>
       <td><code>string</code></td>
@@ -498,7 +498,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>min</td>
       <td><code>string</code></td>
@@ -510,7 +510,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>minuteValues</td>
       <td><code>array | string</code></td>
@@ -521,7 +521,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>monthNames</td>
       <td><code>array</code></td>
@@ -529,7 +529,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>monthShortNames</td>
       <td><code>array</code></td>
@@ -537,7 +537,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>monthValues</td>
       <td><code>array | string</code></td>
@@ -549,7 +549,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>pickerFormat</td>
       <td><code>string</code></td>
@@ -561,7 +561,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>pickerOptions</td>
       <td><code>any</code></td>
@@ -569,7 +569,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>placeholder</td>
       <td><code>string</code></td>
@@ -577,7 +577,7 @@ imports: [
 
 </td>
     </tr>
-    
+
     <tr>
       <td>yearValues</td>
       <td><code>array | string</code></td>
@@ -588,7 +588,7 @@ imports: [
 
 </td>
     </tr>
-    
+
   </tbody>
 </table>
 <!-- output events on the class -->
@@ -601,13 +601,13 @@ imports: [
     </tr>
   </thead>
   <tbody>
-    
+
     <tr>
       <td>ionCancel</td>
       <td><p> datetime 选择被取消时触发。</p>
 </td>
     </tr>
-    
+
   </tbody>
 </table>
 
@@ -615,25 +615,25 @@ imports: [
   <h2 id="sass-variable-header"><a class="anchor" name="sass-variables" href="#sass-variables">Sass Variables</a></h2>
   <div id="sass-variables" ng-controller="SassToggleCtrl">
   <div class="sass-platform-toggle">
-    
-      
-      
+
+
+
       <a ng-init="setSassPlatform('ios')" ng-class="{ active: active === 'ios' }" ng-click="setSassPlatform('ios')" >iOS</a>
-      
-      
-      
+
+
+
       <a ng-class="{ active: active === 'md' }" ng-click="setSassPlatform('md')">Material Design</a>
-      
-      
-      
+
+
+
       <a ng-class="{ active: active === 'wp' }" ng-click="setSassPlatform('wp')">Windows Platform</a>
-      
-      
-    
+
+
+
   </div>
 
 
-  
+
   <table ng-show="active === 'ios'" id="sass-ios" class="table param-table" style="margin:0;">
     <thead>
       <tr>
@@ -643,55 +643,55 @@ imports: [
       </tr>
     </thead>
     <tbody>
-      
+
       <tr>
         <td><code>$datetime-ios-padding-top</code></td>
-        
+
           <td><code>$item-ios-padding-top</code></td>
-        
+
         <td><p>Padding top of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-ios-padding-end</code></td>
-        
+
           <td><code>$datetime-ios-padding-right</code></td>
-        
+
         <td><p>Padding end of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-ios-padding-bottom</code></td>
-        
+
           <td><code>$item-ios-padding-bottom</code></td>
-        
+
         <td><p>Padding bottom of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-ios-padding-start</code></td>
-        
+
           <td><code>$datetime-ios-padding-left</code></td>
-        
+
         <td><p>Padding start of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-ios-placeholder-color</code></td>
-        
+
           <td><code>#999</code></td>
-        
+
         <td><p>Color of the DateTime placeholder</p>
 </td>
       </tr>
-      
+
     </tbody>
   </table>
-  
+
   <table ng-show="active === 'md'" id="sass-md" class="table param-table" style="margin:0;">
     <thead>
       <tr>
@@ -701,55 +701,55 @@ imports: [
       </tr>
     </thead>
     <tbody>
-      
+
       <tr>
         <td><code>$datetime-md-padding-top</code></td>
-        
+
           <td><code>$item-md-padding-top</code></td>
-        
+
         <td><p>Padding top of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-md-padding-end</code></td>
-        
+
           <td><code>$datetime-md-padding-right</code></td>
-        
+
         <td><p>Padding end of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-md-padding-bottom</code></td>
-        
+
           <td><code>$item-md-padding-bottom</code></td>
-        
+
         <td><p>Padding bottom of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-md-padding-start</code></td>
-        
+
           <td><code>$datetime-md-padding-left</code></td>
-        
+
         <td><p>Padding start of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-md-placeholder-color</code></td>
-        
+
           <td><code>#999</code></td>
-        
+
         <td><p>Color of the DateTime placeholder</p>
 </td>
       </tr>
-      
+
     </tbody>
   </table>
-  
+
   <table ng-show="active === 'wp'" id="sass-wp" class="table param-table" style="margin:0;">
     <thead>
       <tr>
@@ -759,82 +759,82 @@ imports: [
       </tr>
     </thead>
     <tbody>
-      
+
       <tr>
         <td><code>$datetime-wp-min-width</code></td>
-        
+
           <td><code>45%</code></td>
-        
+
         <td><p>Min width of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-wp-padding-top</code></td>
-        
+
           <td><code>$item-wp-padding-top</code></td>
-        
+
         <td><p>Padding top of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-wp-padding-end</code></td>
-        
+
           <td><code>$datetime-wp-padding-right</code></td>
-        
+
         <td><p>Padding end of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-wp-padding-bottom</code></td>
-        
+
           <td><code>$item-wp-padding-bottom</code></td>
-        
+
         <td><p>Padding bottom of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-wp-padding-start</code></td>
-        
+
           <td><code>$datetime-wp-padding-left</code></td>
-        
+
         <td><p>Padding start of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-wp-border-width</code></td>
-        
+
           <td><code>2px</code></td>
-        
+
         <td><p>Border width of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-wp-border-color</code></td>
-        
+
           <td><code>$input-wp-border-color</code></td>
-        
+
         <td><p>Border color of the DateTime component</p>
 </td>
       </tr>
-      
+
       <tr>
         <td><code>$datetime-wp-placeholder-color</code></td>
-        
+
           <td><code>$input-wp-border-color</code></td>
-        
+
         <td><p>Color of the DateTime placeholder</p>
 </td>
       </tr>
-      
+
     </tbody>
   </table>
-  
+
 </div>
 
 

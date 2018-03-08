@@ -14,7 +14,7 @@ docType: "class"
 <h1 class="api-title">SQLite Porter</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/sqlite-porter/index.ts#L1">
-  Improve this doc
+  改进这篇文档
 </a>
 
 
@@ -117,7 +117,7 @@ Executes a set of SQL statements against the defined database. Can be used to im
       <p>Database object</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       sql</td>
@@ -133,7 +133,7 @@ Executes a set of SQL statements against the defined database. Can be used to im
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="exportDbToSql" href="#exportDbToSql"></a><code>exportDbToSql(db)</code></h3>
 
 
@@ -164,7 +164,7 @@ Exports a SQLite DB as a set of SQL statements.
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="importJsonToDb" href="#importJsonToDb"></a><code>importJsonToDb(db,&nbsp;json)</code></h3>
 
 
@@ -190,7 +190,7 @@ Converts table structure and/or row data contained within a JSON structure into 
       <p>Database object</p>
 </td>
   </tr>
-  
+
   <tr>
     <td>
       json</td>
@@ -206,7 +206,7 @@ Converts table structure and/or row data contained within a JSON structure into 
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="exportDbToJson" href="#exportDbToJson"></a><code>exportDbToJson(db)</code></h3>
 
 
@@ -237,7 +237,7 @@ Exports a SQLite DB as a JSON structure
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div><h3><a class="anchor" name="wipeDb" href="#wipeDb"></a><code>wipeDb(db)</code></h3>
 
 
@@ -268,7 +268,7 @@ Wipes all data from a database by dropping all existing tables
 
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
-  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code>
 </div>
 
 

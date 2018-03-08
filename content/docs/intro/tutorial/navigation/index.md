@@ -13,8 +13,8 @@ prev_page_link: /docs//intro/tutorial/adding-pages/
 
 <h1 class="title">Navigating to Pages</h1>
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/intro/tutorial/navigation/index.md'>
-Improve this doc
+<a class="improve-v2-docs" href='https://github.com/docschina/ionicframework.com/edit/cn/content/docs/intro/tutorial/navigation/index.md'>
+改进这篇文档
 </a>
 
 Recall from the previous section we had a function inside our `ListPage` class that looked something like this:
