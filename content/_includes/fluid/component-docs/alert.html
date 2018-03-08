@@ -1,16 +1,16 @@
 <h2 id="alert" class="section-header">Alerts</h2>
 
-<a target="_blank" class="improve-v2-docs" href="https://github.com/ionic-team/ionic-site/edit/master/content/_includes/fluid/component-docs/alert.html">
-  Improve this Doc
+<a target="_blank" class="improve-v2-docs" href="https://github.com/docschina/ionicframework.com/edit/cn/content/_includes/fluid/component-docs/alert.html">
+  改进这篇翻译
 </a>
 
-Alerts are a great way to offer the user the ability to choose a specific action or list of actions. They also can provide the user with important information, or require them to make a decision (or multiple decisions).
+Alerts 弹框不失为一种向用户提供单个特定操作，或者一系列操作选项的好方法。它们还可以为用户提示重要信息，或者要求用户做出一个（或多个）决定。
 
-From a UI perspective, Alerts can be thought of as a type of “floating” modal that covers only a portion of the screen. This means Alerts should only be used for quick actions like password verification, small app notifications, or quick options. More in depth user flows should be reserved for full screen ​[Modals](#modals)​.
+从 UI 的角度来看，Alerts 可以被当做一种只挡住一部分屏幕的“浮动”模态框。这意味着 Alerts 只能用于诸如密码验证、简单的应用提示等其他快速操作。而更加深入的用户操作流则应该保留给全屏的[模态框](#modals)。
 
-Alerts are quite flexible, and can easily be customized.
+Alerts 弹框是非常灵活，且易于定制的。
 
-_For more information, Check out the [API docs](../api/components/alert/AlertController)._
+_若要获取更多信息，请查阅 [API 文档](../api/components/alert/AlertController)。_
 
 <ul class="docs-content">
   <li class="docs-content-header">Contents</li>
@@ -21,20 +21,20 @@ _For more information, Check out the [API docs](../api/components/alert/AlertCon
   <li class="docs-content-item"><a href="#alert-checkbox">Checkbox Alerts</a></li>
 </ul>
 
-<h3 class="section-nav" id="alerts">Basic Usage</h3>
+<h3 class="section-nav" id="alerts">基础用法</h3>
 
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/alert-basic">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/basic">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Basic Alerts are typically used to notify the user about new information (a change in the app, a new feature, etc), an urgent situation that requires acknowledgement, or as a confirmation to the user that an action was successful or not.
+Basic Alerts 通常用于向用户提示一些新增的信息（如应用中的改动以及新功能等），需要用户确认的紧急情况，或是告知用户操作成功与否的提示。
 
 ```typescript
 import { AlertController } from 'ionic-angular';
@@ -59,15 +59,15 @@ export class MyPage {
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/alert-prompt">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/prompt">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Prompts offer a way to input data or information.  Often times  Prompts will be used to ask the user for a password before moving forward in an application’s flow.
+Prompts 为用户提供了一种在 Alert 弹框里输入数据或信息的途径。在许多应用程序的“进一步操作”用户流中，经常会用到 Prompts 以便让用户输入密码。
 
 ```
 import { AlertController } from 'ionic-angular';
@@ -111,15 +111,15 @@ export class MyPage {
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/alert-confirm">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/confirm">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Confirmation Alerts are used when it is required that the user explicitly confirms a particular choice before progressing forward in the app. A common example of the Confirmation Alert is checking to make sure a user wants to delete or remove a contact from their address book.
+Confirmation Alerts 通常被用在当用户想要在应用程序中执行某个特定操作时，提示用户是否确定要执行该操作。一个典型的使用场景：当用户想要在通讯录里面删除一个联系人时，Confirmation Alert 会提示用户是否确定要这么做。
 
 ```
 import { AlertController } from 'ionic-angular';
@@ -158,15 +158,15 @@ export class MyPage {
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/alert-radio">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/radio">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Radio Alerts are a type of Confirmation Alert, but use the [Radio](https://ionicframework.com/docs/components/#radio) component to offer several choices. A set of options is provided to the user, but only one option can be chosen.
+Radio Alerts 可以被看做是一种特殊的 Confirmation Alert，其弹框中的选项是以 [Radio](https://ionicframework.com/docs/components/#radio) 组件的形式呈现的。Radio Alerts 向用户提供了一系列选项，但是在这些选项中你只能选中一个。
 
 ```
 import { AlertController } from 'ionic-angular';
@@ -205,15 +205,15 @@ export class MyPage {
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/alert-checkbox">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/checkbox">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Checkbox Alerts are a type of Confirmation Alert, but use the [Checkbox](/docs/components/#checkbox) component to offer several choices. They offer the user a set of options to choose from.
+Checkbox Alerts 同样是一种特殊的 Confirmation Alert，其弹框中的选项是以 [Checkbox](/docs/components/#checkbox) 组件的形式呈现的。Checkbox Alerts 向用户提供了一系列选项，但是在这些选项中你可以选择一个或多个。
 
 ```
 import { AlertController } from 'ionic-angular';
