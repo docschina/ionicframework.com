@@ -44,20 +44,20 @@ MenuClose
 
 
 
-<p>The <code>menuClose</code> directive can be placed on any button to close an open menu.</p>
+<p><code>menuClose</code> 指令可以放在任意按钮上去关闭已经打开的菜单。</p>
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
-<p>A simple <code>menuClose</code> button can be added using the following markup:</p>
+<p>一个简单的 <code>menuClose</code> 按钮可以使用下面的标记来添加：</p>
 <pre><code class="lang-html">&lt;button ion-button menuClose&gt;Close Menu&lt;/button&gt;
 </code></pre>
-<p>To close a certain menu by its id or side, give the <code>menuClose</code>
-directive a value.</p>
+<p>要通过 id 或 side 关闭某个菜单，请给 <code>menuClose</code> 指令一个值。</p>
+
 <pre><code class="lang-html">&lt;button ion-button menuClose=&quot;left&quot;&gt;Close Left Menu&lt;/button&gt;
 </code></pre>
 
