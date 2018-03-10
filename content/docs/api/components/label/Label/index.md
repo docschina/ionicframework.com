@@ -44,15 +44,15 @@ Label
 
 
 
-<p>Labels are placed inside of an <code>ion-item</code> element and can be used
-to describe an <code>ion-input</code>, <code>ion-toggle</code>, <code>ion-checkbox</code>, and more.</p>
+<p>Labels 位于 <code>ion-item</code> 元素内部，可用于描述 <code>ion-input</code>, <code>ion-toggle</code>, <code>ion-checkbox</code>等。</p>
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-item&gt;
   &lt;ion-label&gt;Username&lt;/ion-label&gt;
@@ -90,11 +90,11 @@ to describe an <code>ion-input</code>, <code>ion-toggle</code>, <code>ion-checkb
 
 <!-- @property tags -->
 
-<h2><a class="anchor" name="attributes" href="#attributes">Attributes</a></h2>
+<h2><a class="anchor" name="attributes" href="#attributes">属性</a></h2>
 <table class="table" style="margin:0;">
 <thead>
 <tr>
-<th>Attribute</th>
+<th>属性</th>
 
 
 
@@ -106,7 +106,7 @@ to describe an <code>ion-input</code>, <code>ion-toggle</code>, <code>ion-checkb
 
 
 
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -119,7 +119,7 @@ fixed
 
 
 <td>
-A persistent label that sits next the input.
+位于输入框旁边的持久化标签。
 </td>
 </tr>
 
@@ -131,7 +131,7 @@ floating
 
 
 <td>
-A label that will float above the input if the input is empty or loses focus.
+如果输入为空或失去焦点，该标签将悬浮在输入框上方。
 </td>
 </tr>
 
@@ -143,7 +143,7 @@ stacked
 
 
 <td>
-A stacked label will always appear on top of the input.
+堆叠的标签将始终显示在输入框顶部。
 
 
 </td>
