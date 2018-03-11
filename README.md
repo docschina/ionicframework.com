@@ -69,7 +69,7 @@ gulp.task('jekyll-build', [], function(done) {
 1. 更新 RubyGems 并换源之后，安装 [Bundler](http://bundler.io/) 并[换 Bundler 的源](https://gems.ruby-china.org/)（没错要换两次源）
 1. `bundle install`（中间可能会要求权限，让你输密码）
 1. `npm run bundle-install`
-1. `gulp watch`（需要科学上网，并且第一次要等很久）
+1. `gulp watch`（<del>需要科学上网，并且第一次要等很久</del>。***2018/03/11 更新：将 Google Fonts 换成 75CDN 后，如今已不需要科学上网***）
 
 ### 翻译暂定方案：
 
