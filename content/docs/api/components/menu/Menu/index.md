@@ -44,19 +44,19 @@ Menu
 
 
 
-<p>The Menu component is a navigation drawer that slides in from the side of the current
-view. By default, it slides in from the left, but the side can be overridden. The menu
-will be displayed differently based on the mode, however the display type can be changed
-to any of the available <a href="#menu-types">menu types</a>. The menu element should be a sibling
-to the app&#39;s content element. There can be any number of menus attached to the content.
-These can be controlled from the templates, or programmatically using the <a href="../../app/MenuController">MenuController</a>.</p>
+<p>Menu 组件是一个从当前视图侧面滑入的抽屉导航（navigation drawer）。默认情况下，它从左侧滑入，但侧面可以被覆盖。menu 将根据平台模式显示不同的样式，但显示类型也可以更改为任意可用的 <a href="#menu-types">菜单类型</a>。menu 元素应该是应用的 content 元素兄弟。可以有任意数量的菜单附加到 content。这些可以通过模板进行控制，也可以使用 <a href="../../app/MenuController">MenuController</a> 进行编程式控制。</p>
+
+
+
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-menu [content]=&quot;mycontent&quot;&gt;
   &lt;ion-content&gt;
@@ -68,50 +68,50 @@ These can be controlled from the templates, or programmatically using the <a hre
 
 &lt;ion-nav #mycontent [root]=&quot;rootPage&quot;&gt;&lt;/ion-nav&gt;
 </code></pre>
-<p>To add a menu to an app, the <code>&lt;ion-menu&gt;</code> element should be added as a sibling to the <code>ion-nav</code> it will belongs
-to. A <a href="https://angular.io/docs/ts/latest/guide/user-input.html#local-variables">local variable</a>
-should be added to the <code>ion-nav</code> and passed to the <code>ion-menu</code>s <code>content</code> property.</p>
-<p>This tells the menu what it is bound to and what element to watch for gestures.
-In the below example, <code>content</code> is using <a href="https://angular.io/docs/ts/latest/guide/template-syntax.html#!#property-binding">property binding</a>
-because <code>mycontent</code> is a reference to the <code>&lt;ion-nav&gt;</code> element, and not a string.</p>
-<h3 id="opening-closing-menus">Opening/Closing Menus</h3>
-<p>There are several ways to open or close a menu. The menu can be <strong>toggled</strong> open or closed
-from the template using the <a href="../MenuToggle">MenuToggle</a> directive. It can also be
-<strong>closed</strong> from the template using the <a href="../MenuClose">MenuClose</a> directive. To display a menu
-programmatically, inject the <a href="../MenuController">MenuController</a> provider and call any of the
-<code>MenuController</code> methods.</p>
-<h3 id="menu-types">Menu Types</h3>
-<p>The menu supports several display types: <code>overlay</code>, <code>reveal</code> and <code>push</code>. By default,
-it will use the correct type based on the mode, but this can be changed. The default
-type for both Material Design and Windows mode is <code>overlay</code>, and <code>reveal</code> is the default
-type for iOS mode. The menu type can be changed in the app&#39;s <a href="../../config/Config">config</a>
-via the <code>menuType</code> property, or passed in the <code>type</code> property on the <code>&lt;ion-menu&gt;</code> element.
-See <a href="#usage">usage</a> below for examples of changing the menu type.</p>
-<h3 id="navigation-bar-behavior">Navigation Bar Behavior</h3>
-<p>If a <a href="../MenuToggle">MenuToggle</a> button is added to the <a href="../../navbar/Navbar">Navbar</a> of
-a page, the button will only appear when the page it&#39;s in is currently a root page. The
-root page is the initial page loaded in the app, or a page that has been set as the root
-using the <a href="../../nav/NavController/#setRoot">setRoot</a> method on the <a href="../../nav/NavController">NavController</a>.</p>
-<p>For example, say the application has two pages, <code>Page1</code> and <code>Page2</code>, and both have a
-<code>MenuToggle</code> button in their navigation bars. Assume the initial page loaded into the app
-is <code>Page1</code>, making it the root page. <code>Page1</code> will display the <code>MenuToggle</code> button, but once
-<code>Page2</code> is pushed onto the navigation stack, the <code>MenuToggle</code> will not be displayed.</p>
-<h3 id="persistent-menus">Persistent Menus</h3>
-<p>Persistent menus display the <a href="../MenuToggle">MenuToggle</a> button in the <a href="../../navbar/Navbar">Navbar</a>
-on all pages in the navigation stack. To make a menu persistent set <code>persistent</code> to <code>true</code> on the
-<code>&lt;ion-menu&gt;</code> element. Note that this will only affect the <code>MenuToggle</code> button in the <code>Navbar</code> attached
-to the <code>Menu</code> with <code>persistent</code> set to true, any other <code>MenuToggle</code> buttons will not be affected.</p>
-<h3 id="menu-side">Menu Side</h3>
-<p>By default, menus slide in from the left, but this can be overridden by passing <code>right</code>
-to the <code>side</code> property:</p>
+<p>要将 menu 添加到应用程序，应该将 <code>&lt;ion-menu&gt;</code> 元素作为相邻元素添加到它所属的 <code>ion-nav</code>。应该将一个 <a href="https://angular.io/docs/ts/latest/guide/user-input.html#local-variables">局部变量</a> 添加到 <code>ion-nav</code> 并传递给 <code>ion-menu</code> 的 <code>content</code> 属性。</p>
+<p>这会告诉菜单它绑定的是什么以及要观察手势的元素。在下面的示例中，<code>content</code> 使用 <a href="https://angular.io/docs/ts/latest/guide/template-syntax.html#!#property-binding">属性绑定</a>，因为 <code>mycontent</code> 是对 <code>&lt;ion-nav&gt;</code> 元素的引用，而不是字符串。</p>
+<h3 id="opening-closing-menus">打开/关闭菜单</h3>
+<p>有几种方法可以打开或关闭菜单。菜单可以使用 <a href="../MenuToggle">MenuToggle</a> 指令从模板中切换打开或关闭的状态。它也可以使用 <a href="../MenuClose">MenuClose</a> 指令从模板中关闭菜单。要以编程方式显示菜单，请注入 <a href="../MenuController">MenuController</a> 服务商程序并调用任意的 <code>MenuController</code> 方法。</p>
+<h3 id="menu-types">菜单类型</h3>
+<p>该菜单支持多种显示类型：<code>overlay</code>, <code>reveal</code> 和 <code>push</code>。默认情况下，它将根据平台模式使用正确的类型，不过可以更改。Material 设计和 Windows 模式的默认类型为 <code>overlay</code>，而 <code>reveal</code> 为 iOS 模式的默认类型。菜单类型可以在应用程序的 <a href="../../config/Config">配置</a> 中通过 <code>menuType</code> 属性进行更改，也可以在 <code>&lt;ion-menu&gt;</code> 元素的 <code>type</code> 属性中传递。有关更改菜单类型的示例，请参阅下面的用法。</p>
+<h3 id="navigation-bar-behavior">导航栏行为</h3>
+<p>如果 <a href="../MenuToggle">MenuToggle</a> 按钮被添加到页面的 <a href="../../navbar/Navbar">Navbar</a> 中，则该按钮仅在它所在的页面是当前的根页面时才会显示。根页面是应用程序中加载的初始页面，或者是使用 <a href="../../navbar/Navbar">Navbar</a> 上的 <a href="../../nav/NavController/#setRoot">setRoot</a> 方法设置为根页面的页面。</p>
+<p>例如，假设应用程序有两个页面，<code>Page1</code> 和 <code>Page2</code>，并且它们的导航栏中都有一个 <code>MenuToggle</code> 按钮。假设加载到应用程序中的初始页面是 <code>Page1</code>，使其成为根页面。<code>Page1</code>将显示 <code>MenuToggle</code> 按钮，但是一旦将 <code>Page2</code> 推入导航堆栈中，<code>MenuToggle</code> 将不会显示。</p>
+<h3 id="persistent-menus">持久菜单</h3>
+<p>持久性菜单在导航堆栈中的所有页面上的 <a href="../../navbar/Navbar">导航栏</a> 中显示 <a href="../MenuToggle">MenuToggle</a> 按钮。要在 <code>&lt;ion-menu&gt;</code> 元素上将菜单 <code>persistent</code> 设置保持为 <code>true</code>。请注意，这只会影响附加到 <code>菜单</code>的<code>导航栏</code> 中的 <code>MenuToggle</code> 按钮，其 <code>persistent</code> 设置为 <code>true</code>，其他任何 <code>MenuToggle</code> 按钮都不会受到影响。</p>
+<h3 id="menu-side">菜单侧栏</h3>
+<p>默认情况下，菜单从左侧滑入，但是可以通过将 <code>right</code> 属性传递给 <code>side</code> 来覆盖它：</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <pre><code class="lang-html">&lt;ion-menu side=&quot;right&quot; [content]=&quot;mycontent&quot;&gt;...&lt;/ion-menu&gt;
 </code></pre>
-<h3 id="menu-type">Menu Type</h3>
-<p>The menu type can be changed by passing the value to <code>type</code> on the <code>&lt;ion-menu&gt;</code>:</p>
+<h3 id="menu-type">菜单类型</h3>
+<p>通过在 <code>&lt;ion-menu&gt;</code> 上传递 <code>type</code> 值来更改菜单类型：</p>
 <pre><code class="lang-html">&lt;ion-menu type=&quot;overlay&quot; [content]=&quot;mycontent&quot;&gt;...&lt;/ion-menu&gt;
 </code></pre>
-<p>It can also be set in the app&#39;s config. The below will set the menu type to
-<code>push</code> for all modes, and then set the type to <code>overlay</code> for the <code>ios</code> mode.</p>
+<p>它也可以在应用程序的配置中设置。下面将设置菜单类型来 <code>push</code> 所有模式，后续会将类型设置为 <code>overlay</code> 的 <code>ios</code> 模式。</p>
+
 <pre><code class="lang-ts">// in NgModules
 
 imports: [
@@ -125,14 +125,14 @@ imports: [
   })
 ],
 </code></pre>
-<h3 id="displaying-the-menu">Displaying the Menu</h3>
-<p>To toggle a menu from the template, add a button with the <code>menuToggle</code>
-directive anywhere in the page&#39;s template:</p>
+<h3 id="displaying-the-menu">显示菜单</h3>
+<p>要从模板中切换菜单，请在页面模板中的任意位置添加一个带 <code>menuToggle</code> 指令的按钮：</p>
+
 <pre><code class="lang-html">&lt;button ion-button menuToggle&gt;Toggle Menu&lt;/button&gt;
 </code></pre>
-<p>To close a menu, add the <code>menuClose</code> button. It can be added anywhere
-in the content, or even the menu itself. Below it is added to the menu&#39;s
-content:</p>
+<p>要关闭菜单，请添加 <code>menuClose</code> 按钮。它可以添加到 content 的任何地方，甚至菜单本身。在它下面添加到菜单的内容：</p>
+
+
 <pre><code class="lang-html">&lt;ion-menu [content]=&quot;mycontent&quot;&gt;
   &lt;ion-content&gt;
     &lt;ion-list&gt;
@@ -141,12 +141,12 @@ content:</p>
   &lt;/ion-content&gt;
 &lt;/ion-menu&gt;
 </code></pre>
-<p>See the <a href="../MenuToggle">MenuToggle</a> and <a href="../MenuClose">MenuClose</a> docs
-for more information on these directives.</p>
-<p>The menu can also be controlled from the Page by using the <code>MenuController</code>.
-Inject the <code>MenuController</code> provider into the page and then call any of its
-methods. In the below example, the <code>openMenu</code> method will open the menu
-when it is called.</p>
+<p>有关这些指令的更多信息，请参阅 <a href="../MenuToggle">MenuToggle</a> 和 <a href="../MenuClose">MenuClose</a> 文档。</p>
+<p>菜单也可以通过使用 <code>MenuController</code> 从页面进行控制。将 <code>MenuController</code> 提供商注入到页面，然后调用其任意方法。在下面的例子中，<code>openMenu</code> 方法会在调用它时打开菜单。</p>
+
+
+
+
 <pre><code class="lang-ts">import { Component } from &#39;@angular/core&#39;;
 import { MenuController } from &#39;ionic-angular&#39;;
 
@@ -159,8 +159,8 @@ export class MyPage {
  }
 }
 </code></pre>
-<p>See the <a href="../../app/MenuController">MenuController</a> API docs for all of the methods
-and usage information.</p>
+<p>有关所有方法和用法信息，请参阅 <a href="../../app/MenuController">MenuController</a> API 文档。</p>
+
 
 
 
@@ -171,13 +171,13 @@ and usage information.</p>
 
 <!-- instance methods on the class -->
 <!-- input methods on the class -->
-<h2><a class="anchor" name="input-properties" href="#input-properties">Input Properties</a></h2>
+<h2><a class="anchor" name="input-properties" href="#input-properties">输入属性</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -185,82 +185,82 @@ and usage information.</p>
     <tr>
       <td>content</td>
       <td><code>any</code></td>
-      <td><p> A reference to the content element the menu should use.</p>
+      <td><p>对菜单使用的 content 元素的引用。</p>
 </td>
     </tr>
 
     <tr>
       <td>enabled</td>
       <td><code>boolean</code></td>
-      <td><p> If true, the menu is enabled. Default <code>true</code>.</p>
+      <td><p>如果为 true，则启用该菜单。默认为 <code>true</code>。</p>
 </td>
     </tr>
 
     <tr>
       <td>id</td>
       <td><code>string</code></td>
-      <td><p> An id for the menu.</p>
+      <td><p>菜单的 id。</p>
 </td>
     </tr>
 
     <tr>
       <td>persistent</td>
       <td><code>boolean</code></td>
-      <td><p> If true, the menu will persist on child pages.</p>
+      <td><p>如果为 true，菜单将保留在子页面上。</p>
 </td>
     </tr>
 
     <tr>
       <td>side</td>
       <td><code>string</code></td>
-      <td><p> Which side of the view the menu should be placed. Default <code>&quot;left&quot;</code>.</p>
+      <td><p>菜单应放置在视图的哪一侧。默认 <code>&quot;left&quot;</code>。</p>
 </td>
     </tr>
 
     <tr>
       <td>swipeEnabled</td>
       <td><code>boolean</code></td>
-      <td><p> If true, swiping the menu is enabled. Default <code>true</code>.</p>
+      <td><p>如果为 true，则启用滑动菜单。默认为 <code>true</code>。</p>
 </td>
     </tr>
 
     <tr>
       <td>type</td>
       <td><code>string</code></td>
-      <td><p> The display type of the menu. Default varies based on the mode,
-see the <code>menuType</code> in the <a href="../../config/Config">config</a>. Available options:
-<code>&quot;overlay&quot;</code>, <code>&quot;reveal&quot;</code>, <code>&quot;push&quot;</code>.</p>
+      <td><p>菜单的显示类型。默认值取决于模式，请参阅 <a href="../../config/Config">config</a> 中的 <code>menuType</code>。可用选项：<code>&quot;overlay&quot;</code>, <code>&quot;reveal&quot;</code>, <code>&quot;push&quot;</code>。</p>
+
+
 </td>
     </tr>
 
   </tbody>
 </table>
 <!-- output events on the class -->
-<h2><a class="anchor" name="output-events" href="#output-events">Output Events</a></h2>
+<h2><a class="anchor" name="output-events" href="#output-events">输出事件</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
 
     <tr>
       <td>ionClose</td>
-      <td><p> Emitted when the menu has been closed.</p>
+      <td><p>菜单关闭时触发。</p>
 </td>
     </tr>
 
     <tr>
       <td>ionDrag</td>
-      <td><p> Emitted when the menu is being dragged open.</p>
+      <td><p>当菜单被拖动着打开时触发。</p>
 </td>
     </tr>
 
     <tr>
       <td>ionOpen</td>
-      <td><p> Emitted when the menu has been opened.</p>
+      <td><p>菜单打开时触发。</p>
 </td>
     </tr>
 

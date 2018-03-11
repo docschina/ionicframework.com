@@ -44,14 +44,14 @@ List
 
 
 
-<p>The List is a widely used interface element in almost any mobile app,
-and can include content ranging from basic text all the way to
-buttons, toggles, icons, and thumbnails.</p>
-<p>Both the list, which contains items, and the list items themselves
-can be any HTML element.</p>
-<p>Using the List and Item components make it easy to support various
-interaction modes such as swipe to edit, drag to reorder, and
-removing items.</p>
+<p>List 是几乎所有移动应用程序中广泛使用的界面元素，可以包括从基本文本到按钮，开关，图标和缩略图等各种内容。</p>
+<p>包含 items 的列表和列表项本身可以是任何 HTML 元素。</p>
+<p>使用 List 和 Item 组件可以轻松支持各种交互模式，例如滑动编辑，拖动重新排序和删除 items。</p>
+
+
+
+
+
 
 
 
@@ -65,7 +65,7 @@ removing items.</p>
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="closeSlidingItems"></div>
 
@@ -77,7 +77,7 @@ removing items.</p>
 </a>
 </h3>
 
-Close any sliding items that are open.
+关闭所有打开的滑动 items。
 
 
 
@@ -88,13 +88,13 @@ Close any sliding items that are open.
 
 
 <!-- input methods on the class -->
-<h2><a class="anchor" name="input-properties" href="#input-properties">Input Properties</a></h2>
+<h2><a class="anchor" name="input-properties" href="#input-properties">输入属性</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -102,13 +102,13 @@ Close any sliding items that are open.
     <tr>
       <td>sliding</td>
       <td><code>boolean</code></td>
-      <td><p> If true, the sliding items will be enabled.</p>
+      <td><p>如果为 true，滑动的 items将被启用。</p>
 </td>
     </tr>
 
   </tbody>
-</table><h2><a class="anchor" name="advanced" href="#advanced">Advanced</a></h2>
-<p>Enable the sliding items.</p>
+</table><h2><a class="anchor" name="advanced" href="#advanced">进阶</a></h2>
+<p>启用滑动 items。</p>
 <pre><code class="lang-ts">import { Component, ViewChild } from &#39;@angular/core&#39;;
 import { List } from &#39;ionic-angular&#39;;
 

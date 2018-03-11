@@ -42,50 +42,50 @@ LoadingController
 
 
 
-<p>An overlay that can be used to indicate activity while blocking user
-interaction. The loading indicator appears on top of the app&#39;s content,
-and can be dismissed by the app to resume user interaction with
-the app. It includes an optional backdrop, which can be disabled
-by setting <code>showBackdrop: false</code> upon creation.</p>
-<h3><a class="anchor" name="creating" href="#creating">Creating</a></h3>
+<p>一个覆盖层可用于在阻塞用户交互时指示行为。
+loading 指示器出现在应用程序内容的顶部，
+并且可以被应用程序解除来恢复用户与应用程序的交互。
+它包含一个可选的背景，可以通过在创建时设置 <code>showBackdrop: false</code> 来禁用它。
+</p>
+<h3><a class="anchor" name="creating" href="#creating">创建</a></h3>
 
-<p>You can pass all of the loading options in the first argument of
-the create method: <code>create(opts)</code>. The spinner name should be
-passed in the <code>spinner</code> property, and any optional HTML can be passed
-in the <code>content</code> property. If you do not pass a value to <code>spinner</code>
-the loading indicator will use the spinner specified by the mode. To
-set the spinner name across the app, set the value of <code>loadingSpinner</code>
-in your app&#39;s config. To hide the spinner, set <code>loadingSpinner: &#39;hide&#39;</code>
-in the app&#39;s config or pass <code>spinner: &#39;hide&#39;</code> in the loading
-options. See the <a href="#create">create</a> method below for all available options.</p>
-<h3><a class="anchor" name="dismissing" href="#dismissing">Dismissing</a></h3>
+<p>你可以将所有 loading 选项传递给 create 方法的第一个参数：<code>create(opts)</code>。
+spinner 名称应该在 <code>spinner</code> 属性中传递，
+任意可选的 HTML 都可以在 <code>content</code> 属性中传递。
+如果你没有将值传递给 <code>spinner</code>，loading 指示器将使用该模式指定的 spinner。
+要在整个应用中设置 spinner 名称，
+请在应用的配置中设置 <code>loadingSpinner</code> 的值。
+要隐藏 spinner，请在加载选项中设置 <code>loadingSpinner: &#39;hide&#39;</code> 来配置应用程序或传递 <code>spinner: &#39;hide&#39;</code>。
+有关所有可用选项，请参阅下面的 <a href="#create">create</a> 方法。
+</p>
+<h3><a class="anchor" name="dismissing" href="#dismissing">解除</a></h3>
 
-<p>The loading indicator can be dismissed automatically after a specific
-amount of time by passing the number of milliseconds to display it in
-the <code>duration</code> of the loading options. By default the loading indicator
-will show even during page changes, but this can be disabled by setting
-<code>dismissOnPageChange</code> to <code>true</code>. To dismiss the loading indicator after
-creation, call the <code>dismiss()</code> method on the Loading instance. The
-<code>onDidDismiss</code> function can be called to perform an action after the loading
-indicator is dismissed.</p>
+<p>loading 指示器可以通过传递毫秒数设定指定的时间量，来在 loading 选项的 <code>持续时间</code> 之后自动解除。默认情况下，即使在页面更改期间，loading 指示器也会显示，但可以通过将 <code>dismissOnPageChange</code>设置为 <code>true</code> 来禁用此功能。要在创建后关闭 loading 指示器，请在 loading 实例上调用 <code>dismiss()</code> 方法。可以调用 <code>onDidDismiss</code> 函数在 loading 指示器解除后执行操作。</p>
+
+
+
+
+
+
+
 <blockquote>
-<p>Note that after the component is dismissed, it will not be usable anymore
-and another one must be created. This can be avoided by wrapping the
-creation and presentation of the component in a reusable function as shown
-in the <code>usage</code> section below.</p>
-</blockquote>
-<h3><a class="anchor" name="limitations" href="#limitations">Limitations</a></h3>
+<p>请注意，组件被解除后，它将不可再次使用，并且必须创建另一个组件。这可以通过将组件的创建和展示包装在可重用的函数中来避免，如下面的<code>用法</code>部分所示。</p>
 
-<p>The element is styled to appear on top of other content by setting its
-<code>z-index</code> property. You must ensure no element has a stacking context with
-a higher <code>z-index</code> than this element.</p>
+
+
+</blockquote>
+<h3><a class="anchor" name="limitations" href="#limitations">限制</a></h3>
+
+<p>该元素通过设置其 <code>z-index</code> 属性被设置为出现在其他内容之上。你必须确保没有元素具有比此元素具有更高 <code>z-index</code> 的层叠上下文。</p>
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-ts">constructor(public loadingCtrl: LoadingController) {
 
@@ -147,7 +147,7 @@ presentLoadingText() {
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="config"></div>
 
@@ -179,15 +179,15 @@ presentLoadingText() {
 </a>
 </h3>
 
-Create a loading indicator. See below for options.
+创建一个 loading 指示器。请参阅下面的选项。
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -203,7 +203,7 @@ Create a loading indicator. See below for options.
   <code>LoadingOptions</code>
       </td>
       <td>
-        <p>Loading options<strong class="tag">Optional</strong></p>
+        <p>Loading 选项<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -218,58 +218,58 @@ Create a loading indicator. See below for options.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Loading</code> <p>Returns a Loading Instance</p>
+<b>返回：</b>
+  <code>Loading</code> <p>返回一个 Loading 实例</p>
 
 
 </div>
 
 
-<h2><a class="anchor" name="advanced" href="#advanced">Advanced</a></h2>
-<p>Loading options</p>
+<h2><a class="anchor" name="advanced" href="#advanced">进阶</a></h2>
+<p>Loading 选项</p>
 <table>
 <thead>
 <tr>
-<th>Option</th>
-<th>Type</th>
-<th>Description</th>
+<th>选项</th>
+<th>类型</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>spinner</td>
 <td><code>string</code></td>
-<td>The name of the SVG spinner for the loading indicator.</td>
+<td>加载指示器的 SVG spinner 的名称。</td>
 </tr>
 <tr>
 <td>content</td>
 <td><code>string</code></td>
-<td>The html content for the loading indicator.</td>
+<td>loading 指示器的 html 内容。</td>
 </tr>
 <tr>
 <td>cssClass</td>
 <td><code>string</code></td>
-<td>Additional classes for custom styles, separated by spaces.</td>
+<td>自定义样式的其他类，以空格分隔。</td>
 </tr>
 <tr>
 <td>showBackdrop</td>
 <td><code>boolean</code></td>
-<td>Whether to show the backdrop. Default true.</td>
+<td>是否显示背景。默认为 true。</td>
 </tr>
 <tr>
 <td>enableBackdropDismiss</td>
 <td><code>boolean</code></td>
-<td>Whether the loading indicator should be dismissed by tapping the backdrop. Default false.</td>
+<td>是否应通过点击背景来解除 loading 指示符。默认为 false。</td>
 </tr>
 <tr>
 <td>dismissOnPageChange</td>
 <td><code>boolean</code></td>
-<td>Whether to dismiss the indicator when navigating to a new page. Default false.</td>
+<td>是否在导航到新页面时关闭指示器。默认为 false。</td>
 </tr>
 <tr>
 <td>duration</td>
 <td><code>number</code></td>
-<td>How many milliseconds to wait before hiding the indicator. By default, it will show until <code>dismiss()</code> is called.</td>
+<td>隐藏指示器之前要等待多少毫秒。默认情况下，它会显示，直到 <code>dismiss()</code> 被调用。</td>
 </tr>
 </tbody>
 </table>
