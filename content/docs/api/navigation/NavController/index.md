@@ -40,24 +40,24 @@ NavController
 
 
 
-<p>NavController is the base class for navigation controller components like
-<a href="../../components/nav/Nav/"><code>Nav</code></a> and <a href="../../components/tabs/Tab/"><code>Tab</code></a>. You use navigation controllers
-to navigate to <a href="#view-creation">pages</a> in your app. At a basic level, a
-navigation controller is an array of pages representing a particular history
-(of a Tab for example). This array can be manipulated to navigate throughout
-an app by pushing and popping pages or inserting and removing them at
-arbitrary locations in history.</p>
-<p>The current page is the last one in the array, or the top of the stack if we
-think of it that way. <a href="#push">Pushing</a> a new page onto the top of the
-navigation stack causes the new page to be animated in, while <a href="#pop">popping</a>
-the current page will navigate to the previous page in the stack.</p>
-<p>Unless you are using a directive like <a href="../../components/nav/NavPush/">NavPush</a>, or need a
-specific NavController, most times you will inject and use a reference to the
-nearest NavController to manipulate the navigation stack.</p>
-<h2 id="basic-usage">Basic usage</h2>
-<p>The simplest way to navigate through an app is to create and initialize a new
-nav controller using the <code>&lt;ion-nav&gt;</code> component.  <code>ion-nav</code> extends the <code>NavController</code>
-class.</p>
+<p>NavController 是 <a href="../../components/nav/Nav/"><code>Nav</code></a> 和 <a href="../../components/tabs/Tab/"><code>Tab</code></a> 等导航控制器组件的基类。你可以使用导航控制器导航到你的应用中的<a href="#view-creation">页面</a>。在基本范畴内，导航控制器是代表特定 history 记录（例如 Tab）的页面数组。通过推入和弹出页面或在 history 中的任意位置插入和删除它们，可以操纵该数组在整个应用中导航。</p>
+<p>当前页面是数组中的最后一页，或者我们可以这样想，当前页面在堆栈的顶部。将新页面 <a href="#push">Pushing</a> 到导航堆栈的顶部会导致新页面加载动画，而 <a href="#pop">popping</a> 当前页面将导航到堆栈中的上一页面。</p>
+<p>除非你使用像 <a href="../../components/nav/NavPush/">NavPush</a> 这样的指令，或者需要特定的 NavController，否则大多数时候你会注入并使用对最近的 NavController 的引用来操纵导航堆栈。</p>
+<h2 id="basic-usage">基本用法</h2>
+<p>通过应用程序导航的最简单方法是使用 <code>&lt;ion-nav&gt;</code> 组件创建和初始化新的导航控制器。<code>ion-nav</code> 扩展了 <code>NavController</code> 类。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <pre><code class="lang-typescript">import { Component } from `@angular/core`;
 import { StartPage } from &#39;./start-page&#39;;
 
@@ -65,24 +65,24 @@ import { StartPage } from &#39;./start-page&#39;;
   template: `&lt;ion-nav [root]=&quot;rootPage&quot;&gt;&lt;/ion-nav&gt;`
 })
 class MyApp {
-  // set the rootPage to the first page we want displayed
+  // 将 rootPage 设置为我们想要显示的第一页
   public rootPage: any = StartPage;
 
   constructor(){
   }
 }
 </code></pre>
-<h3><a class="anchor" name="injecting-navcontroller" href="#injecting-navcontroller">Injecting NavController</a></h3>
+<h3><a class="anchor" name="injecting-navcontroller" href="#injecting-navcontroller">注入 NavController</a></h3>
 
-<p>Injecting NavController will always get you an instance of the nearest
-NavController, regardless of whether it is a Tab or a Nav.</p>
-<p>Behind the scenes, when Ionic instantiates a new NavController, it creates an
-injector with NavController bound to that instance (usually either a Nav or
-Tab) and adds the injector to its own providers.  For more information on
-providers and dependency injection, see <a href="https://angular.io/docs/ts/latest/guide/dependency-injection.html">Dependency Injection</a>.</p>
-<p>Instead, you can inject NavController and know that it is the correct
-navigation controller for most situations (for more advanced situations, see
-<a href="../../menu/Menu/">Menu</a> and <a href="../../tab/Tab/">Tab</a>).</p>
+<p>注入 NavController 将始终为你提供最近 NavController 的实例，而不管它是 Tab 还是 Nav。</p>
+<p>在后台，当 Ionic 实例化一个新的 NavController 时，它会创建一个 NavController 绑定到该实例的注入器（通常是 Nav 或 Tab），并将注入器添加到它自己的提供商中。有关提供商程序和依赖注入的更多信息，请参阅<a href="https://angular.io/docs/ts/latest/guide/dependency-injection.html">依赖注入</a>。</p>
+<p>作为替代，你可以注入 NavController，并知道它在大多数情况下是正确的导航控制器（对于更高级的情况，请参阅 <a href="../../menu/Menu/">Menu</a> 和 <a href="../../tab/Tab/">Tab</a>）</p>
+
+
+
+
+
+
 <pre><code class="lang-ts">import { NavController } from &#39;ionic-angular&#39;;
 
 class MyComponent {
@@ -91,15 +91,15 @@ class MyComponent {
   }
 }
 </code></pre>
-<h3><a class="anchor" name="navigating-from-the-root-component" href="#navigating-from-the-root-component">Navigating from the Root component</a></h3>
+<h3><a class="anchor" name="navigating-from-the-root-component" href="#navigating-from-the-root-component">从根组件导航</a></h3>
 
-<p>What if you want to control navigation from your root app component?
-You can&#39;t inject <code>NavController</code> because any components that are navigation
-controllers are <em>children</em> of the root component so they aren&#39;t available
-to be injected.</p>
-<p>By adding a reference variable to the <code>ion-nav</code>, you can use <code>@ViewChild</code> to
-get an instance of the <code>Nav</code> component, which is a navigation controller
-(it extends <code>NavController</code>):</p>
+<p>如果你想要控制根应用程序组件的导航，该怎么办？你无法注入 <code>NavController</code>，因为导航控制器的任何组件都是根组件的 <em>子组件</em>，因此它们无法注入。</p>
+<p>通过向 <code>ion-nav</code> 添加一个引用变量，可以使用 <code>@ViewChild</code> 获取导航控制器（它扩展了 <code>NavController</code>）的 Nav 组件实例：</p>
+
+
+
+
+
 <pre><code class="lang-typescript">import { Component, ViewChild } from &#39;@angular/core&#39;;
 import { NavController } from &#39;ionic-angular&#39;;
 
@@ -110,19 +110,19 @@ export class MyApp {
    @ViewChild(&#39;myNav&#39;) nav: NavController
    public rootPage: any = TabsPage;
 
-   // Wait for the components in MyApp&#39;s template to be initialized
-   // In this case, we are waiting for the Nav with reference variable of &quot;#myNav&quot;
+   // 等待 MyApp 模板中的组件被初始化
+   // 在这种情况下，我们正在等待引用变量 “#myNav”
    ngOnInit() {
-      // Let&#39;s navigate from TabsPage to Page1
+      // 让我们从 TabsPage 导航到 Page1
       this.nav.push(Page1);
    }
 }
 </code></pre>
-<h3><a class="anchor" name="navigating-from-an-overlay-component" href="#navigating-from-an-overlay-component">Navigating from an Overlay Component</a></h3>
+<h3><a class="anchor" name="navigating-from-an-overlay-component" href="#navigating-from-an-overlay-component">从叠加组件导航</a></h3>
 
-<p>What if you wanted to navigate from an overlay component (popover, modal, alert, etc)?
-In this example, we&#39;ve displayed a popover in our app. From the popover, we&#39;ll get a
-reference of the root <code>NavController</code> in our app, using the <code>getRootNav()</code> method.</p>
+<p>如果你想从叠加组件（popover，modal，alert等）导航，该怎么办？在这个例子中，我们在应用中显示了一个弹出窗口。从 popover 中，我们将使用 <code>getRootNav()</code> 方法获取应用程序中的根 <code>NavController</code> 的引用。</p>
+
+
 <pre><code class="lang-typescript">import { Component } from &#39;@angular/core&#39;;
 import { App, ViewController } from &#39;ionic-angular&#39;;
 
@@ -146,22 +146,22 @@ import { App, ViewController } from &#39;ionic-angular&#39;;
     }
   }
 </code></pre>
-<h2 id="view-creation">View creation</h2>
-<p>Views are created when they are added to the navigation stack.  For methods
-like <a href="#push">push()</a>, the NavController takes any component class that is
-decorated with <code>@Component</code> as its first argument.  The NavController then
-compiles that component, adds it to the app and animates it into view.</p>
-<p>By default, pages are cached and left in the DOM if they are navigated away
-from but still in the navigation stack (the exiting page on a <code>push()</code> for
-example).  They are destroyed when removed from the navigation stack (on
-<a href="#pop">pop()</a> or <a href="#setRoot">setRoot()</a>).</p>
-<h2 id="pushing-a-view">Pushing a View</h2>
-<p>To push a new view onto the navigation stack, use the <code>push</code> method.
-If the page has an <a href="../../navbar/Navbar/"><code>&lt;ion-navbar&gt;</code></a>,
-a back button will automatically be added to the pushed view.</p>
-<p>Data can also be passed to a view by passing an object to the <code>push</code> method.
-The pushed view can then receive the data by accessing it via the <code>NavParams</code>
-class.</p>
+<h2 id="view-creation">视图创建</h2>
+<p>将视图添加到导航堆栈时创建视图。对于像 <a href="#push">push()</a> 这样的方法，NavController 接受任何用 <code>@Component</code> 装饰的组件类作为它的第一个参数。然后，NavController 将编译该组件，将其添加到应用程序中并将其移动到视图中。</p>
+<p>默认情况下，页面被缓存并留在 DOM 中，如果他们被导航离开，但仍然在导航栈中（例如 <code>push()</code> 上的退出页面）。从导航堆栈中删除时（在 <a href="#pop">pop()</a> 或 <a href="#setRoot">setRoot()</a> 上）它们会被销毁。</p>
+<h2 id="pushing-a-view">推入视图</h2>
+<p>要将新视图推入导航堆栈，请使用 <code>push</code> 方法。如果页面有 <a href="../../navbar/Navbar/"><code>&lt;ion-navbar&gt;</code></a>，则后退按钮会自动添加到推入的视图中。</p>
+<p>通过将对象传递给 <code>push</code> 方法，也可以将数据传递给视图。然后推入的视图可以通过 <code>NavParams</code> 类访问数据。
+</p>
+
+
+
+
+
+
+
+
+
 <pre><code class="lang-typescript">import { Component } from &#39;@angular/core&#39;;
 import { NavController } from &#39;ionic-angular&#39;;
 import { OtherPage } from &#39;./other-page&#39;;
@@ -185,9 +185,9 @@ export class StartPage {
   }
 
   pushPage(){
-    // push another page onto the navigation stack
-    // causing the nav controller to transition to the new page
-    // optional data can also be passed to the pushed page.
+    // 将另一个页面推入导航堆栈
+    // 导致导航控制器转换到新页面
+    // 可选数据也可以传递到推送页面。
     this.navCtrl.push(OtherPage, {
       id: &quot;123&quot;,
       name: &quot;Carl&quot;
@@ -213,9 +213,9 @@ class OtherPage {
   }
 }
 </code></pre>
-<h2 id="removing-a-view">Removing a view</h2>
-<p>To remove a view from the stack, use the <code>pop</code> method.
-Popping a view will transition to the previous view.</p>
+<h2 id="removing-a-view">删除视图</h2>
+<p>要从堆栈中删除视图，请使用 <code>pop</code> 方法。弹出一个视图将转换到前一个视图。</p>
+
 <pre><code class="lang-ts">import { Component } from &#39;@angular/core&#39;;
 import { NavController } from &#39;ionic-angular&#39;;
 
@@ -237,9 +237,9 @@ class OtherPage {
    }
 }
 </code></pre>
-<h2 id="lifecycle-events">Lifecycle events</h2>
-<p>Lifecycle events are fired during various stages of navigation.  They can be
-defined in any component type which is pushed/popped from a <code>NavController</code>.</p>
+<h2 id="lifecycle-events">生命周期事件</h2>
+<p>生命周期事件在导航的各个阶段被触发。它们可以在从 <code>NavController</code> 推入/弹出的任意组件类型中定义。</p>
+
 <pre><code class="lang-ts">import { Component } from &#39;@angular/core&#39;;
 
 @Component({
@@ -257,57 +257,57 @@ class HelloWorld {
 <table>
 <thead>
 <tr>
-<th>Page Event</th>
-<th>Returns</th>
-<th>Description</th>
+<th>页面事件</th>
+<th>返回</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>ionViewDidLoad</code></td>
 <td>void</td>
-<td>Runs when the page has loaded. This event only happens once per page being created. If a page leaves but is cached, then this event will not fire again on a subsequent viewing. The <code>ionViewDidLoad</code> event is good place to put your setup code for the page.</td>
+<td>加载页面时运行。该事件仅在每个页面创建时发生一次。如果页面离开但被缓存，则此事件在后续查看时不会再次触发。<code>ionViewDidLoad</code> 事件是放置页面组织代码的好地方。</td>
 </tr>
 <tr>
 <td><code>ionViewWillEnter</code></td>
 <td>void</td>
-<td>Runs when the page is about to enter and become the active page.</td>
+<td>页面即将进入并成为激活页面时运行。</td>
 </tr>
 <tr>
 <td><code>ionViewDidEnter</code></td>
 <td>void</td>
-<td>Runs when the page has fully entered and is now the active page. This event will fire, whether it was the first load or a cached page.</td>
+<td>页面完全进入并且现在是激活页面时运行。无论是第一次加载还是缓存页面，此事件都会触发。</td>
 </tr>
 <tr>
 <td><code>ionViewWillLeave</code></td>
 <td>void</td>
-<td>Runs when the page is about to leave and no longer be the active page.</td>
+<td>页面即将离开并不再是激活页面时运行。</td>
 </tr>
 <tr>
 <td><code>ionViewDidLeave</code></td>
 <td>void</td>
-<td>Runs when the page has finished leaving and is no longer the active page.</td>
+<td>页面完成离开并不再是激活页面时运行。</td>
 </tr>
 <tr>
 <td><code>ionViewWillUnload</code></td>
 <td>void</td>
-<td>Runs when the page is about to be destroyed and have its elements removed.</td>
+<td>当页面即将被销毁并删除其元素时运行。</td>
 </tr>
 <tr>
 <td><code>ionViewCanEnter</code></td>
 <td>boolean/Promise&lt;void&gt;</td>
-<td>Runs before the view can enter. This can be used as a sort of &quot;guard&quot; in authenticated views where you need to check permissions before the view can enter</td>
+<td>在视图能够进入之前运行。这可以用作认证视图中的一种“守卫”，你需要在视图进入之前检查权限。</td>
 </tr>
 <tr>
 <td><code>ionViewCanLeave</code></td>
 <td>boolean/Promise&lt;void&gt;</td>
-<td>Runs before the view can leave. This can be used as a sort of &quot;guard&quot; in authenticated views where you need to check permissions before the view can leave</td>
+<td>在视图能够离开之前运行。这可以用作认证视图中的一种“守卫”，你需要在视图离开之前检查权限。</td>
 </tr>
 </tbody>
 </table>
-<h2 id="nav-guards">Nav Guards</h2>
-<p>In some cases, a developer should be able to control views leaving and entering. To allow for this, NavController has the <code>ionViewCanEnter</code> and <code>ionViewCanLeave</code> methods.
-Similar to Angular route guards, but are more integrated with NavController. For example, if you wanted to prevent a user from leaving a view:</p>
+<h2 id="nav-guards">导航守卫</h2>
+<p>在某些情况下，开发人员应该能够控制离开和进入的视图。为了做到这一点，NavController 具有 <code>ionViewCanEnter</code> 和 <code>ionViewCanLeave</code> 方法。类似于 Angular 的路由守卫，但更多地与 NavController 集成。例如，如果你想阻止用户离开视图：</p>
+
 <pre><code class="lang-ts">export class MyClass{
  constructor(
    public navCtrl: NavController
@@ -318,8 +318,8 @@ Similar to Angular route guards, but are more integrated with NavController. For
   }
 
   ionViewCanLeave(): boolean{
-   // here we can either return true or false
-   // depending on if we want to leave this view
+   // 这里我们可以返回 true 或 false 
+   // 取决于我们是否想离开这个视图
    if(isValid(randomValue)){
       return true;
     } else {
@@ -328,8 +328,8 @@ Similar to Angular route guards, but are more integrated with NavController. For
   }
 }
 </code></pre>
-<p>We need to make sure that our <code>navCtrl.push</code> has a catch in order to catch the and handle the error.
-If you need to prevent a view from entering, you can do the same thing</p>
+<p>我们需要确保我们的 <code>navCtrl.push</code> 有捕获和处理错误的能力。如果你需要阻止视图进入，则可以执行相同的操作。</p>
+
 <pre><code class="lang-ts">export class MyClass{
  constructor(
    public navCtrl: NavController
@@ -346,8 +346,8 @@ export class DetailPage(){
     public navCtrl: NavController
   ){}
   ionViewCanEnter(): boolean{
-   // here we can either return true or false
-   // depending on if we want to leave this view
+   // 这里我们可以返回 true 或 false
+   // 取决于我们是否想离开这个视图
    if(isValid(randomValue)){
       return true;
     } else {
@@ -356,48 +356,48 @@ export class DetailPage(){
   }
 }
 </code></pre>
-<p>Similar to <code>ionViewCanLeave</code> we still need a catch on the original <code>navCtrl.push</code> in order to handle it properly.
-When handling the back button in the <code>ion-navbar</code>, the catch is already taken care of for you by the framework.</p>
+<p>与 <code>ionViewCanLeave</code> 类似，我们仍然需要捕获原始 <code>navCtrl.push</code> 以正确处理它。在处理 <code>ion-navbar</code> 中的后退按钮时，框架已经为你抓住了猎物。</p>
+
 <h2 id="navoptions">NavOptions</h2>
-<p>Some methods on <code>NavController</code> allow for customizing the current transition.
-To do this, we can pass an object with the modified properites.</p>
+<p><code>NavController</code> 上的一些方法允许自定义当前的过渡效果。要做到这一点，我们可以传递一个修改过的对象。</p>
+
 <table>
 <thead>
 <tr>
-<th>Property</th>
-<th>Value</th>
-<th>Description</th>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>animate</td>
 <td><code>boolean</code></td>
-<td>Whether or not the transition should animate.</td>
+<td>过渡效果是否应用动画。</td>
 </tr>
 <tr>
 <td>animation</td>
 <td><code>string</code></td>
-<td>What kind of animation should be used.</td>
+<td>应该使用什么样的动画。</td>
 </tr>
 <tr>
 <td>direction</td>
 <td><code>string</code></td>
-<td>The conceptual direction the user is navigating. For example, is the user navigating <code>forward</code>, or <code>back</code>?</td>
+<td>用户正在浏览的导航方向。例如，用户是 <code>forward</code>, 还是 <code>back</code>？</td>
 </tr>
 <tr>
 <td>duration</td>
 <td><code>number</code></td>
-<td>The length in milliseconds the animation should take.</td>
+<td>动画应持续的时长，以毫秒为单位。</td>
 </tr>
 <tr>
 <td>easing</td>
 <td><code>string</code></td>
-<td>The easing for the animation.</td>
+<td>动画的缓动。</td>
 </tr>
 </tbody>
 </table>
-<p>The property &#39;animation&#39; understands the following values: <code>md-transition</code>, <code>ios-transition</code> and <code>wp-transition</code>.</p>
+<p>属性的'动画'理解以下值： <code>md-transition</code>, <code>ios-transition</code> 和 <code>wp-transition</code>。</p>
 
 
 
@@ -411,7 +411,7 @@ To do this, we can pass an object with the modified properites.</p>
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="canGoBack"></div>
 
@@ -423,8 +423,8 @@ To do this, we can pass an object with the modified properites.</p>
 </a>
 </h3>
 
-Returns `true` if there's a valid previous page that we can pop
-back to. Otherwise returns `false`.
+如果存在我们可以弹出的有效的上一页，则返回 `true`。否则返回 `false`。
+
 
 
 
@@ -433,7 +433,7 @@ back to. Otherwise returns `false`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
+<b>返回：</b>
   <code>boolean</code>
 
 </div>
@@ -451,10 +451,10 @@ back to. Otherwise returns `false`.
 </a>
 </h3>
 
-If it's possible to use swipe back or not. If it's not possible
-to go back, or swipe back is not enabled, then this will return `false`.
-If it is possible to go back, and swipe back is enabled, then this
-will return `true`.
+是否可以使用向后滑动。如果无法后退，或者没有启用滑动，则返回 `false`。如果可以后退，并且允许向后滑动，则返回 `true`。
+
+
+
 
 
 
@@ -463,7 +463,7 @@ will return `true`.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
+<b>返回：</b>
   <code>boolean</code>
 
 </div>
@@ -481,7 +481,7 @@ will return `true`.
 </a>
 </h3>
 
-Returns the first view controller in this nav controller's stack.
+返回此导航控制器堆栈中的第一个视图控制器。
 
 
 
@@ -490,7 +490,7 @@ Returns the first view controller in this nav controller's stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
+<b>返回：</b>
   <code>ViewController</code>
 
 </div>
@@ -517,8 +517,8 @@ Returns the first view controller in this nav controller's stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>ViewController</code> <p>Returns the active page&#39;s view controller.</p>
+<b>返回：</b>
+  <code>ViewController</code> <p>返回激活的页面视图控制器。</p>
 
 
 </div>
@@ -536,7 +536,7 @@ Returns the first view controller in this nav controller's stack.
 </a>
 </h3>
 
-Returns the active child navigation.
+返回激活的子导航。
 
 
 
@@ -557,7 +557,7 @@ Returns the active child navigation.
 </a>
 </h3>
 
-Returns a list of the active child navigation.
+返回激活的子导航列表。
 
 
 
@@ -578,7 +578,7 @@ Returns a list of the active child navigation.
 </a>
 </h3>
 
-Returns a list of all child navigation containers
+返回所有子导航容器的列表。
 
 
 
@@ -605,9 +605,9 @@ Returns a list of all child navigation containers
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -623,7 +623,7 @@ Returns a list of all child navigation containers
   <code>number</code>
       </td>
       <td>
-        <p>The index of the page to get.</p>
+        <p>要获取的页面的索引。</p>
 
 
       </td>
@@ -638,8 +638,8 @@ Returns a list of all child navigation containers
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>ViewController</code> <p>Returns the view controller that matches the given index.</p>
+<b>返回：</b>
+  <code>ViewController</code> <p>返回与给定索引匹配的视图控制器。</p>
 
 
 </div>
@@ -657,16 +657,16 @@ Returns a list of all child navigation containers
 </a>
 </h3>
 
-Returns the view controller which is before the given view controller.
-If no view controller is passed in, then it'll default to the active view.
+返回给定视图控制器之前的视图控制器。如果没有视图控制器被传入，那么它将默认为激活的视图。
+
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -696,7 +696,7 @@ If no view controller is passed in, then it'll default to the active view.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
+<b>返回：</b>
   <code>viewController</code>
 
 </div>
@@ -754,7 +754,7 @@ If no view controller is passed in, then it'll default to the active view.
 </a>
 </h3>
 
-Returns the current stack of views in this nav controller.
+返回此导航控制器中当前的视图堆栈。
 
 
 
@@ -763,8 +763,8 @@ Returns the current stack of views in this nav controller.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Array&lt;ViewController&gt;</code> <p>the stack of view controllers in this nav controller.</p>
+<b>返回：</b>
+  <code>Array&lt;ViewController&gt;</code> <p>此导航控制器中的视图控制器堆栈。</p>
 
 
 </div>
@@ -802,15 +802,15 @@ Returns the current stack of views in this nav controller.
 </a>
 </h3>
 
-Returns the index number of the given view controller.
+返回给定视图控制器的索引。
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -840,7 +840,7 @@ Returns the index number of the given view controller.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
+<b>返回：</b>
   <code>number</code>
 
 </div>
@@ -858,8 +858,8 @@ Returns the index number of the given view controller.
 </a>
 </h3>
 
-Inserts a component into the nav stack at the specified index. This is useful if
-you need to add a component at any point in your navigation stack.
+将组件插入到指定索引处的导航堆栈中。如果你需要在导航堆栈中的任意位置添加组件，这非常有用。
+
 
 
 
@@ -867,9 +867,9 @@ you need to add a component at any point in your navigation stack.
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -885,7 +885,7 @@ you need to add a component at any point in your navigation stack.
   <code>number</code>
       </td>
       <td>
-        <p>The index where to insert the page.</p>
+        <p>索引插入页面的位置。</p>
 
 
       </td>
@@ -902,7 +902,7 @@ you need to add a component at any point in your navigation stack.
   <code>Page</code>|<code>string</code>
       </td>
       <td>
-        <p>The component class or deeplink name you want to push onto the navigation stack.</p>
+        <p>要推入导航堆栈的组件类或深层链接（deeplink）名称。</p>
 
 
       </td>
@@ -919,7 +919,7 @@ you need to add a component at any point in your navigation stack.
   <code>object</code>
       </td>
       <td>
-        <p>Any NavParams you want to pass along to the next view.<strong class="tag">Optional</strong></p>
+        <p>你想要传递给下一个视图的任意 NavParams <strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -936,7 +936,7 @@ you need to add a component at any point in your navigation stack.
   <code>object</code>
       </td>
       <td>
-        <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
+        <p>导航选项去与它的过渡效果。<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -951,8 +951,8 @@ you need to add a component at any point in your navigation stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
+<b>返回：</b>
+  <code>Promise</code> <p>返回过渡完成时 resolved 的 promise。</p>
 
 
 </div>
@@ -970,18 +970,18 @@ you need to add a component at any point in your navigation stack.
 </a>
 </h3>
 
-Inserts an array of components into the nav stack at the specified index.
-The last component in the array will become instantiated as a view,
-and animate in to become the active view.
+将指定索引处的组件数组插入到导航堆栈中。数组中的最后一个组件将被实例化为一个视图，并生成动画来成为活动视图。
+
+
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -997,7 +997,7 @@ and animate in to become the active view.
   <code>number</code>
       </td>
       <td>
-        <p>The index where you want to insert the page.</p>
+        <p>你想要插入页面的索引。</p>
 
 
       </td>
@@ -1014,7 +1014,7 @@ and animate in to become the active view.
   <code>array</code>
       </td>
       <td>
-        <p>An array of objects, each with a <code>page</code> and optionally <code>params</code> property.</p>
+        <p>一组对象，每个对象都有一个 <code>page</code> 和可选的 <code>params</code> 属性。</p>
 
 
       </td>
@@ -1031,7 +1031,7 @@ and animate in to become the active view.
   <code>object</code>
       </td>
       <td>
-        <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
+        <p>导航选项与它的过渡效果。<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1046,8 +1046,8 @@ and animate in to become the active view.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
+<b>返回：</b>
+  <code>Promise</code> <p>返回过渡完成时 resolved 的 promise。</p>
 
 
 </div>
@@ -1065,15 +1065,15 @@ and animate in to become the active view.
 </a>
 </h3>
 
-Returns if the given view is the active view or not.
+返回给定视图是否为激活视图。
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -1103,7 +1103,7 @@ Returns if the given view is the active view or not.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
+<b>返回：</b>
   <code>boolean</code>
 
 </div>
@@ -1121,7 +1121,7 @@ Returns if the given view is the active view or not.
 </a>
 </h3>
 
-Returns if the nav controller is actively transitioning or not.
+返回导航控制器是否正在过渡。
 
 
 
@@ -1130,7 +1130,7 @@ Returns if the nav controller is actively transitioning or not.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
+<b>返回：</b>
   <code>boolean</code>
 
 </div>
@@ -1148,7 +1148,7 @@ Returns if the nav controller is actively transitioning or not.
 </a>
 </h3>
 
-Returns the last page in this nav controller's stack.
+返回此导航控制器堆栈中的最后一个页面。
 
 
 
@@ -1157,7 +1157,7 @@ Returns the last page in this nav controller's stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
+<b>返回：</b>
   <code>ViewController</code>
 
 </div>
@@ -1175,7 +1175,7 @@ Returns the last page in this nav controller's stack.
 </a>
 </h3>
 
-Returns the number of views in this nav controller.
+返回此导航控制器中的视图数量。
 
 
 
@@ -1184,8 +1184,8 @@ Returns the number of views in this nav controller.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>number</code> <p>The number of views in this stack, including the current view.</p>
+<b>返回：</b>
+  <code>number</code> <p>此堆栈中的视图数量，包括当前视图。</p>
 
 
 </div>
@@ -1203,9 +1203,9 @@ Returns the number of views in this nav controller.
 </a>
 </h3>
 
-The parent navigation instance. If this is the root nav, then
-it'll be `null`. A `Tab` instance's parent is `Tabs`, otherwise
-the parent would be another nav, if it's not already the root nav.
+父导航实例。如果这是根导航，那么它将为 `null`。一个 `Tab` 实例的父项是 `Tabs`，否则父项将是另一个 nav，如果它不是根 nav 的话。
+
+
 
 
 
@@ -1226,17 +1226,17 @@ the parent would be another nav, if it's not already the root nav.
 </a>
 </h3>
 
-Call to navigate back from a current component. Similar to `push()`, you
-can also pass navigation options.
+从当前组件调用导航来返回。与 `push()` 类似，你也可以传递导航选项。
+
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -1252,7 +1252,7 @@ can also pass navigation options.
   <code>object</code>
       </td>
       <td>
-        <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
+        <p>导航选项与它的过渡效果。<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1267,8 +1267,8 @@ can also pass navigation options.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
+<b>返回：</b>
+  <code>Promise</code> <p>返回过渡完成时 resolved 的 promise。</p>
 
 
 </div>
@@ -1286,16 +1286,16 @@ can also pass navigation options.
 </a>
 </h3>
 
-Navigate back to the root of the stack, no matter how far back that is.
+返回到堆栈的根目录，不管它有多远。
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -1311,7 +1311,7 @@ Navigate back to the root of the stack, no matter how far back that is.
   <code>object</code>
       </td>
       <td>
-        <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
+        <p>导航选项与它的过渡效果。<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1326,8 +1326,8 @@ Navigate back to the root of the stack, no matter how far back that is.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
+<b>返回：</b>
+  <code>Promise</code> <p>返回过渡完成时 resolved 的 promise。</p>
 
 
 </div>
@@ -1345,17 +1345,17 @@ Navigate back to the root of the stack, no matter how far back that is.
 </a>
 </h3>
 
-Push a new component onto the current navigation stack. Pass any aditional information
-along as an object. This additional information is accessible through NavParams
+将新组件推入到当前导航堆栈里。将任何附加信息作为对象传递。这些附加信息可通过 NavParams 访问
+
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -1371,7 +1371,7 @@ along as an object. This additional information is accessible through NavParams
   <code>Page</code>|<code>string</code>
       </td>
       <td>
-        <p>The component class or deeplink name you want to push onto the navigation stack.</p>
+        <p>要推入导航堆栈的组件类或深层链接（deeplink）名称。</p>
 
 
       </td>
@@ -1388,7 +1388,7 @@ along as an object. This additional information is accessible through NavParams
   <code>object</code>
       </td>
       <td>
-        <p>Any NavParams you want to pass along to the next view.<strong class="tag">Optional</strong></p>
+        <p>任意你想传递给下一个视图的 NavParams。<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1405,7 +1405,7 @@ along as an object. This additional information is accessible through NavParams
   <code>object</code>
       </td>
       <td>
-        <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
+        <p>导航选项与它的过渡效果。<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1420,8 +1420,8 @@ along as an object. This additional information is accessible through NavParams
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
+<b>返回：</b>
+  <code>Promise</code> <p>返回过渡完成时 resolved 的 promise。</p>
 
 
 </div>
@@ -1439,16 +1439,16 @@ along as an object. This additional information is accessible through NavParams
 </a>
 </h3>
 
-Removes a page from the nav stack at the specified index.
+从指定索引的导航堆栈中移除页面。
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -1464,7 +1464,7 @@ Removes a page from the nav stack at the specified index.
   <code>number</code>
       </td>
       <td>
-        <p>The starting index to remove pages from the stack. Default is the index of the last page.</p>
+        <p>从堆栈中删除页面的起始索引。默认值是最后一页的索引。</p>
 
 
       </td>
@@ -1481,7 +1481,7 @@ Removes a page from the nav stack at the specified index.
   <code>number</code>
       </td>
       <td>
-        <p>The number of pages to remove, defaults to remove <code>1</code>.<strong class="tag">Optional</strong></p>
+        <p>要删除的页面数量，默认为删除 <code>1</code> <strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1498,7 +1498,7 @@ Removes a page from the nav stack at the specified index.
   <code>object</code>
       </td>
       <td>
-        <p>Any options you want to use pass to transtion.<strong class="tag">Optional</strong></p>
+        <p>任何你想使用的选项都可以通过过渡。<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1513,8 +1513,8 @@ Removes a page from the nav stack at the specified index.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
+<b>返回：</b>
+  <code>Promise</code> <p>返回过渡完成时 resolved 的 promise。</p>
 
 
 </div>
@@ -1532,16 +1532,16 @@ Removes a page from the nav stack at the specified index.
 </a>
 </h3>
 
-Removes the specified view controller from the nav stack.
+从导航堆栈中移除指定的视图控制器。
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -1557,7 +1557,7 @@ Removes the specified view controller from the nav stack.
   <code>ViewController</code>
       </td>
       <td>
-        <p>The viewcontroller to remove.<strong class="tag">Optional</strong></p>
+        <p>The viewcontroller to remove.<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1574,7 +1574,7 @@ Removes the specified view controller from the nav stack.
   <code>object</code>
       </td>
       <td>
-        <p>Any options you want to use pass to transtion.<strong class="tag">Optional</strong></p>
+        <p>Any options you want to use pass to transtion.<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1589,8 +1589,8 @@ Removes the specified view controller from the nav stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
+<b>返回：</b>
+  <code>Promise</code> <p>返回过渡完成时 resolved 的 promise。</p>
 
 
 </div>
@@ -1618,9 +1618,9 @@ navigation params to the individual pages in the array.
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -1653,7 +1653,7 @@ navigation params to the individual pages in the array.
   <code>Object</code>
       </td>
       <td>
-        <p>Nav options to go with this transition.<strong class="tag">Optional</strong></p>
+        <p>导航选项与它的过渡效果。<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1668,8 +1668,8 @@ navigation params to the individual pages in the array.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
+<b>返回：</b>
+  <code>Promise</code> <p>返回过渡完成时 resolved 的 promise。</p>
 
 
 </div>
@@ -1687,15 +1687,15 @@ navigation params to the individual pages in the array.
 </a>
 </h3>
 
-Set the root for the current navigation stack.
+设置当前导航堆栈的根目录。
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>参数</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -1711,7 +1711,7 @@ Set the root for the current navigation stack.
   <code>Page</code>|<code>string</code>|<code>ViewController</code>
       </td>
       <td>
-        <p>The name of the component you want to push on the navigation stack.</p>
+        <p>你要在导航堆栈上推入的组件名称。</p>
 
 
       </td>
@@ -1728,7 +1728,7 @@ Set the root for the current navigation stack.
   <code>object</code>
       </td>
       <td>
-        <p>Any NavParams you want to pass along to the next view.<strong class="tag">Optional</strong></p>
+        <p>任意你想传递给下一个视图的 NavParams。<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1745,7 +1745,7 @@ Set the root for the current navigation stack.
   <code>object</code>
       </td>
       <td>
-        <p>Any options you want to use pass to transtion.<strong class="tag">Optional</strong></p>
+        <p>任意你想可以通过过渡使用的选项。<strong class="tag">可选的</strong></p>
 
 
       </td>
@@ -1762,7 +1762,7 @@ Set the root for the current navigation stack.
   <code>Function</code>
       </td>
       <td>
-        <p>Callback function on done.</p>
+        <p>回调函数完成。</p>
 
 
       </td>
@@ -1777,8 +1777,8 @@ Set the root for the current navigation stack.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Promise</code> <p>Returns a promise which is resolved when the transition has completed.</p>
+<b>返回：</b>
+  <code>Promise</code> <p>返回过渡完成时 resolved 的 promise。</p>
 
 
 </div>
@@ -1816,7 +1816,7 @@ Set the root for the current navigation stack.
 </a>
 </h3>
 
-Observable to be subscribed to when a component has fully become the active component.
+当组件完全成为激活的组件时，可以作为可观察对象被订阅。
 
 
 
@@ -1825,8 +1825,8 @@ Observable to be subscribed to when a component has fully become the active comp
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b>
+  <code>Observable</code> <p>返回一个 observable</p>
 
 
 </div>
@@ -1844,7 +1844,7 @@ Observable to be subscribed to when a component has fully become the active comp
 </a>
 </h3>
 
-Observable to be subscribed to when a component has fully left and is no longer active.
+当组件即将离开并且不再激活时，可以作为可观察对象被订阅。
 
 
 
@@ -1853,8 +1853,8 @@ Observable to be subscribed to when a component has fully left and is no longer 
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b>
+  <code>Observable</code> <p>返回一个 observable</p>
 
 
 </div>
@@ -1872,7 +1872,7 @@ Observable to be subscribed to when a component has fully left and is no longer 
 </a>
 </h3>
 
-Observable to be subscribed to when a component is loaded.
+当组件被加载时，可以作为可观察对象被订阅。
 
 
 
@@ -1881,8 +1881,8 @@ Observable to be subscribed to when a component is loaded.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b>
+  <code>Observable</code> <p>返回一个 observable</p>
 
 
 </div>
@@ -1900,7 +1900,7 @@ Observable to be subscribed to when a component is loaded.
 </a>
 </h3>
 
-Observable to be subscribed to when a component is about to be loaded.
+当组件即将被加载时，可以作为可观察对象被订阅。
 
 
 
@@ -1909,8 +1909,8 @@ Observable to be subscribed to when a component is about to be loaded.
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b>
+  <code>Observable</code> <p>返回一个 observable</p>
 
 
 </div>
@@ -1928,7 +1928,7 @@ Observable to be subscribed to when a component is about to be loaded.
 </a>
 </h3>
 
-Observable to be subscribed to when a component is about to leave, and no longer active.
+当组件即将离开并不再激活时，可以作为可观察对象被订阅。
 
 
 
@@ -1937,8 +1937,8 @@ Observable to be subscribed to when a component is about to leave, and no longer
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b>
+  <code>Observable</code> <p>返回一个 observable</p>
 
 
 </div>
@@ -1956,7 +1956,7 @@ Observable to be subscribed to when a component is about to leave, and no longer
 </a>
 </h3>
 
-Observable to be subscribed to when a component is about to be unloaded and destroyed.
+当组件被卸载和销毁时，可以作为可观察对象被订阅。
 
 
 
@@ -1965,8 +1965,8 @@ Observable to be subscribed to when a component is about to be unloaded and dest
 
 <div class="return-value">
 <i class="icon ion-arrow-return-left"></i>
-<b>Returns:</b>
-  <code>Observable</code> <p>Returns an observable</p>
+<b>返回：</b>
+  <code>Observable</code> <p>返回一个 observable</p>
 
 
 </div>

@@ -44,19 +44,19 @@ Nav
 
 
 
-<p><code>ion-nav</code> is the declarative component for a <a href="../../../navigation/NavController/">NavController</a>.</p>
-<p>For more information on using nav controllers like Nav or <a href="../../Tabs/Tab/">Tab</a>,
-take a look at the <a href="../../../navigation/NavController/">NavController API Docs</a>.</p>
+<p><code>ion-nav</code> 是 <a href="../../../navigation/NavController/">NavController</a> 的声明性组件。</p>
+<p>有关使用 Nav 或 <a href="../../Tabs/Tab/">Tab</a> 等导航控制器的更多信息，请查看 <a href="../../../navigation/NavController/">NavController API 文档</a>。</p>
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
-<p>You must set a root page to be loaded initially by any Nav you create, using
-the &#39;root&#39; property:</p>
+<p>你必须使用 'root' 属性设置一个根页面，以便你创建的任意 Nav 初始化加载：</p>
+
 <pre><code class="lang-ts">import { Component } from &#39;@angular/core&#39;;
 import { GettingStartedPage } from &#39;./getting-started&#39;;
 
@@ -80,7 +80,7 @@ class MyApp {
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="getSecondaryIdentifier"></div>
 
@@ -202,13 +202,13 @@ class MyApp {
 
 
 <!-- input methods on the class -->
-<h2><a class="anchor" name="input-properties" href="#input-properties">Input Properties</a></h2>
+<h2><a class="anchor" name="input-properties" href="#input-properties">输入属性</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -216,21 +216,21 @@ class MyApp {
     <tr>
       <td>name</td>
       <td><code>string</code></td>
-      <td><p> a unique name for the nav element</p>
+      <td><p>导航元素的唯一名称</p>
 </td>
     </tr>
 
     <tr>
       <td>root</td>
       <td><code>Page</code></td>
-      <td><p> The Page component to load as the root page within this nav.</p>
+      <td><p>加载页面组件作为此导航中的根页面。</p>
 </td>
     </tr>
 
     <tr>
       <td>rootParams</td>
       <td><code>object</code></td>
-      <td><p> Any nav-params to pass to the root page of this nav.</p>
+      <td><p>传递给此导航的根页面任意的 nav-params。</p>
 </td>
     </tr>
 
