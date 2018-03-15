@@ -44,15 +44,15 @@ NavPop
 
 
 
-<p>Directive to declaratively pop the current page off from the
-navigation stack.</p>
+<p>声明性地将当前页面从导航堆栈中弹出的指令。</p>
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;ion-content&gt;
 
@@ -60,7 +60,7 @@ navigation stack.</p>
 
 &lt;/ion-content&gt;
 </code></pre>
-<p>Similar to <a href="/docs/api/components/nav/NavPush/"><code>NavPush</code></a></p>
+<p>类似于 <a href="/docs/api/components/nav/NavPush/"><code>NavPush</code></a></p>
 
 
 

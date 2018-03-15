@@ -44,25 +44,25 @@ NavPush
 
 
 
-<p>Directive to declaratively push a new page to the current nav
-stack.</p>
+<p>声明性地将新页面推入到当前导航堆栈的指令。</p>
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-html">&lt;button ion-button [navPush]=&quot;pushPage&quot;&gt;&lt;/button&gt;
 </code></pre>
-<p>To specify parameters you can use array syntax or the <code>navParams</code>
-property:</p>
+<p>要指定参数，你可以使用数组语法或 <code>navParams</code> 属性：</p>
+
 <pre><code class="lang-html">&lt;button ion-button [navPush]=&quot;pushPage&quot; [navParams]=&quot;params&quot;&gt;Go&lt;/button&gt;
 </code></pre>
-<p>Where <code>pushPage</code> and <code>params</code> are specified in your component,
-and <code>pushPage</code> contains a reference to a
-component you would like to push:</p>
+<p>在你的组件中指定了 <code>pushPage</code> 和 <code>params</code>，并且 <code>pushPage</code> 包含你想要推入的组件的引用：</p>
+
+
 <pre><code class="lang-ts">import { LoginPage } from &#39;./login&#39;;
 
 @Component({
@@ -87,13 +87,13 @@ class MyPage {
 
 <!-- instance methods on the class -->
 <!-- input methods on the class -->
-<h2><a class="anchor" name="input-properties" href="#input-properties">Input Properties</a></h2>
+<h2><a class="anchor" name="input-properties" href="#input-properties">输入属性</a></h2>
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Attr</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>属性</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -101,14 +101,14 @@ class MyPage {
     <tr>
       <td>navParams</td>
       <td><code>any</code></td>
-      <td><p> Any NavParams you want to pass along to the next view.</p>
+      <td><p>你想要传递给下一个视图的任何 NavParams。</p>
 </td>
     </tr>
 
     <tr>
       <td>navPush</td>
       <td><code>Page | string</code></td>
-      <td><p> The component class or deeplink name you want to push onto the navigation stack.</p>
+      <td><p>要推入导航堆栈的组件类或深层链接（deeplink）名称。</p>
 </td>
     </tr>
 
