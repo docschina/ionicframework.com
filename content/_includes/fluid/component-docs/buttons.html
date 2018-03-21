@@ -1,26 +1,26 @@
-<h2 id="buttons" class="section-header">Buttons</h2>
+<h2 id="buttons" class="section-header">Buttons 按钮</h2>
 
 <a target="_blank" class="improve-v2-docs" href="https://github.com/docschina/ionicframework.com/edit/cn/content/_includes/fluid/component-docs/buttons.html">
   改进这篇文档
 </a>
 
-Buttons are an essential way to interact with and navigate through an app, and should clearly communicate what action will occur after the user taps them. Buttons can consist of text and/or an icon, and can be enhanced with a wide variety of attributes.
+按钮是应用程序与（用户）进行交互并进行导航的基本方式。当用户点击完按钮之后，应该被清楚地告知点击后会发生什么操作。按钮由文字和（或）图标组成，并且可以使用各种属性来进行扩展。
 
-For accessibility reasons, buttons use a standard `<button>` element, but are enhanced with an `ion-button` directive.
+出于易用性上的考虑，按钮使用标准的 `<button>` 元素，但是使用 `ion-button` 指令进行了扩展。
 
-_For more information, Check out the [API docs](../api/components/button/Button)._
+_若要获取更多信息，请查阅 [API 文档](../api/components/button/Button)。_
 
 <ul class="docs-content">
-  <li class="docs-content-header">Contents</li>
-  <li class="docs-content-item"><a href="#buttons">Default Style</a></li>
-  <li class="docs-content-item"><a href="#outline-buttons">Outline Style</a></li>
-  <li class="docs-content-item"><a href="#clear-buttons">Clear Style</a></li>
-  <li class="docs-content-item"><a href="#round-buttons">Round Buttons</a></li>
-  <li class="docs-content-item"><a href="#block-buttons">Block Buttons</a></li>
-  <li class="docs-content-item"><a href="#full-buttons">Full Buttons</a></li>
-  <li class="docs-content-item"><a href="#button-sizes">Button Sizes</a></li>
-  <li class="docs-content-item"><a href="#icon-buttons">Icon Buttons</a></li>
-  <li class="docs-content-item"><a href="#buttons-in-components">Buttons In Components</a></li>
+  <li class="docs-content-header">目录</li>
+  <li class="docs-content-item"><a href="#buttons">Default Style 默认样式</a></li>
+  <li class="docs-content-item"><a href="#outline-buttons">Outline Style 描边样式</a></li>
+  <li class="docs-content-item"><a href="#clear-buttons">Clear Style 清爽样式</a></li>
+  <li class="docs-content-item"><a href="#round-buttons">Round Buttons 圆形按钮</a></li>
+  <li class="docs-content-item"><a href="#block-buttons">Block Buttons 块级按钮</a></li>
+  <li class="docs-content-item"><a href="#full-buttons">Full Buttons 全尺寸按钮</a></li>
+  <li class="docs-content-item"><a href="#button-sizes">Button Sizes 按钮尺寸</a></li>
+  <li class="docs-content-item"><a href="#icon-buttons">Icon Buttons 图标按钮</a></li>
+  <li class="docs-content-item"><a href="#buttons-in-components">Buttons In Components 组件中的按钮</a></li>
 
 </ul>
 
@@ -32,14 +32,14 @@ _For more information, Check out the [API docs](../api/components/button/Button)
 
 </ul>
 
-<h3 class="no-para">Basic Usage</h3>
+<h3 class="no-para">基础用法</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/button-basic">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/basic">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
@@ -48,7 +48,7 @@ _For more information, Check out the [API docs](../api/components/button/Button)
 <button ion-button>Button</button>
 ```
 
-The `color` property sets the color of the button. Ionic includes a number of default colors which can be easily overridden:
+`color` 属性用来设置按钮的颜色。Ionic 内置了一系列默认颜色，这些默认颜色也都能轻松地被覆盖：
 
 ```html
 <button ion-button color="light">Light</button>
@@ -58,19 +58,19 @@ The `color` property sets the color of the button. Ionic includes a number of de
 <button ion-button color="dark">Dark</button>
 ```
 
-<h3 class="section-nav" id="outline-buttons">Outline Style</h3>
+<h3 class="section-nav" id="outline-buttons">Outline Style 描边样式</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/button-outline">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/outline">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-To use the outline style for a button, just add the `outline` property:
+只需加上 `outline` 属性，就能将按钮变为描边样式：
 
 ```html
 <button ion-button color="light" outline>Light Outline</button>
@@ -80,19 +80,19 @@ To use the outline style for a button, just add the `outline` property:
 <button ion-button color="dark" outline>Dark Outline</button>
 ```
 
-<h3 class="section-nav" id="clear-buttons">Clear Style</h3>
+<h3 class="section-nav" id="clear-buttons">Clear Style 清爽样式</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/button-clear">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/clear">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-To use the clear style for a button, just add the `clear` property:
+只需加上 `clear` 属性，就能将按钮变为清爽样式：
 
 ```html
 <button ion-button color="light" clear>Light Clear</button>
@@ -102,19 +102,19 @@ To use the clear style for a button, just add the `clear` property:
 <button ion-button color="dark" clear>Dark Clear</button>
 ```
 
-<h3 class="section-nav" id="round-buttons">Round Buttons</h3>
+<h3 class="section-nav" id="round-buttons">Round Buttons 圆形按钮</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/button-round`">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/round">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-To create a button with rounded corners, just add the `round` property:
+只需加上 `round` 属性，就能创建一个带圆角的按钮：
 
 ```html
 <button ion-button color="light" round>Light Round</button>
@@ -124,55 +124,55 @@ To create a button with rounded corners, just add the `round` property:
 <button ion-button color="dark" round>Dark Round</button>
 ```
 
-<h3 class="section-nav" id="block-buttons">Block Buttons</h3>
+<h3 class="section-nav" id="block-buttons">Block Buttons 块级按钮</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/button-block">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/block">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Adding `block` to a button will make the button take 100% of its parent's width. It will also add `display: block` to the button:
+在按钮上加入 `block` 属性将使该按钮占用其父元素宽度的100％。并将会为该按钮加入 `display: block` 样式：
 
 ```html
 <button ion-button block>Block Button</button>
 ```
 
-<h3 class="section-nav" id="full-buttons">Full Buttons</h3>
+<h3 class="section-nav" id="full-buttons">Full Buttons 全尺寸按钮</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/button-full">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/full">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Adding `full` to a button will also make the button take 100% of its parent's width. However, it will also remove the button's left and right borders. This style is useful when the button should stretch across the entire width of the display.
+在按钮上加入 `full` 属性也将会使该按钮占用其父元素宽度的100％，然而这将会去掉该按钮的左右边框。当按钮应该在整个显示宽度上延伸时，此样式非常有用。
 
 ```html
 <button ion-button full>Full Button</button>
 ```
 
-<h3 class="section-nav" id="button-sizes">Button Sizes</h3>
+<h3 class="section-nav" id="button-sizes">Button Sizes 按钮尺寸</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/button-sizes">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/sizes">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Add the `large` attribute to make a button larger, or `small` to make it smaller:
+加入 `large` 属性会让按钮变大，而 `small` 属性则是使其变小：
 
 ```html
 <button ion-button small>Small</button>
@@ -180,20 +180,20 @@ Add the `large` attribute to make a button larger, or `small` to make it smaller
 <button ion-button large>Large</button>
 ```
 
-<h3 class="section-nav" id="icon-buttons">Icon Buttons</h3>
+<h3 class="section-nav" id="icon-buttons">Icon Buttons 图标按钮</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/button-icons">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/icons">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
 
-To add icons to a button, add an icon component inside of it and a position attribute:
+若要将图标加入按钮，请把图标组件放入按钮中，并加入一个位置属性：
 
 ```html
 <!-- Float the icon left -->
@@ -213,19 +213,19 @@ To add icons to a button, add an icon component inside of it and a position attr
   <ion-icon name="home"></ion-icon>
 </button>
 ```
-<h3 class="section-nav" id="buttons-in-components">Buttons In Components</h3>
+<h3 class="section-nav" id="buttons-in-components">Buttons In Components 组件中的按钮</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/button-components">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/components">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Although buttons can be used on their own, they can easily be used within other components. For example, buttons can be added to a list item or a navbar.
+按钮不仅可以单独使用，它们也可以很容易地加进其他组件。举例来说，按钮可以被加进列表项或者导航栏中。
 
 ```html
 <ion-header>
