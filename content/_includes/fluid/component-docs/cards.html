@@ -1,40 +1,40 @@
-<h2 id="cards" class="section-header">Cards</h2>
+<h2 id="cards" class="section-header">Cards 卡片</h2>
 
 <a target="_blank" class="improve-v2-docs" href="https://github.com/docschina/ionicframework.com/edit/cn/content/_includes/fluid/component-docs/cards.html">
   改进这篇文档
 </a>
 
 <p>
-  Cards are a great way to display important pieces of content, and are quickly emerging as a core design pattern for apps. They are a great way to contain and organize information, while also setting up predictable expectations for the user. With so much content to display at once, and often so little screen realestate, cards have fast become the design pattern of choice for many companies, including the likes of <a href="http://www.google.com/landing/now/" target="_blank">Google</a>, <a href="https://dev.twitter.com/docs/cards" target="_blank">Twitter</a>, and <a href="https://play.spotify.com/discover" target="_blank">Spotify</a>.
+  卡片是展示重要内容的绝佳方式，并且正迅速成为设计应用程序时的核心模式。它们可以以符合用户期望的方式容纳并展示信息。大量的内容可以在小屏幕中一次性地展示，卡片已经很快地成为许多公司的首选设计方式，例如 <a href="http://www.google.com/landing/now/" target="_blank">Google</a>、<a href="https://dev.twitter.com/docs/cards" target="_blank">Twitter</a>，以及 <a href="https://play.spotify.com/discover" target="_blank">Spotify</a>。
 </p>
 <p>
-  For mobile experiences, Cards make it easy to display the same information visually across many different screen sizes. They allow for more control, are flexible, and can even be animated. Cards are usually placed on top of one another, but they can also be used like a "page" and swiped between, left and right.
+  在移动端下，卡片可以轻松地在多种不同的屏幕尺寸下直观地显示相同的信息。它们非常灵活并且更加可控，甚至还可以加上动画。多个卡片通常是一个接一个地放置的，但它们也可以像“页面”一样使用，也可以进行左右滑动。
 </p>
 
 
 <ul class="docs-content">
-  <li class="docs-content-header">Contents</li>
-  <li class="docs-content-item"><a href="#cards">Basic Cards</a></li>
-  <li class="docs-content-item"><a href="#card-header">Card Headers</a></li>
-  <li class="docs-content-item"><a href="#card-list">Card Lists</a></li>
-  <li class="docs-content-item"><a href="#card-image">Card Images</a></li>
-  <li class="docs-content-item"><a href="#card-background">Background Images</a></li>
-  <li class="docs-content-item"><a href="#advanced-cards">Advanced Cards</a></li>
+  <li class="docs-content-header">目录</li>
+  <li class="docs-content-item"><a href="#cards">Basic Cards 基础卡片</a></li>
+  <li class="docs-content-item"><a href="#card-header">Card Headers 包含标题的卡片</a></li>
+  <li class="docs-content-item"><a href="#card-list">Card Lists 包含列表的卡片</a></li>
+  <li class="docs-content-item"><a href="#card-image">Card Images 包含图片的卡片</a></li>
+  <li class="docs-content-item"><a href="#card-background">Background Images 背景图</a></li>
+  <li class="docs-content-item"><a href="#advanced-cards">Advanced Cards 高级卡片</a></li>
 </ul>
 
-<h3 class="no-para">Basic Usage</h3>
+<h3 class="no-para">基础用法</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/card-basic">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/cards/basic">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Cards are primarily a CSS component. To use a basic card, follow this structure:
+卡片基本上就是一个 CSS 组件。若要使用基础卡片，请遵循以下结构：
 
 ```html
 <ion-card>
@@ -50,8 +50,8 @@ Cards are primarily a CSS component. To use a basic card, follow this structure:
 </ion-card>
 ```
 
-<h3 class="section-nav" id="card-header">Card Headers</h3>
-Just like a normal page, cards can be customized to include headers. To add a header to a card, add the `<ion-card-header>` component inside of your card:
+<h3 class="section-nav" id="card-header">Card Headers 卡片标题</h3>
+正如同普通页面一样，卡片也可以进行自定义以便包含标题。若要为卡片添加标题，请在卡片内添加 `<ion-card-header>` 组件：
 
 ```html
 <ion-card>
@@ -66,19 +66,19 @@ Just like a normal page, cards can be customized to include headers. To add a he
 
 
 
-<h3 class="section-nav" id="card-list">Lists In Cards</h3>
+<h3 class="section-nav" id="card-list">Lists In Cards 包含列表的卡片</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/card-list">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/cards/list">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-A card can contain a list of items. Add an `ion-list` component inside of the `ion-card-content` to display a list:
+卡片可以包含一个由一系列列表项所组成的列表。在 `ion-card-content` 中加入一个 `ion-list` 组件即可展示一个列表：
 
 ```html
 <ion-card>
@@ -122,19 +122,19 @@ A card can contain a list of items. Add an `ion-list` component inside of the `i
 ```
 
 
-<h3 class="section-nav" id="card-image">Images In Cards</h3>
+<h3 class="section-nav" id="card-image">Images In Cards 包含图片的卡片</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/card-image">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/cards/image">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Images often vary in size, so it is important that they adopt a consistent style throughout your app. Images can easily be added to cards. Adding an image to a card will give the image a constant width, and a variable height. Lists, headers, and other card components can easily be combined with image cards. To add an image to a card, use the following markup:
+图片尺寸往往各不相同，因此在整个应用中采用一致的样式是非常重要的。而图像是则可以很容易地添加到卡片上，将图像添加到卡片上会使图像具有恒定的宽度和可变的高度。列表、标题，以及其他卡片组件都可以轻松地和包含图片的卡片结合在一起。若要在卡片中加入图像，请遵从以下格式：
 
 ```html
 <ion-card>
@@ -151,21 +151,21 @@ Images often vary in size, so it is important that they adopt a consistent style
 </ion-card>
 ```
 
-<h3 class="section-nav" id="card-background">Background Images</h3>
+<h3 class="section-nav" id="card-background">Background Images 背景图</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/card-background">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/cards/background">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Cards can be used to achieve a multitude of designs. We provide many of the elements to achieve common designs, but sometimes it will be necessary to add custom styles. Adding background images to cards is a perfect example of how adding custom styles can achieve a completely different look.
+卡片可以用来实现各种各样不同的设计。我们提供了许许多多的元素来实现常规的设计，但是有时还是需要添加自定义的样式。而将背景图像添加到卡片中则是自定义样式可以实现完全不同的外观的一个绝佳示例。
 
-The following html can be added to the content of a page:
+可以将以下的 HTML 添加到页面内容中：
 
 ```html
 <ion-content class="card-background-page">
@@ -197,7 +197,7 @@ The following html can be added to the content of a page:
 </ion-content>
 ```
 
-Then, in the Sass file for the page:
+接着，修改页面的 Sass 文件：
 
 ```scss
 .card-background-page {
@@ -227,31 +227,31 @@ Then, in the Sass file for the page:
 }
 ```
 
-<h2 id="advanced-cards" class="section-header">Advanced Cards</h2>
+<h2 id="advanced-cards" class="section-header">Advanced Cards 高级卡片</h2>
 
-The styles from different types of cards can be combined to create advanced cards. Cards can also use custom CSS. Below are a few advanced cards that have been built by combining various card attributes with a small amount of custom CSS.
+不同类型卡片的样式可以组合起来创建高级卡片。而卡片组件同样是可以使用自定义 CSS 的。以下是一些通过将各种卡片属性与少量自定义 CSS 组合在一起而构建的高级卡片。
 
 
 <ul class="docs-content">
-  <li class="docs-content-header">Contents</li>
-  <li class="docs-content-item"><a href="#card-advanced-social">Social Cards</a></li>
-  <li class="docs-content-item"><a href="#card-advanced-map">Map Cards</a></li>
+  <li class="docs-content-header">目录</li>
+  <li class="docs-content-item"><a href="#card-advanced-social">Social Cards 社交卡片</a></li>
+  <li class="docs-content-item"><a href="#card-advanced-map">Map Cards 地图卡片</a></li>
   <!--<li class="docs-content-item"><a href="#card-advanced-weather">Weather Cards</a></li>-->
 </ul>
 
-<h3 class="section-nav" id="card-advanced-social">Social Cards</h3>
+<h3 class="section-nav" id="card-advanced-social">Social Cards 社交卡片</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/card-advanced-social">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/cards/advanced-social">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-It's often necessary to create social cards within an application. Using a combination of different items in a card you can achieve this.
+在应用程序中通常需要创建社交卡片。在卡片中将各种组件组合在一起就可以实现。
 
 ```html
 <ion-card>
@@ -293,19 +293,19 @@ It's often necessary to create social cards within an application. Using a combi
 </ion-card>
 ```
 
-<h3 class="section-nav" id="card-advanced-map">Map Cards</h3>
+<h3 class="section-nav" id="card-advanced-map">Map Cards 地图卡片</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/card-advanced-map">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/cards/advanced-map">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-A combination of Ionic components can be used to create a card that appears as a map.
+将 Ionic 组件组合起来亦可创建用于显示地图的卡片。
 
 ```html
 <ion-card>
