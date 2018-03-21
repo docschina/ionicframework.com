@@ -44,28 +44,28 @@ MenuToggle
 
 
 
-<p>The <code>menuToggle</code> directive can be placed on any button to toggle a menu open or closed.
-If it is added to the <a href="../../navbar/NavBar">NavBar</a> of a page, the button will only appear
-when the page it&#39;s in is currently a root page. See the <a href="../Menu#navigation-bar-behavior">Menu Navigation Bar Behavior</a>
-docs for more information.</p>
+<p><code>menuToggle</code> 指令可以放在任何按钮上，用来打开或关闭菜单。如果将其添加到页面的 <a href="../../navbar/NavBar">NavBar</a> 中，则该按钮仅会在其所在页面是当前的根页面时才会显示。有关更多信息，请参阅 <a href="../Menu#navigation-bar-behavior">Menu Navigation Bar Behavior</a> 文档。</p>
+
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
-<p>A simple <code>menuToggle</code> button can be added using the following markup:</p>
+<p>可以使用以下标记添加一个简单的 <code>menuToggle</code> 按钮：</p>
 <pre><code class="lang-html">&lt;button ion-button menuToggle&gt;Toggle Menu&lt;/button&gt;
 </code></pre>
-<p>To toggle a specific menu by its id or side, give the <code>menuToggle</code>
-directive a value.</p>
+<p>要通过其 id 或 side 切换特定的菜单，请给 <code>menuToggle</code> 指令一个值。</p>
+
 <pre><code class="lang-html">&lt;button ion-button menuToggle=&quot;right&quot;&gt;Toggle Right Menu&lt;/button&gt;
 </code></pre>
-<p>If placing the <code>menuToggle</code> in a navbar or toolbar, it should be
-placed as a child of the <code>&lt;ion-navbar&gt;</code> or <code>&lt;ion-toolbar&gt;</code>, and not in
-the <code>&lt;ion-buttons&gt;</code> element:</p>
+<p>如果将 <code>menuToggle</code> 放置在导航栏或工具栏中，它应该放置在 <code>&lt;ion-navbar&gt;</code> 或 <code>&lt;ion-toolbar&gt;</code> 的子元素中，而不是放在 <code>&lt;ion-buttons&gt;</code> 元素中：</p>
+
+
 <pre><code class="lang-html">&lt;ion-header&gt;
 
   &lt;ion-navbar&gt;
@@ -89,8 +89,8 @@ the <code>&lt;ion-buttons&gt;</code> element:</p>
 
 &lt;/ion-header&gt;
 </code></pre>
-<p>Similar to <code>&lt;ion-buttons&gt;</code>, the <code>menuToggle</code> can be positioned using
-<code>start</code>, <code>end</code>, <code>left</code>, or <code>right</code>:</p>
+<p>类似于 <code>&lt;ion-buttons&gt;</code>，<code>menuToggle</code> 可以使用 <code>start</code>, <code>end</code>, <code>left</code>, 或 <code>right</code> 进行定位：</p>
+
 <pre><code class="lang-html">&lt;ion-toolbar&gt;
   &lt;button ion-button menuToggle right&gt;
     &lt;ion-icon name=&quot;menu&quot;&gt;&lt;/ion-icon&gt;
@@ -105,8 +105,8 @@ the <code>&lt;ion-buttons&gt;</code> element:</p>
   &lt;/ion-buttons&gt;
 &lt;/ion-toolbar&gt;
 </code></pre>
-<p>See the <a href="../../toolbar/Toolbar">Toolbar API docs</a> for more information
-on the different positions.</p>
+<p>有关不同位置的更多信息，请参阅 <a href="../../toolbar/Toolbar">Toolbar API 文档</a>。</p>
+
 
 
 
@@ -117,7 +117,7 @@ on the different positions.</p>
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="ngAfterContentInit"></div>
 

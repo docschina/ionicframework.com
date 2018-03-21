@@ -42,32 +42,32 @@ ModalController
 
 
 
-<p>A Modal is a content pane that goes over the user&#39;s current page.
-Usually it is used for making a choice or editing an item. A modal uses the
-<code>NavController</code> to
-<a href="/docs/api/components/nav/NavController/#present">present</a>
-itself in the root nav stack. It is added to the stack similar to how
-<a href="/docs/api/components/nav/NavController/#push">NavController.push</a>
-works.</p>
-<p>When a modal (or any other overlay such as an alert or actionsheet) is
-&quot;presented&quot; to a nav controller, the overlay is added to the app&#39;s root nav.
-After the modal has been presented, from within the component instance The
-modal can later be closed or &quot;dismissed&quot; by using the ViewController&#39;s
-<code>dismiss</code> method. Additionally, you can dismiss any overlay by using <code>pop</code>
-on the root nav controller. Modals are not reusable. When a modal is dismissed
-it is destroyed.</p>
-<p>Data can be passed to a new modal through <code>Modal.create()</code> as the second
-argument. The data can then be accessed from the opened page by injecting
-<code>NavParams</code>. Note that the page, which opened as a modal, has no special
-&quot;modal&quot; logic within it, but uses <code>NavParams</code> no differently than a
-standard page.</p>
+<p>
+Modal 是覆盖用户当前页面的内容面板。
+通常用于选择或编辑 item。
+一个 modal 使用 <code>NavController</code> 将其自身<a href="/docs/api/components/nav/NavController/#present">呈现</a>在根导航堆栈中。它被添加到堆栈中，类似于 <a href="/docs/api/components/nav/NavController/#push">NavController.push</a> 的工作方式。</p>
+<p>当一个 modal（或任意其他覆盖层，如 alert 或 actionsheet）被“呈现”到导航控制器时，覆盖层将被添加到应用程序的根导航栏中。在 modal 被呈现之后，从组件实例中通过使用 ViewController 的 <code>dismiss</code> 方法，modal 可以延迟关闭被或“解除”。此外，你可以通过在根导航控制器上使用 <code>pop</code> 来关闭任何覆盖层。Modals 不可重用。当一个 modal 被解除时，它会被销毁。</p>
+<p>数据可以通过 <code>Modal.create()</code> 作为第二个参数传递给一个新的 modal。然后可以通过注入 <code>NavParams</code> 的方式从打开的页面访问数据。请注意，作为 modal 打开的页面中没有特殊的“模态框”逻辑，但使用<code>NavParams</code> 就与标准页面没有区别。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 <!-- @usage tag -->
 
-<h2><a class="anchor" name="usage" href="#usage">Usage</a></h2>
+<h2><a class="anchor" name="usage" href="#usage">用法</a></h2>
 
 <pre><code class="lang-ts">import { ModalController, NavParams } from &#39;ionic-angular&#39;;
 
@@ -104,7 +104,7 @@ class Profile {
 
 <!-- instance methods on the class -->
 
-<h2><a class="anchor" name="instance-members" href="#instance-members">Instance Members</a></h2>
+<h2><a class="anchor" name="instance-members" href="#instance-members">实例成员</a></h2>
 
 <div id="config"></div>
 
@@ -136,16 +136,16 @@ class Profile {
 </a>
 </h3>
 
-Create a modal to display. See below for options.
+创建一个 modal 来显示。请参阅下面的选项。
 
 
 
 <table class="table param-table" style="margin:0;">
   <thead>
     <tr>
-      <th>Param</th>
-      <th>Type</th>
-      <th>Details</th>
+      <th>传输</th>
+      <th>类型</th>
+      <th>详情</th>
     </tr>
   </thead>
   <tbody>
@@ -161,7 +161,7 @@ Create a modal to display. See below for options.
   <code>object</code>
       </td>
       <td>
-        <p>The Modal view</p>
+        <p>Modal 视图</p>
 
 
       </td>
@@ -178,7 +178,7 @@ Create a modal to display. See below for options.
   <code>object</code>
       </td>
       <td>
-        <p>Any data to pass to the Modal view</p>
+        <p>传递到 Modal 视图的任意数据</p>
 
 
       </td>
@@ -195,7 +195,7 @@ Create a modal to display. See below for options.
   <code>object</code>
       </td>
       <td>
-        <p>Modal options</p>
+        <p>Modal 选项</p>
 
 
       </td>
@@ -209,37 +209,37 @@ Create a modal to display. See below for options.
 
 
 
-<h2><a class="anchor" name="advanced" href="#advanced">Advanced</a></h2>
+<h2><a class="anchor" name="advanced" href="#advanced">进阶</a></h2>
 <table>
 <thead>
 <tr>
-<th>Option</th>
-<th>Type</th>
-<th>Description</th>
+<th>选项</th>
+<th>类型</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>showBackdrop</td>
 <td><code>boolean</code></td>
-<td>Whether to show the backdrop. Default true.</td>
+<td>是否显示背景。默认为 true。</td>
 </tr>
 <tr>
 <td>enableBackdropDismiss</td>
 <td><code>boolean</code></td>
-<td>Whether the popover should be dismissed by tapping the backdrop. Default true.</td>
+<td>是否应通过点击背景来解除弹出窗口。默认为 true。</td>
 </tr>
 <tr>
 <td>cssClass</td>
 <td><code>string</code></td>
-<td>Additional classes for custom styles, separated by spaces.</td>
+<td>自定义样式的其他类，以空格分隔。</td>
 </tr>
 </tbody>
 </table>
-<p>A modal can also emit data, which is useful when it is used to add or edit
-data. For example, a profile page could slide up in a modal, and on submit,
-the submit button could pass the updated profile data, then dismiss the
-modal.</p>
+<p>modal 也可以发射数据，这在用于添加或编辑数据时非常有用。例如，配置文件页面可能会在 modal 中向上滑动，并且在提交时，提交按钮可能会传递更新后的配置文件数据，然后关闭 modal。</p>
+
+
+
 <pre><code class="lang-ts">import { Component } from &#39;@angular/core&#39;;
 import { ModalController, ViewController } from &#39;ionic-angular&#39;;
 
