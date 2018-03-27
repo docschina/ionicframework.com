@@ -4,31 +4,32 @@
   改进这篇文档
 </a>
 
-_For more in depth information on navigation, see the [Nav API reference](../api/components/nav/Nav)._
+_若要获取更多Navigation的深度信息，请查阅 [Nav API 文档](../api/components/nav/Nav)._
 
-Navigation is how users move between different pages in your app. Ionic's navigation follows standard native navigation concepts, like [those in iOS](https://developer.apple.com/library/content/documentation/WindowsViews/Conceptual/ViewControllerCatalog/Chapters/NavigationControllers.html#//apple_ref/doc/uid/TP40011313-CH2-SW1). In order to enable native-like navigation, we've built a few new navigation components that might feel different for developers used to traditional desktop browser navigation.
+Navigation导航是用户在应用中的不同页面之间切换的方式。 Ionic的Navigation遵循标准的原生导航概念，如 [这些iOS中的](https://developer.apple.com/library/content/documentation/WindowsViews/Conceptual/ViewControllerCatalog/Chapters/NavigationControllers.html#//apple_ref/doc/uid/TP40011313-CH2-SW1)。 为了实现类似原生的导航功能，我们已经构建了一些新的导航组件，习惯传统桌面浏览器导航的开发人员可能会感受到一些差异。
 
 <!--
 Like native apps, URLs are not required for navigation in Ionic.  Instead, pages are pushed and popped on and off a navigation controller's page stack.  URLs can be used to link back to unique, important parts of your app ("deeplinking") but don't define navigation as your app runs.
 -->
 
-There are several ways to navigate throughout an Ionic app:
 
-<h3 id="basic_navigation">Basic Navigation</h3>
+有几种方法可以在整个Ionic应用程序中导航:
+
+<h3 id="basic_navigation">基本导航</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/navigation-basic">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/navigation/basic">
-      Demo Source
+      示例源代码
     </a>
   </nobr>
 </p>
 
-Navigation is handled through the [`<ion-nav>`](../api/components/nav/Nav/) component, which works as a simple stack that new pages are pushed onto and popped off of, corresponding to moving forward and backward in history.
+Navigation导航通过[`<ion-nav>`](../api/components/nav/Nav/) 组件处理, 它类似于一个简单的堆栈，新页面被推入和弹出，对应于在导航历史中前进和后退。
 
-We start with a root page that loads the Nav component:
+我们从加载导航组件的根页面开始:
 
 ```typescript
 import {StartPage} from 'start'
@@ -42,8 +43,8 @@ class MyApp {
 }
 ```
 
-Next, we can access the Navigation Controller in each page that is navigated to by injecting it into any of our Pages.
-Note that Page components does not need a selector. Ionic adds these automatically .
+接下来，我们可以通过将Navigation Controller导航控制器注入到任何页面中来访问导航到的每个页面中的导航控制器。
+请注意，Page页面组件不需要选择器，Ionic会自动添加这些。
 
 ```typescript
 @Component({
@@ -62,7 +63,7 @@ export class StartPage {
 }
 ```
 
-To navigate from one page to another simply push or pop a new page onto the stack:
+要从一个页面导航到另一个页面，只需将新页面从堆栈中推入或弹出即可：
 
 ```typescript
 @Component({
@@ -102,9 +103,9 @@ export class StartPage {
 class OtherPage {}
 ```
 
-If your page has an [`<ion-navbar>`](../api/components/navbar/NavBar/), a back button will automatically be added to it if it is not a root page, and the title of the Nav Bar will be updated.
+如果你的页面有一个 [`<ion-navbar>`](../api/components/navbar/NavBar/)组件，如果它不是根页面，后退按钮将自动添加到它上面，并且导航栏的标题将被更新。
 
-Alternatively, if you want to go back, but don't have a NavBar, you can pop the current page off the stack:
+或者，如果您想返回，但没有NavBar，则可以将当前页面弹出堆栈：
 
 ```typescript
 @Component({
@@ -124,7 +125,7 @@ class OtherPage {
 }
 ```
 
-For more information on basic navigation, check out the [Nav API reference](../api/components/nav/Nav/).
+若要获取基本导航的更多信息，请查阅 [Nav API 文档](../api/components/nav/Nav/).
 
 <!--
 <h3 id="navigating_routing">Routing and DeepLinking</h3>
@@ -157,11 +158,10 @@ export class LoginPage {
 
 
 
-<h3 id="navigating_from_root">Navigating from the Root Component</h3>
-What if you want to control navigation from your root app component? You can't inject `NavController` because any components that are navigation controllers are _children_ of the root component so they aren't available to be injected.
+<h3 id="navigating_from_root">从根组件导航</h3>
+如果您想要控制根应用程序组件的导航，该怎么办？ 你不能注入"NavController"，因为任何NavController组件都是根组件的_children_，所以它们不能被注入。
 
-By adding a reference variable to the `ion-nav`, you can use `@ViewChild` to get an instance of the `Nav` component, which is a navigation controller (it extends `NavController`):
-
+通过给"ion-nav"添加一个引用变量，你可以使用"@ViewChild"来获得一个NavController（它继承了"NavController"）的"Nav"组件的一个实例：
 ```typescript
 @Component({
   template: '<ion-nav #myNav [root]="rootPage"></ion-nav>'
@@ -181,6 +181,6 @@ export class MyApp {
 ```
 
 
-<h3 id="advanced_navigation">Tabbed Navigation</h3>
+<h3 id="advanced_navigation">选项卡式导航</h3>
 
-Navigation can be nested and used inside of complex components like Tabs. Unlike traditional routing systems, Ionic's navigation makes it easy to navigate to a given Page from anywhere in the app without specifying a specific route to it. To use the App Store app on iOS as an example, we can easily navigate to the AppDetailPage that shows info about a specific app from any tab (try it yourself to see!). Take a look at the [Tabs](#tabs) docs for more info on how to easily achieve this.
+导航可以嵌套在复杂组件（如Tabs）中使用。 与传统路由系统不同，Ionic的导航功能可以轻松地从应用中的任何位置导航到给定的页面，而无需指定特定的路由。 以iOS上的App Store应用程序为例，我们可以轻松导航到AppDetailPage，该AppDetailPage显示有关任何选项卡上的特定应用程序的信息（自己尝试一下！）。查阅一下 [Tabs](#tabs) 文档来获得关于如何轻松实现这一点的更多信息。
