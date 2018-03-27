@@ -4,37 +4,37 @@
   改进这篇文档
 </a>
 
-Inputs are essential for collecting and handling user input in a secure way. They should follow styling and interaction guidelines for each platform, so that they are intuitive for users to interact with. Ionic uses Angular 2’s form library, which can be thought of as two dependent pieces, **Controls**, and **Control Groups**.
+输入框对于以安全的方式收集和处理用户输入非常重要。他们应该遵循每个平台的样式和交互准则，以便他们直观地与用户交互。Ionic 使用 Angular 2 的表单库，它可以被认为是两个相关的部分，**控件**和**控件组**。
 
-Each input field in a form has a **Control**, a function that binds to the value in the field, and performs validation. A **Control Group** is a collection of Controls. Control Groups handle form submission, and provide a high level API that can be used to determine whether the entire form is valid.
+表单中的每个输入字段都有一个**控件**，一个绑定到字段中的值的函数，并执行验证。**控件组**是控件的集合。控件组处理表单提交，并提供可用于确定整个表单是否有效的高级 API。
 
-A number of attributes that can be used to style forms and their various input fields are listed below. For more info on form logic, check out the [Inputs API docs](../api/components/input/Input/).
+下面列出了许多可用于设置表单样式及其各种输入字段的属性。有关表单逻辑的更多信息，请查看 [Inputs API 文档](../api/components/input/Input/)。
 
-_For more information, Check out the [API docs](../api/components/input/Input)._
+_有关更多信息，请查看 [API 文档](../api/components/input/Input)。_
 
 <ul class="docs-content">
-  <li class="docs-content-header">Contents</li>
-  <li class="docs-content-item"><a href="{{components_link}}#fixed-inline-labels">Fixed Inline Labels</a></li>
-  <li class="docs-content-item"><a href="{{components_link}}#floating-labels">Floating Labels</a></li>
-  <li class="docs-content-item"><a href="{{components_link}}#inline-labels">Inline Labels</a></li>
-  <li class="docs-content-item"><a href="{{components_link}}#inset-labels">Inset Labels</a></li>
-  <li class="docs-content-item"><a href="{{components_link}}#placeholder-labels">Placeholder Labels</a></li>
-  <li class="docs-content-item"><a href="{{components_link}}#stacked-labels">Stacked Labels</a></li>
+  <li class="docs-content-header">内容</li>
+  <li class="docs-content-item"><a href="{{components_link}}#fixed-inline-labels">固定内联标签</a></li>
+  <li class="docs-content-item"><a href="{{components_link}}#floating-labels">浮动标签</a></li>
+  <li class="docs-content-item"><a href="{{components_link}}#inline-labels">内联标签</a></li>
+  <li class="docs-content-item"><a href="{{components_link}}#inset-labels">内嵌标签</a></li>
+  <li class="docs-content-item"><a href="{{components_link}}#placeholder-labels">占位符标签</a></li>
+  <li class="docs-content-item"><a href="{{components_link}}#stacked-labels">堆叠标签</a></li>
 </ul>
 
-<h3 class="section-nav" id="fixed-inline-labels">Fixed Inline Labels</h3>
+<h3 class="section-nav" id="fixed-inline-labels">固定的内联标签</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/input-fixed-inline">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/inputs/fixed-inline">
-      Demo Source
+      示例源码
     </a>
   </nobr>
 </p>
 
-Use `fixed` to place a label to the left of the input element. The label does not hide when text is entered. The input will align on the same position, regardless of the length of the label. Placeholder text can be used in conjunction with a fixed label.
+使用 `fixed` 可将标签放置在输入框元素的左侧。输入文本时，标签不会隐藏。无论标签的长度如何，输入框都将在同一位置对齐。占位符文本可以与固定标签结合使用。
 
 ```html
 <ion-list>
@@ -53,21 +53,21 @@ Use `fixed` to place a label to the left of the input element. The label does no
 ```
 
 
-<h3 class="section-nav" id="floating-labels">Floating Labels</h3>
+<h3 class="section-nav" id="floating-labels">浮动标签</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/input-floating">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/inputs/floating">
-      Demo Source
+      示例源码
     </a>
   </nobr>
 </p>
 
-Floating labels are labels that animate or “float” up when the input is selected. Add the `floating` attribute to an `ion-label` to use.
-
-Enter text in the example to the right to see the floating labels in action.
+浮动标签在选择输入框时会有动画或“浮动”的动作。
+将 `floating` 属性添加到要使用的 `ion-label`。
+在右侧的示例中输入文本以查看正在使用的浮动标签。
 
 
 ```html
@@ -86,19 +86,19 @@ Enter text in the example to the right to see the floating labels in action.
 </ion-list>
 ```
 
-<h3 class="section-nav" id="inline-labels" class="section-header">Inline Labels</h3>
+<h3 class="section-nav" id="inline-labels" class="section-header">内联标签</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/input-inline">
-      Demo
+      示例
     </a>
     <a target="_blank" class="component-doc-demo" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/inputs/inline">
-      Demo Source
+      示例源码
     </a>
   </nobr>
 </p>
 
-An `ion-label` without any attributes is an inline label. The label does not hide when text is entered. Placeholder text can be used in conjunction with an inline label.
+没有任何属性的 `ion-label` 是内联标签。输入文本时，标签不会隐藏。占位符文本可以与内联标签结合使用。
 
 ```html
 <ion-list>
@@ -119,19 +119,19 @@ An `ion-label` without any attributes is an inline label. The label does not hid
   <button block>Sign In</button>
 </div>
 ```
-<h3 class="section-nav" id="inset-labels" class="section-header">Inset Labels</h3>
+<h3 class="section-nav" id="inset-labels" class="section-header">内嵌标签</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/input-inset">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/inputs/inset">
-      Demo Source
+      示例源码
     </a>
   </nobr>
 </p>
 
-By default each input item will fill 100% of the width of its parent element. Make the input inset by adding the `inset` attribute to the `ion-list` component.
+默认情况下，每个输入项将填充其父元素的宽度的 100％。通过将 `inset` 属性添加到 `ion-list` 组件来使输入框内嵌。
 
 ```html
 <ion-list inset>
@@ -149,19 +149,19 @@ By default each input item will fill 100% of the width of its parent element. Ma
 </ion-list>
 ```
 
-<h3 class="section-nav" id="placeholder-labels" class="section-header">Placeholder Labels</h3>
+<h3 class="section-nav" id="placeholder-labels" class="section-header">占位符标签</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/input-placeholder">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/inputs/placeholder">
-      Demo Source
+      示例源码
     </a>
   </nobr>
 </p>
 
-Add the `placeholder` attribute to an `<input>` element to simulate the input's label. When text is entered into the input, the placeholder label is hidden.
+将 `placeholder` 属性添加到 `<input>` 元素以模拟输入框的标签。当输入文本时，占位符标签被隐藏。
 
 ```html
 <ion-list>
@@ -178,19 +178,19 @@ Add the `placeholder` attribute to an `<input>` element to simulate the input's 
 
 ```
 
-<h3 class="section-nav" id="stacked-labels" class="section-header">Stacked Labels</h3>
+<h3 class="section-nav" id="stacked-labels" class="section-header">堆叠标签</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/input-stacked">
-      Demo
+      示例
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/inputs/stacked">
-      Demo Source
+      示例源码
     </a>
   </nobr>
 </p>
 
-A stacked label will always appear on top of the input. Add the `stacked` attribute to an `ion-label` to use. Placeholder text can be used in conjunction with an stacked label.
+堆叠标签将始终显示在输入框顶部。将 `stacked` 的属性添加到要使用的 `ion-label`。占位符文本可以与堆叠标签结合使用。
 
 ```html
 <ion-list>
