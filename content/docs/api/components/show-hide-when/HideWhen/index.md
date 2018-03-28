@@ -35,7 +35,7 @@ HideWhen
 
 </h1>
 
-<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/show-hide-when/hide-when.ts#L4">
+<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/v3/src/components/show-hide-when/hide-when.ts#L4">
 改进这篇文档
 </a>
 

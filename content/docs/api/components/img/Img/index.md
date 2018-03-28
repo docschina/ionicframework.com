@@ -33,7 +33,7 @@ Img
 
 </h1>
 
-<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/img/img.ts#L6">
+<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/v3/src/components/img/img.ts#L6">
 改进这篇文档
 </a>
 

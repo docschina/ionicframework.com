@@ -35,8 +35,8 @@ Nav
 
 </h1>
 
-<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/nav/nav.ts#L14">
-改进这篇文档
+<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/v3/src/components/nav/nav.ts#L14">
+Improve this doc
 </a>
 
 

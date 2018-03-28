@@ -1,32 +1,32 @@
 <h2 id="toolbar" class="section-header">Toolbar</h2>
 
-<a target="_blank" class="improve-v2-docs" href="https://github.com/docschina/ionicframework.com/edit/cn/content/_includes/fluid/component-docs/toolbar.html">
-  改进这篇文档</a>
+<a target="_blank" class="improve-v2-docs" href="https://github.com/ionic-team/ionic-site/edit/master/content/_includes/fluid/component-docs/toolbar.html">
+  Improve this Doc</a>
 
-toolbar 是一个通用栏，可以在应用程序中用作页眉，子页眉，页脚甚至子页脚。由于 `ion-toolbar` 基于 flexbox，所以无论你的页面中有多少个工具栏，它们都将正确显示，`ion-content` 也会相应调整。
+  A toolbar is a generic bar that can be used in an app as a header, sub-header, footer, or even sub-footer. Since `ion-toolbar` is based on flexbox, no matter how many toolbars you have in your page, they will be displayed correctly and `ion-content` will adjust accordingly.
 
-注意：与导航一起使用时，通常在 `ion-header` 中使用 [NavBar](../api/components/navbar/Navbar)。
+注意：与导航一起使用时，通常在 `ion-header` 中使用 [NavBar](../api/components/toolbar/Navbar)。
 
-_有关更多信息，请查看 [API 文档](../api/components/toolbar/Toolbar)。_
+  _For more information, Check out the [API docs](../api/components/toolbar/Toolbar)._
 
   <ul class="docs-content">
-    <li class="docs-content-header">内容</li>
-    <li class="docs-content-item"><a href="#toolbar">基本用法</a></li>
-    <li class="docs-content-item"><a href="#toolbar-colors">改变颜色</a></li>
-    <li class="docs-content-item"><a href="#toolbar-buttons">Toolbars 中的按钮</a></li>
-    <li class="docs-content-item"><a href="#toolbar-segment">Toolbars 中的 Segment</a></li>
-    <li class="docs-content-item"><a href="#toolbar-searchbar">Toolbars 中的 Searchbar</a></li>
+    <li class="docs-content-header">Contents</li>
+    <li class="docs-content-item"><a href="#toolbar">Basic Usage</a></li>
+    <li class="docs-content-item"><a href="#toolbar-colors">Changing the Color</a></li>
+    <li class="docs-content-item"><a href="#toolbar-buttons">Buttons in Toolbars</a></li>
+    <li class="docs-content-item"><a href="#toolbar-segment">Segment in Toolbars</a></li>
+    <li class="docs-content-item"><a href="#toolbar-searchbar">Searchbar in Toolbars</a></li>
   </ul>
 
 
-<h3 class="no-para">基本用法</h3>
+<h3 class="no-para">Basic Usage</h3>
 <p>
   <nobr class="component-doc-demo">
     <a target="_blank" class="btn component-doc-demo-mobile" href="/dist/preview-app/www/?production=true#/nav/n4/toolbar-basic">
-      示例
+      Demo
     </a>
     <a target="_blank" href="https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/toolbar/basic">
-      示例源代码
+      Demo Source
     </a>
   </nobr>
 </p>
@@ -49,7 +49,7 @@ _有关更多信息，请查看 [API 文档](../api/components/toolbar/Toolbar)�
 
 <h3 class="no-para">Header</h3>
 
-toolbar 的最佳用途之一是用作页眉。
+One of the best uses of the toolbar is as a header.
 
 ```html
 <ion-header>
@@ -77,9 +77,9 @@ toolbar 的最佳用途之一是用作页眉。
 
 ```
 
-<h3 id="toolbar-colors" class="no-para">改变颜色</h3>
+<h3 id="toolbar-colors" class="no-para">Changing the Color</h3>
 
-你可以通过更改元素的属性来更改 toolbars 的颜色。
+You can change the toolbars color by changing the property on the element.
 
 ```typescript
 
@@ -107,7 +107,7 @@ toolbar 的最佳用途之一是用作页眉。
 
 ```
 
-你也可以用相同的方式更改导航栏的颜色。这将允许你在应用中为每个页面的导航栏使用不同的颜色。
+You can also change the navbar's color the same way. This will allow you to have a different color navbar per page in your app.
 
 ```html
 <ion-header>
@@ -130,11 +130,11 @@ toolbar 的最佳用途之一是用作页眉。
 </ion-header>
 ```
 
-<h3 id="toolbar-buttons" class="section-nav">Toolbars 中的按钮</h3>
+<h3 id="toolbar-buttons" class="section-nav">Buttons in Toolbars</h3>
 <a target="_blank" class="improve-v2-docs" href="https://github.com/ionic-team/ionic-site/edit/master/content/_includes/fluid/component-docs/toolbar.html">
-  改进文档</a>
+  Improve this Doc</a>
 
-按钮可以添加到页眉和页脚 toolbars。要将一个按钮添加到 toolbars，我们需要先添加一个 `ion-buttons` 组件。该组件包装一个或多个按钮，并且可以给出 `start` 或 `end` 属性用来控制它包含按钮的位置：
+Buttons can be added to both header and footer toolbars. To add a button to a toolbar, we need to first add an `ion-buttons` component. This component wraps one or more buttons, and can be given the `start` or `end` attributes to control the placement of the buttons it contains:
 
 ```html
 <ion-header>
@@ -169,11 +169,11 @@ toolbar 的最佳用途之一是用作页眉。
 ```
 
 
-<h3 id="toolbar-segment" class="section-nav">Toolbars 中的 Segment</h3>
+<h3 id="toolbar-segment" class="section-nav">Segment in Toolbars</h3>
 <a target="_blank" class="improve-v2-docs" href="https://github.com/ionic-team/ionic-site/edit/master/content/_includes/fluid/component-docs/toolbar.html">
-  改进文档</a>
+  Improve this Doc</a>
 
-[Segments](#segment) 是允许用户在不同数据集之间切换的好方式。使用以下标记将 segment 添加到 toolbar 中：
+[Segments](#segment) are a great way to allow users to switch between different sets of data. Use the following markup to add a segment to a toolbar:
 
 ```html
 <ion-header>
@@ -200,9 +200,9 @@ toolbar 的最佳用途之一是用作页眉。
 </ion-header>
 ```
 
-<h3 id="toolbar-searchbar" class="no-para">Toolbars 中的 Searchbar</h3>
+<h3 id="toolbar-searchbar" class="no-para">Searchbar in Toolbars</h3>
 
-另一个常见的设计范例是在 toolbar 中包含一个搜索栏。
+Another common design paradigm is to include a searchbar inside your toolbar.
 
 ```html
 <ion-header>

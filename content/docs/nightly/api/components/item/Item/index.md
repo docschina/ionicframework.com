@@ -35,7 +35,7 @@ Item
 
 </h1>
 
-<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/item/item.ts#L8">
+<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/v3/src/components/item/item.ts#L8">
 改进这篇文档
 </a>
 

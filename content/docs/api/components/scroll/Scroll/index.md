@@ -35,7 +35,7 @@ Scroll
 
 </h1>
 
-<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/scroll/scroll.ts#L2">
+<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/v3/src/components/scroll/scroll.ts#L2">
 改进这篇文档
 </a>
 

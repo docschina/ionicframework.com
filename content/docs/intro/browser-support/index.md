@@ -22,7 +22,7 @@ Ionic 支持以下操作系统和浏览器：
 * Android 4.4+
   * 如果将 Crosswalk 与 Cordova 配合使用，则可以支持到 4.1 版本
 
-浏览器
+浏览器 
 
 * Safari
 * Chrome

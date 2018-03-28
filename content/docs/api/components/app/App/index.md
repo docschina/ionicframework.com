@@ -31,7 +31,7 @@ App
 
 </h1>
 
-<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/app/app.ts#L16">
+<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/v3/src/components/app/app.ts#L16">
 改进这篇文档
 </a>
 

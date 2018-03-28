@@ -35,7 +35,7 @@ Slides
 
 </h1>
 
-<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/slides/slides.ts#L21">
+<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/v3/src/components/slides/slides.ts#L21">
 改进这篇文档
 </a>
 

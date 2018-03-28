@@ -35,8 +35,8 @@ Menu
 
 </h1>
 
-<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/master/src/components/menu/menu.ts#L17">
-改进这篇文档
+<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/v3/src/components/menu/menu.ts#L17">
+Improve this doc
 </a>
 
 

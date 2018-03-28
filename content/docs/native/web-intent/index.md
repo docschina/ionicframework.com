@@ -1,6 +1,6 @@
 ---
 layout: "fluid/docs_base"
-version: "4.5.2"
+version: "4.6.0"
 versionHref: "/docs/native"
 path: ""
 category: native
@@ -11,7 +11,7 @@ doc: "Web Intent"
 docType: "class"
 ---
 
-<h1 class="api-title">Web Intent<span class="beta" title="beta">&beta;</span></h1>
+<h1 class="api-title">Web Intent</h1>
 
 <a class="improve-v2-docs" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/web-intent/index.ts#L2">
   改进这篇文档
@@ -20,15 +20,10 @@ docType: "class"
 
 
 
-<p class="beta-notice">
-  This plugin is still in beta stage and may not work as expected. Please
-  submit any issues to the <a target="_blank"
-  href="https://github.com/darryncampbell/darryncampbell-cordova-plugin-intent/issues">plugin repo</a>.
-</p>
 
 
 
-
+<p>This Plugin provides a general purpose shim layer for the Android intent mechanism, exposing various ways to handle sending and receiving intents.</p>
 
 
 <p>Repo:
@@ -268,12 +263,12 @@ Gets the Uri the app was invoked with
 <div class="return-value" markdown="1">
   <i class="icon ion-arrow-return-left"></i>
   <b>Returns:</b> <code>Promise&lt;any&gt;</code>
-</div><h3><a class="anchor" name="onNewIntent" href="#onNewIntent"></a><code>onNewIntent()</code></h3>
+</div><h3><a class="anchor" name="onIntent" href="#onIntent"></a><code>onIntent()</code></h3>
 
 
 
 
-
+Returns the content of the intent used whenever the application activity is launched
 
 
 <div class="return-value" markdown="1">
@@ -283,6 +278,35 @@ Gets the Uri the app was invoked with
 
 
 Sends a custom intent passing optional extras
+<table class="table param-table" style="margin:0;">
+  <thead>
+  <tr>
+    <th>Param</th>
+    <th>Type</th>
+    <th>Details</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>
+      options</td>
+    <td>
+      <code>Object</code>
+    </td>
+    <td>
+      <p>{ action: string, extras?: { option: boolean } }</p>
+</td>
+  </tr>
+  </tbody>
+</table>
+
+<div class="return-value" markdown="1">
+  <i class="icon ion-arrow-return-left"></i>
+  <b>Returns:</b> <code>Promise&lt;any&gt;</code> 
+</div><h3><a class="anchor" name="startService" href="#startService"></a><code>startService(options)</code></h3>
+
+
+Request that a given application service be started
 <table class="table param-table" style="margin:0;">
   <thead>
   <tr>
@@ -341,24 +365,6 @@ Registers a broadcast receiver for the specified filters
 
 
 Unregisters a broadcast receiver
-
-
-
-<h3><a class="anchor" name="onIntent" href="#onIntent"></a><code>onIntent()</code></h3>
-
-
-
-
-Returns the content of the intent used whenever the application activity is launched
-
-
-
-<h3><a class="anchor" name="onActivityResult" href="#onActivityResult"></a><code>onActivityResult()</code></h3>
-
-
-
-
-
 
 
 
